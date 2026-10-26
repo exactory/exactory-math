@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "progress: 50000 of 400000 records checked",
+    "progress: 100000 of 400000 records checked",
+    "progress: 150000 of 400000 records checked",
+    "progress: 200000 of 400000 records checked",
+    "progress: 250000 of 400000 records checked",
+    "progress: 300000 of 400000 records checked",
+    "progress: 350000 of 400000 records checked",
+    "progress: 400000 of 400000 records checked",
+    "tableau-polytope encoding agrees on 400000 of 400000 records; lrcalc agrees at t = 1 (and at t = 2 when P(2) <= 1000000) on 400000; lrcalc pins 336404 of the 336404 records with P(6) <= 2000000",
+    "third implementation: 30 records, 0 mismatches; negatives among records: 0"
+  ]
+}

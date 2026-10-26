@@ -1,0 +1,10 @@
+{
+  "claim": "The Berline-Vergne construction takes a rational positive-definite form and returns a local Euler-Maclaurin formula. If some form gives no negative class, the nonnegative-class lemma closes the full-dimensional half of the rank-five rung with no cell and no counting. This step runs the first gate of that programme: the vertex-sum identity, which is necessary for a candidate form and needs no Ehrhart computation.",
+  "approved": "independent reviews of 2026-09-05 recorded in ../../ADMISSION.md, ACCEPT WITH AMENDMENTS, eleven amendments; this step discharges amendments 3, 4 and 5 and part of 1",
+  "gate": "for a lattice polytope the local formula read at codimension equal to the dimension says the weights of the tangent cones at the vertices sum to 1",
+  "polytopes": ["the unimodular six-simplex, 7 tangent cones", "the unit six-cube, 64 signed orthants"],
+  "forms": ["the standard form", "twice the standard form, as the scale-invariance control", "the A_6 root-lattice form, chosen because its automorphism group is large so a usable collapse survives", "the form with unit diagonal and every off-diagonal entry one quarter"],
+  "not claimed": "the gate is necessary and not sufficient; passing it does not establish that a form gives a valid local formula",
+  "allowance": "one run of at most 30 minutes, single threaded, trials counted",
+  "solvers": ["tools/bvweight.py", "Python integers and Fractions"]
+}

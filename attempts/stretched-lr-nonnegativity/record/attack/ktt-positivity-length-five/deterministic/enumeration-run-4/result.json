@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "recorded: 4 forms, 3 passed both polytopes: ['standard', 'twice the standard', 'A_6']",
+    "a second, non-unimodular lattice simplex: 2 forms, 0 mismatches",
+    "scale invariance on random three-dimensional cones: 0 mismatches",
+    "the closed value 2^-6 on three signed orthants under the standard form: 0 mismatches"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "cells": 2006,
+  "distinct cells": 1347,
+  "cell ranks": {
+    "3": 213,
+    "4": 777,
+    "5": 742,
+    "6": 240,
+    "7": 32,
+    "8": 1,
+    "14": 1
+  },
+  "skipped": {
+    "the triple is too large for the certified Ehrhart run": 19112,
+    "the triple lies on a wall": 1674,
+    "the hive polytope is not full dimensional": 3605,
+    "too many vertices": 178,
+    "IndexError": 1,
+    "no small dilate keeps the lattice generators inside the cell": 1
+  },
+  "simplicial cells": 2005,
+  "cells linear along every sampled ray": 2006,
+  "cells where the rays reproduce the interior point": 2006,
+  "cells where the rays reproduce the certified triple": 2006,
+  "cells whose Ehrhart value matches the certified one": 2005,
+  "cells carrying a certified triple": 2005,
+  "cells at a generic point": 1,
+  "spot checks passed": 6018,
+  "spot checks run": 6018,
+  "cells with a negative ray value": 0,
+  "minimum ray value over all cells": "0",
+  "maximum ray value over all cells": "143/15",
+  "rays checked": 9145,
+  "seconds": 720
+}

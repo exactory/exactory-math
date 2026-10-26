@@ -1,0 +1,31 @@
+{
+  "claim": "For every nonempty finite set D of distinct integers at least 3, with m=min D, gcd(D)=1 and sigma(D)=sum_{d in D} 1/(d-1)>=1, there exists a subset E of D containing m such that gcd(E)=1 and 1<=sigma(E)<1+1/m.",
+  "quadruple": {
+    "statement": "For every nonempty finite set D of distinct integers at least 3, with m=min D, gcd(D)=1 and sigma(D)=sum_{d in D} 1/(d-1)>=1, there exists a subset E of D containing m such that gcd(E)=1 and 1<=sigma(E)<1+1/m.",
+    "stage": "Finite sets of positive integers, gcd, the distinguished minimum, and exact rational reciprocal sums.",
+    "direction": "true",
+    "mode": "construction"
+  },
+  "shape": {
+    "objects": "Each input D and output E is finite; the family of inputs has unbounded cardinality and minimum. Subsets containing m are reached by adjoining unused elements, with common extension D. Finset, natural-number gcd and rational sums have Lean/Mathlib definitions. Finite subsets can also be viewed as finite random variables, but no spread condition is given.",
+    "quantifiers": "For every nonempty finite D subset of the integers at least 3 with gcd(D)=1 and sigma(D)>=1, defining m=min D, there exists E subset D with m in E, gcd(E)=1 and 1<=sigma(E)<1+1/m.",
+    "target_quantity": "A yes/no existence claim for a subset obeying the exact explicit window [1,1+1/m); no extremal optimum or unspecified substitute constant is requested.",
+    "ambient_structure": "Finite-set inclusion, divisibility and rational order coexist. The recursion adjoining an unused d>m adds exactly 1/(d-1) to mass and preserves containment of m and gcd one once present. No probabilistic dependence estimate, structured density-piece system, or continuous transport is supplied.",
+    "symmetries": "Permutation of the input presentation does not matter. The distinguished minimum and reciprocal values prevent arbitrary translation or dilation; no density increment piece system is proposed.",
+    "configuration": "E must be a subset of D containing m, with gcd one, mass at least one and mass strictly below 1+1/m. Arbitrary deletion can destroy gcd one and the lower mass condition. Adjoining elements preserves gcd one and the minimum, but requires a stopping argument to retain the strict upper mass bound.",
+    "extremal_candidate": "The construction gives a feasible seed and core, with optional inclusion-minimal pruning; no optimal cardinality or reciprocal excess is claimed.",
+    "finite_certificates": "For each fixed finite D, an exhibited E is checked by finite gcd and rational sums; all its subsets are a finite search space. The seed cardinality starts at two, since {m} has gcd m>=3, and a gcd-one subset containing m exists at cardinality |D|. Its positive reciprocal slack below one is the precise unproved seed condition. This proof task will use a computer-free universal argument, not a finite process.",
+    "monotonicity": "With m fixed, a witness remains a witness when larger bases are added to D. Relaxing the upper mass bound helps. There is no recorded smallest open value of a separate global size parameter and no finite range equivalent to all inputs.",
+    "uniformity_parameter": "The construction must hold for every finite D and every minimum m>=3, with the prescribed upper bound 1+1/m; no truncation in m or cardinality is sufficient.",
+    "proof_shape": "Move 1 gives a complete analytical proof candidate: prove the first-crossing augmentation lemma, construct a gcd-one seed by strict gcd descent with at most floor(m/2) additions, use its size and a strict reciprocal comparison to show seed mass below one, and apply augmentation. Every quantifier is retained. The proof is pending independent result review; no formal check or numerical process was run.",
+    "neighbours": "The smaller gcd-one seed of mass below one is an unproved proposed auxiliary assertion. The original eventual pure-power coverage conjecture and its minimum-dependent reciprocal-window restriction remain separate open obligations. Pongsriiam arXiv:1306.4891 studies counting relatively prime subsets, not this reciprocal selection bound. No proved category correspondence, unchanged simpler model, or independent set-theoretic variant is recorded.",
+    "known_bounds": "Move 1 proves candidate bounds |B|<=floor(m/2)+1<=m-1 and sigma(B)<1 for its gcd-one seed containing m, then 1<=sigma(E)<1+1/m. These analytical bounds await independent result acceptance and are not representation theorems. No finite root reduction or computational evidence is asserted.",
+    "missing_input": "No unproved input remains in the analytical core-selection proof candidate. Independent result review and controller acceptance remain. Restricted eventual coverage and its implication bridge are not conclusions of this node.",
+    "base_theory": "Classical finite number theory in ZFC. No extra axiom, guessing principle, forcing construction or uncountable object is involved. The intended proof and elementary finite checks are covered by Lean's standard classical axioms when formalized; no formal execution is admitted."
+  },
+  "known": [
+    "Pongsriiam, Relatively Prime Sets, Divisor Sums, and Partial Sums, arXiv:1306.4891; abstract only, on counting gcd-one subsets rather than this selection bound.",
+    "The positive-cutoff root is the separate canonical declaration Erdos124.erdos124.ne_zero; https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/124.lean.",
+    "Checkpoint-000006 supplies logical lineage from the root translation. Its exact-image diagnostic is not a premise in this finite-set proof and supplies no accepted theorem or budget renewal."
+  ]
+}

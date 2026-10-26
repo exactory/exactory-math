@@ -1,0 +1,116 @@
+25 cells, 3 s, worst ray value 0
+50 cells, 4 s, worst ray value 0
+75 cells, 6 s, worst ray value 0
+100 cells, 8 s, worst ray value 0
+125 cells, 9 s, worst ray value 0
+150 cells, 11 s, worst ray value 0
+175 cells, 13 s, worst ray value 0
+200 cells, 15 s, worst ray value 0
+225 cells, 17 s, worst ray value 0
+250 cells, 20 s, worst ray value 0
+275 cells, 24 s, worst ray value 0
+300 cells, 27 s, worst ray value 0
+325 cells, 30 s, worst ray value 0
+350 cells, 34 s, worst ray value 0
+375 cells, 38 s, worst ray value 0
+400 cells, 41 s, worst ray value 0
+425 cells, 44 s, worst ray value 0
+450 cells, 48 s, worst ray value 0
+475 cells, 51 s, worst ray value 0
+500 cells, 55 s, worst ray value 0
+525 cells, 58 s, worst ray value 0
+550 cells, 61 s, worst ray value 0
+575 cells, 65 s, worst ray value 0
+600 cells, 68 s, worst ray value 0
+625 cells, 71 s, worst ray value 0
+650 cells, 74 s, worst ray value 0
+675 cells, 78 s, worst ray value 0
+700 cells, 81 s, worst ray value 0
+725 cells, 85 s, worst ray value 0
+750 cells, 88 s, worst ray value 0
+775 cells, 92 s, worst ray value 0
+800 cells, 95 s, worst ray value 0
+825 cells, 99 s, worst ray value 0
+850 cells, 103 s, worst ray value 0
+875 cells, 106 s, worst ray value 0
+900 cells, 109 s, worst ray value 0
+925 cells, 113 s, worst ray value 0
+950 cells, 116 s, worst ray value 0
+975 cells, 120 s, worst ray value 0
+1000 cells, 123 s, worst ray value 0
+1025 cells, 126 s, worst ray value 0
+1050 cells, 130 s, worst ray value 0
+1075 cells, 133 s, worst ray value 0
+1100 cells, 137 s, worst ray value 0
+1125 cells, 140 s, worst ray value 0
+1150 cells, 143 s, worst ray value 0
+1175 cells, 147 s, worst ray value 0
+1200 cells, 150 s, worst ray value 0
+1225 cells, 153 s, worst ray value 0
+1250 cells, 155 s, worst ray value 0
+1275 cells, 158 s, worst ray value 0
+1300 cells, 161 s, worst ray value 0
+1325 cells, 164 s, worst ray value 0
+1350 cells, 167 s, worst ray value 0
+1375 cells, 170 s, worst ray value 0
+1400 cells, 173 s, worst ray value 0
+1425 cells, 176 s, worst ray value 0
+1450 cells, 179 s, worst ray value 0
+1475 cells, 182 s, worst ray value 0
+1500 cells, 185 s, worst ray value 0
+1525 cells, 188 s, worst ray value 0
+1550 cells, 191 s, worst ray value 0
+1575 cells, 194 s, worst ray value 0
+1600 cells, 197 s, worst ray value 0
+1625 cells, 201 s, worst ray value 0
+1650 cells, 204 s, worst ray value 0
+1675 cells, 208 s, worst ray value 0
+1700 cells, 210 s, worst ray value 0
+1725 cells, 213 s, worst ray value 0
+1750 cells, 216 s, worst ray value 0
+1775 cells, 219 s, worst ray value 0
+1800 cells, 222 s, worst ray value 0
+1825 cells, 225 s, worst ray value 0
+1850 cells, 228 s, worst ray value 0
+1875 cells, 231 s, worst ray value 0
+1900 cells, 235 s, worst ray value 0
+1925 cells, 238 s, worst ray value 0
+1950 cells, 241 s, worst ray value 0
+1975 cells, 243 s, worst ray value 0
+2000 cells, 247 s, worst ray value 0
+2006 cells, 716 s, rank 14, minimum 0, worst 0
+{
+  "cells": 2006,
+  "distinct cells": 1347,
+  "cell ranks": {
+    "3": 213,
+    "4": 777,
+    "5": 742,
+    "6": 240,
+    "7": 32,
+    "8": 1,
+    "14": 1
+  },
+  "skipped": {
+    "the triple is too large for the certified Ehrhart run": 19112,
+    "the triple lies on a wall": 1674,
+    "the hive polytope is not full dimensional": 3605,
+    "too many vertices": 178,
+    "IndexError": 1,
+    "no small dilate keeps the lattice generators inside the cell": 1
+  },
+  "simplicial cells": 2005,
+  "cells linear along every sampled ray": 2006,
+  "cells where the rays reproduce the interior point": 2006,
+  "cells where the rays reproduce the certified triple": 2006,
+  "cells whose Ehrhart value matches the certified one": 2005,
+  "cells carrying a certified triple": 2005,
+  "cells at a generic point": 1,
+  "spot checks passed": 6018,
+  "spot checks run": 6018,
+  "cells with a negative ray value": 0,
+  "minimum ray value over all cells": "0",
+  "maximum ray value over all cells": "143/15",
+  "rays checked": 9145,
+  "seconds": 720
+}

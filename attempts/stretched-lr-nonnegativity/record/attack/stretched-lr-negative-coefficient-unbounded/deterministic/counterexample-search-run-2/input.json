@@ -1,0 +1,3 @@
+{"purpose": "the transportation-polytope image family (test-strengthenings-by-counterexample): k x N transportation polytopes T(r, c) with sorted integer margins, |r| = |c| = total, every (r, c) up to the stated total; a negative Ehrhart coefficient here would transfer to an LR polynomial by the strip construction",
+ "families": [{"k": 3, "N": 4, "total_max": 16}, {"k": 3, "N": 5, "total_max": 14}, {"k": 3, "N": 6, "total_max": 12}, {"k": 4, "N": 4, "total_max": 14}, {"k": 4, "N": 5, "total_max": 11}, {"k": 5, "N": 5, "total_max": 9}],
+ "encoder": "transport.py (margin equations and nonnegativity -> Normaliz EhrhartQuasiPolynomial)"}

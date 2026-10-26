@@ -1,0 +1,14 @@
+{
+  "claim": "The per-facet inequality of certified-special-case-check-6 is unproved and its measured margin falls with the complexity of the cell. This run searches for a facet where it fails, in a complexity band above the one already measured, and reports the margin per band with the median beside the minimum.",
+  "approved": "independent review of 2026-09-05, ACCEPT WITH AMENDMENTS, recorded in ../../ADMISSION.md; amendments 1 to 8 are incorporated here",
+  "checkpoint condition": "either a failing facet, with its cell, triple, facet and the breaking ray, or a new band of cells of more than 684 edges holding at least 20 cells and at least 2000 facet ray tests",
+  "sources": [
+    "the eight recorded tightest cells of certified-special-case-check-6, 364 to 666 edges, retested with per-facet detail",
+    "generic points of the hive cone, vertex cap raised from 320 to 600",
+    "perturbations of the certified box triples, so that edge count and construction route are separated"
+  ],
+  "records per tested facet": ["the number of negative edges on it", "their classes", "the worst ratio over the cell's extreme rays"],
+  "statistics": "per band, floor power of two of the cell's edge count, over old and new data together: cells, facet ray tests, worst ratio, median of the per-cell worst ratios; the median is the headline",
+  "allowance": "one run of at most 40 minutes wall time, single threaded, trial runs included; a no-hit outcome is recorded as undecided and does not replenish it",
+  "not claimed": "no number of passing facets proves the inequality"
+}

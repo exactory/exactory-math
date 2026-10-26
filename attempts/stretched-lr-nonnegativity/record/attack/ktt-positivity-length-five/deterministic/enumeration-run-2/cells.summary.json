@@ -1,0 +1,25 @@
+{
+  "phase A cells": 2006,
+  "phase A rays compared": 9145,
+  "phase A cells whose ray values differ from certified-special-case-check-3": 0,
+  "phase A cells whose value at the triple differs": 0,
+  "phase B cells": 193,
+  "phase B cells that are full dimensional": 193,
+  "phase B rays evaluated": 4764,
+  "phase B cells with a negative ray value": 0,
+  "phase B minimum ray value": "0",
+  "phase B maximum ray value": "4067/60",
+  "phase B largest triple": 722265,
+  "phase B cells checked against a certified Ehrhart value": 0,
+  "phase B of those that agree": 0,
+  "phase B skipped": {
+    "the triple lies on a wall": 731,
+    "the hive polytope is not full dimensional": 676,
+    "too many vertices": 130,
+    "a boundary partition is too short": 3
+  },
+  "class weights held": 5142,
+  "class weights from the atlas": 3406,
+  "class weights computed here": 1457,
+  "seconds": 2242
+}

@@ -1,0 +1,10 @@
+{
+  "statement": "There exists a nondecreasing locally finite infinite sequence of positive integers with numerical multiplicity two such that every tail has gcd one, finite positive subset sums meet every residue modulo every positive integer and contain arbitrarily long intervals, every integer is a legal finite signed sum from every tail using each label at most once, the labelled counting ratio (log 2)#{i:a_i<=X}/log X tends to log(4)/log(3)>1, the squared norms sum to infinity for every noninteger real multiplier, and (S_m-a_{m+1})/a_{m+1}^beta tends to infinity for every fixed beta in (0,1) along all prefixes, but for every X>=0 the number of positive numerical finite subset sums at most X is at most floor(X/9), so no fixed-loss central-prefix coverage is possible.",
+  "form": "counterexample",
+  "evidence": "moves/001-sparse-signed-blocks.md",
+  "novelty": "See study/problem.md, novelty.md and the fresh exact-result search in study/unit-novelty.md (2026-09-07), with all raw responses in study/unit-sources. The bounded search found no exact prior statement, with explicit access and reading limits. This is an internal auxiliary route counterexample, not a claim of established standalone publication novelty.",
+  "moves": [
+    1
+  ],
+  "costs": []
+}

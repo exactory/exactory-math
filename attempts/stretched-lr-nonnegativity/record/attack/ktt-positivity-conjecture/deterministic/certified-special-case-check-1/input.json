@@ -1,0 +1,14 @@
+{
+  "claim": "Root move 4 proves that if the hive polytopes have the integer decomposition property then their h vectors are nonnegative, and that nonnegative h does not give the conjecture. The one question this makes decisive on data already held is whether any h vector has a negative entry. A single negative entry refutes nonnegativity for the family completely, and by the contrapositive of move 4 it also refutes the integer decomposition property for that polytope.",
+  "approved": "independent review of 2026-09-05, ACCEPT WITH AMENDMENTS, eight amendments, recorded in ../../ADMISSION.md; the proposal was cut from four tests to this one",
+  "what was dropped and why": {
+    "the asymmetry inequality": "equivalent to the linear coefficient being nonnegative, which the box attack already certified on this data with two independent programs, so testing it can only return a pass",
+    "monotonicity": "a statement about a nested pair of polytopes; no pairs were named",
+    "Hibi's lower bound": "needs a lattice polytope with an interior lattice point and no decision was stated to hang on it"
+  },
+  "method": "the box attack's certified-special-case-check-4/census.py, which already computes every h vector by the alternating sum of C(D+1,j) times P(i-j) and was independently checked, with three additions and no other change: the smallest entry of each h vector, the count of records with a negative entry by index, and the records that have one",
+  "what a nonnegative census would not mean": "Stanley's theorem gives nonnegative h unconditionally for lattice polytopes, so every record whose hive polytope happens to be a lattice polytope carries no information, and this census cannot separate those from the genuinely rational ones without constructing the polytopes",
+  "certification caveat": "a negative entry among the seven-part records rests on one solver and must be re-certified before it is claimed; lengths up to six are certified by two independent programs",
+  "allowance": "one run of at most 20 minutes on the machine the original census used, trials counted; one checker run",
+  "retreat": "a negative entry ends the classical-inequality route and returns the attack to the local-formula line with the triple recorded; an exhausted allowance means the covered prefix is reported as a prefix"
+}

@@ -1,0 +1,1 @@
+done {"tried": 3099226, "c_ge_3": 40945, "primitive": 16743, "dim_ok": 1000, "recorded": 1000, "negative": 0, "quasi": 0, "seconds": 7154.0, "min_ratio": "1", "min_a1": "11/6", "max_volume_with_c_le_dim_plus_2": "3", "args": {"parts": 7, "smin": 31, "smax": 60, "dmin": 3, "full": false, "count": 1000, "seed": 20260909, "workers": 3, "out": "e7", "cmax_excess": 2}}

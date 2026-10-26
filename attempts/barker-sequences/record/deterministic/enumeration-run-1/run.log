@@ -1,0 +1,16 @@
+20000 values done, 19444 eliminated
+40000 values done, 38735 eliminated
+60000 values done, 58000 eliminated
+80000 values done, 77278 eliminated
+100000 values done, 96556 eliminated
+120000 values done, 115845 eliminated
+140000 values done, 135154 eliminated
+160000 values done, 154468 eliminated
+180000 values done, 173795 eliminated
+200000 values done, 193125 eliminated
+220000 values done, 212462 eliminated
+values: 237807  eliminated by Theorem 6.3: 229682  survivors: 8125
+
+real	8m32.788s
+user	8m27.459s
+sys	0m3.571s

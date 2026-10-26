@@ -1,0 +1,29 @@
+1356 margin pairs
+50/1356 in 5s, negatives 0, min ratio 9100/7129
+100/1356 in 6s, negatives 0, min ratio 9100/7129
+150/1356 in 9s, negatives 0, min ratio 9100/7129
+200/1356 in 11s, negatives 0, min ratio 9100/7129
+250/1356 in 15s, negatives 0, min ratio 9100/7129
+300/1356 in 19s, negatives 0, min ratio 9100/7129
+350/1356 in 21s, negatives 0, min ratio 9100/7129
+400/1356 in 25s, negatives 0, min ratio 9100/7129
+450/1356 in 31s, negatives 0, min ratio 9100/7129
+500/1356 in 41s, negatives 0, min ratio 9100/7129
+550/1356 in 43s, negatives 0, min ratio 9100/7129
+600/1356 in 45s, negatives 0, min ratio 9100/7129
+650/1356 in 49s, negatives 0, min ratio 9100/7129
+700/1356 in 55s, negatives 0, min ratio 9100/7129
+750/1356 in 62s, negatives 0, min ratio 9100/7129
+800/1356 in 74s, negatives 0, min ratio 9100/7129
+850/1356 in 82s, negatives 0, min ratio 9100/7129
+900/1356 in 84s, negatives 0, min ratio 9100/7129
+950/1356 in 86s, negatives 0, min ratio 9100/7129
+1000/1356 in 91s, negatives 0, min ratio 9100/7129
+1050/1356 in 97s, negatives 0, min ratio 9100/7129
+1100/1356 in 103s, negatives 0, min ratio 9100/7129
+1150/1356 in 110s, negatives 0, min ratio 9100/7129
+1200/1356 in 121s, negatives 0, min ratio 9100/7129
+1250/1356 in 133s, negatives 0, min ratio 9100/7129
+1300/1356 in 147s, negatives 0, min ratio 9100/7129
+1350/1356 in 166s, negatives 0, min ratio 9100/7129
+done {"k": 4, "N": 4, "total_max": 14, "pairs": 1356, "negatives": 0, "min_ratio": "9100/7129", "min_ratio_at": {"r": [1, 1, 1, 1], "c": [1, 1, 1, 1], "dim": 9, "coeffs": ["1", "65/18", "379/63", "35117/5670", "43/10", "1109/540", "2/3", "19/135", "11/630", "11/11340"], "minr": "9100/7129", "a1": "65/18", "neg": false, "sec": 0.3}, "seconds": 171.5}

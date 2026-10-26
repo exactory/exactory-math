@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "certificates read: 229682, valid: 229682, invalid: 0, survivors: 8125",
+    "counts agree with Leung-Schmidt 2016: 229,682 eliminated, 8,125 survivors, smallest survivor as published",
+    "PASS"
+  ]
+}

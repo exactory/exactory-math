@@ -1,0 +1,58 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "plan step 1: write study/reduce-to-a-finite-computation.md",
+      "status": "done",
+      "added_at": "2026-09-03T06:10:55Z",
+      "added_after_move": 0,
+      "done_at": "2026-09-03T06:45:44Z",
+      "done_after_move": 1
+    },
+    {
+      "id": 2,
+      "text": "plan step 2: write the residue: tabulate the 148 primes, implement Leung-Schmidt 2016 Theorem 6.3, reconstruct the 8125 survivors and check the published count 229682",
+      "status": "done",
+      "added_at": "2026-09-03T06:10:55Z",
+      "added_after_move": 0,
+      "done_at": "2026-09-03T06:45:44Z",
+      "done_after_move": 1
+    },
+    {
+      "id": 3,
+      "text": "plan step 4: implement Turyn Theorem 2, Leung-Schmidt 2012 Theorems 3.5 and 3.1 in the order-class formulation and validate against Table 100 on Omega at most 8",
+      "status": "open",
+      "added_at": "2026-09-03T06:10:55Z",
+      "added_after_move": 0,
+      "done_at": null,
+      "done_after_move": null
+    },
+    {
+      "id": 4,
+      "text": "plan step 4: run the three tests on the survivors and record every elimination with its certificate",
+      "status": "open",
+      "added_at": "2026-09-03T06:10:55Z",
+      "added_after_move": 0,
+      "done_at": null,
+      "done_after_move": null
+    },
+    {
+      "id": 5,
+      "text": "plan step 5: write the independent checker check.sh with exact arithmetic and no shared code, run verify certificate",
+      "status": "open",
+      "added_at": "2026-09-03T06:10:55Z",
+      "added_after_move": 0,
+      "done_at": null,
+      "done_after_move": null
+    },
+    {
+      "id": 6,
+      "text": "plan step 4: search Leung-Schmidt 2016 Theorem 6.1 in general form on the remaining survivors",
+      "status": "open",
+      "added_at": "2026-09-03T06:10:55Z",
+      "added_after_move": 0,
+      "done_at": null,
+      "done_after_move": null
+    }
+  ]
+}

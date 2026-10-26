@@ -1,0 +1,7 @@
+280 margin pairs
+50/280 in 8s, negatives 0, min ratio 9996/7381
+100/280 in 21s, negatives 0, min ratio 9996/7381
+150/280 in 52s, negatives 0, min ratio 9996/7381
+200/280 in 60s, negatives 0, min ratio 9996/7381
+250/280 in 101s, negatives 0, min ratio 9996/7381
+done {"k": 3, "N": 6, "total_max": 12, "pairs": 280, "negatives": 0, "min_ratio": "9996/7381", "min_ratio_at": {"r": [4, 1, 1], "c": [1, 1, 1, 1, 1, 1], "dim": 10, "coeffs": ["1", "119/30", "183109/25200", "1801/224", "351013/60480", "1791/640", "26033/28800", "37/192", "131/5040", "9/4480", "41/604800"], "minr": "9996/7381", "a1": "119/30", "neg": false, "sec": 0.03}, "seconds": 170.5}

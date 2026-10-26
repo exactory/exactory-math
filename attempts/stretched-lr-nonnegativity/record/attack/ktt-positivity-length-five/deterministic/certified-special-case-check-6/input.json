@@ -1,0 +1,7 @@
+{
+  "claim": "Give each facet F of a hive polytope the amount w(f) * (lattice length of f) / c(f) from every edge f lying on F, where c(f) is the number of facets containing f. Summed over the facets these shares are exactly the functional, so l >= 0 follows if for every facet the negative share is dominated by the positive one. That is a statement about a single facet, and a facet of a five-part hive polytope is again cut out by rhombus rows, so there are finitely many types of it and the statement mentions neither the chamber complex nor the size of the triple.",
+  "test": "both sides are linear on the cell, so the inequality on the whole cell is decided at the cell's extreme rays",
+  "cells": "the 2006 cells of certified-special-case-check-3 and the 193 of enumeration-run-2; a facet carrying no negative edge is dominated trivially and is counted, not tested",
+  "solvers": ["PyNormaliz 2.24 / Normaliz 3.11", "tools/atlasform.py with the weights of enumeration-run-1 and enumeration-run-2", "Python integers and Fractions"],
+  "time budget seconds": 2400
+}

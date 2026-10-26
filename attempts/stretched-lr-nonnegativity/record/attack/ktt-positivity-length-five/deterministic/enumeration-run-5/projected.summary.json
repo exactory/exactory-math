@@ -1,0 +1,23 @@
+{
+  "intrinsic dimensions": [
+    3,
+    4,
+    5
+  ],
+  "polytopes contracted": 444175,
+  "polytopes where the local formula reproduces the certified coefficient": 391961,
+  "identity mismatches": 0,
+  "distinct types, keyed by the normal set in the intrinsic lattice": 38899,
+  "types by intrinsic dimension": {
+    "3": 1400,
+    "4": 11934,
+    "5": 25565
+  },
+  "types weighed": 13334,
+  "types with a negative weight": 0,
+  "most negative weight": "1/120",
+  "largest weight": "17/42",
+  "skipped": {},
+  "note": "a type is keyed by the normal set together with the Gram of the intrinsic lattice, because the weight depends on both: two contracted polytopes can share a normal set and carry different lattices. Types are not merged by isometry, so the count is an upper bound on the number of classes; the sign census is unaffected. Carrying the induced form is a choice, not forced: a different positive-definite form on the same lattice gives a different sign census, as move 16 measured, twenty-one negatives against five. The end-to-end identity tests validity and cannot see the form, so the contraction is checked directly instead.",
+  "seconds": 1700
+}

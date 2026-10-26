@@ -1,0 +1,37 @@
+{
+  "cells with a negative edge": 332,
+  "negative edges": 732,
+  "ray tests per neighbourhood": 14899,
+  "vertex neighbourhood: tests where the share fails to dominate": 106,
+  "vertex neighbourhood: smallest ratio": "0",
+  "vertex neighbourhood: largest ratio": "11175/13",
+  "facet neighbourhood: tests where the share fails to dominate": 0,
+  "facet neighbourhood: smallest ratio": "1567265857/18738000",
+  "facet neighbourhood: largest ratio": "8425912939/312312",
+  "where the vertex neighbourhood is worst": {
+    "triple": [
+      [
+        60971,
+        60952,
+        36049,
+        35380,
+        32855
+      ],
+      [
+        36030,
+        35376,
+        27371,
+        11010
+      ],
+      [
+        34222,
+        33560,
+        25232,
+        23406
+      ]
+    ],
+    "edge weight": "-133/115200"
+  },
+  "negative edges with no positive vertex neighbour": 0,
+  "seconds": 220
+}

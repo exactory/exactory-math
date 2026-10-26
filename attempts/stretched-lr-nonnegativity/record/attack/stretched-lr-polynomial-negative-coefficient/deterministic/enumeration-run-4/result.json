@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "completeness: sizes 7..30 recounted independently, 0 mismatches",
+    "horn filter: 93567 sampled skipped triples, 0 mismatches",
+    "recount: 80 records, 0 pinned (deg+2 points), 80 consistent at 5 points; polynomials in scan 1302871, negatives 0, summary {\"triples\": 52834374, \"c_ge_3\": 10516904, \"nonprimitive\": 9201781, \"dim_ge_3\": 1302871, \"period_ne_1\": 0, \"negative\": 0, \"lams\": 11934, \"seconds\": 9625.3}"
+  ]
+}

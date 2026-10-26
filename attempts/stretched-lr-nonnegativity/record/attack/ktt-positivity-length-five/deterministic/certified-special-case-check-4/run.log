@@ -1,0 +1,59 @@
+100 cells, 5 carry a negative class, 0 ray mismatches, 7 s
+200 cells, 5 carry a negative class, 0 ray mismatches, 13 s
+300 cells, 11 carry a negative class, 0 ray mismatches, 27 s
+400 cells, 16 carry a negative class, 0 ray mismatches, 43 s
+500 cells, 26 carry a negative class, 0 ray mismatches, 60 s
+600 cells, 33 carry a negative class, 0 ray mismatches, 75 s
+700 cells, 38 carry a negative class, 0 ray mismatches, 91 s
+800 cells, 48 carry a negative class, 0 ray mismatches, 108 s
+900 cells, 56 carry a negative class, 0 ray mismatches, 124 s
+1000 cells, 65 carry a negative class, 0 ray mismatches, 140 s
+1100 cells, 79 carry a negative class, 0 ray mismatches, 157 s
+1200 cells, 89 carry a negative class, 0 ray mismatches, 175 s
+1300 cells, 96 carry a negative class, 0 ray mismatches, 189 s
+1400 cells, 105 carry a negative class, 0 ray mismatches, 206 s
+1500 cells, 109 carry a negative class, 0 ray mismatches, 221 s
+1600 cells, 119 carry a negative class, 0 ray mismatches, 238 s
+1700 cells, 127 carry a negative class, 0 ray mismatches, 255 s
+1800 cells, 133 carry a negative class, 0 ray mismatches, 270 s
+1900 cells, 149 carry a negative class, 0 ray mismatches, 287 s
+2000 cells, 157 carry a negative class, 0 ray mismatches, 303 s
+2100 cells, 242 carry a negative class, 0 ray mismatches, 410 s
+{
+  "cells classified": 2199,
+  "of them from certified-special-case-check-3": 2006,
+  "of them from enumeration-run-2": 193,
+  "cells carrying an edge of a negative-weight class": 332,
+  "cells the reduction settles with no computation": 1867,
+  "edges examined": 226740,
+  "edges of a negative-weight class": 732,
+  "ray values that disagree with the recorded ones": 0,
+  "smallest ratio of the positive part to the negative part at a ray": "15181/61",
+  "where": [
+    [
+      62780,
+      54763,
+      54405,
+      44759,
+      27943
+    ],
+    [
+      19723,
+      19430,
+      11042,
+      9184,
+      1
+    ],
+    [
+      45337,
+      45138,
+      43238,
+      34944,
+      16613
+    ]
+  ],
+  "classes held": 5142,
+  "negative classes": 21,
+  "most negative class weight": "-347/109824",
+  "seconds": 523
+}

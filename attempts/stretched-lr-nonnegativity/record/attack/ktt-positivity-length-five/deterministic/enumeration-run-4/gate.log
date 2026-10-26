@@ -1,0 +1,8 @@
+{"form": "standard", "unimodular simplex: vertices": 7, "unimodular simplex: sum of the vertex weights": "1", "unimodular simplex: identity holds": true}
+{"form": "standard", "unimodular simplex: vertices": 7, "unimodular simplex: sum of the vertex weights": "1", "unimodular simplex: identity holds": true, "cube: vertices evaluated": 64, "cube: sum of the vertex weights": "1", "cube: identity holds": true, "seconds so far": 447}
+{"form": "twice the standard", "unimodular simplex: vertices": 7, "unimodular simplex: sum of the vertex weights": "1", "unimodular simplex: identity holds": true}
+{"form": "twice the standard", "unimodular simplex: vertices": 7, "unimodular simplex: sum of the vertex weights": "1", "unimodular simplex: identity holds": true, "cube: vertices evaluated": 64, "cube: sum of the vertex weights": "1", "cube: identity holds": true, "seconds so far": 886}
+{"form": "A_6", "unimodular simplex: vertices": 7, "unimodular simplex: sum of the vertex weights": "1", "unimodular simplex: identity holds": true}
+{"form": "A_6", "unimodular simplex: vertices": 7, "unimodular simplex: sum of the vertex weights": "1", "unimodular simplex: identity holds": true, "cube: vertices evaluated": 64, "cube: sum of the vertex weights": "1", "cube: identity holds": true, "seconds so far": 1347}
+{"form": "I plus 1/4", "unimodular simplex: vertices": 7, "unimodular simplex: sum of the vertex weights": "1", "unimodular simplex: identity holds": true}
+{"form": "I plus 1/4", "unimodular simplex: vertices": 7, "unimodular simplex: sum of the vertex weights": "1", "unimodular simplex: identity holds": true, "cube: vertices evaluated": 16, "cube: sum of the vertex weights": null, "cube: identity holds": null, "seconds so far": 1506}

@@ -1,0 +1,2 @@
+dim=11 lam=(7, 6, 5, 4, 4, 3, 1) mu=(5, 4, 3, 2, 2, 1) nu=(4, 3, 2, 2, 1, 1) c=38 period=1 normaliz_time=0.1s neg=False
+tries 677904 found dims [11]

@@ -1,0 +1,4 @@
+search: 242 cells, 70 above 684 edges, 206072 facet ray tests, 0 failing facets, largest cell 1127 edges
+bands: 4 bands of the old data recomputed and merged with the new, 0 mismatches
+recomputed from the polytope on 8 of the new cells: 0 worst ratios disagreeing, 0 facets failing
+mechanism: 1892 facets; median ratio by the number of negative edges on the facet {1: 644.91, 2: 406.18, 3: 298.9, 4: 174.22, 5: 237.78, 6: 135.76, 7: 280.43}, spread 4.75; by the cell's edge count {64: 717.2, 128: 617.0, 256: 533.13, 512: 446.87}, spread 1.60

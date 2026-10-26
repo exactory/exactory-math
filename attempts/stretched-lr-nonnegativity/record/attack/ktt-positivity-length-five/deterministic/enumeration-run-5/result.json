@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "summary: 444175 polytopes, 0 identity mismatches, 38899 types of which 13334 weighed, 0 negative, minimum 1/120",
+    "recomputed with no cache on 8 contracted polytopes: 0 identity mismatches, 0 failed contraction checks",
+    "the seven two-dimensional weights of move 18 and the polygon identity on the unimodular triangle: 0 mismatches"
+  ]
+}

@@ -1,0 +1,3 @@
+{"purpose": "class S1: primitive 5-part hives of size 31..200 (all dimensions >= 3), seeded random sampling beyond the box",
+ "command": "sample_search.py --parts 5 --smin 31 --smax 200 --dmin 3 --count 300000 --seed 20260904 --workers 6",
+ "encoder": "sample_search.py (lrcalc for c; horn.py primitivity; hive inequalities -> Normaliz)"}

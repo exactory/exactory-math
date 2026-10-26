@@ -1,0 +1,18 @@
+{
+  "claim": "On a cell of the chamber complex of the rank-five Littlewood-Richardson cone the linear Ehrhart coefficient a1 of the hive polytope is a linear functional of the boundary triple, so a1 >= 0 on the whole cell, an unbounded family of triples of unbounded size, holds exactly when the functional is nonnegative at the cell's finitely many extreme rays. This step builds cells, their extreme rays and their functionals, and reports the minimum.",
+  "why the coefficient is linear on a cell": [
+    "homogeneity: the stretched polynomial of m*(lam,mu,nu) is the stretched polynomial of (lam,mu,nu) at m*t, so a_k is homogeneous of degree k",
+    "on the relative interior of a cell every vertex of the hive polytope is a fixed linear function of the triple and every incidence is preserved, so the transverse cone of each edge is fixed and its lattice length is linear, and the local Euler-Maclaurin formula writes a1 as their sum"
+  ],
+  "cell": "the set of triples at which every hive row tight at a vertex of the given hive polytope stays tight and every hive row slack at a vertex stays satisfied, intersected with the dominance inequalities and the equation |lam| = |mu| + |nu|",
+  "cells built at": [
+    "each of the 2000 certified full-dimensional five-part hive polytopes of certified-special-case-check-1, in the order: the five hosts of a negative Berline-Vergne class, then the 200 with the smallest linear coefficient for their size, then the rest shuffled",
+    "generic points of the hive cone, where no vertex sits on a wall, so the cell is full dimensional"
+  ],
+  "functional": "l(r) = a1(b + r) - a1(b) at the sum b of the cell's extreme rays, with a1 from the Ehrhart quasi-polynomial computed by Normaliz; a1(b + 2r) - a1(b + r) is the linearity test",
+  "solvers": ["PyNormaliz 2.24 / Normaliz 3.11", "the depth-first hive enumerator of tools/hivepoly.py, used only by the checker", "Python integers and Fractions"],
+  "limits": {
+    "interior point size": "cells whose smallest interior point has |lam| > 3000 are skipped, because the certified Ehrhart run there is too slow",
+    "completeness": "the cells built are the ones these two sources reach, not the whole chamber complex"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "cells": 2199,
+  "facets seen": 28691,
+  "facets carrying a negative edge, and so tested": 2556,
+  "ray tests": 46501,
+  "tests where a facet fails to pay for its negative edges": 0,
+  "cells with a failing facet": 0,
+  "smallest ratio of the positive share to the negative share": "4730093/276213",
+  "largest ratio": "659966507/279048",
+  "where the smallest ratio is": {
+    "triple": [
+      [
+        147770,
+        147594,
+        105002,
+        70327,
+        61221
+      ],
+      [
+        106246,
+        91584,
+        45436,
+        31078
+      ],
+      [
+        100523,
+        84659,
+        41706,
+        30682
+      ]
+    ],
+    "facet": 14
+  },
+  "ray values that disagree with the step that built the cell": 0,
+  "seconds": 478
+}

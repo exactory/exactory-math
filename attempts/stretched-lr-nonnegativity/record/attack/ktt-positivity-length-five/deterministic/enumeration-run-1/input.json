@@ -1,0 +1,4 @@
+{"purpose": "compute the Berline-Vergne weight of every isometry class of the rank-five codimension-five edge atlas and decide the signs",
+ "command": "python3 run.py (resumable: it appends to atlas.jsonl and restarts where it stopped)",
+ "inputs": "../symbolic-computation-run-1/classes.json, the 3,406 isometry classes of the edge types of 2,000 full-dimensional five-part hive polytopes",
+ "method": "transverse.py converts a normal set to the polar cone in the projected lattice; bvweight.py evaluates the Berline-Vergne recursion; non-simplicial cones are triangulated and summed by the valuation property"}

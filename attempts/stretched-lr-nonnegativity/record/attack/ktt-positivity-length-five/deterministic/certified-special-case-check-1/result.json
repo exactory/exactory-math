@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "summary: 2000 polytopes, all 2000 agree on the top three coefficients, 8305 edge types, 133188 edges, 0 mismatches",
+    "right-hand sides: 200 records against the certified run-2 coefficients, 0 mismatches",
+    "edges from Normaliz's face lattice with its own volumes: 20 polytopes, 0 mismatches",
+    "weight self-test: the vertex weights of the unit square and of the unimodular triangle each sum to 1"
+  ]
+}

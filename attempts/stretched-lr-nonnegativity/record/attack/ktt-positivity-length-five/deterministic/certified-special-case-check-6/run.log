@@ -1,0 +1,57 @@
+100 cells, 33 facets tested, 135 ray tests, 0 failures, worst ratio 12568373963/45908100, 7 s
+200 cells, 33 facets tested, 135 ray tests, 0 failures, worst ratio 12568373963/45908100, 12 s
+300 cells, 66 facets tested, 272 ray tests, 0 failures, worst ratio 12568373963/45908100, 26 s
+400 cells, 94 facets tested, 379 ray tests, 0 failures, worst ratio 12568373963/45908100, 42 s
+500 cells, 152 facets tested, 614 ray tests, 0 failures, worst ratio 7484598391/27544860, 58 s
+600 cells, 196 facets tested, 806 ray tests, 0 failures, worst ratio 76916072881/489686400, 73 s
+700 cells, 221 facets tested, 911 ray tests, 0 failures, worst ratio 76916072881/489686400, 88 s
+800 cells, 277 facets tested, 1122 ray tests, 0 failures, worst ratio 76916072881/489686400, 104 s
+900 cells, 323 facets tested, 1296 ray tests, 0 failures, worst ratio 76916072881/489686400, 120 s
+1000 cells, 374 facets tested, 1497 ray tests, 0 failures, worst ratio 76916072881/489686400, 136 s
+1100 cells, 456 facets tested, 1839 ray tests, 0 failures, worst ratio 76916072881/489686400, 152 s
+1200 cells, 512 facets tested, 2065 ray tests, 0 failures, worst ratio 76916072881/489686400, 169 s
+1300 cells, 553 facets tested, 2234 ray tests, 0 failures, worst ratio 76916072881/489686400, 183 s
+1400 cells, 607 facets tested, 2445 ray tests, 0 failures, worst ratio 76916072881/489686400, 199 s
+1500 cells, 630 facets tested, 2527 ray tests, 0 failures, worst ratio 76916072881/489686400, 214 s
+1600 cells, 695 facets tested, 2816 ray tests, 0 failures, worst ratio 76916072881/489686400, 231 s
+1700 cells, 751 facets tested, 3036 ray tests, 0 failures, worst ratio 76916072881/489686400, 247 s
+1800 cells, 790 facets tested, 3200 ray tests, 0 failures, worst ratio 76916072881/489686400, 261 s
+1900 cells, 877 facets tested, 3534 ray tests, 0 failures, worst ratio 76916072881/489686400, 278 s
+2000 cells, 923 facets tested, 3723 ray tests, 0 failures, worst ratio 76916072881/489686400, 293 s
+2100 cells, 1719 facets tested, 23979 ray tests, 0 failures, worst ratio 4423043/248873, 383 s
+{
+  "cells": 2199,
+  "facets seen": 28691,
+  "facets carrying a negative edge, and so tested": 2556,
+  "ray tests": 46501,
+  "tests where a facet fails to pay for its negative edges": 0,
+  "cells with a failing facet": 0,
+  "smallest ratio of the positive share to the negative share": "4730093/276213",
+  "largest ratio": "659966507/279048",
+  "where the smallest ratio is": {
+    "triple": [
+      [
+        147770,
+        147594,
+        105002,
+        70327,
+        61221
+      ],
+      [
+        106246,
+        91584,
+        45436,
+        31078
+      ],
+      [
+        100523,
+        84659,
+        41706,
+        30682
+      ]
+    ],
+    "facet": 14
+  },
+  "ray values that disagree with the step that built the cell": 0,
+  "seconds": 478
+}

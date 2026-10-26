@@ -1,0 +1,50 @@
+25 cells, 31 negative edges, 127 ray tests, vertex failures 0, facet failures 0, 8 s
+50 cells, 62 negative edges, 251 ray tests, vertex failures 0, facet failures 0, 16 s
+75 cells, 93 negative edges, 375 ray tests, vertex failures 0, facet failures 0, 23 s
+100 cells, 124 negative edges, 501 ray tests, vertex failures 0, facet failures 0, 31 s
+125 cells, 161 negative edges, 653 ray tests, vertex failures 0, facet failures 0, 39 s
+150 cells, 192 negative edges, 775 ray tests, vertex failures 0, facet failures 0, 47 s
+175 cells, 238 negative edges, 1744 ray tests, vertex failures 4, facet failures 0, 65 s
+200 cells, 333 negative edges, 3896 ray tests, vertex failures 34, facet failures 0, 89 s
+225 cells, 422 negative edges, 6201 ray tests, vertex failures 53, facet failures 0, 115 s
+250 cells, 498 negative edges, 8194 ray tests, vertex failures 69, facet failures 0, 138 s
+275 cells, 576 negative edges, 10450 ray tests, vertex failures 85, facet failures 0, 163 s
+300 cells, 639 negative edges, 11831 ray tests, vertex failures 97, facet failures 0, 187 s
+325 cells, 706 negative edges, 14036 ray tests, vertex failures 104, facet failures 0, 213 s
+{
+  "cells with a negative edge": 332,
+  "negative edges": 732,
+  "ray tests per neighbourhood": 14899,
+  "vertex neighbourhood: tests where the share fails to dominate": 106,
+  "vertex neighbourhood: smallest ratio": "0",
+  "vertex neighbourhood: largest ratio": "11175/13",
+  "facet neighbourhood: tests where the share fails to dominate": 0,
+  "facet neighbourhood: smallest ratio": "1567265857/18738000",
+  "facet neighbourhood: largest ratio": "8425912939/312312",
+  "where the vertex neighbourhood is worst": {
+    "triple": [
+      [
+        60971,
+        60952,
+        36049,
+        35380,
+        32855
+      ],
+      [
+        36030,
+        35376,
+        27371,
+        11010
+      ],
+      [
+        34222,
+        33560,
+        25232,
+        23406
+      ]
+    ],
+    "edge weight": "-133/115200"
+  },
+  "negative edges with no positive vertex neighbour": 0,
+  "seconds": 220
+}

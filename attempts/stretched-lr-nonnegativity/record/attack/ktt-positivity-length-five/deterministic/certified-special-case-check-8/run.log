@@ -1,0 +1,54 @@
+50 cells, 174 zero rows of which 0 have a support, 4 s
+100 cells, 365 zero rows of which 0 have a support, 8 s
+150 cells, 545 zero rows of which 0 have a support, 13 s
+200 cells, 714 zero rows of which 0 have a support, 20 s
+250 cells, 898 zero rows of which 0 have a support, 25 s
+300 cells, 1078 zero rows of which 0 have a support, 32 s
+350 cells, 1259 zero rows of which 0 have a support, 38 s
+400 cells, 1443 zero rows of which 0 have a support, 43 s
+450 cells, 1626 zero rows of which 0 have a support, 48 s
+500 cells, 1804 zero rows of which 0 have a support, 53 s
+550 cells, 1986 zero rows of which 0 have a support, 56 s
+600 cells, 2173 zero rows of which 0 have a support, 62 s
+650 cells, 2352 zero rows of which 0 have a support, 70 s
+700 cells, 2531 zero rows of which 0 have a support, 75 s
+750 cells, 2713 zero rows of which 0 have a support, 81 s
+800 cells, 2895 zero rows of which 0 have a support, 85 s
+850 cells, 3071 zero rows of which 0 have a support, 90 s
+900 cells, 3254 zero rows of which 0 have a support, 96 s
+950 cells, 3444 zero rows of which 0 have a support, 103 s
+1000 cells, 3629 zero rows of which 0 have a support, 108 s
+1050 cells, 3817 zero rows of which 0 have a support, 112 s
+1100 cells, 3992 zero rows of which 0 have a support, 116 s
+1150 cells, 4166 zero rows of which 0 have a support, 123 s
+1200 cells, 4345 zero rows of which 0 have a support, 130 s
+1250 cells, 4529 zero rows of which 0 have a support, 137 s
+1300 cells, 4710 zero rows of which 0 have a support, 145 s
+1350 cells, 4885 zero rows of which 0 have a support, 149 s
+1400 cells, 5069 zero rows of which 0 have a support, 154 s
+1450 cells, 5254 zero rows of which 0 have a support, 160 s
+1500 cells, 5443 zero rows of which 0 have a support, 165 s
+1550 cells, 5631 zero rows of which 0 have a support, 169 s
+1600 cells, 5822 zero rows of which 0 have a support, 176 s
+1650 cells, 6002 zero rows of which 0 have a support, 183 s
+1700 cells, 6172 zero rows of which 0 have a support, 188 s
+1750 cells, 6354 zero rows of which 0 have a support, 191 s
+1800 cells, 6529 zero rows of which 0 have a support, 196 s
+1850 cells, 6717 zero rows of which 0 have a support, 202 s
+1900 cells, 6908 zero rows of which 0 have a support, 205 s
+1950 cells, 7088 zero rows of which 0 have a support, 209 s
+2000 cells, 7253 zero rows of which 0 have a support, 212 s
+2050 cells, 7438 zero rows of which 0 have a support, 217 s
+2100 cells, 7613 zero rows of which 0 have a support, 222 s
+2150 cells, 7800 zero rows of which 0 have a support, 225 s
+{
+  "cells": 2199,
+  "rows": 13909,
+  "rows whose value is zero": 7973,
+  "of those, rows with a non-empty support": 0,
+  "rows whose value is positive": 5936,
+  "of those, rows with an empty support": 0,
+  "edges of negative length at any row": 0,
+  "verdict": "the containment check is vacuous: every zero row has an empty support",
+  "seconds": 231
+}

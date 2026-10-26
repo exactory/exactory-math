@@ -1,0 +1,3 @@
+{"purpose": "class S3: primitive 8-part hives (the first number of parts outside the box) of size 8..40 and dimension 3..12, seeded random sampling",
+ "command": "sample_search.py --parts 8 --smin 8 --smax 40 --dmin 3 --dmax 12 --count 20000 --seed 20260913 --workers 3 --out s3",
+ "encoder": "sample_search.py (lrcalc for c; horn.py primitivity with the 8,499 essential Horn triples of n = 8; hive inequalities -> Normaliz; --dmax 12 skips hives of dimension above 12 for solver cost)"}

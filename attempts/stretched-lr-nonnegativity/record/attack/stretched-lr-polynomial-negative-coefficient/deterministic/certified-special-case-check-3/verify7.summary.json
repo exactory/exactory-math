@@ -1,0 +1,10 @@
+{
+ "records": 1302871,
+ "tableau_agree": 1302871,
+ "lrcalc_agree": 1302871,
+ "t2_checked": 1302871,
+ "mismatches": 0,
+ "slowest_seconds": 175.4,
+ "seconds": 6666.9,
+ "second_encoding": "tableau polytope (Normaliz)"
+}

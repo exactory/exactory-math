@@ -1,0 +1,11 @@
+{
+  "statement": "For every nonempty finite set D of distinct integers at least 4 with gcd(D)=1 and sigma(D)=sum_{d in D}1/(d-1)>1, every integer k>=1 and every finite set F of labels (d,j) with d in D and j>=k admit an explicitly recursive infinite sequence Q of distinct remaining labels with strictly increasing numerical values q_i, such that its actual complement R has finite subset sums with all consecutive gaps at most g=ceil(sum_{d in D}d^k/(d-1)+sum_{(d,j) in F}d^j), every base d in D occurs infinitely often in Q with bounded gaps between its selected exponents, and sum_i ||beta q_i||^2=infinity for every nonzero beta in R/Z; moreover for every integer L>=1 the finite subset sums of all remaining labels contain L consecutive integers with a terminating witness procedure, each label used at most once and coincident values from distinct labels retained separately.",
+  "form": "full-proof",
+  "evidence": "moves/001-phase-spectral-thinning.md",
+  "novelty": "The full statement and all eight dated follow-up queries, returned hits, source checks and bounded-search limitations are recorded in units/1/novelty.md, supplementing study/problem.md, study/QUERY_LOG.md and novelty.md. No exact prior proof was identified, but no exhaustive novelty, priority or standalone-publication claim is made.",
+  "moves": [
+    1
+  ],
+  "costs": []
+}
+

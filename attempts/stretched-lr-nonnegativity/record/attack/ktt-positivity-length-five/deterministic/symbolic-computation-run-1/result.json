@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "rank 442 and 0 pinned classes, recomputed modulo 2^31 - 1, agree with the exact reduction",
+    "2000 equations, 466 distinct, 3406 classes (3406 of them occur)",
+    "isometry witnesses: 40 merged classes checked, 0 without a witness"
+  ]
+}

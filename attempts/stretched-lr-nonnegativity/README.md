@@ -1,0 +1,103 @@
+# Nonnegative coefficients of stretched Littlewood-Richardson polynomials
+
+| | |
+|---|---|
+| Claim | For all integer partitions $\lambda,\mu,\nu$ with $\lvert\lambda\rvert=\lvert\mu\rvert+\lvert\nu\rvert$ and $c^{\lambda}_{\mu\nu}>0$, every coefficient of the polynomial $P(t)=c^{t\lambda}_{t\mu,t\nu}$ in the basis $1,t,t^2,\dots$ is nonnegative (the positivity conjecture of King, Tollu and Toumazet, 2004). |
+| Outcome | Open. Partially proved: for partitions with at most 6 parts and $\lvert\lambda\rvert\le 30$ by exact computation with two independent programs (independent AI reader, three passes). Computational evidence, not proof: 7 parts with $\lvert\lambda\rvert\le 30$ (one solver, two encodings) and 453,799 sampled polynomials beyond that range, none with a negative coefficient. Also proved: a conditional list of properties of any counterexample, and several reductions that settle no case. |
+| Formal verification | None. The record notes that Mathlib had no Littlewood-Richardson coefficient on 2026-09-03. |
+| Related problem | The negation restricted to length at most 7 and size at most 30 is Epoch AI's FrontierMath open problem "Stretched Littlewood-Richardson coefficients", <https://epoch.ai/frontiermath/open-problems/stretched-lr-coefficients>. In this repository, [`problems/hive-polytope-equidecomposability`](../../problems/hive-polytope-equidecomposability/) was posted later; its record reads this record's enumeration data. |
+| Made by | exactory math-solver harness, objective `stretched-lr-negative-coefficient`, with four attacks: `stretched-lr-polynomial-negative-coefficient` (the box), `stretched-lr-negative-coefficient-unbounded` (the negative side), `ktt-positivity-conjecture` (the full claim, positive side) and `ktt-positivity-length-five` (five parts). Dated 2026-09-03 to 2026-09-05 in the record. |
+
+Notation. $c^{\lambda}_{\mu\nu}$ is the Littlewood-Richardson coefficient, the multiplicity of the Schur function $s_\lambda$ in $s_\mu s_\nu$, and $t\lambda=(t\lambda_1,t\lambda_2,\dots)$. By Knutson and Tao, $c^{\lambda}_{\mu\nu}$ is the number of lattice points of the hive polytope $H=H(\lambda,\mu,\nu)$, a rational polytope cut out by rhombus inequalities, and $H(t\lambda,t\mu,t\nu)=tH$, so $P$ is the Ehrhart polynomial of $H$ (a polynomial by Derksen and Weyman). Write $n$ for the largest number of parts, $D=\dim H\le (n-1)(n-2)/2$, $a_k$ for the coefficient of $t^k$, $H_D=1+\tfrac12+\dots+\tfrac1D$ for the linear coefficient of the Ehrhart polynomial $\binom{t+D}{D}$ of the unimodular $D$-simplex, and $h^*$ for the vector with $P(t)=\sum_i h^*_i\binom{t+D-i}{D}$. A triple is primitive when every essential Horn inequality of its rank is strict; otherwise $P$ factorises into the polynomials of two triples with fewer parts (King, Tollu and Toumazet 2009). The box is the set of triples with at most 7 parts and $\lvert\lambda\rvert\le 30$.
+
+Before this record, the conjecture was known for $c^\lambda_{\mu\nu}\le 2$ and for partitions with at most 4 parts (Ferudun 2026, arXiv:2607.22301), and Ferudun proved that every coefficient of a full-dimensional 5-part hive polytope except $a_1$ is positive. The record's summary of where the conjecture stands (`record/attack/SEARCH_TREE.md`): proved for length at most 4 at every size (in print), for length at most 6 at size at most 30 (this record), and for length 7 at size at most 30 relative to one solver.
+
+## Results
+
+### Proved by exact computation
+
+1. Theorem (unit 1 of the box attack). For all partitions $\lambda,\mu,\nu$ with at most 6 parts each and $\lvert\lambda\rvert=\lvert\mu\rvert+\lvert\nu\rvert\le 30$, every coefficient of $P(t)$ is nonnegative. The record calls this a proof by computation. Theorems in print reduce the claim to canonical triples with 5 or 6 parts, $c\ge 3$ and $\dim H\ge 3$; all of them were enumerated (12,091,018 canonical triples with 5 parts and 31,745,644 with 6), with completeness recounted for every size by an independent generator. Their 5,552,431 Ehrhart polynomials were computed by Normaliz 3.11 from the hive inequalities, and each was reproduced by exact interpolation of lrcalc 2.1 values at $t=1,\dots,6$ (5 parts) or $t=1,\dots,10$ (6 parts), the degree bounds, with 0 mismatches; none has a negative coefficient. An independent reader reviewed the unit in three passes; the third pass returned three wording defects, which the author resolved, and no further pass was run (the record cites its usage budget). Where: [`paper/box-length-at-most-six.md`](paper/box-length-at-most-six.md) and `record/attack/stretched-lr-polynomial-negative-coefficient/units/1/proof.md`.
+
+### Computational evidence
+
+2. No negative coefficient in the box (unit 2 of the box attack). For exactly 7 parts, 52,834,374 canonical triples were enumerated. The 9,201,781 non-primitive ones with $c\ge3$ were reduced by the factorisation theorem to triples covered by result 1; the 1,302,871 primitive ones with $\dim H\ge 3$ had their polynomials computed by Normaliz, recomputed from a second polytope encoding (the tableau polytope) with the same solver, and matched by lrcalc at $t=1$ and $t=2$. The record labels this part evidence, not proof, because both encodings rely on Normaliz. The independent reader of this unit returned one wording defect on its third pass, which the author resolved, and no further pass was run. Where: [`paper/box-length-at-most-seven.md`](paper/box-length-at-most-seven.md) and `record/attack/stretched-lr-polynomial-negative-coefficient/units/2/evidence.md`.
+
+3. Where the coefficients come closest to zero (a census in two agreeing implementations, `certified-special-case-check-4` of the box attack). Among the 6,855,302 polynomials computed in the box, exactly 7,469 have a coefficient below the corresponding coefficient of the unimodular simplex. All of them have $D+1$ lattice points, normalized volume $D!\,a_D=2$ and $h^*=(1,0,1,0,\dots)$, in dimensions 4, 5 and 6, with minimal coefficient ratios $24/25$, $44/45$ and $799/812$. The smallest ratio over all computed polynomials is $24/25$; an example is $\lambda=(5,4,3,2,1)$, $\mu=(4,3,2,1)$, $\nu=(2,2,1)$.
+
+4. Samples beyond the box (unit 1 of the negative-side attack). Seeded random samples with independent checkers: 400,000 primitive 5-part hives of sizes 31 to 200, 40,000 primitive 6-part hives of dimension 8 to 10 and sizes 31 to 80, 1,799 primitive 8-part hives of dimension 3 to 12 and sizes 20 to 40, and 12,000 primitive hives with at most $D+2$ lattice points, plus 5,170 transportation polytopes of six small families. For the 6- and 8-part samples the checkers compared every polynomial with lrcalc at $t=1$ only and recomputed 1,500 records of each by the second encoding; every polynomial of the other hive samples was recomputed by the second encoding. None has a negative coefficient. The polynomials below the simplex values are of the volume-2 type of result 3 (ratio $927/938$ in dimension 7) and one polytope with $D+1$ lattice points and normalized volume 3 at 8 parts: $\lambda=(4,4,3,3,2,2,1,1)$, $\mu=(3,3,2,2,1,1)$, $\nu=(3,2,2,1)$, $c=7$, $D=6$, $h^*=(1,0,2,0,0,0,0)$, minimal ratio $393/406$. This unit was checked by its author only, not by an independent reader. Where: [`paper/beyond-the-box-samples.md`](paper/beyond-the-box-samples.md).
+
+5. No negative entry in any $h^*$ vector of the 6,855,302 polynomials of the box (root attack, move 5; `certified-special-case-check-1` of `ktt-positivity-conjecture`).
+
+### Proved by argument
+
+6. Necessary conditions on a counterexample (unit 2 of the negative-side attack, a conditional statement). If the conjecture is false, some counterexample is primitive; has $c\ge 3$ and $\dim H\ge 3$; has a partition with at least 5 parts and lies outside the box (for 7 parts this rests on the evidence of result 2); if it has at most 5 parts, its hive polytope is full-dimensional with $a_1<0$ or has dimension 3, 4 or 5; and it lies in the closed cone of a chamber of the Littlewood-Richardson chamber complex on which the polynomial giving one coefficient of $P$ is negative at it, so that, when it is interior to that chamber, counterexamples of every multiple of its size exist. The proof assembles cited theorems; it was checked by its author only. Where: [`paper/counterexample-necessary-conditions.md`](paper/counterexample-necessary-conditions.md) and `record/attack/stretched-lr-negative-coefficient-unbounded/units/2/proof.md`.
+
+7. Reductions written as derivations in the journals and study notes, which the record lists as proved statements with no sampling in them (`record/attack/ktt-positivity-length-five/ADMISSION.md`, `record/attack/RETROSPECTIVE.md`). They prove no instance of the conjecture.
+   - The conjecture is equivalent to the statements $\mathrm{KTT}(r)$, $r\ge5$, where $\mathrm{KTT}(r)$ is the conjecture for partitions with at most $r$ parts (root move 1).
+   - The five reductions for 5 parts listed below use no property of the rank, but the atlas of cone types they need depends on it, and the number of open coefficients and their codimensions grow quadratically with the rank (root move 2, `study/rank-uniformity.md`).
+   - For a polynomial of degree at most $d$ with $P(0)=1$, $a_1=H_d+\sum_{i\ge1}(-1)^{i-1}h_i/(i\binom{d}{i})$, and every coefficient is a fixed linear function of $h$ (root move 3); $h$ is the numerator of the Hilbert series of the semigroup ring of the cone over $H$, so the integer decomposition property of $H$ implies $h\ge 0$ (root move 4); and hive polytopes are not all integrally closed, for example $\lambda=(17,4,3,2,1)$, $\mu=(16,3,2,1)$, $\nu=(2,2,1)$ (root move 6).
+   - For partitions with at most 5 parts: on a cell of the chamber complex $a_1$ is a linear function of the triple, so it is nonnegative on the whole cell if and only if it is nonnegative at the cell's extreme rays (move 6); a cell all of whose edge classes have nonnegative Berline-Vergne weight needs no computation (move 8); a local domination inequality and a per-facet inequality each imply $a_1\ge0$ (moves 9 and 10); a hive polytope that is not full-dimensional is the same problem in its intrinsic lattice, one dimension lower (move 11, `study/non-full-dimensional-reduction.md`); and two-dimensional cones can have negative Berline-Vergne weight, which the seventh independent review derived from the vertex-weight identity for lattice polygons and one computed value (move 18, `study/low-dimensional-weights-can-be-negative.md`).
+
+Measurements on the five-part case, in exact arithmetic over samples, which the record says cover no case: 21 classes of negative Berline-Vergne weight among the 5,142 held; 2,199 cells and 13,909 extreme rays with no negative value of $a_1$, at triples up to size 722,265; 252,573 tests of the per-facet inequality with no failure; under the best of ten scalar products tried, 5 of the 21 negative classes stay negative (each tested on one representative); and no negative weight among the 13,334 projected cone types weighed at intrinsic dimensions 3 and 4 (smallest weight $1/120$).
+
+## Proof in brief
+
+Result 1. Let $c=c^\lambda_{\mu\nu}$. If $c=0$ then $P=0$ by saturation; $c=1$ gives $P=1$ and $c=2$ gives $P=t+1$ by theorems in print. If $c>0$ then $\mu,\nu\subseteq\lambda$, and 4 parts are covered by Ferudun's theorem. For 5 or 6 parts, swapping $\mu$ and $\nu$ and removing a full column (which leaves $P$ unchanged) reduce every triple, by induction on $\lvert\lambda\rvert$, to a canonical triple. If $\dim H\le2$, Ehrhart-Macdonald reciprocity for rational polytopes gives nonnegative coefficients. The remaining canonical triples are exactly those enumerated, and their polynomials were computed by two programs that share no code. A hive of side $n$ has $(n-1)(n-2)/2$ interior entries, so $\deg P\le 6$ or $10$, and $P(0)=1$ with the values at $t=1,\dots,6$ or $t=1,\dots,10$ determines $P$.
+
+Result 6. A factorisation on a saturated Horn inequality passes a negative coefficient to a factor with fewer parts, which gives a primitive counterexample. The conditions on $c$, the dimension, the number of parts and the box follow from the theorems above and from results 1 and 2. The chamber statement follows from Rassart's piecewise polynomiality: on a closed chamber each coefficient of $P$ is a homogeneous polynomial in the triple, so a negative value at an interior point stays negative on an open sub-cone.
+
+Result 7. On a cell the face lattice of $H$ is fixed, each edge keeps its transverse cone and has a lattice length linear in the triple, so the local Euler-Maclaurin formula (Berline-Vergne) makes $a_1=\sum_e w(e)\,\ell(e)$ linear on the cell, where $w(e)$ is the weight of the cone at edge $e$ and $\ell(e)$ its lattice length. Since every $\ell(e)\ge0$ on the cell, nonnegative weights settle the cell; and splitting each edge's term equally among the facets through it gives facet shares that add up to $a_1$ exactly, which is why the per-facet inequality suffices.
+
+## What did not work
+
+Routes the record closed, with its reasons:
+
+- Termwise positivity of the Berline-Vergne weight at codimension 5: five of the 3,406 edge classes have negative weight and occur as full normal cones of edges of explicit 5-part hive polytopes (later counted as 21 of 5,142).
+- Fitting the weights from certified Ehrhart data: 466 distinct equations of rank 442 against 3,406 unknowns, with the classes growing with the sample.
+- The vertex neighbourhood for a local inequality: 106 failures in 14,899 tests.
+- The zero-row shortcut: vacuous, since at a ray where $a_1=0$ the polytope is a point and every edge length is zero.
+- A linear program over all local formulas: closed by the sixth independent review, which identified no mechanism by which it could be infeasible.
+- Closing the low intrinsic dimensions by citation: two-dimensional weights can be negative (result 7).
+- Explaining the measured $h\ge0$ by the integer decomposition property: hive polytopes are not all integrally closed (result 7). Root move 7 proposes another mechanism, Ehrhart equivalence to lattice polytopes, which has not been tested.
+- The box attack's two strategies ended on their failure signals: no second Ehrhart solver was available to certify 7 parts, and no translation in print maps a family with negative Ehrhart coefficients into the box. The negative-side attack's strategies ended because sampling has no reach beyond the searched ranges, because the one translation in print (the strip construction for $3\times N$ transportation polytopes) lands on a positivity question that is itself open, and because the barrier for termwise local formulas is already in print (a codimension-4 cell of weight $-349/28800$, Ferudun 2026).
+
+The record also preserves corrections of its own errors: a checker that passed on an input truncated at 2,119 of 2,199 cells (move 14 re-ran it in full), an extrapolated failure point that was wrong by four orders of magnitude (moves 13 and 14), and polytopes first called "empty non-unimodular simplices" that at 5 parts have 7 vertices. `record/attack/RETROSPECTIVE.md` discusses why the session closed no case.
+
+## Open questions
+
+- The claim, and every $\mathrm{KTT}(r)$ with $r\ge5$. For 5 parts, the record names two open obligations: $a_1\ge0$ for full-dimensional hive polytopes, whose residue is the cells carrying a negative-weight edge and which the per-facet inequality would settle, and every coefficient of the non-full-dimensional ones, where intrinsic dimension 5 is enumerated but not weighed and $a_2$ at intrinsic dimension 4 still needs a codimension-two atlas. The type lists are those seen in samples, and their completeness is open.
+- The next steps written in `record/attack/HANDOFF.md`: weigh the 25,565 types at intrinsic dimension 5; build the codimension-two atlas at intrinsic dimension 4; bound how many negative-weight edges one facet can carry; and, for the root attack, test Stanley's inequality, Hibi's lower bound and $h_d\le h_1$ on the recorded $h$ vectors (a proposal awaiting review).
+- From unit 2 of the box attack: size 31 at 5, 6 or 7 parts and 8 parts are the first instances outside the box; whether $24/25$ is the infimum of the coefficient ratio over hive polytopes of dimension at least 3; whether hive polytopes with $D+1$ lattice points and normalized volume 3 or more exist (the negative-side attack found one of volume 3 at 8 parts); and a second Ehrhart solver on the 1,302,871 seven-part records would make the whole box a theorem relative to the trusted base.
+- The retrospective names the enumeration it did not attempt: the complete list of $\binom{27}{5}=80{,}730$ five-subsets of the 27 rhombus normals, and a complete type list at intrinsic dimension 3.
+
+## How to check
+
+Requirements: Python 3 with PyNormaliz 2.24 (Normaliz 3.11), lrcalc 2.1 and numpy (the record used Python 3.13.8). Every `check.sh` and `run_all.sh` sets `PY=` to the Python of the original workspace; change it to yours. The copies of `chamber.py` set `TOOLS` to the original workspace's tools folder, which is `record/tools/` here. Run Normaliz single-threaded (`OMP_NUM_THREADS=1`) when several workers share a machine.
+
+The per-polynomial records of the large runs are not included (several hundred MB), so the checks must follow a re-run. For result 1, in `record/attack/stretched-lr-polynomial-negative-coefficient/deterministic/`:
+
+| Step | Folder | Command, as the folder's README describes it | Recorded time |
+|---|---|---|---|
+| 5-part box | `enumeration-run-2` | `scan.py --mode enumerate --parts 5 --sizes ...` in four invocations (sizes 5 to 26, 27 to 28, 29, 30) | 627 s on 10 workers |
+| 6-part box | `enumeration-run-3` | `scan2.py --parts 6 --sizes 30 29 ... 6` | 1,883 s on 10 workers |
+| second program, 5 parts | `certified-special-case-check-1` | `verify5.py [workers]` | 101.5 s on 11 workers |
+| second program, 6 parts | `certified-special-case-check-2` | `verify6.py [workers]` | 43,814 s on 11 workers |
+
+For results 2 and 3: `enumeration-run-4` (`scan2.py --parts 7 --sizes 30 29 ... 7 --horn-filter`, 9,625 s on 11 workers), `certified-special-case-check-3` (`verify7.py`, 6,667 s on 8 workers) and `certified-special-case-check-4` (`census.py`, 796 s on 6 workers). After each step run `./check.sh` in the same folder and compare its output with that folder's `result.json` (field `output_head`) and summary files. The expected results are the counts quoted above, with 0 mismatches and 0 negative coefficients. The runs of the other attacks are organised the same way, and every run folder has a README that describes the run and its checker.
+
+## Contents of this folder
+
+- `README.md`: this file.
+- `paper/`: the four write-ups the record produced, one per cashed-out unit: `box-length-at-most-six.md` (result 1), `box-length-at-most-seven.md` (results 2 and 3), `beyond-the-box-samples.md` (result 4) and `counterexample-necessary-conditions.md` (result 6). File paths quoted inside them are relative to the attack folders in `record/attack/`.
+- `record/`: the search tree, the four attacks (problem statements, journals, studies, units, admission ledgers and every computation run with code, checker and summaries), the checkpoint notes and the record's tools. `record/README.md` describes each part.
+
+## References
+
+- R. C. King, C. Tollu, F. Toumazet, Stretched Littlewood-Richardson and Kostka coefficients, CRM Proc. Lecture Notes 34 (2004) 99-112, doi:10.1090/crmp/034/10; Factorisation of Littlewood-Richardson coefficients, J. Combin. Theory Ser. A 116 (2009) 314-333, doi:10.1016/j.jcta.2008.06.005.
+- A. Ferudun, Positivity of stretched Littlewood-Richardson coefficients for partitions of length at most four, arXiv:2607.22301 (2026); replay scripts at <https://github.com/AlperTheKing/ktt-positivity>.
+- A. Knutson, T. Tao, The honeycomb model of $GL_n(\mathbb{C})$ tensor products I, J. Amer. Math. Soc. 12 (1999) 1055-1090, arXiv:math/9807160.
+- H. Derksen, J. Weyman, On the Littlewood-Richardson polynomials, J. Algebra 255 (2002) 247-257, doi:10.1016/S0021-8693(02)00125-4.
+- E. Rassart, A polynomiality property for Littlewood-Richardson coefficients, J. Combin. Theory Ser. A 107 (2004) 161-179, arXiv:math/0308101.
+- Berline and Vergne, arXiv:math/0507256 (Proposition 4.1 gives the local Euler-Maclaurin weights the record implements).
+- Software: Normaliz, <https://www.normaliz.uni-osnabrueck.de/>, with PyNormaliz, <https://github.com/Normaliz/PyNormaliz>; lrcalc by A. S. Buch, <https://math.rutgers.edu/~asbuch/lrcalc>.
+- The full reference lists are at the end of each file in `paper/`.

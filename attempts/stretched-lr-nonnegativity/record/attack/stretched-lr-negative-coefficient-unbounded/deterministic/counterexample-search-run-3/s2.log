@@ -1,0 +1,21 @@
+2000 recorded (668811 tried), 568s, negatives 0, min ratio 1, min a1 761/280
+4000 recorded (1334251 tried), 1003s, negatives 0, min ratio 1, min a1 761/280
+6000 recorded (1990941 tried), 1897s, negatives 0, min ratio 1, min a1 761/280
+8000 recorded (2652892 tried), 2579s, negatives 0, min ratio 1, min a1 761/280
+10000 recorded (3345227 tried), 3434s, negatives 0, min ratio 1, min a1 761/280
+12000 recorded (4014753 tried), 4090s, negatives 0, min ratio 1, min a1 761/280
+14000 recorded (4704825 tried), 5190s, negatives 0, min ratio 1, min a1 761/280
+16000 recorded (5379318 tried), 5988s, negatives 0, min ratio 1, min a1 761/280
+18000 recorded (6033840 tried), 6690s, negatives 0, min ratio 1, min a1 761/280
+20000 recorded (6713374 tried), 7682s, negatives 0, min ratio 1, min a1 761/280
+22000 recorded (7358860 tried), 8377s, negatives 0, min ratio 1, min a1 761/280
+24000 recorded (8023878 tried), 9202s, negatives 0, min ratio 1, min a1 761/280
+26000 recorded (8701675 tried), 9885s, negatives 0, min ratio 1, min a1 761/280
+28000 recorded (9365160 tried), 10575s, negatives 0, min ratio 1, min a1 761/280
+30000 recorded (10039024 tried), 11566s, negatives 0, min ratio 1, min a1 761/280
+32000 recorded (10700976 tried), 12293s, negatives 0, min ratio 1, min a1 761/280
+34000 recorded (11361728 tried), 12881s, negatives 0, min ratio 1, min a1 761/280
+36000 recorded (12016856 tried), 13517s, negatives 0, min ratio 1, min a1 761/280
+38000 recorded (12670548 tried), 13983s, negatives 0, min ratio 1, min a1 761/280
+40000 recorded (13320412 tried), 14830s, negatives 0, min ratio 1, min a1 761/280
+done {"tried": 13320412, "c_ge_3": 251886, "primitive": 144576, "dim_ok": 40000, "recorded": 40000, "negative": 0, "quasi": 0, "seconds": 14830.4, "min_ratio": "1", "min_a1": "761/280", "max_volume_with_c_le_dim_plus_2": "2", "args": {"parts": 6, "smin": 31, "smax": 80, "dmin": 8, "full": false, "count": 40000, "seed": 20260906, "workers": 6, "out": "s2"}}

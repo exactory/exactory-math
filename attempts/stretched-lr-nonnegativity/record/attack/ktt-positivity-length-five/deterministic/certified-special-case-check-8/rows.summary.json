@@ -1,0 +1,11 @@
+{
+  "cells": 2199,
+  "rows": 13909,
+  "rows whose value is zero": 7973,
+  "of those, rows with a non-empty support": 0,
+  "rows whose value is positive": 5936,
+  "of those, rows with an empty support": 0,
+  "edges of negative length at any row": 0,
+  "verdict": "the containment check is vacuous: every zero row has an empty support",
+  "seconds": 231
+}

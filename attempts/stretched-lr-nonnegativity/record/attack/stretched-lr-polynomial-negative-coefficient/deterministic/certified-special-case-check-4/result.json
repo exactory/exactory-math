@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "5 parts: 1334669 polynomials, 304 with ratio < 1 ({\"D=4;hstar=1,0,1,0,0;V=2;minr=24/25\": 304}), 304 at 24/25, min ratio 24/25, largest V with D + 1 lattice points 2, with c <= D + 2 3; vertex counts of the ratio < 1 records {\"D=4,nverts=7\": 304}",
+    "6 parts: 4217762 polynomials, 4186 with ratio < 1 ({\"D=4;hstar=1,0,1,0,0;V=2;minr=24/25\": 3088, \"D=5;hstar=1,0,1,0,0,0;V=2;minr=44/45\": 1098}), 3088 at 24/25, min ratio 24/25, largest V with D + 1 lattice points 2, with c <= D + 2 10; vertex counts of the ratio < 1 records {}",
+    "7 parts: 1302871 polynomials, 2979 with ratio < 1 ({\"D=6;hstar=1,0,1,0,0,0,0;V=2;minr=799/812\": 1196, \"D=5;hstar=1,0,1,0,0,0;V=2;minr=44/45\": 1632, \"D=4;hstar=1,0,1,0,0;V=2;minr=24/25\": 151}), 151 at 24/25, min ratio 24/25, largest V with D + 1 lattice points 2, with c <= D + 2 10; vertex counts of the ratio < 1 records {}",
+    "below-1 list: 7469 records, agrees with the recomputation: True"
+  ]
+}

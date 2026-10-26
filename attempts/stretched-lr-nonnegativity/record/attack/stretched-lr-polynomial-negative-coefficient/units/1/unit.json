@@ -1,0 +1,8 @@
+{
+  "statement": "For all integer partitions lam, mu, nu with at most 6 parts each and |lam| = |mu| + |nu| <= 30, every coefficient of the stretched Littlewood-Richardson polynomial P(t) = c^{t lam}_{t mu, t nu} in the monomial basis is nonnegative; proved by an exhaustive computation in which every polynomial is computed by two independent programs (Normaliz on the hive polytope; lrcalc by the classical rule with exact interpolation) and the enumeration's completeness is recounted independently for every size.",
+  "form": "conditional-or-special-case",
+  "evidence": "units/1/proof.md",
+  "novelty": "study/problem.md, queries Q1-Q17 (2026-09-03), and novelty.md, queries 1-13 (2026-09-03) and unit-level queries U1-U6 (2026-09-04): no source reports a certified computation over the box or its part with at most 6 parts; the nearest results are Ferudun 2026 (arXiv:2607.22301, positivity for length <= 4 for all sizes, plus uncertified computations without ranges), De Loera-McAllister 2006 (LattE computations at small rank), and the ktt-positivity repository (a ~4 x 10^8-triple search without ranges).",
+  "moves": [1, 3, 4, 6, 7],
+  "costs": []
+}

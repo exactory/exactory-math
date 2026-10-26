@@ -1,0 +1,11 @@
+{
+  "claim": "On a cell of the chamber complex the lattice length of every edge is a nonnegative linear function of the boundary triple, so the functional l(b) = sum over the edges of the class weight times the lattice length is nonnegative on the whole cell as soon as every edge class of that cell has a nonnegative weight. The residue of the rung is therefore only the cells that carry an edge whose class has a negative weight.",
+  "measures": [
+    "how many of the cells already built carry such an edge",
+    "the margin at the worst ray of such a cell, that is the positive part of the functional against the negative part",
+    "the corrected list of negative classes over every weight this project holds, not only the atlas of enumeration-run-1"
+  ],
+  "cells": "the 2006 cells of certified-special-case-check-3 and the 193 full-dimensional cells of enumeration-run-2",
+  "solvers": ["PyNormaliz 2.24 / Normaliz 3.11", "tools/atlasform.py with the weights of enumeration-run-1 and enumeration-run-2", "Python integers and Fractions"],
+  "time budget seconds": 2400
+}

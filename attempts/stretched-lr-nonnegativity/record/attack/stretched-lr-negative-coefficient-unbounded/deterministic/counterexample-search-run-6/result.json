@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "tableau-polytope encoding agrees on 6000 of 6000 records; lrcalc agrees at t = 1 (and at t = 2 when P(2) <= 1000000) on 6000; lrcalc pins 5968 of the 5968 records with P(D_n) <= 2000000",
+    "third implementation: 30 records, 0 mismatches; negatives among records: 0; records with c = dim + 1: 4602, largest normalized volume 2; largest volume among all records 10"
+  ]
+}

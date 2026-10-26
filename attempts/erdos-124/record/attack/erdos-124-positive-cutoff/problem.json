@@ -1,0 +1,33 @@
+{
+  "claim": "For every finite set D of distinct integers d >= 3 with gcd(D) = 1 and sum_{d in D} 1/(d-1) >= 1, and every integer k >= 1, there exists N(D,k) such that every integer n >= N(D,k) is a sum of finitely many labelled occurrences d^j with d in D and j >= k, each pair (d,j) used at most once; equal numerical values from different pairs remain separately available.",
+  "quadruple": {
+    "statement": "Candidate C1, not established: for every admissible D and k in claim, and every finite set F of deleted labelled occurrences, list the remaining occurrences in nondecreasing numerical order as a_1,a_2,..., breaking ties by base label, and put S_m=sum_{i=1}^m a_i; there exist integers L >= 0 and m_0 >= 1 such that every integer in [L,S_m-L] is a subset sum of the first m occurrences for every m >= m_0.",
+    "stage": "Labelled finite subset sums of integer geometric streams, ordered by numerical value with repeated occurrences retained.",
+    "direction": "undecided",
+    "mode": "undecided"
+  },
+  "shape": {
+    "objects": "Finite sets D of natural numbers, infinite locally finite labelled streams (d,j), and finite selected exponent subsets; each representation is reached by appending unused occurrences to a finite prefix. Finset, Nat powers and finite sums are definable in Lean/Mathlib.",
+    "quantifiers": "For every admissible finite D, for every integer k >= 1, there exists an integer N, for every integer n >= N, there exist finite subsets S_d of {k,k+1,...} such that n = sum_{d in D} sum_{j in S_d} d^j.",
+    "target_quantity": "A yes/no eventual-coverage decision; an unspecified threshold N(D,k) suffices, and no explicit numerical optimum is requested.",
+    "ambient_structure": "Integer order and modular arithmetic coexist. Adding an unused occurrence replaces a finite subset-sum set T by T union (T+a), preserving occurrence uniqueness. This recursion propagates a represented interval when its length is at least the next occurrence.",
+    "symmetries": "Permutations of base labels and complement symmetry in any finite prefix preserve subset-sum feasibility; adding bases helps, whereas a common dilation changes the represented lattice. Arbitrary translation or rescaling is not a symmetry of the original streams.",
+    "configuration": "The additive relation n=sum d^j requires coefficients in {0,1} for each labelled pair and eventual integer coverage. Deleting low powers destroys the zero-cutoff initial interval, and deleting a base may destroy the reciprocal or gcd hypothesis.",
+    "extremal_candidate": "No extremal counterexample is known. Equality families {3,4,7}, {3,5,7,13}, and {3,6,7,13,21} have published cutoff-1 completeness; none is treated as a counterexample.",
+    "finite_certificates": "Individual n representability has an explicit finite witness, and each fixed bounded instance can be checked. Neither the full all-D all-k assertion nor infinitely many omissions has a known complete finite reduction. Any seed interval must be paired with a proved infinite extension bound.",
+    "monotonicity": "Coverage is monotone when bases are added or cutoff is decreased. The general smallest positive cutoff k=1 remains open; fixed-D results with cutoff-dependent enlargements of D do not give all k.",
+    "uniformity_parameter": "All positive cutoffs for each fixed admissible finite D, including reciprocal equality; no common effective N over all D is requested.",
+    "proof_shape": "The full statement has explicit quantifiers in Erdos124.erdos124.ne_zero. The known zero-cutoff proof is Brown interval induction beginning with 1. The natural positive-cutoff induction lacks a seed interval; scalar prefix-capacity estimates and modular residue coverage are documented tools, but do not yet yield an all-D all-k proof. Disjoint sumset supplies in Bergelson-Simmons avoid reusing occurrences. No finite tail reduction or complete lemma chain for the root is established.",
+    "neighbours": "Known true: zero-cutoff Brown completeness as a combinatorial interval principle; bounded-gap finite sums under bounded prefix deficit (BEGL96 and Bergelson-Simmons); finite residue coverage from tail gcd; strong completeness under the disjoint-block hypotheses of Bergelson-Simmons Theorem 1.23. Known false: finite deletion preserves completeness for arbitrary sequences (powers of 2 lose odd sums). Open in inspected sources: the full positive-cutoff conjecture. Modified abstract sequences with bounded-gap finite sums can fail completeness, as Bergelson-Simmons Examples 1.7-1.8 show. No proved category equivalence or unchanged continuous model of the integer claim is recorded.",
+    "known_bounds": "BEGL96 p.137 supplies cutoff-1 exceptions 581,111,16,78 for the four listed families. Zero-cutoff induction has the initial-1 ceiling after deletion; scalar bounded-deficit estimates give syndeticity rather than cofiniteness, as Bergelson-Simmons explicitly distinguish. Their Theorem 1.23 uses three disjoint mass-at-least-one blocks and a separate gcd-one block. No bounded counterexample domain, finite root residue, divergent first-moment bound, or independent uniform constant settling the target is recorded.",
+    "missing_input": "unknown",
+    "base_theory": "Classical number theory in ZFC, with finite and countable objects only; no independence or extra set-theoretic axiom is known or proposed. Elementary finite verification and the intended proofs lie within Lean's standard classical axioms when formalized."
+  },
+  "known": [
+    "Aristotle/Alexeev: all nonnegative n at cutoff 0 by Brown induction; https://github.com/plby/lean-proofs/blob/main/src/v4.24.0/ErdosProblems/Erdos124b.lean.",
+    "BEGL96: positive-density infinite bases yield cutoff-dependent finite complete subsets; cutoff-1 examples and interval-base estimates on p.137; DOI 10.4064/aa-77-2-133-138.",
+    "Bergelson-Simmons: bounded prefix deficit implies syndetic finite sums, and Theorem 1.23 gives strong completeness with three disjoint reciprocal blocks and a gcd-one supply; arXiv:1507.02208v2, DOI 10.4064/aa8221-10-2016.",
+    "Live problem 124 shows OPEN and Proof claims (0) on 2026-09-06; https://www.erdosproblems.com/forum/thread/124/proof-claims.",
+    "The current positive-cutoff formal statement is Erdos124.erdos124.ne_zero, marked research open and containing sorry; https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/124.lean."
+  ]
+}

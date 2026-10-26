@@ -1,0 +1,113 @@
+200 cells, 33 facets recorded, 12 s
+400 cells, 94 facets recorded, 42 s
+600 cells, 196 facets recorded, 72 s
+800 cells, 277 facets recorded, 104 s
+1000 cells, 374 facets recorded, 135 s
+1200 cells, 512 facets recorded, 169 s
+1400 cells, 607 facets recorded, 198 s
+1600 cells, 695 facets recorded, 230 s
+1800 cells, 790 facets recorded, 260 s
+2000 cells, 923 facets recorded, 292 s
+{
+  "cells re-run": 2199,
+  "facets carrying a negative edge": 2556,
+  "by the number of negative edges on the facet": {
+    "1": {
+      "facets": 1782,
+      "median ratio": 634.43,
+      "worst ratio": 17.12
+    },
+    "2": {
+      "facets": 538,
+      "median ratio": 423.19,
+      "worst ratio": 24.0
+    },
+    "3": {
+      "facets": 167,
+      "median ratio": 346.64,
+      "worst ratio": 28.4
+    },
+    "4": {
+      "facets": 50,
+      "median ratio": 203.12,
+      "worst ratio": 22.51
+    },
+    "5": {
+      "facets": 14,
+      "median ratio": 333.69,
+      "worst ratio": 39.95
+    },
+    "6": {
+      "facets": 4,
+      "median ratio": 102.38,
+      "worst ratio": 17.77
+    },
+    "7": {
+      "facets": 1,
+      "median ratio": 280.43,
+      "worst ratio": 280.43
+    }
+  },
+  "by the cell's edge count, floor power of two": {
+    "64": {
+      "facets": 135,
+      "median ratio": 717.2,
+      "worst ratio": 157.07
+    },
+    "128": {
+      "facets": 793,
+      "median ratio": 617.0,
+      "worst ratio": 222.27
+    },
+    "256": {
+      "facets": 839,
+      "median ratio": 533.13,
+      "worst ratio": 22.51
+    },
+    "512": {
+      "facets": 789,
+      "median ratio": 462.55,
+      "worst ratio": 17.12
+    }
+  },
+  "by the cell's rank": {
+    "3": {
+      "facets": 170,
+      "median ratio": 651.16,
+      "worst ratio": 157.07
+    },
+    "4": {
+      "facets": 557,
+      "median ratio": 621.75,
+      "worst ratio": 262.09
+    },
+    "5": {
+      "facets": 196,
+      "median ratio": 572.3,
+      "worst ratio": 273.77
+    },
+    "6": {
+      "facets": 5,
+      "median ratio": 682.09,
+      "worst ratio": 294.01
+    },
+    "14": {
+      "facets": 1628,
+      "median ratio": 507.29,
+      "worst ratio": 17.12
+    }
+  },
+  "by source": {
+    "check-3, box triple": {
+      "facets": 933,
+      "median ratio": 617.81,
+      "worst ratio": 157.07
+    },
+    "run-2, generic": {
+      "facets": 1623,
+      "median ratio": 505.93,
+      "worst ratio": 17.12
+    }
+  },
+  "seconds": 478
+}

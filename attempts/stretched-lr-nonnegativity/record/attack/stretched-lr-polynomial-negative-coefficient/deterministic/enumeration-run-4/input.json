@@ -1,0 +1,5 @@
+{"purpose": "exhaustive scan of the 7-part box: every canonical triple with largest length 7 and |lam| <= 30",
+ "strata": {"parts": [7], "sizes": "7..30"}, "mode": "scan2.py --horn-filter, streaming enumeration by lam, no cap",
+ "encoder": "scan2.py (lrcalc for c; horn.py for the 2042 essential Horn triples of n = 7 and the saturation test; hive inequalities -> Normaliz AffineDim and EhrhartQuasiPolynomial)",
+ "filters": "canonical triples (mu >= nu lex, no common column at length 7); c >= 3; primitive (no saturated essential Horn inequality: by the King-Tollu-Toumazet factorisation theorem a saturated one gives P = P1 P2 with both factors triples of length <= 6 and size <= 30, covered by Ferudun 2026 (length <= 4) and enumeration-run-2 and -3); dim H >= 3",
+ "horn_filter_validation": "the essential triple counts 12, 41, 142, 521, 2042 for n = 3..7 (142 at n = 5 agrees with Ferudun 2026); the factorisation P = P1 P2 was checked on 150 random saturated 6-part triples against Normaliz, 0 failures (tools session log, 2026-09-03)"}

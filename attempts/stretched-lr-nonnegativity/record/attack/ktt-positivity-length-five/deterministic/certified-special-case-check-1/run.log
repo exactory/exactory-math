@@ -1,0 +1,11 @@
+200 polytopes, 200 agree, 1264 edge types, 16s
+400 polytopes, 400 agree, 2743 edge types, 34s
+600 polytopes, 600 agree, 3572 edge types, 53s
+800 polytopes, 800 agree, 5085 edge types, 72s
+1000 polytopes, 1000 agree, 8001 edge types, 97s
+1200 polytopes, 1200 agree, 8001 edge types, 113s
+1400 polytopes, 1400 agree, 8030 edge types, 130s
+1600 polytopes, 1600 agree, 8056 edge types, 146s
+1800 polytopes, 1800 agree, 8133 edge types, 164s
+2000 polytopes, 2000 agree, 8305 edge types, 186s
+done {"polytopes": 2000, "agree_top_three": 2000, "mismatches": 0, "edge_types": 8305, "edges_total": 133188, "facets_histogram": {"8": 770, "10": 4, "11": 70, "12": 104, "13": 165, "14": 176, "15": 267, "16": 159, "17": 24, "18": 42, "19": 33, "20": 70, "21": 69, "22": 28, "23": 17, "24": 2}, "type_size_histogram": {"5": 3876, "6": 3023, "7": 1036, "8": 332, "9": 29, "10": 9}, "seconds": 186.2}

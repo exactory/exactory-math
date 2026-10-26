@@ -1,0 +1,10 @@
+{
+  "statement": "For every nonempty finite set D of distinct integers at least 4, write sigma(D)=sum_{d in D}1/(d-1) and H={h in D:sigma(D minus {h})>=1}; if H is nonempty with gcd(H)=1, then for every integer k>=1 and finite set F of labels (d,j) with d in D and j>=k, there is an explicitly recursive infinite sequence Q of distinct remaining labels, strictly increasing in numerical value q_i, whose complement R has finite subset sums with all consecutive gaps at most g=ceil(sum_{d in D}d^k/(d-1)+sum_{(d,j) in F}d^j), such that every h in H occurs infinitely often in Q with bounded gaps between its selected exponents and sum_i ||beta q_i||^2=infinity for every beta in R/Z other than zero; moreover for every integer L>=1 the finite subset sums of all remaining labels contain L consecutive integers, with a terminating witness procedure and each label used at most once.",
+  "form": "full-proof",
+  "evidence": "moves/001-cyclic-spectral-thinning.md",
+  "novelty": "See study/problem.md, novelty.md and units/1/novelty.md. Nine repeated exact-claim/object queries covered five first-tier indices and general search. No exact prior theorem identified within bounded index checks; novelty and priority remain uncertain.",
+  "moves": [
+    1
+  ],
+  "costs": []
+}

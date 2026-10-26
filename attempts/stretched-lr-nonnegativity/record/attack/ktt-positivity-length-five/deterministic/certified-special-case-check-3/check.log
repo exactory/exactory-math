@@ -1,0 +1,4 @@
+summary: 2006 cells, 0 with a negative ray value, minimum 0, maximum 143/15, 9145 rays
+certified triples: 2005 carried by a cell, 0 disagree with certified-special-case-check-1
+extreme rays: 9145 checked, 0 are not triples of partitions of equal size; 2006 cells whose own triple was tested for membership in the cone of its rays, 0 failures, 0 with too many subsets to decide
+independent enumeration: 12 cells and 24 rays recomputed without Normaliz, 0 mismatches

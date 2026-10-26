@@ -1,0 +1,55 @@
+# Independent admission review of proposal-000024
+
+Decision: approve a bounded analytical attack only. The exact all-V H_V theorem is UNPROVED. This review accepts no mathematical result, implication bridge, root closure, account renewal or computation.
+
+The reviewed submission is revision438, proposal digest `ba79f654d8cbe8e0d235c64559fa8a36583a2540957cf5e85889e4d8d9571c12`, claim digest `3ab0ff3a74e613317458a0999a97eff9ab13b4314728b1436fda18b75d4cc73b`. Reviewer provenance is source `host`, actor and attestation `01a08274-2455-72f3-a832-a8294f3f12d1`, supplied by the host through the assignment. The author is actor `/root`, attestation `01a07806-b2c5-7163-86d2-92e8e272b9eb`. These identifiers differ in both required fields. I have not cryptographically authenticated the host provenance boundary.
+
+## Judgment
+
+The method is credible enough for its small proposed allowance. It identifies the actual objects to inspect, the first unused powers at a hypothetical first failure, and the algebraic inputs to test: the geometric-prefix identity, integrality, divisibility, distinct bases and exact reciprocal mass. CP28 supplies tail control and a specific successful configuration, while the saved zero-cutoff proof supplies the exact weaker inequality. This gives the proposed structural analysis more content than a generic request to assume a counterexample.
+
+The main uncertainty is whether those inputs yield any additional restriction across arbitrary V. No such restriction is established in the preflight, and this review derives none. I do not infer feasibility from the existence of CP28's enormous finite bound. Repeating that bound would already fail the proposal's substantive-progress requirement. However, a fixed-V computational range being impractical does not by itself show that an untried analytical classification across V has failed. I therefore permit the initial test of that operation, with the stated immediate stopping rule. There are no blocking objections to this limited admission.
+
+The allowance is at most three analytical step3 applications on inherited account2, ending earlier on any actual failure. A known positive object passing every extracted condition without further distinction is a failure, as is leaving only an unusable range. The third unresolved application ends this strategy. The 24-move and 24-run template limits do not expand that allowance. No mathematical process is included. Normal admission, eligible native planning, fresh strategy assessment and reservation remain necessary before execution; this review does not certify that those controller steps have occurred.
+
+## Claim, contribution and significance
+
+The exact target quantifies over every finite nonempty set V of distinct integers at least4, with reciprocal mass exactly1 and an independent pair, and every real x>1. Its least power is defined using at least x, including power endpoints. Neither gcd(V)=1 nor H_V strictness is an input assumption. CP28's integer-scale test supports this all-real formulation for each V; it is not a finite classification of all V.
+
+The proposed root route retains three distinct premises: the new universal margin assertion, CP28 in obligation55, and completeness on the exact complementary structural domain. The new bridge remains unaccepted. In the structural case the candidate supplies CP28's margin hypothesis, and CP28 with no finite deletion supplies the required positive-cutoff conclusion. The other case is assigned to the explicit remainder. This is an appropriate proposed contribution, not a proof or acceptance of the bridge. The original root and all44 existing residual obligations remain.
+
+A universal proof would remove an independent all-scale condition throughout CP28's other structural domain. This is meaningful even without an asserted new example or publication priority. It would still require the common-radix half-mass supply and would not solve the original mass-one problem, arbitrary mixed-base half-mass units or the proper one-supply problem. An exact margin counterexample would refute only the automatic extension. A partial obstruction needs a precise new exclusion and independent result review; a repeated finite test or an unresolved hypothesis record earns no progress credit.
+
+The retained failures do not already decide this new claim. Node8 ended without a compatible support-cost seed. Node15's scalar obstruction also held for known positive inputs and therefore gave no compression. Node18's partition criterion required more than two units of mass. The proposed first-unused-power analysis does not construct those switches, normalize all individual base streams, or allocate two whole mass-one supplies. Their failures remain in force, and node14 remains deferred.
+
+## Source comparisons
+
+The tsaf proof in the saved discussion and `algebraic_gap` in the selected Lean text establish the Brown inequality with an added1. Their sorted supply includes a separate exponent-zero occurrence for each base. They do not state H_V(x)>x, and they do not imply arbitrary positive-cutoff completeness. The canonical Lean file distinguishes those two questions and contains placeholders; it is a statement source, not a checked proof artifact.
+
+BEGL1996 Section1 states the positive-cutoff conjecture, and Section2 Claims1 and3 separate a bounded-gap supply from disjoint arithmetic-progression contributions. Section3's small-set examples include cutoff-one results and do not supply the universal H_V assertion. The current saved webpage's denominator typo does not alter the original claim.
+
+Kovač-Tao, arXiv2406.17593v4, Theorem2.3 and the complete Section4 proof concern reciprocal Lambert subseries. The proof explicitly chooses positive epsilon while preserving strict reciprocal mass above1. This is a useful comparison of the geometric method's boundary, not an equality-one theorem. The saved v2 title and metadata identify a different earlier version; I did not use it as the Theorem2.3 input.
+
+The ten-query record meets a documented attempt floor across arXiv, Semantic Scholar, Crossref, zbMATH and the problem database. It does not provide complete successful coverage: Semantic Scholar returned429, zbMATH returned404 with no results, and the joint secondary batches lack individual query attribution. The metadata and selected text inspected did not identify an exact prior resolution. That is a limited local finding. No new literature search or exhaustive novelty assessment was performed.
+
+## Actual reading and verification limits
+
+The following identifies what I actually inspected, rather than adopting the author's reading claims.
+
+- Read the complete review context, complete proposal including inputs and decomposition, and all five preflight Markdown files: `SCOPE.md`, `problem.md`, `novelty.md`, `attack-the-negative-side.md`, and `QUERY_LOG.md`.
+- Read the installed0.34.2 Codex math-solver entrypoint, Codex README, full shared math-solver `SKILL.md`, full `STUDY.md`, full `references/sources.md`, full negative-side strategy and full extract-structure entry. In `SEARCH.md`, read lines643-987 for claims, proposals, decomposition, review/provenance and account rules, plus lines1-55 and188-220 for analytical/computation separation and reassessment requirements. I did not read the entire SEARCH contract or run its CLI.
+- Read the complete stored CP28 checkpoint, complete named evidence manifest, full consolidation, and the full proof's statement and Sections1,2,8,9,10 (lines1-101 and371-529). I did not directly read full-proof Sections3-7; I read their consolidation summaries. I did not repeat CP28's proof audit or inspect its upstream logarithm-bound source. The checkpoint's pending field is creation metadata; current acceptance15 is supplied context, not an acceptance chain independently audited here.
+- Read the complete supplied planning-assessment draft and all22-node comparison. Inspected selected SEARCH_TREE lines to identify retained node records. Read the actual terminal move2 line in each node8,15,18 journal, the two supplied node15/node18 retreat files, and retreats5,6,8 embedded in the review context. I did not replay complete event or journal histories.
+- Read the entire saved discussion text extraction, including tsaf's proof and the cutoff discussion; the entire canonical Lean statement file; and the complete BEGL text extraction in two parts. No PDF images were inspected. The discussion HTML in reading2 was not read in full or independently compared against the extraction; its transport metadata was inspected.
+- Read the complete saved reading3 response, including its short index and flattened selected Lean source lines0-35. This is not a claim to have read all44 upstream flattened lines or to have compiled Lean. Read complete saved readings6-8, which include v4 Theorem2.3 and all of Section4, as well as surrounding excerpts. The full Kovač-Tao paper was not read. Reading1's failed access response was read; readings4-5 were inspected only for version, title, author, correction and publication metadata.
+- Inspected Q1's returned title and abstract, Q2/Q4's complete failed responses, all five Q3 titles/DOIs and available abstracts, selected Q5 statement/status/source lines, and the joint Q6-Q10 query records, result titles/URLs and selected metadata. Secondary result bodies were not all read. None of their linked articles was newly opened. Large combined tool output was initially truncated; required skill text was subsequently reread in bounded sections. I do not count truncated secondary text as read.
+
+I independently computed SHA256 over recursively key-sorted compact UTF-8 JSON for the proposal object and its claim. Both equal the assigned digests above. I also computed raw-byte SHA256 for all23 proposal input files, and every value matches its declared input digest. The three additional raw-byte checks matched these content-addressed filenames:
+
+- CP28 manifest: `ec1f78b3488bdafa30f94a52266753c1f8b903abea426e8506fff0599cd04776`.
+- CP28 full proof: `9ab8f64b9b3e6b3c4345a94fe8efddb729123479580d3c7bab8f02b70d82aaa1`.
+- CP28 consolidation: `8def6c1a10640727ddb59037ca2bdaf69d87d5c1144332765160e3a5a5a8d88d`.
+
+Those byte checks do not establish upstream authenticity, correct source extraction, mathematical validity or freshness of every dependency. I did not recompute the checkpoint anchor digest, hash every manifest dependency, audit the live account ledger, or authenticate revision438 against controller events. The reported account2 usage of6/24 moves and24 historical moves, with zero runs and reservations, is consistent across the supplied proposal and planning record but remains a supplied administrative fact.
+
+I performed only local reads, JSON/text inspection and metadata hashing. I derived no proof or counterexample, ran no mathematical process, made no source query, called no Exactory CLI, delegated no work, and opened no separate earlier verdict or author conversation/history. The only written files are this Markdown review and its JSON companion, created through apply_patch.

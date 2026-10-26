@@ -1,0 +1,4 @@
+{"purpose": "validate the local-formula extraction: for full-dimensional five-part hive polytopes, recompute the top three Ehrhart coefficients from the faces of codimension 0, 1, 2 and compare with the coefficients recorded and certified by the box attack; and record the edge-type statistics that the codimension-five step needs",
+ "command": "python3 run.py 2000",
+ "inputs": "the full-dimensional (dim H = 6) records of ../../../stretched-lr-polynomial-negative-coefficient/deterministic/enumeration-run-2 (13,217 of them), whose coefficients were computed by Normaliz from the hive inequalities and independently pinned by lrcalc counts with exact interpolation (certified-special-case-check-1 of that attack)",
+ "encoder": "localform.py over hivepoly.py: Normaliz for the support hyperplanes, the vertices, the face lattice and the face volumes; exact rational arithmetic for the weights and the edge lengths"}

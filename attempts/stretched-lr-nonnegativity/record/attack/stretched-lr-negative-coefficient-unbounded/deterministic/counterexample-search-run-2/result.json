@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "t3x4: 2297 pairs, 0 negatives, sample of 13 recounted from the definition, 0 mismatches",
+    "t3x5: 995 pairs, 0 negatives, sample of 13 recounted from the definition, 0 mismatches",
+    "t3x6: 280 pairs, 0 negatives, sample of 13 recounted from the definition, 0 mismatches",
+    "t4x4: 1356 pairs, 0 negatives, sample of 13 recounted from the definition, 0 mismatches",
+    "t4x5: 227 pairs, 0 negatives, sample of 13 recounted from the definition, 0 mismatches",
+    "t5x5: 15 pairs, 0 negatives, sample of 13 recounted from the definition, 0 mismatches"
+  ]
+}

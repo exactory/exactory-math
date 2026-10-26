@@ -1,0 +1,18 @@
+{
+  "statement": "No integer partitions lam, mu, nu of length at most 7 and size at most 30 with |lam| = |mu| + |nu| have a stretched Littlewood-Richardson polynomial P(t) = c^{t lam}_{t mu, t nu} with a negative coefficient (so the FrontierMath open problem 'Stretched Littlewood-Richardson coefficients' has no solution inside its box): a proof by computation with two independent programs for at most 6 parts, and computational evidence for 7 parts, where every polynomial of the 1,302,871 primitive hives is reproduced by a second polytope encoding in the same solver and matched by lrcalc at t = 1 and 2, and every non-primitive triple factorises by the King-Tollu-Toumazet theorem into triples with at most 6 parts; among the 6,855,302 computed polynomials exactly 7,469 have a coefficient below the corresponding coefficient of the unimodular simplex, all of them polytopes with D + 1 lattice points, normalized volume 2 and h*-vector (1, 0, 1, 0, ...) in dimensions 4, 5 and 6, with minimal ratios 24/25, 44/45 and 799/812 (a census in two implementations, certified-special-case-check-4).",
+  "form": "counterexample-or-computational-evidence",
+  "evidence": "units/2/evidence.md",
+  "novelty": "study/problem.md, queries Q1-Q17 (2026-09-03), and novelty.md, queries 1-13 (2026-09-03) and unit-level queries U1-U6 (2026-09-04): no source reports a computation over the box (length <= 7, size <= 30) or a negative coefficient anywhere; the problem's own page lists it as open with the author's expectation that the conjecture is false; Ferudun 2026 (arXiv:2607.22301) proves length <= 4 and reports uncertified computations without ranges; the ktt-positivity repository records a ~4 x 10^8-triple search without ranges.",
+  "moves": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "costs": []
+}

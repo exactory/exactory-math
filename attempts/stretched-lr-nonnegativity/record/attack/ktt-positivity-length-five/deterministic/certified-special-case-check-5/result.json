@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "summary: 332 cells, 732 negative edges, vertex neighbourhood fails 106 times with smallest ratio 0, facet neighbourhood fails 0 times with smallest ratio 1567265857/18738000",
+    "against certified-special-case-check-4: 332 cells carrying a negative edge, 732 such edges",
+    "recomputed from the polytope on 25 cells: 0 ray values disagreeing with the step that built the cell, 0 rays where the shares exceed the positive part, 0 rays where the facet neighbourhood fails to dominate"
+  ]
+}

@@ -1,0 +1,4 @@
+{"purpose": "implement and validate the Berline-Vergne local weight in dimensions up to five, which no distributed code computes above dimension three",
+ "command": "python3 run.py",
+ "method": "the defining recursion of Berline-Vergne, Proposition 4.1 of arXiv:math/0507256, evaluated along a generic line as Laurent series with exact rational coefficients",
+ "source": "tools/bvweight.py, copied here"}

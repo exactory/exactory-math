@@ -1,0 +1,5 @@
+{"purpose": "class E: primitive hives beyond the box with few lattice points, c <= dim H + 2 (the empty-simplex shape: few points against a large volume), at 5, 6 and 7 parts",
+ "commands": ["sample_search.py --parts 5 --smin 31 --smax 120 --dmin 3 --count 3000 --seed 20260907 --workers 3 --out e5 --cmax-excess 2",
+              "sample_search.py --parts 6 --smin 31 --smax 80 --dmin 3 --count 2000 --seed 20260908 --workers 3 --out e6 --cmax-excess 2",
+              "sample_search.py --parts 7 --smin 31 --smax 60 --dmin 3 --count 1000 --seed 20260909 --workers 3 --out e7 --cmax-excess 2"],
+ "encoder": "sample_search.py (lrcalc for c; horn.py primitivity; hive inequalities -> Normaliz; the --cmax-excess filter keeps c <= dim + 2)"}

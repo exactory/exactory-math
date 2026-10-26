@@ -1,0 +1,10 @@
+{
+  "statement": "For every nonempty finite set D of distinct integers at least 3 with gcd(D)=1 for which there exist an integer B>=2, a nonempty finite set A of positive integers and a nonempty set C contained in D minus R, where R={B^a:a in A} is contained in D, such that sigma(R)=sum_{d in R}1/(d-1)>=1/2, gcd({B} union C)=1 and sigma(D minus (R union C))>=1, every integer k>=1 and every finite set F of labelled occurrences (d,j) with d in D and j>=k admit N(D,k,F) such that every integer n>=N is a sum of finitely many remaining occurrences d^j, each pair (d,j) used at most once; coincident numerical values from different pairs remain separately available.",
+  "form": "full-proof",
+  "evidence": "moves/001-common-radix-reserve.md",
+  "novelty": "See study/problem.md and study/REFERENCE_PATHS.md for the original study and primary-source reading; novelty.md and study/unit-1/QUERY_LOG.md record the exact unit statement, all seven unit queries, raw response paths, overlap with the earlier fixed binary block, the limited Star Fleet Math problem254 reading and the fixed-count stop. No exact prior theorem was identified in this bounded search, not an exhaustive priority claim.",
+  "moves": [
+    1
+  ],
+  "costs": []
+}

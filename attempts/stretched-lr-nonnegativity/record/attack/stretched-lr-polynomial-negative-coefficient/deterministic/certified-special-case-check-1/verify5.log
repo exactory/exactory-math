@@ -1,0 +1,27 @@
+50000 checked, 50000 agree, 3s, max P(6) 29547
+100000 checked, 100000 agree, 6s, max P(6) 70287
+150000 checked, 150000 agree, 9s, max P(6) 70287
+200000 checked, 200000 agree, 12s, max P(6) 70287
+250000 checked, 250000 agree, 15s, max P(6) 70287
+300000 checked, 300000 agree, 19s, max P(6) 73913
+350000 checked, 350000 agree, 24s, max P(6) 73983
+400000 checked, 400000 agree, 26s, max P(6) 73983
+450000 checked, 450000 agree, 30s, max P(6) 73983
+500000 checked, 500000 agree, 34s, max P(6) 73983
+550000 checked, 550000 agree, 39s, max P(6) 77833
+600000 checked, 600000 agree, 44s, max P(6) 84693
+650000 checked, 650000 agree, 49s, max P(6) 84693
+700000 checked, 700000 agree, 51s, max P(6) 84693
+750000 checked, 750000 agree, 55s, max P(6) 84693
+800000 checked, 800000 agree, 58s, max P(6) 84693
+850000 checked, 850000 agree, 62s, max P(6) 84693
+900000 checked, 900000 agree, 66s, max P(6) 84693
+950000 checked, 950000 agree, 71s, max P(6) 84693
+1000000 checked, 1000000 agree, 77s, max P(6) 92533
+1050000 checked, 1050000 agree, 83s, max P(6) 125062
+1100000 checked, 1100000 agree, 87s, max P(6) 125062
+1150000 checked, 1150000 agree, 90s, max P(6) 125062
+1200000 checked, 1200000 agree, 93s, max P(6) 125062
+1250000 checked, 1250000 agree, 96s, max P(6) 125062
+1300000 checked, 1300000 agree, 99s, max P(6) 125062
+done {"records": 1334669, "agree": 1334669, "mismatches": 0, "degree_bound": 6, "points": [0, 1, 2, 3, 4, 5, 6], "max_P6": 125062, "seconds": 101.5, "second_implementation": "lrcalc ?"}

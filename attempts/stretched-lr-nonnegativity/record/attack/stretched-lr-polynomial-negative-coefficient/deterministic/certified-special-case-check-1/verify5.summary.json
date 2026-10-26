@@ -1,0 +1,18 @@
+{
+ "records": 1334669,
+ "agree": 1334669,
+ "mismatches": 0,
+ "degree_bound": 6,
+ "points": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "max_P6": 125062,
+ "seconds": 101.5,
+ "second_implementation": "lrcalc ?"
+}

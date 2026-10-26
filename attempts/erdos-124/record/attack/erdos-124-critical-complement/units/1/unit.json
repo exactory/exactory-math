@@ -1,0 +1,10 @@
+{
+  "statement": "For every nonempty finite set D of distinct integers at least 3 with gcd(D)=1 for which there are an integer B>=2 and a nonempty finite set A of positive integers such that R={B^a:a in A} is contained in D, sigma(R)=sum_{d in R}1/(d-1)>=1/2, and V=D minus R has min V>=4, sigma(V)=1, contains multiplicatively independent integers a,b, and satisfies H_V(x)>x for every real x>1, where p_d(x) is the least nonnegative integer power of d at least x and H_V(x)=sum_{d in V}(p_d(x)-1)/(d-1), every integer k>=1 and every finite set F of labelled occurrences (d,j) with d in D and j>=k admit an integer N(D,k,F) such that every integer n>=N is a sum of finitely many remaining occurrences d^j, each labelled pair used at most once and coincident numerical values retained separately.",
+  "form": "full-proof",
+  "evidence": "moves/001-critical-complement.md",
+  "novelty": "See study/problem.md and study/REFERENCE_PATHS.md for the admitted primary-source study; study/unit-1/QUERY_LOG.md and its saved responses give the exact statement, all seven required unit-level query attempts, failed tier-one retrievals, the limited new primary reading, the explicit BEGL cutoff-one overlap and the fixed-count stop. No exact prior theorem was identified in this bounded check, not a global novelty or publication-priority claim.",
+  "moves": [
+    1
+  ],
+  "costs": []
+}

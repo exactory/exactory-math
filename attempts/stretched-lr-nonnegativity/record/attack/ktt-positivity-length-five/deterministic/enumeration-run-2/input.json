@@ -1,0 +1,8 @@
+{
+  "claim": "The linear functional that a1 becomes on a cell of the chamber complex can be read off the local Euler-Maclaurin formula, as the sum over the edges of the class weight times the lattice length, instead of from finite differences of Ehrhart coefficients. That costs nothing per triple, so a cell at a large generic triple is as cheap as a cell at a small one, and full-dimensional cells become reachable.",
+  "phase A": "the functional recomputed from the atlas on cells of certified-special-case-check-3, and its value at every extreme ray compared with the value that step obtained from certified Ehrhart differences",
+  "phase B": "full-dimensional cells at generic points of the hive cone of any size, swept for a negative value at an extreme ray, which would be a triple family with a negative linear coefficient and so a counterexample to the conjecture at rank five",
+  "weights": "the codimension-five atlas of enumeration-run-1 when the class is in it; otherwise the Berline-Vergne weight through tools/transverse.py, cached in weights.jsonl",
+  "solvers": ["PyNormaliz 2.24 / Normaliz 3.11", "tools/bvweight.py and tools/transverse.py", "Python integers and Fractions"],
+  "time budget seconds": 2400
+}

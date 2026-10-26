@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "summary: 1334669 records pinned by lrcalc at t = 0..6, 0 mismatches",
+    "third implementation (lattice-word counter + Lagrange): 310 records, 0 mismatches"
+  ]
+}

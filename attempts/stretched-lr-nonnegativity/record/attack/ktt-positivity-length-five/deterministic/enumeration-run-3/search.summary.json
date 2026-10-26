@@ -1,0 +1,77 @@
+{
+  "cells tested here": 242,
+  "of them above 684 edges": 70,
+  "cells above 684 edges from a generic point": 38,
+  "cells above 684 edges from a perturbed box triple": 32,
+  "facet ray tests here": 206072,
+  "facet ray tests above 684 edges": 157814,
+  "failing facets": 0,
+  "worst ratio here": "14.889231311833715",
+  "largest cell by edges": 1127,
+  "above 684 edges, by source": {
+    "a generic point of the cone": {
+      "cells": 38,
+      "median": 63.73,
+      "worst": 14.89
+    },
+    "a perturbed box triple": {
+      "cells": 32,
+      "median": 93.48,
+      "worst": 25.58
+    }
+  },
+  "bands, old and new together": [
+    {
+      "band": 64,
+      "cells": 28,
+      "facet ray tests": 657,
+      "worst ratio": 62.77,
+      "lower quartile": 268.6,
+      "median": 273.77,
+      "upper quartile": 281.4,
+      "median times band": 17521
+    },
+    {
+      "band": 128,
+      "cells": 149,
+      "facet ray tests": 5420,
+      "worst ratio": 58.09,
+      "lower quartile": 304.45,
+      "median": 325.36,
+      "upper quartile": 365.34,
+      "median times band": 41646
+    },
+    {
+      "band": 256,
+      "cells": 183,
+      "facet ray tests": 36185,
+      "worst ratio": 22.51,
+      "lower quartile": 75.12,
+      "median": 131.22,
+      "upper quartile": 236.26,
+      "median times band": 33592
+    },
+    {
+      "band": 512,
+      "cells": 211,
+      "facet ray tests": 178865,
+      "worst ratio": 14.89,
+      "lower quartile": 46.98,
+      "median": 83.93,
+      "upper quartile": 141.51,
+      "median times band": 42972
+    },
+    {
+      "band": 1024,
+      "cells": 3,
+      "facet ray tests": 31446,
+      "worst ratio": 23.43,
+      "lower quartile": null,
+      "median": 27.14,
+      "upper quartile": null,
+      "median times band": 27795
+    }
+  ],
+  "stopped": "run.py was stopped at its allowance with one cell in progress; its 242 recorded cells are complete and this summary is computed from them",
+  "verdict": "no failing facet; undecided, not support"
+}

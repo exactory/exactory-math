@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "summary: 1302871 records, tableau encoding agrees on 1302871, lrcalc agrees on 1302871 (t = 2 checked on 1302871), 0 mismatches",
+    "second encoding re-run (tableau polytope, Normaliz): 313 records, 0 mismatches",
+    "third implementation (lattice-word counter, t = 0..3): 30 records, 0 mismatches"
+  ]
+}

@@ -1,0 +1,4 @@
+5 parts: 1334669 polynomials, 304 with minr < 1, 304 with minr = 24/25, min 24/25, 152s
+6 parts: 4217762 polynomials, 4186 with minr < 1, 3088 with minr = 24/25, min 24/25, 554s
+7 parts: 1302871 polynomials, 2979 with minr < 1, 151 with minr = 24/25, min 24/25, 796s
+done

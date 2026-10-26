@@ -1,0 +1,7 @@
+# Admission review: scope and execution obligations
+
+Date: 2026-09-08. This planning note incorporates the independent admission review of proposal21. It is not a new mathematical result, checkpoint or execution reservation. The immutable proposal and studies remain unchanged.
+
+The source CP22, node16 move1 Section8, already rules out qualifying common radices B>=4 and says that B=3 requires base3 in R. Thus only prime radices2 and3 can occur. Collective gcd(B,V)=1 then supplies at least one individually coprime V base. The proposal's hypothetical phrase about no such base is vacuous on its exact domain, and will not be used to claim a new range or significance. Individual noncoprime members of V and gcd(V)>1 remain allowed. A proof may use a chosen coprime member, provided it handles the entire admitted domain and checks every phase and support condition.
+
+The reviewer requires one cumulative removed-weight ledger across all units, not a restart per unit. The V cutoff, tolerance and original gap are fixed before any correction. Only R cutoffs may be raised between pairs to avoid their previously used supports. The new proof must justify the CP26 prefix estimate without assuming gcd(V)=1, and establish returns on the actual period-multiple orbit rather than intersecting arbitrary syndetic sets. No mathematical program is authorized. Native planning and independent strategy reassessment remain due before an analytical entry.

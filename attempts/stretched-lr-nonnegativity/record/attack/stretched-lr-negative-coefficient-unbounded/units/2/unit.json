@@ -1,0 +1,12 @@
+{
+  "statement": "If the King-Tollu-Toumazet positivity conjecture is false, then some counterexample (lam, mu, nu) with a negative coefficient in c^{t lam}_{t mu, t nu} is primitive (every essential Horn inequality strict), has c >= 3 and dim H >= 3, has a partition of at least 5 parts, lies outside the box of length at most 7 and size at most 30 (for at most 6 parts a theorem, for 7 parts the box attack's evidence), lies at 5 parts in a full-dimensional hive with a negative linear coefficient or in a hive of dimension 3 to 5, and lies in the closed cone of a chamber of the Littlewood-Richardson chamber complex of its rank on which the polynomial giving one coefficient of P (the degree-k homogeneous part of Rassart's chamber polynomial) is negative at it; when it is interior to that chamber, an open sub-cone of the chamber consists of counterexamples, so counterexamples of every multiple of its size and of infinitely many sizes exist.",
+  "form": "conditional-or-special-case",
+  "evidence": "units/2/proof.md",
+  "novelty": "study/problem.md and novelty.md of this attack (stage 3, 2026-09-04) and the unit-level queries V1-V2 in novelty.md (2026-09-05): the necessary conditions assemble the King-Tollu-Toumazet factorisation theorem, the c <= 2 and length <= 4 theorems, Rassart's piecewise polynomiality and the box computation; no source states the conjunction or the chamber consequence.",
+  "moves": [
+    1
+  ],
+  "costs": [
+    "obligations"
+  ]
+}

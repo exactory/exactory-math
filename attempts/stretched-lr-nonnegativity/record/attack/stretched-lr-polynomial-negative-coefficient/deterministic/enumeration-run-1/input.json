@@ -1,0 +1,5 @@
+{"purpose": "calibration scan: where do the smallest coefficients live in the box?",
+ "strata": {"parts": [5, 6, 7], "sizes": [22, 24, 26, 28, 30]},
+ "samples_per_stratum": {"max_part_10": 3000, "max_part_30": 1000},
+ "seed": 20260903, "encoder": "scan.py (hive inequalities -> Normaliz EhrhartQuasiPolynomial)",
+ "filters": "canonical triples (mu >= nu lex, no common column at the largest length), c >= 3 (lrcalc), dim H >= 3"}

@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "summary: 3406 classes, 5 negative, minimum -347/109824, maximum 906853/3628800",
+    "orthogonally splitting classes: 135 checked against the products of the closed formulas, 0 mismatches",
+    "end-to-end identity: 5 hive polytopes, 0 mismatches",
+    "negative classes: 5, each realised by a hive polytope whose certified linear coefficient the atlas reproduces: 5 checked, 0 mismatches"
+  ]
+}

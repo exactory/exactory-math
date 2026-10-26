@@ -1,0 +1,89 @@
+{
+  "the per-facet negative-edge count, by the cell's edge-count band": {
+    "64": {
+      "facets": 135,
+      "maximum count": 1,
+      "mean count": 1.0,
+      "share of facets with three or more": 0.0
+    },
+    "128": {
+      "facets": 793,
+      "maximum count": 3,
+      "mean count": 1.1,
+      "share of facets with three or more": 0.001
+    },
+    "256": {
+      "facets": 839,
+      "maximum count": 7,
+      "mean count": 1.56,
+      "share of facets with three or more": 0.117
+    },
+    "512": {
+      "facets": 789,
+      "maximum count": 6,
+      "mean count": 1.7,
+      "share of facets with three or more": 0.174
+    }
+  },
+  "the same, by the cell's rank": {
+    "3": {
+      "facets": 170,
+      "maximum count": 3,
+      "mean count": 1.06
+    },
+    "4": {
+      "facets": 557,
+      "maximum count": 2,
+      "mean count": 1.09
+    },
+    "5": {
+      "facets": 196,
+      "maximum count": 2,
+      "mean count": 1.12
+    },
+    "6": {
+      "facets": 5,
+      "maximum count": 1,
+      "mean count": 1.0
+    },
+    "14": {
+      "facets": 1628,
+      "maximum count": 7,
+      "mean count": 1.63
+    }
+  },
+  "the margin against the count, inside the 512-edge band only": {
+    "1": {
+      "facets": 433,
+      "median ratio": 549.33,
+      "worst ratio": 17.12
+    },
+    "2": {
+      "facets": 219,
+      "median ratio": 444.8,
+      "worst ratio": 24.0
+    },
+    "3": {
+      "facets": 90,
+      "median ratio": 315.6,
+      "worst ratio": 36.72
+    },
+    "4": {
+      "facets": 35,
+      "median ratio": 274.63,
+      "worst ratio": 34.84
+    },
+    "5": {
+      "facets": 8,
+      "median ratio": 232.67,
+      "worst ratio": 39.95
+    },
+    "6": {
+      "facets": 4,
+      "median ratio": 102.38,
+      "worst ratio": 17.77
+    }
+  },
+  "maximum count observed": 7,
+  "reading": "the count grows with the cell, from a maximum of 1 and a mean of 1.00 in the 64-edge band to a maximum of 7 and a mean of 1.77 in the 256- and 512-edge bands, and the count still moves the margin with the cell's size held fixed, so the cell's size acts on the margin through the count rather than not at all"
+}

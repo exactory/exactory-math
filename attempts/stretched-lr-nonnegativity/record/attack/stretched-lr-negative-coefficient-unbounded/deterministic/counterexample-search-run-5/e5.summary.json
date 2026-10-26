@@ -1,0 +1,124 @@
+{
+ "tried": 1946286,
+ "c_ge_3": 44748,
+ "primitive": 34389,
+ "dim_ok": 3000,
+ "recorded": 3000,
+ "negative": 0,
+ "quasi": 0,
+ "seconds": 100.3,
+ "min_ratio": "1",
+ "min_ratio_at": {
+  "lam": [
+   30,
+   25,
+   16,
+   10,
+   4
+  ],
+  "mu": [
+   23,
+   9
+  ],
+  "nu": [
+   18,
+   15,
+   12,
+   8
+  ],
+  "c": 4,
+  "dim": 3,
+  "den": 6,
+  "num": [
+   6,
+   11,
+   6,
+   1
+  ],
+  "V": "1",
+  "maxden": 1,
+  "minr": "1",
+  "a1": "11/6",
+  "neg": false
+ },
+ "min_a1": "11/6",
+ "min_a1_at": {
+  "lam": [
+   30,
+   25,
+   16,
+   10,
+   4
+  ],
+  "mu": [
+   23,
+   9
+  ],
+  "nu": [
+   18,
+   15,
+   12,
+   8
+  ],
+  "c": 4,
+  "dim": 3,
+  "den": 6,
+  "num": [
+   6,
+   11,
+   6,
+   1
+  ],
+  "V": "1",
+  "maxden": 1,
+  "minr": "1",
+  "a1": "11/6",
+  "neg": false
+ },
+ "max_volume_with_c_le_dim_plus_2": "3",
+ "max_volume_at": {
+  "lam": [
+   16,
+   15,
+   6,
+   5,
+   2
+  ],
+  "mu": [
+   12,
+   11
+  ],
+  "nu": [
+   9,
+   8,
+   3,
+   1
+  ],
+  "c": 5,
+  "dim": 3,
+  "den": 2,
+  "num": [
+   2,
+   4,
+   3,
+   1
+  ],
+  "V": "3",
+  "maxden": 2,
+  "minr": "12/11",
+  "a1": "2",
+  "neg": false
+ },
+ "args": {
+  "parts": 5,
+  "smin": 31,
+  "smax": 120,
+  "dmin": 3,
+  "full": false,
+  "count": 3000,
+  "seed": 20260907,
+  "workers": 3,
+  "out": "e5",
+  "cmax_excess": 2
+ }
+}

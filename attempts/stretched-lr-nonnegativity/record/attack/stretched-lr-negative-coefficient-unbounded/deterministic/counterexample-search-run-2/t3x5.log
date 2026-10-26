@@ -1,0 +1,21 @@
+995 margin pairs
+50/995 in 5s, negatives 0, min ratio 2975/2283
+100/995 in 5s, negatives 0, min ratio 2975/2283
+150/995 in 6s, negatives 0, min ratio 2975/2283
+200/995 in 7s, negatives 0, min ratio 2975/2283
+250/995 in 8s, negatives 0, min ratio 2975/2283
+300/995 in 8s, negatives 0, min ratio 2975/2283
+350/995 in 10s, negatives 0, min ratio 2975/2283
+400/995 in 12s, negatives 0, min ratio 2975/2283
+450/995 in 12s, negatives 0, min ratio 2975/2283
+500/995 in 13s, negatives 0, min ratio 2975/2283
+550/995 in 14s, negatives 0, min ratio 2975/2283
+600/995 in 17s, negatives 0, min ratio 2975/2283
+650/995 in 19s, negatives 0, min ratio 2975/2283
+700/995 in 19s, negatives 0, min ratio 2975/2283
+750/995 in 20s, negatives 0, min ratio 2975/2283
+800/995 in 21s, negatives 0, min ratio 2975/2283
+850/995 in 22s, negatives 0, min ratio 2975/2283
+900/995 in 24s, negatives 0, min ratio 2975/2283
+950/995 in 27s, negatives 0, min ratio 2975/2283
+done {"k": 3, "N": 5, "total_max": 14, "pairs": 995, "negatives": 0, "min_ratio": "2975/2283", "min_ratio_at": {"r": [3, 1, 1], "c": [1, 1, 1, 1, 1], "dim": 8, "coeffs": ["1", "85/24", "11363/2016", "169/32", "1193/384", "55/48", "49/192", "1/32", "13/8064"], "minr": "2975/2283", "a1": "85/24", "neg": false, "sec": 0.03}, "seconds": 32.4}

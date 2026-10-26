@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "summary: 193 swept cells, 193 of them full dimensional, 4764 rays, 0 with a negative ray value, minimum 0, largest triple 722265; phase A compared 9145 rays with 0 mismatches",
+    "extreme rays: 4764 checked, 0 are not triples of partitions of equal size",
+    "the ray sum, by the Ehrhart quasi-polynomial the sweep never used: 10 cells, 0 mismatches",
+    "the ray sum again, by the depth-first hive enumerator: 0 cells, 0 mismatches, 12 skipped for having more hives than the cap",
+    "weights computed by this run: 1783 held, 34 whose cone and lattice split into unimodular blocks checked against the products of the closed formulas, 0 mismatches"
+  ]
+}

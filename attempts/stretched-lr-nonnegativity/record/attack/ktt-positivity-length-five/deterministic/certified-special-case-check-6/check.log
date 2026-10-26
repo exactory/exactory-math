@@ -1,0 +1,3 @@
+summary: 2199 cells, 28691 facets of which 2556 carry a negative edge, 0 cells with a failing facet, smallest ratio 4730093/276213
+against certified-special-case-check-4: 332 cells carry a negative edge, 332 here
+recomputed from the polytope on 20 cells: 0 rays where the facet shares do not add up to the recorded value, 0 facets failing to pay for their negative edges

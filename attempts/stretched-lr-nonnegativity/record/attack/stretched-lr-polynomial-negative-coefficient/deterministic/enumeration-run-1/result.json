@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "checked 60 records: 29 pinned (deg+2 points), 31 consistent at 6 points, 0 mismatches"
+  ]
+}

@@ -1,0 +1,1 @@
+The imported studies are the admission records. Their source paths are relative to attack/preflight/strong-surplus-seed. That directory retains the exact query ledger, saved replies, primary PDF, extracted text and inspected page images. Admission pins the original study bytes there. The native copies do not claim a new search.

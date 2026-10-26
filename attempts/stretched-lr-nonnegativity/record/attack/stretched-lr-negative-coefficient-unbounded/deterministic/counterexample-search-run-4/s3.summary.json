@@ -1,0 +1,155 @@
+{
+ "tried": "at least 4571344 (the log line at the 2000th record; the run was stopped after it)",
+ "c_ge_3": null,
+ "primitive": null,
+ "dim_ok": 1799,
+ "recorded": 1799,
+ "negative": 0,
+ "quasi": 0,
+ "seconds": 20129.0,
+ "min_ratio": "393/406",
+ "min_ratio_at": {
+  "lam": [
+   4,
+   4,
+   3,
+   3,
+   2,
+   2,
+   1,
+   1
+  ],
+  "mu": [
+   3,
+   3,
+   2,
+   2,
+   1,
+   1
+  ],
+  "nu": [
+   3,
+   2,
+   2,
+   1
+  ],
+  "c": 7,
+  "dim": 6,
+  "den": 240,
+  "num": [
+   240,
+   572,
+   524,
+   255,
+   75,
+   13,
+   1
+  ],
+  "V": "3",
+  "maxden": 3,
+  "minr": "393/406",
+  "a1": "143/60",
+  "neg": false
+ },
+ "min_a1": "11/6",
+ "min_a1_at": {
+  "lam": [
+   9,
+   9,
+   6,
+   5,
+   4,
+   3,
+   2,
+   1
+  ],
+  "mu": [
+   8,
+   8,
+   5,
+   4,
+   2
+  ],
+  "nu": [
+   4,
+   4,
+   4
+  ],
+  "c": 4,
+  "dim": 3,
+  "den": 6,
+  "num": [
+   6,
+   11,
+   6,
+   1
+  ],
+  "V": "1",
+  "maxden": 1,
+  "minr": "1",
+  "a1": "11/6",
+  "neg": false
+ },
+ "max_volume_with_c_le_dim_plus_2": "6",
+ "max_volume_at": {
+  "lam": [
+   5,
+   4,
+   4,
+   3,
+   2,
+   2,
+   1,
+   1
+  ],
+  "mu": [
+   3,
+   3,
+   2,
+   2,
+   1
+  ],
+  "nu": [
+   3,
+   2,
+   2,
+   2,
+   1,
+   1
+  ],
+  "c": 10,
+  "dim": 8,
+  "den": 20160,
+  "num": [
+   20160,
+   55872,
+   63508,
+   40488,
+   16387,
+   4368,
+   742,
+   72,
+   3
+  ],
+  "V": "6",
+  "maxden": 3,
+  "minr": "776/761",
+  "a1": "97/35",
+  "neg": false
+ },
+ "args": {
+  "parts": 8,
+  "smin": 8,
+  "smax": 40,
+  "dmin": 3,
+  "dmax": 12,
+  "full": false,
+  "count": 20000,
+  "seed": 20260913,
+  "workers": 3,
+  "out": "s3",
+  "cmax_excess": null,
+  "nu_max": null
+ },
+ "note": "The run was stopped after its first progress line (2000 recorded, 4,571,344 tried, 20,129 s); this summary was rebuilt from the records on disk (records still in the writer's buffer at the stop were lost), so 'recorded' is the number of readable records."
+}

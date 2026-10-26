@@ -79,7 +79,8 @@ For every finite simple triangle-free graph $G$,
 
 The constant cannot be lowered. Label the five-cycle $C_5$ cyclically by $1,\dots,5$. Then
 $e(C_5)=5$ and $\lambda(C_5)=2$, so $\xi(C_5)=1$, and $D(C_5)=3$: the target $K_{\{1\},\{2,5\}}$
-costs the three edges $23$, $34$, $45$, and no target costs less (Section~\ref{sec:sharp}).
+costs the three edges $23$, $34$, $45$, and no target costs less (Section~\ref{sec:sharp}). The
+balanced blow-ups $C_5[t]$ attain equality as well (Remark~\ref{rem:equality}).
 
 The proof gives slightly more: when $G$ has an edge, there is an edge $uv$ whose target
 $K_{N(v),N(u)}$ costs at most $3\,\xi(G)$, as in the bipartite lemma of \cite{LLN}. Since
@@ -255,13 +256,19 @@ The uniform average of $\Dcost_{uv}$ over the edges, which proves the bipartite 
 \cite{LLN}, can exceed $3\xi$ for triangle-free graphs. A search over all labelled triangle-free
 graphs on at most seven vertices, with eigenvalues computed to $50$ digits, finds no example on
 five or fewer vertices. On six vertices the largest excess occurs for the blow-up
-$C_5[1,1,2,1,1]$ of the five-cycle in which one vertex is replaced by two nonadjacent copies:
-there the uniform average exceeds $3\xi$ by about $0.0133$.
-Weights proportional to $x_ux_v$ also fail: on the double star $S(8,7)$, two adjacent vertices
-with $8$ and $7$ pendant neighbours, one has $\lambda^2=8+2\sqrt2$ and
-$3\xi=24-6\sqrt2\approx15.515$, while $\tfrac{2}{\lambda}\sum_{uv\in E}x_ux_v\Dcost_{uv}\approx15.985$.
-The bound $D\le3\xi$ itself holds there with room, since a pendant edge gives a target of cost
-$7$.
+$C_5[1,1,2,1,1]$ of the five-cycle in which one vertex is replaced by two nonadjacent copies.
+There $m=7$ and the seven edge costs are $5,5,5,3,3,3,3$, so the uniform average is $27/7$. The
+characteristic polynomial is $z(z^2+z-1)(z^3-z^2-5z+4)$, and $\lambda$ is the largest root $r$ of
+the cubic factor. The excess is $27/7-3(7-r^2)=3r^2-120/7\approx0.0133$. It is positive because
+the cubic is increasing on $[2,\infty)$ and takes the value $-12/7+10\sqrt{70}/49<0$ at
+$\sqrt{40/7}$, so $r^2>40/7$.
+
+Weights proportional to $x_ux_v$ also fail. In the double star $S(8,7)$, two adjacent vertices
+$a$ and $b$ with $8$ and $7$ pendant neighbours, the edge costs are $7$ on the pendant edges at
+$a$, $8$ on the pendant edges at $b$, and $56$ on the edge $ab$. Here $\lambda^2=8+2\sqrt2$ and
+$3\xi=24-6\sqrt2$, while $\tfrac{2}{\lambda}\sum_{uv\in E}x_ux_v\Dcost_{uv}=15/2+6\sqrt2$, larger by
+$12\sqrt2-33/2\approx0.47$. The bound $D\le3\xi$ itself holds there with room, since a pendant edge
+at $a$ gives a target of cost $7$.
 \end{remark}
 
 \begin{remark}[A matrix form]
@@ -273,16 +280,28 @@ vertices the matrix
 is positive semidefinite; the key inequality of Section~\ref{sec:proof} is $x^{\mathsf T}Qx\ge0$.
 \end{remark}
 
-\begin{remark}[Equality in the weighted bound]
+\begin{remark}[Equality]\label{rem:equality}
 The three inequalities used in Section~\ref{sec:proof} are all equalities for complete bipartite
 graphs and for the balanced blow-ups $C_5[t]$, in which every vertex of $C_5$ is replaced by an
 independent set of size $t$ and every edge by a complete bipartite graph $K_{t,t}$. On $K_{s,t}$
 the eigenvector is constant on each part and $G[W_u]$ has no edges. On the regular graph $C_5[t]$
 the eigenvector is constant, and for every $u$ each edge $zz'$ of $G[W_u]$ joins the two classes
 at distance two from the class of $u$, whose neighbourhoods together contain $N(u)$. Hence the
-weighted average equals $3\xi$ on these graphs. This does not by itself give $D(C_5[t])=3\xi$,
-which needs a lower bound on $D$; we have $\xi(C_5[t])=t^2$, and a computer check found
-$D(C_5[t])=3t^2$ for $t\le9$.
+weighted average equals $3\xi$ on these graphs.
+
+Equality in Theorem~\ref{thm:main} itself also holds on every $C_5[t]$: $D(C_5[t])=3t^2=3\,\xi(C_5[t])$
+for every $t\ge1$. This follows from $\xi(H[t])=t^2\xi(H)$ and $D(H[t])=t^2D(H)$, which hold for
+every graph $H$ and every $t\ge1$, where $H[t]$ replaces each vertex of $H$ by an independent set
+of size $t$ and each edge by a complete bipartite graph $K_{t,t}$. The first identity holds
+because $e(H[t])=t^2e(H)$ and the adjacency matrix of $H[t]$ is the Kronecker product of that of
+$H$ with the all-ones $t\times t$ matrix, so its nonzero eigenvalues are $t$ times those of $H$.
+For the second, write the cost of a target as $e(H[t])-g(A,B)$ with the gain
+$g(A,B)=2e(A,B)-|A||B|$. Fix $A$ and $B$ outside one class $X$, and let $a=|A\cap X|$ and
+$b=|B\cap X|$, so $a+b\le t$. Since $X$ is independent, the gain has the form
+$\gamma+\alpha a+\beta b-ab$, which is at most $\gamma+t\max(\alpha,\beta,0)$; this value is attained
+by putting all of $X$ into $A$, all of $X$ into $B$, or $X$ into neither part. Rounding the classes
+one at a time gives an optimal target that is a union of whole classes, and the gain of such a
+target is $t^2$ times the gain of the corresponding target of $H$.
 \end{remark}
 
 \section{Formal verification}
@@ -319,7 +338,12 @@ the challenge, uses only the permitted axioms, and is accepted by the kernel. Wi
 \texttt{lean4lean}, \texttt{nanoda}, \texttt{con-leche} and \texttt{con-ron}); all six kernels
 accepted it on 25 October 2026. That run used the option \texttt{--inadvisably-no-sandbox},
 because the sandbox requires Linux; a checker who does not trust our files can repeat it with the
-sandbox.
+sandbox. The four external checkers are those bundled with the Lean v4.35.0 toolchain.
+
+To reproduce the checks, run in the folder \texttt{lean/} of the repository (see Data
+availability): \texttt{lake exe cache get}, \texttt{lake build}, \texttt{lake env lean Audit.lean}
+and \texttt{lake comparator --paranoid}. The output of our run is the file
+\texttt{lean/checks/comparator-paranoid.txt}.
 
 \section*{How the result was obtained}
 
@@ -328,15 +352,20 @@ The problem was created by the math-conjecturer harness of exactory and posted o
 which the Anthropic language model Claude Fable~5.1 wrote the proof, Claude Opus~5.5 reviewed it
 independently, and the OpenAI model gpt-6-astra reviewed it adversarially. Every identity and inequality of the
 proof was also checked numerically, with exact integer arithmetic for the combinatorial steps, on
-$2{,}918$ triangle-free graphs. The Lean proof was written by OpenAI Codex with gpt-6-astra and checked as
+$2{,}918$ triangle-free graphs (the script \texttt{record/scripts/verify\_proof\_steps.py}, with
+its output in \texttt{record/checks/}). The Lean proof was written by OpenAI Codex with gpt-6-astra and checked as
 described above. No human mathematician has yet reviewed the proof.
 
 \section*{Data availability}
 
-The Lean sources, the formal statement, the configuration of \texttt{lake comparator} and the
-scripts of the numerical checks are in the public repository
+The Lean sources, the formal statement, the configuration of \texttt{lake comparator}, the logs
+of the checks and the scripts of the numerical checks are in the public repository
 \url{https://github.com/exactory/exactory-math}, folder
-\texttt{attempts/triangle-free-spectral-stability}.
+\texttt{attempts/triangle-free-spectral-stability}. The version checked as described in this paper
+is commit \texttt{7194c5784dba0cfe43dd5951f65e62f1b9c9456e}: the Lean files are in \texttt{lean/},
+the log of \texttt{lake comparator} in \texttt{lean/checks/}, and the scripts of the numerical
+checks of Remark~\ref{rem:weights} and of the proof steps, with their outputs, in \texttt{record/scripts/} and
+\texttt{record/checks/}.
 
 \begin{thebibliography}{9}
 \bibitem{Lean4} L.~de~Moura and S.~Ullrich, The Lean~4 theorem prover and programming language,

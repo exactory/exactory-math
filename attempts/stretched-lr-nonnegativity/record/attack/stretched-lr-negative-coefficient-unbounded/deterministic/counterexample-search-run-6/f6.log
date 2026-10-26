@@ -1,0 +1,2 @@
+2000 recorded (127896155 tried), 2405s, negatives 0, min ratio 24/25, min a1 11/6
+done {"tried": 127896155, "c_ge_3": 96685, "primitive": 7542, "dim_ok": 2000, "recorded": 2000, "negative": 0, "quasi": 0, "seconds": 2404.8, "min_ratio": "24/25", "min_a1": "11/6", "max_volume_with_c_le_dim_plus_2": "10", "args": {"parts": 6, "smin": 31, "smax": 80, "dmin": 3, "full": false, "count": 2000, "seed": 20260911, "workers": 3, "out": "f6", "cmax_excess": 2, "nu_max": 8}}

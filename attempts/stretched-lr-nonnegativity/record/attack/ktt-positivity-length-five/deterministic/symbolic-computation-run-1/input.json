@@ -1,0 +1,4 @@
+{"purpose": "decide whether the recorded Ehrhart data of five-part hive polytopes determines the codimension-five weights of a McMullen local formula",
+ "command": "python3 run.py",
+ "inputs": "../certified-special-case-check-1: the edges, lattice lengths and types of 2,000 full-dimensional five-part hive polytopes, with their certified linear coefficients",
+ "method": "merge the types into isometry classes of (Z^6, standard inner product) by isotypes.canonical, build one linear equation per polytope, and reduce exactly over the rationals"}

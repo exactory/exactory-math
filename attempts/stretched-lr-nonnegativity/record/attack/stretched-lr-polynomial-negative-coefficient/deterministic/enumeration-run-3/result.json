@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "completeness: sizes 6..30 recounted independently, 0 mismatches",
+    "recount: 80 records, 0 pinned (deg+2 points), 80 consistent at 5 points; polynomials in scan 4217762, negatives 0, summary {\"triples\": 31745644, \"c_ge_3\": 6564885, \"dim_ge_3\": 4217762, \"period_ne_1\": 0, \"negative\": 0, \"lams\": 8528, \"seconds\": 1883.0}"
+  ]
+}

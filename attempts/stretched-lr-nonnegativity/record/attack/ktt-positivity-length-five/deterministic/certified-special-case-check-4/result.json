@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "summary: 2199 cells, 332 carry an edge of a negative-weight class, 226740 edges of which 732 are of such a class",
+    "weights: 5142 distinct classes, 21 negative, 0 conflicts between the two files, most negative -347/109824",
+    "the reduction's premise: 2199 cells matched to the step that built them, 0 failures",
+    "cells carrying a negative class, at the sum of their rays, by the Ehrhart quasi-polynomial: 8 checked, 0 mismatches"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "dim1_halfline: 1/2 agrees with the weight of a half-line",
+    "dim2_orthant: 1/4 agrees with Castillo-Liu Lemma 3.3",
+    "dim2_shear: 3/8 agrees with Castillo-Liu Lemma 3.3",
+    "dim2_obtuse: 1/8 agrees with Castillo-Liu Lemma 3.3",
+    "dim2_square_b: 1/4 agrees with Castillo-Liu Lemma 3.3",
+    "dim2_square_c: 1/4 agrees with Castillo-Liu Lemma 3.3",
+    "dim2_square_d: 1/4 agrees with Castillo-Liu Lemma 3.3",
+    "dim2_index3_piece1: 3/8 agrees with Castillo-Liu Lemma 3.3",
+    "dim2_index3_piece2: 9/20 agrees with Castillo-Liu Lemma 3.3",
+    "unit square: 1 agrees with the sum of the vertex weights, the Ehrhart constant term",
+    "dim2_index3: 13/40 agrees with the valuation property under the subdivision along (0,1)",
+    "dim3_orthant: 1/8 agrees with Castillo-Liu Lemma 3.10",
+    "dim3_a: 3/16 agrees with Castillo-Liu Lemma 3.10",
+    "dim3_b: 5/16 agrees with Castillo-Liu Lemma 3.10",
+    "dim3_c: 17/72 agrees with Castillo-Liu Lemma 3.10",
+    "dim3_index2: 1/4 agrees with Castillo-Liu Lemma 3.10",
+    "dim4_orthant: 1/16 agrees with the fourth power of the half-line weight",
+    "dim5_orthant: 1/32 agrees with the fifth power of the half-line weight",
+    "dim4_split22: 9/64 agrees with multiplicativity over the orthogonal sum of two two-dimensional blocks",
+    "dim5_split23: 15/128 agrees with multiplicativity over the orthogonal sum of a two- and a three-dimensional block"
+  ]
+}

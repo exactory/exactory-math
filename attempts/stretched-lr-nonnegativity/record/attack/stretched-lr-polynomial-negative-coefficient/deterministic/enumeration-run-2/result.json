@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "completeness: sizes 5..30 recounted independently, 0 mismatches; scan totals per size {5: 2, 6: 8, 7: 25, 8: 68, 9: 158, 10: 349, 11: 721, 12: 1422, 13: 2636, 14: 4826, 15: 8346, 16: 14273, 17: 23494, 18: 38108, 19: 60009, 20: 93466, 21: 142013, 22: 213464, 23: 314700, 24: 459261, 25: 659506, 26: 938534, 27: 1317069, 28: 1833227, 29: 2522196, 30: 3443137}",
+    "recount: 80 records, 41 pinned (deg+2 points), 39 consistent at 6 points; polynomials in scan 1334669, negatives 0"
+  ]
+}

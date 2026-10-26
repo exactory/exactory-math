@@ -1,0 +1,7 @@
+{
+  "claim": "Every edge of negative weight is dominated on its whole cell by the edges adjacent to it. Precisely: give each positive-weight edge f an equal share of its weighted length to each negative-weight edge adjacent to it, and let share(e) be the sum of the shares e receives. Then share(e)(b) >= |w(e)| * (lattice length of e)(b) for every b in the cell. Both sides are linear on the cell, so the inequality is decided at the cell's extreme rays. If it holds always, the functional is nonnegative on every cell, because the shares of distinct negative edges are disjoint parts of the positive sum, and the rung follows with no cell enumerated.",
+  "cells": "the 332 cells of certified-special-case-check-4 that carry an edge of a negative-weight class",
+  "adjacency": "two edges are adjacent when they share a vertex of the hive polytope",
+  "solvers": ["PyNormaliz 2.24 / Normaliz 3.11", "tools/atlasform.py with the weights of enumeration-run-1 and enumeration-run-2", "Python integers and Fractions"],
+  "time budget seconds": 2400
+}

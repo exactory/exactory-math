@@ -1,0 +1,7 @@
+{
+  "claim": "The fifth independent review proposed a barrier proof needing no solver. Writing the requirement that a local formula be nonnegative and reproduce every recorded linear coefficient as A w' = a1 with A entrywise nonnegative and w' >= 0, a row whose right-hand side is zero forces w' to vanish on that row's support, and 7,109 of the recorded ray values are zero. The argument needs those rows to have a non-empty support. This step tests that premise on every cell the project has built.",
+  "approved": "the fifth independent review of 2026-09-05, amendment 2 of the linear-program verdict, recorded in ../../ADMISSION.md; this step is that amendment's first step, run before any solve",
+  "rows": "one per extreme ray of each of the 2,199 cells; the support of a row is the set of edges whose lattice length is positive at that ray",
+  "allowance": "one run of at most 15 minutes, single threaded; one checker run",
+  "solvers": ["PyNormaliz 2.24 / Normaliz 3.11", "Python integers and Fractions"]
+}

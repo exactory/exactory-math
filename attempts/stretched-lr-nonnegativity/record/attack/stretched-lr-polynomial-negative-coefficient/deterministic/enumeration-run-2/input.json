@@ -1,0 +1,4 @@
+{"purpose": "exhaustive scan of the 5-part box: every canonical triple with largest length 5 and |lam| <= 30",
+ "strata": {"parts": [5], "sizes": "5..30"}, "mode": "enumerate, no cap",
+ "encoder": "scan.py (lrcalc for c; hive inequalities -> Normaliz AffineDim and EhrhartQuasiPolynomial)",
+ "filters": "canonical triples (mu >= nu lex, no common column at length 5), c >= 3, dim H >= 3"}

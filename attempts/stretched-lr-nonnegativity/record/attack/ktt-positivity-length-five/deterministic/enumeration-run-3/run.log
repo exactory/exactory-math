@@ -1,0 +1,242 @@
+1 cells, retest of a tightest cell, 632 edges, 13 facets, 611 tests, worst here 4730093/276213, worst overall 4730093/276213, 1 s
+2 cells, retest of a tightest cell, 609 edges, 10 facets, 150 tests, worst here 4423043/248873, worst overall 4730093/276213, 3 s
+3 cells, retest of a tightest cell, 405 edges, 9 facets, 225 tests, worst here 107567367/4778065, worst overall 4730093/276213, 3 s
+4 cells, retest of a tightest cell, 598 edges, 14 facets, 448 tests, worst here 29283/1220, worst overall 4730093/276213, 5 s
+5 cells, retest of a tightest cell, 364 edges, 9 facets, 180 tests, worst here 35337567/1244365, worst overall 4730093/276213, 5 s
+6 cells, retest of a tightest cell, 539 edges, 8 facets, 240 tests, worst here 1755989309/58257696, worst overall 4730093/276213, 6 s
+7 cells, retest of a tightest cell, 620 edges, 12 facets, 348 tests, worst here 818829283/26233200, worst overall 4730093/276213, 8 s
+8 cells, retest of a tightest cell, 666 edges, 13 facets, 312 tests, worst here 207997273/6558300, worst overall 4730093/276213, 9 s
+9 cells, a perturbed box triple, 330 edges, 10 facets, 240 tests, worst here 14700/71, worst overall 4730093/276213, 12 s
+10 cells, a generic point of the cone, 476 edges, 5 facets, 255 tests, worst here 6708413/78075, worst overall 4730093/276213, 14 s
+11 cells, a perturbed box triple, 450 edges, 10 facets, 320 tests, worst here 1166207689/18579486, worst overall 4730093/276213, 18 s
+12 cells, a perturbed box triple, 358 edges, 10 facets, 460 tests, worst here 231937609/2541884, worst overall 4730093/276213, 26 s
+13 cells, a perturbed box triple, 581 edges, 11 facets, 209 tests, worst here 4509934721/128443000, worst overall 4730093/276213, 33 s
+14 cells, a generic point of the cone, 784 edges, 19 facets, 1387 tests, worst here 10711/126, worst overall 4730093/276213, 38 s
+15 cells, a perturbed box triple, 518 edges, 10 facets, 180 tests, worst here 284790981/3096581, worst overall 4730093/276213, 52 s
+16 cells, a generic point of the cone, 348 edges, 6 facets, 162 tests, worst here 307799/296, worst overall 4730093/276213, 55 s
+17 cells, a perturbed box triple, 423 edges, 5 facets, 105 tests, worst here 1514663894/4405401, worst overall 4730093/276213, 57 s
+18 cells, a generic point of the cone, 983 edges, 19 facets, 3933 tests, worst here 106414323/5333003, worst overall 4730093/276213, 63 s
+19 cells, a perturbed box triple, 865 edges, 20 facets, 1980 tests, worst here 34761128/1358721, worst overall 4730093/276213, 76 s
+20 cells, a generic point of the cone, 608 edges, 12 facets, 276 tests, worst here 68087/1735, worst overall 4730093/276213, 78 s
+21 cells, a perturbed box triple, 517 edges, 12 facets, 216 tests, worst here 1880353051/11477025, worst overall 4730093/276213, 83 s
+22 cells, a perturbed box triple, 883 edges, 15 facets, 600 tests, worst here 10762/133, worst overall 4730093/276213, 94 s
+23 cells, a generic point of the cone, 573 edges, 6 facets, 522 tests, worst here 3427/20, worst overall 4730093/276213, 96 s
+24 cells, a perturbed box triple, 482 edges, 13 facets, 221 tests, worst here 20260517/234225, worst overall 4730093/276213, 100 s
+25 cells, a generic point of the cone, 476 edges, 5 facets, 220 tests, worst here 136159/1879, worst overall 4730093/276213, 113 s
+26 cells, a perturbed box triple, 186 edges, 5 facets, 115 tests, worst here 6993567539/16388658, worst overall 4730093/276213, 118 s
+27 cells, a generic point of the cone, 216 edges, 6 facets, 84 tests, worst here 159707/1050, worst overall 4730093/276213, 119 s
+28 cells, a perturbed box triple, 583 edges, 9 facets, 333 tests, worst here 132056162297/734529600, worst overall 4730093/276213, 122 s
+29 cells, a generic point of the cone, 496 edges, 10 facets, 310 tests, worst here 165, worst overall 4730093/276213, 124 s
+30 cells, a generic point of the cone, 815 edges, 16 facets, 1728 tests, worst here 29195345/955613, worst overall 4730093/276213, 128 s
+31 cells, a perturbed box triple, 602 edges, 12 facets, 336 tests, worst here 57345994/546525, worst overall 4730093/276213, 131 s
+32 cells, a perturbed box triple, 259 edges, 7 facets, 182 tests, worst here 77744639/936900, worst overall 4730093/276213, 132 s
+33 cells, a perturbed box triple, 227 edges, 5 facets, 85 tests, worst here 10113773357/78996918, worst overall 4730093/276213, 133 s
+34 cells, a generic point of the cone, 845 edges, 18 facets, 5364 tests, worst here 36158401/586248, worst overall 4730093/276213, 138 s
+35 cells, a generic point of the cone, 698 edges, 15 facets, 1035 tests, worst here 18651488839/183632400, worst overall 4730093/276213, 143 s
+36 cells, a perturbed box triple, 817 edges, 18 facets, 1350 tests, worst here 6495205/135467, worst overall 4730093/276213, 146 s
+37 cells, a generic point of the cone, 1011 edges, 18 facets, 19098 tests, worst here 772423/9542, worst overall 4730093/276213, 205 s
+38 cells, a generic point of the cone, 656 edges, 12 facets, 348 tests, worst here 568807/9800, worst overall 4730093/276213, 215 s
+39 cells, a perturbed box triple, 282 edges, 5 facets, 215 tests, worst here 27256683/82771, worst overall 4730093/276213, 216 s
+40 cells, a perturbed box triple, 571 edges, 12 facets, 348 tests, worst here 1470480614/44837793, worst overall 4730093/276213, 221 s
+41 cells, a generic point of the cone, 604 edges, 8 facets, 208 tests, worst here 4886479/132300, worst overall 4730093/276213, 224 s
+42 cells, a perturbed box triple, 194 edges, 6 facets, 156 tests, worst here 98591/311, worst overall 4730093/276213, 226 s
+43 cells, a perturbed box triple, 389 edges, 5 facets, 135 tests, worst here 762367/6367, worst overall 4730093/276213, 229 s
+44 cells, a perturbed box triple, 505 edges, 12 facets, 348 tests, worst here 219975663/4778065, worst overall 4730093/276213, 231 s
+45 cells, a generic point of the cone, 566 edges, 9 facets, 225 tests, worst here 1685795/12129, worst overall 4730093/276213, 236 s
+46 cells, a perturbed box triple, 500 edges, 7 facets, 287 tests, worst here 52111031/936900, worst overall 4730093/276213, 239 s
+47 cells, a perturbed box triple, 694 edges, 15 facets, 480 tests, worst here 5210294/65583, worst overall 4730093/276213, 248 s
+48 cells, a perturbed box triple, 279 edges, 5 facets, 175 tests, worst here 102441461/765135, worst overall 4730093/276213, 251 s
+49 cells, a perturbed box triple, 692 edges, 17 facets, 731 tests, worst here 13246786531/167310794, worst overall 4730093/276213, 258 s
+50 cells, a perturbed box triple, 809 edges, 15 facets, 4725 tests, worst here 9647321119/43891848, worst overall 4730093/276213, 291 s
+51 cells, a perturbed box triple, 612 edges, 13 facets, 780 tests, worst here 75529706251/550897200, worst overall 4730093/276213, 299 s
+52 cells, a generic point of the cone, 464 edges, 5 facets, 155 tests, worst here 220712819/271700, worst overall 4730093/276213, 301 s
+53 cells, a perturbed box triple, 492 edges, 6 facets, 132 tests, worst here 919342279/4918725, worst overall 4730093/276213, 303 s
+54 cells, a perturbed box triple, 465 edges, 5 facets, 165 tests, worst here 150241555/546784, worst overall 4730093/276213, 306 s
+55 cells, a perturbed box triple, 711 edges, 13 facets, 624 tests, worst here 9593833891/39124800, worst overall 4730093/276213, 311 s
+56 cells, a generic point of the cone, 601 edges, 5 facets, 210 tests, worst here 3801569217/6014624, worst overall 4730093/276213, 313 s
+57 cells, a perturbed box triple, 766 edges, 15 facets, 1485 tests, worst here 544054103/14945931, worst overall 4730093/276213, 319 s
+58 cells, a perturbed box triple, 379 edges, 10 facets, 160 tests, worst here 127308001/820176, worst overall 4730093/276213, 321 s
+59 cells, a generic point of the cone, 613 edges, 5 facets, 425 tests, worst here 516768283/11285274, worst overall 4730093/276213, 324 s
+60 cells, a generic point of the cone, 592 edges, 9 facets, 441 tests, worst here 88279/1879, worst overall 4730093/276213, 327 s
+61 cells, a generic point of the cone, 525 edges, 12 facets, 192 tests, worst here 759827851/5071638, worst overall 4730093/276213, 331 s
+62 cells, a generic point of the cone, 485 edges, 14 facets, 308 tests, worst here 395167/2401, worst overall 4730093/276213, 335 s
+63 cells, a perturbed box triple, 547 edges, 15 facets, 255 tests, worst here 8401924693/45908100, worst overall 4730093/276213, 337 s
+64 cells, a generic point of the cone, 709 edges, 14 facets, 588 tests, worst here 2182809/63440, worst overall 4730093/276213, 342 s
+65 cells, a perturbed box triple, 500 edges, 11 facets, 429 tests, worst here 114047/711, worst overall 4730093/276213, 344 s
+66 cells, a generic point of the cone, 497 edges, 10 facets, 350 tests, worst here 765490283/26233200, worst overall 4730093/276213, 346 s
+67 cells, a generic point of the cone, 371 edges, 5 facets, 120 tests, worst here 303312/311, worst overall 4730093/276213, 349 s
+68 cells, a perturbed box triple, 880 edges, 20 facets, 860 tests, worst here 89542128233/955853325, worst overall 4730093/276213, 354 s
+69 cells, a generic point of the cone, 746 edges, 16 facets, 592 tests, worst here 29020829/374556, worst overall 4730093/276213, 358 s
+70 cells, a perturbed box triple, 447 edges, 12 facets, 360 tests, worst here 6290297869/45908100, worst overall 4730093/276213, 359 s
+71 cells, a perturbed box triple, 331 edges, 5 facets, 115 tests, worst here 5492381120/14945931, worst overall 4730093/276213, 361 s
+72 cells, a perturbed box triple, 397 edges, 12 facets, 1212 tests, worst here 266724733/6558300, worst overall 4730093/276213, 365 s
+73 cells, a generic point of the cone, 523 edges, 5 facets, 90 tests, worst here 765490283/26233200, worst overall 4730093/276213, 368 s
+74 cells, a perturbed box triple, 122 edges, 7 facets, 112 tests, worst here 1166207689/18579486, worst overall 4730093/276213, 369 s
+75 cells, a perturbed box triple, 912 edges, 14 facets, 1288 tests, worst here 15458066777/179521464, worst overall 4730093/276213, 373 s
+76 cells, a generic point of the cone, 655 edges, 10 facets, 440 tests, worst here 17609029/170989, worst overall 4730093/276213, 375 s
+77 cells, a perturbed box triple, 741 edges, 16 facets, 1648 tests, worst here 116059196/1639575, worst overall 4730093/276213, 379 s
+78 cells, a perturbed box triple, 593 edges, 12 facets, 384 tests, worst here 4632148799/34234200, worst overall 4730093/276213, 383 s
+79 cells, a generic point of the cone, 457 edges, 12 facets, 240 tests, worst here 21300833/468450, worst overall 4730093/276213, 384 s
+80 cells, a perturbed box triple, 901 edges, 16 facets, 592 tests, worst here 95205783/2030080, worst overall 4730093/276213, 388 s
+81 cells, a perturbed box triple, 606 edges, 12 facets, 300 tests, worst here 33647/315, worst overall 4730093/276213, 393 s
+82 cells, a perturbed box triple, 470 edges, 10 facets, 330 tests, worst here 374117921/6558300, worst overall 4730093/276213, 396 s
+83 cells, a perturbed box triple, 340 edges, 5 facets, 115 tests, worst here 5141971/29862, worst overall 4730093/276213, 398 s
+84 cells, a perturbed box triple, 681 edges, 11 facets, 748 tests, worst here 92365291/1311660, worst overall 4730093/276213, 404 s
+85 cells, a perturbed box triple, 441 edges, 13 facets, 611 tests, worst here 22559965/204036, worst overall 4730093/276213, 414 s
+86 cells, a generic point of the cone, 681 edges, 13 facets, 416 tests, worst here 8827067/358607, worst overall 4730093/276213, 417 s
+87 cells, a perturbed box triple, 525 edges, 8 facets, 448 tests, worst here 89403115/387684, worst overall 4730093/276213, 419 s
+88 cells, a generic point of the cone, 531 edges, 16 facets, 1088 tests, worst here 13681411/82771, worst overall 4730093/276213, 422 s
+89 cells, a perturbed box triple, 786 edges, 15 facets, 1545 tests, worst here 122352613/1311660, worst overall 4730093/276213, 426 s
+90 cells, a generic point of the cone, 695 edges, 12 facets, 1488 tests, worst here 143019/1735, worst overall 4730093/276213, 429 s
+91 cells, a perturbed box triple, 665 edges, 12 facets, 336 tests, worst here 3051037695/9532094, worst overall 4730093/276213, 431 s
+92 cells, a perturbed box triple, 924 edges, 23 facets, 3703 tests, worst here 850663897/13116600, worst overall 4730093/276213, 437 s
+93 cells, a generic point of the cone, 456 edges, 9 facets, 396 tests, worst here 28838594/182175, worst overall 4730093/276213, 439 s
+94 cells, a perturbed box triple, 236 edges, 5 facets, 75 tests, worst here 59935118/133497, worst overall 4730093/276213, 440 s
+95 cells, a perturbed box triple, 685 edges, 5 facets, 155 tests, worst here 11077058/104517, worst overall 4730093/276213, 442 s
+96 cells, a perturbed box triple, 384 edges, 5 facets, 125 tests, worst here 40462927/136696, worst overall 4730093/276213, 444 s
+97 cells, a perturbed box triple, 380 edges, 5 facets, 195 tests, worst here 69080861/250800, worst overall 4730093/276213, 445 s
+98 cells, a perturbed box triple, 249 edges, 7 facets, 147 tests, worst here 1492645801/18579486, worst overall 4730093/276213, 447 s
+99 cells, a generic point of the cone, 526 edges, 13 facets, 338 tests, worst here 1483193/20753, worst overall 4730093/276213, 449 s
+100 cells, a perturbed box triple, 232 edges, 9 facets, 279 tests, worst here 115225/489, worst overall 4730093/276213, 450 s
+101 cells, a generic point of the cone, 442 edges, 8 facets, 136 tests, worst here 28196347/677335, worst overall 4730093/276213, 452 s
+102 cells, a perturbed box triple, 474 edges, 13 facets, 325 tests, worst here 6290297869/45908100, worst overall 4730093/276213, 456 s
+103 cells, a perturbed box triple, 334 edges, 5 facets, 140 tests, worst here 121502483/194064, worst overall 4730093/276213, 458 s
+104 cells, a generic point of the cone, 534 edges, 9 facets, 162 tests, worst here 167975489/889200, worst overall 4730093/276213, 462 s
+105 cells, a generic point of the cone, 538 edges, 13 facets, 182 tests, worst here 8827067/358607, worst overall 4730093/276213, 466 s
+106 cells, a perturbed box triple, 770 edges, 13 facets, 2509 tests, worst here 327035140967/1652691600, worst overall 4730093/276213, 469 s
+107 cells, a generic point of the cone, 453 edges, 5 facets, 85 tests, worst here 37799/95, worst overall 4730093/276213, 471 s
+108 cells, a generic point of the cone, 685 edges, 19 facets, 608 tests, worst here 10708590803/619082520, worst overall 4730093/276213, 478 s
+109 cells, a perturbed box triple, 600 edges, 11 facets, 341 tests, worst here 197381243/654381, worst overall 4730093/276213, 501 s
+110 cells, a perturbed box triple, 330 edges, 9 facets, 270 tests, worst here 1531267/4976, worst overall 4730093/276213, 502 s
+111 cells, a perturbed box triple, 811 edges, 17 facets, 510 tests, worst here 8710680386/44837793, worst overall 4730093/276213, 506 s
+112 cells, a perturbed box triple, 213 edges, 7 facets, 189 tests, worst here 281187381/3096581, worst overall 4730093/276213, 507 s
+113 cells, a generic point of the cone, 531 edges, 16 facets, 304 tests, worst here 955041161/35687148, worst overall 4730093/276213, 514 s
+114 cells, a perturbed box triple, 308 edges, 8 facets, 144 tests, worst here 59111/311, worst overall 4730093/276213, 515 s
+115 cells, a generic point of the cone, 751 edges, 17 facets, 255 tests, worst here 550394147/3279150, worst overall 4730093/276213, 519 s
+116 cells, a perturbed box triple, 256 edges, 5 facets, 170 tests, worst here 24708323/291096, worst overall 4730093/276213, 521 s
+117 cells, a perturbed box triple, 674 edges, 7 facets, 189 tests, worst here 1064149145/18990468, worst overall 4730093/276213, 524 s
+118 cells, a generic point of the cone, 471 edges, 11 facets, 286 tests, worst here 1757929/7600, worst overall 4730093/276213, 526 s
+119 cells, a perturbed box triple, 258 edges, 5 facets, 145 tests, worst here 2865647/12129, worst overall 4730093/276213, 527 s
+120 cells, a perturbed box triple, 321 edges, 12 facets, 216 tests, worst here 10065976055/88622184, worst overall 4730093/276213, 530 s
+121 cells, a generic point of the cone, 954 edges, 20 facets, 1320 tests, worst here 129359384611/1557581928, worst overall 4730093/276213, 534 s
+122 cells, a perturbed box triple, 500 edges, 5 facets, 125 tests, worst here 825480571/3915912, worst overall 4730093/276213, 536 s
+123 cells, a generic point of the cone, 1032 edges, 19 facets, 6726 tests, worst here 797743987/29389416, worst overall 4730093/276213, 540 s
+124 cells, a perturbed box triple, 674 edges, 15 facets, 360 tests, worst here 27453891637/89657568, worst overall 4730093/276213, 557 s
+125 cells, a generic point of the cone, 963 edges, 18 facets, 5004 tests, worst here 4730093/276213, worst overall 4730093/276213, 567 s
+126 cells, a perturbed box triple, 726 edges, 14 facets, 392 tests, worst here 14700/71, worst overall 4730093/276213, 570 s
+127 cells, a generic point of the cone, 926 edges, 19 facets, 665 tests, worst here 2735606267/48179250, worst overall 4730093/276213, 574 s
+128 cells, a perturbed box triple, 237 edges, 5 facets, 120 tests, worst here 214918/931, worst overall 4730093/276213, 576 s
+129 cells, a generic point of the cone, 720 edges, 12 facets, 1212 tests, worst here 57835879/3884410, worst overall 57835879/3884410, 579 s
+130 cells, a perturbed box triple, 505 edges, 5 facets, 160 tests, worst here 76670989/33462, worst overall 57835879/3884410, 581 s
+131 cells, a generic point of the cone, 663 edges, 11 facets, 231 tests, worst here 1477193/5637, worst overall 57835879/3884410, 583 s
+132 cells, a perturbed box triple, 217 edges, 5 facets, 80 tests, worst here 2315390881/936936, worst overall 57835879/3884410, 584 s
+133 cells, a generic point of the cone, 534 edges, 12 facets, 276 tests, worst here 3209531263/22570548, worst overall 57835879/3884410, 586 s
+134 cells, a perturbed box triple, 312 edges, 5 facets, 135 tests, worst here 585412834/1468467, worst overall 57835879/3884410, 588 s
+135 cells, a perturbed box triple, 405 edges, 5 facets, 160 tests, worst here 307113109/3279150, worst overall 57835879/3884410, 590 s
+136 cells, a generic point of the cone, 736 edges, 12 facets, 816 tests, worst here 26039963/1074788, worst overall 57835879/3884410, 594 s
+137 cells, a perturbed box triple, 284 edges, 5 facets, 180 tests, worst here 1698413/3732, worst overall 57835879/3884410, 595 s
+138 cells, a generic point of the cone, 668 edges, 14 facets, 882 tests, worst here 209079/1879, worst overall 57835879/3884410, 598 s
+139 cells, a perturbed box triple, 832 edges, 14 facets, 336 tests, worst here 3736962205/54275046, worst overall 57835879/3884410, 601 s
+140 cells, a generic point of the cone, 585 edges, 12 facets, 180 tests, worst here 1780621247/35566650, worst overall 57835879/3884410, 603 s
+141 cells, a perturbed box triple, 453 edges, 11 facets, 220 tests, worst here 54427631/936900, worst overall 57835879/3884410, 605 s
+142 cells, a generic point of the cone, 813 edges, 17 facets, 1411 tests, worst here 57023/1879, worst overall 57835879/3884410, 608 s
+143 cells, a perturbed box triple, 821 edges, 14 facets, 826 tests, worst here 16534010833/121702056, worst overall 57835879/3884410, 612 s
+144 cells, a perturbed box triple, 456 edges, 9 facets, 396 tests, worst here 33647/315, worst overall 57835879/3884410, 614 s
+145 cells, a generic point of the cone, 696 edges, 9 facets, 1341 tests, worst here 128003/1879, worst overall 57835879/3884410, 617 s
+146 cells, a perturbed box triple, 168 edges, 5 facets, 80 tests, worst here 12696529/109305, worst overall 57835879/3884410, 618 s
+147 cells, a perturbed box triple, 379 edges, 8 facets, 184 tests, worst here 106175977/3386675, worst overall 57835879/3884410, 619 s
+148 cells, a generic point of the cone, 430 edges, 9 facets, 144 tests, worst here 364333/2394, worst overall 57835879/3884410, 621 s
+149 cells, a perturbed box triple, 249 edges, 5 facets, 115 tests, worst here 25277731/136696, worst overall 57835879/3884410, 624 s
+150 cells, a perturbed box triple, 393 edges, 5 facets, 170 tests, worst here 773812177/6558300, worst overall 57835879/3884410, 627 s
+151 cells, a perturbed box triple, 707 edges, 12 facets, 1044 tests, worst here 264071947/1304160, worst overall 57835879/3884410, 630 s
+152 cells, a generic point of the cone, 614 edges, 12 facets, 456 tests, worst here 4473901175/34441264, worst overall 57835879/3884410, 634 s
+153 cells, a perturbed box triple, 234 edges, 7 facets, 140 tests, worst here 3188815681/27869229, worst overall 57835879/3884410, 636 s
+154 cells, a perturbed box triple, 645 edges, 11 facets, 737 tests, worst here 1166207689/18579486, worst overall 57835879/3884410, 646 s
+155 cells, a generic point of the cone, 881 edges, 11 facets, 770 tests, worst here 12093273137/45820600, worst overall 57835879/3884410, 650 s
+156 cells, a perturbed box triple, 509 edges, 11 facets, 231 tests, worst here 2576686517/19674900, worst overall 57835879/3884410, 652 s
+157 cells, a generic point of the cone, 831 edges, 17 facets, 1139 tests, worst here 4137377/92071, worst overall 57835879/3884410, 657 s
+158 cells, a perturbed box triple, 661 edges, 10 facets, 240 tests, worst here 34761128/1358721, worst overall 57835879/3884410, 659 s
+159 cells, a generic point of the cone, 601 edges, 13 facets, 247 tests, worst here 225079/1879, worst overall 57835879/3884410, 661 s
+160 cells, a generic point of the cone, 1127 edges, 23 facets, 6072 tests, worst here 870948179/13240227, worst overall 57835879/3884410, 673 s
+161 cells, a generic point of the cone, 602 edges, 11 facets, 187 tests, worst here 144437/1140, worst overall 57835879/3884410, 675 s
+162 cells, a perturbed box triple, 571 edges, 10 facets, 410 tests, worst here 52111031/936900, worst overall 57835879/3884410, 678 s
+163 cells, a perturbed box triple, 331 edges, 5 facets, 155 tests, worst here 77744639/936900, worst overall 57835879/3884410, 680 s
+164 cells, a generic point of the cone, 554 edges, 15 facets, 480 tests, worst here 62619783/1012781, worst overall 57835879/3884410, 682 s
+165 cells, a perturbed box triple, 652 edges, 11 facets, 627 tests, worst here 57425673679/2902296516, worst overall 57835879/3884410, 684 s
+166 cells, a generic point of the cone, 645 edges, 14 facets, 336 tests, worst here 187352660/8026767, worst overall 57835879/3884410, 687 s
+167 cells, a perturbed box triple, 729 edges, 8 facets, 688 tests, worst here 34052635/303303, worst overall 57835879/3884410, 690 s
+168 cells, a perturbed box triple, 744 edges, 18 facets, 882 tests, worst here 33887090263/398799828, worst overall 57835879/3884410, 693 s
+169 cells, a perturbed box triple, 741 edges, 10 facets, 350 tests, worst here 6351061/135467, worst overall 57835879/3884410, 699 s
+170 cells, a generic point of the cone, 625 edges, 12 facets, 324 tests, worst here 6285610/39459, worst overall 57835879/3884410, 702 s
+171 cells, a generic point of the cone, 765 edges, 17 facets, 459 tests, worst here 498806267/5665569, worst overall 57835879/3884410, 705 s
+172 cells, a perturbed box triple, 564 edges, 6 facets, 306 tests, worst here 20216433313/91816200, worst overall 57835879/3884410, 714 s
+173 cells, a perturbed box triple, 723 edges, 15 facets, 450 tests, worst here 33199117793/148324176, worst overall 57835879/3884410, 717 s
+174 cells, a perturbed box triple, 346 edges, 6 facets, 102 tests, worst here 98591/311, worst overall 57835879/3884410, 719 s
+175 cells, a perturbed box triple, 128 edges, 7 facets, 98 tests, worst here 1166207689/18579486, worst overall 57835879/3884410, 720 s
+176 cells, a perturbed box triple, 374 edges, 5 facets, 185 tests, worst here 235245266/4981977, worst overall 57835879/3884410, 721 s
+177 cells, a generic point of the cone, 786 edges, 15 facets, 360 tests, worst here 310405691/3590769, worst overall 57835879/3884410, 724 s
+178 cells, a perturbed box triple, 900 edges, 16 facets, 1392 tests, worst here 299171524/3303041, worst overall 57835879/3884410, 728 s
+179 cells, a perturbed box triple, 568 edges, 10 facets, 1290 tests, worst here 5355665638/34431075, worst overall 57835879/3884410, 731 s
+180 cells, a generic point of the cone, 616 edges, 11 facets, 363 tests, worst here 1558741544/11190465, worst overall 57835879/3884410, 733 s
+181 cells, a perturbed box triple, 706 edges, 11 facets, 649 tests, worst here 778046498/2135133, worst overall 57835879/3884410, 736 s
+182 cells, a generic point of the cone, 1003 edges, 19 facets, 8151 tests, worst here 8383023395/157718974, worst overall 57835879/3884410, 753 s
+183 cells, a perturbed box triple, 390 edges, 10 facets, 230 tests, worst here 1084384381/6558300, worst overall 57835879/3884410, 755 s
+184 cells, a generic point of the cone, 486 edges, 8 facets, 120 tests, worst here 11073661/22800, worst overall 57835879/3884410, 757 s
+185 cells, a generic point of the cone, 1099 edges, 21 facets, 18648 tests, worst here 18809948081/802714920, worst overall 57835879/3884410, 771 s
+186 cells, a perturbed box triple, 835 edges, 13 facets, 1326 tests, worst here 1528124417/9181620, worst overall 57835879/3884410, 774 s
+187 cells, a perturbed box triple, 337 edges, 5 facets, 115 tests, worst here 281925221/677754, worst overall 57835879/3884410, 776 s
+188 cells, a generic point of the cone, 893 edges, 14 facets, 1344 tests, worst here 1761227/17640, worst overall 57835879/3884410, 782 s
+189 cells, a perturbed box triple, 737 edges, 17 facets, 357 tests, worst here 1134384389/7625652, worst overall 57835879/3884410, 792 s
+190 cells, a generic point of the cone, 546 edges, 12 facets, 276 tests, worst here 3277/21, worst overall 57835879/3884410, 794 s
+191 cells, a perturbed box triple, 208 edges, 7 facets, 105 tests, worst here 54427631/936900, worst overall 57835879/3884410, 795 s
+192 cells, a generic point of the cone, 324 edges, 9 facets, 153 tests, worst here 246559/1879, worst overall 57835879/3884410, 797 s
+193 cells, a generic point of the cone, 693 edges, 12 facets, 492 tests, worst here 41070131/276213, worst overall 57835879/3884410, 801 s
+194 cells, a perturbed box triple, 401 edges, 5 facets, 145 tests, worst here 220098181/3279150, worst overall 57835879/3884410, 803 s
+195 cells, a perturbed box triple, 671 edges, 9 facets, 441 tests, worst here 3854939/18525, worst overall 57835879/3884410, 806 s
+196 cells, a generic point of the cone, 317 edges, 5 facets, 70 tests, worst here 5591954941/11747736, worst overall 57835879/3884410, 811 s
+197 cells, a perturbed box triple, 683 edges, 12 facets, 264 tests, worst here 2865647/12129, worst overall 57835879/3884410, 814 s
+198 cells, a perturbed box triple, 203 edges, 5 facets, 80 tests, worst here 41005477493/82234152, worst overall 57835879/3884410, 815 s
+199 cells, a perturbed box triple, 462 edges, 10 facets, 660 tests, worst here 281187381/3096581, worst overall 57835879/3884410, 819 s
+200 cells, a perturbed box triple, 468 edges, 10 facets, 740 tests, worst here 20357270249/265866552, worst overall 57835879/3884410, 821 s
+201 cells, a generic point of the cone, 862 edges, 18 facets, 8694 tests, worst here 4695182429/71224296, worst overall 57835879/3884410, 826 s
+202 cells, a perturbed box triple, 336 edges, 5 facets, 130 tests, worst here 115225/489, worst overall 57835879/3884410, 832 s
+203 cells, a generic point of the cone, 508 edges, 8 facets, 136 tests, worst here 101799/2401, worst overall 57835879/3884410, 833 s
+204 cells, a generic point of the cone, 1001 edges, 19 facets, 4351 tests, worst here 56837617/546525, worst overall 57835879/3884410, 839 s
+205 cells, a generic point of the cone, 431 edges, 5 facets, 90 tests, worst here 136159/1879, worst overall 57835879/3884410, 846 s
+206 cells, a perturbed box triple, 266 edges, 5 facets, 75 tests, worst here 399113011/934479, worst overall 57835879/3884410, 847 s
+207 cells, a generic point of the cone, 745 edges, 12 facets, 396 tests, worst here 153146141/686400, worst overall 57835879/3884410, 850 s
+208 cells, a perturbed box triple, 239 edges, 5 facets, 115 tests, worst here 10354177/109305, worst overall 57835879/3884410, 851 s
+209 cells, a perturbed box triple, 435 edges, 5 facets, 160 tests, worst here 56173272/187957, worst overall 57835879/3884410, 855 s
+210 cells, a perturbed box triple, 399 edges, 5 facets, 85 tests, worst here 13705979/248313, worst overall 57835879/3884410, 858 s
+211 cells, a generic point of the cone, 675 edges, 11 facets, 418 tests, worst here 18805441/276213, worst overall 57835879/3884410, 860 s
+212 cells, a perturbed box triple, 418 edges, 5 facets, 195 tests, worst here 852123553/6558300, worst overall 57835879/3884410, 865 s
+213 cells, a perturbed box triple, 290 edges, 6 facets, 162 tests, worst here 75911/311, worst overall 57835879/3884410, 866 s
+214 cells, a perturbed box triple, 293 edges, 5 facets, 75 tests, worst here 245353607/629343, worst overall 57835879/3884410, 867 s
+215 cells, a perturbed box triple, 726 edges, 10 facets, 250 tests, worst here 3758123513/33855822, worst overall 57835879/3884410, 870 s
+216 cells, a generic point of the cone, 904 edges, 17 facets, 1326 tests, worst here 516768283/11285274, worst overall 57835879/3884410, 875 s
+217 cells, a perturbed box triple, 663 edges, 12 facets, 228 tests, worst here 11290746293/217725060, worst overall 57835879/3884410, 880 s
+218 cells, a perturbed box triple, 287 edges, 5 facets, 85 tests, worst here 677361/2119, worst overall 57835879/3884410, 881 s
+219 cells, a generic point of the cone, 837 edges, 20 facets, 2300 tests, worst here 12613972856/170145213, worst overall 57835879/3884410, 885 s
+220 cells, a perturbed box triple, 201 edges, 7 facets, 154 tests, worst here 54427631/936900, worst overall 57835879/3884410, 887 s
+221 cells, a generic point of the cone, 667 edges, 14 facets, 490 tests, worst here 2093677/24427, worst overall 57835879/3884410, 891 s
+222 cells, a perturbed box triple, 514 edges, 10 facets, 210 tests, worst here 7451161/58584, worst overall 57835879/3884410, 908 s
+223 cells, a generic point of the cone, 878 edges, 18 facets, 972 tests, worst here 127515719563/3083447976, worst overall 57835879/3884410, 911 s
+224 cells, a perturbed box triple, 774 edges, 14 facets, 742 tests, worst here 10538929195/88622184, worst overall 57835879/3884410, 928 s
+225 cells, a generic point of the cone, 788 edges, 17 facets, 7225 tests, worst here 1187091/31720, worst overall 57835879/3884410, 933 s
+226 cells, a perturbed box triple, 667 edges, 9 facets, 477 tests, worst here 220098181/3279150, worst overall 57835879/3884410, 935 s
+227 cells, a perturbed box triple, 580 edges, 11 facets, 253 tests, worst here 153843597/3386675, worst overall 57835879/3884410, 938 s
+228 cells, a perturbed box triple, 432 edges, 5 facets, 90 tests, worst here 1845910303/1354496, worst overall 57835879/3884410, 940 s
+229 cells, a generic point of the cone, 589 edges, 11 facets, 451 tests, worst here 6141013/44460, worst overall 57835879/3884410, 942 s
+230 cells, a generic point of the cone, 557 edges, 9 facets, 1242 tests, worst here 143019/1735, worst overall 57835879/3884410, 945 s
+231 cells, a perturbed box triple, 429 edges, 9 facets, 306 tests, worst here 78037451/728700, worst overall 57835879/3884410, 947 s
+232 cells, a perturbed box triple, 893 edges, 19 facets, 3458 tests, worst here 23300311/496056, worst overall 57835879/3884410, 952 s
+233 cells, a generic point of the cone, 568 edges, 5 facets, 435 tests, worst here 18239/95, worst overall 57835879/3884410, 955 s
+234 cells, a perturbed box triple, 331 edges, 8 facets, 256 tests, worst here 458230407/711568, worst overall 57835879/3884410, 957 s
+235 cells, a generic point of the cone, 739 edges, 19 facets, 1159 tests, worst here 202337630/12200937, worst overall 57835879/3884410, 960 s
+236 cells, a perturbed box triple, 572 edges, 6 facets, 198 tests, worst here 7116882545/40576536, worst overall 57835879/3884410, 963 s
+237 cells, a generic point of the cone, 567 edges, 9 facets, 279 tests, worst here 396571/5637, worst overall 57835879/3884410, 965 s
+238 cells, a perturbed box triple, 473 edges, 7 facets, 511 tests, worst here 32953045/262332, worst overall 57835879/3884410, 967 s
+239 cells, a generic point of the cone, 527 edges, 11 facets, 165 tests, worst here 185371/1879, worst overall 57835879/3884410, 970 s
+240 cells, a generic point of the cone, 708 edges, 13 facets, 234 tests, worst here 10476573619/48653748, worst overall 57835879/3884410, 973 s
+241 cells, a perturbed box triple, 388 edges, 5 facets, 180 tests, worst here 165553568/983745, worst overall 57835879/3884410, 975 s
+242 cells, a generic point of the cone, 767 edges, 18 facets, 1224 tests, worst here 50830727/1358721, worst overall 57835879/3884410, 978 s

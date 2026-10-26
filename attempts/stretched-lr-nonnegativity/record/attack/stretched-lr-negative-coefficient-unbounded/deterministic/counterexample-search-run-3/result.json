@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "hits (negative coefficient): 0, all re-verified from the definition: True; lrcalc agrees at t = 1 on 40000 of 40000 records; tableau-polytope encoding and lrcalc (t = 2 when P(2) <= 1000000) agree on 1500 of 1500 sampled records",
+    "third implementation (lattice-word counter, t = 0..3): 30 records, 0 mismatches"
+  ]
+}

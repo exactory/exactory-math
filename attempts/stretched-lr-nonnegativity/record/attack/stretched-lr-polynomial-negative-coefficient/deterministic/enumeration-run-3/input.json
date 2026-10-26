@@ -1,0 +1,4 @@
+{"purpose": "exhaustive scan of the 6-part box: every canonical triple with largest length 6 and |lam| <= 30",
+ "strata": {"parts": [6], "sizes": "6..30"}, "mode": "scan2.py streaming enumeration by lam, no cap",
+ "encoder": "scan2.py (lrcalc for c; hive inequalities -> Normaliz AffineDim and EhrhartQuasiPolynomial)",
+ "filters": "canonical triples (mu >= nu lex, no common column at length 6), c >= 3, dim H >= 3"}
