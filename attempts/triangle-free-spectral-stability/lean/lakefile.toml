@@ -1,0 +1,19 @@
+name = "TriangleFreeEdit"
+defaultTargets = ["TriangleFreeEdit", "TriangleFreeSharpness"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.35.0"
+
+[[lean_lib]]
+name = "TriangleFreeEdit"
+
+[[lean_lib]]
+name = "TriangleFreeSharpness"
+
+# The formal statement of the problem, a byte-identical copy of
+# problems/triangle-free-spectral-stability/formal/Challenge.lean. Not a default target: it
+# contains `sorry` by design and is built only by `lake comparator`.
+[[lean_lib]]
+name = "Challenge"

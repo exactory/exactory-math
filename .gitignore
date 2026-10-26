@@ -1,0 +1,20 @@
+# Lean build outputs and packages
+.lake/
+*.olean
+*.ilean
+
+# Python and editor files
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# LaTeX intermediate files of the papers
+**/paper/*.aux
+**/paper/*.log
+**/paper/*.out
+**/paper/*.toc
+**/paper/*.bbl
+**/paper/*.blg
+**/paper/*.fls
+**/paper/*.synctex.gz

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use a problem, proof or formalization from this repository, please cite it as below, and cite the paper in the attempt's folder when there is one."
+title: "exactory-math: open problems and proof attempts from the exactory research harnesses"
+authors:
+  - family-names: Shiroshita
+    given-names: Ryosuke
+    email: Ryosuke.Shiroshita@exactory.ai
+    affiliation: exactory
+repository-code: "https://github.com/exactory/exactory-math"
+url: "https://www.exactory.ai/math"
+license-url: "https://github.com/exactory/exactory-math/blob/main/LICENSE.md"
+date-released: 2026-10-25
+keywords:
+  - open problems
+  - automated theorem proving
+  - Lean 4
+  - spectral graph theory

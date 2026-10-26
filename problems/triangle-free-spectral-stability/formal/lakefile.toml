@@ -1,0 +1,15 @@
+name = "TriangleFreeChallenge"
+defaultTargets = ["Challenge"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.35.0"
+
+# The formal statement. Its theorem is stated with `sorry` by design.
+[[lean_lib]]
+name = "Challenge"
+
+# A solution: add your module here, for example
+# [[lean_lib]]
+# name = "Solution"

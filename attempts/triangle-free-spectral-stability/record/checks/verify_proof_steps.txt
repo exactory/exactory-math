@@ -1,0 +1,20 @@
+# python3 verify_proof_steps.py <path to nauty geng> 9   (run 2026-10-25, Python 3.11, numpy 2.5.4, networkx 3.7, nauty 2.8.9)
+n 2 {'graphs': 1, 'step2_tight': 2, 'step5_tight': 1}
+n 3 {'graphs': 2, 'step2_tight': 5, 'step5_tight': 2}
+n 4 {'graphs': 5, 'step2_tight': 17, 'step5_tight': 4}
+n 5 {'graphs': 11, 'step2_tight': 43, 'step5_tight': 7}
+n 6 {'graphs': 30, 'step2_tight': 119, 'step5_tight': 10}
+n 7 {'graphs': 89, 'step2_tight': 307, 'step5_tight': 13}
+n 8 {'graphs': 356, 'step2_tight': 912, 'step5_tight': 17}
+n 9 {'graphs': 1736, 'step2_tight': 2807, 'step5_tight': 21}
+hub {'graphs': 2093, 'step2_tight': 12215, 'step5_tight': 28}
+double_star {'graphs': 2221, 'step2_tight': 13815, 'step5_tight': 28}
+apex {'graphs': 2235, 'step2_tight': 13829, 'step5_tight': 28}
+random {'graphs': 2385, 'step2_tight': 13839, 'step5_tight': 28}
+bipartite {'graphs': 2535, 'step2_tight': 14224, 'step5_tight': 33}
+trees {'graphs': 2685, 'step2_tight': 14284, 'step5_tight': 35}
+biclique_plus {'graphs': 2835, 'step2_tight': 14603, 'step5_tight': 35}
+spiders {'graphs': 2867, 'step2_tight': 14635, 'step5_tight': 35}
+c5_blowups {'graphs': 2878, 'step2_tight': 14787, 'step5_tight': 36}
+c5_hub {'graphs': 2918, 'step2_tight': 14927, 'step5_tight': 36}
+ALL STEPS VERIFIED on 2918 graphs

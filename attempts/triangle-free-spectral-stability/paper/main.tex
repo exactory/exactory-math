@@ -1,0 +1,407 @@
+% Compile with LuaLaTeX (the appendix shows Lean source with Unicode characters):
+%   lualatex main && lualatex main
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\directlua{luaotfload.add_fallback("leanfallback", {"Apple Symbols:mode=harf;", "STIX Two Math:mode=harf;"})}
+\setmonofont{Menlo}[Scale=0.82, RawFeature={fallback=leanfallback}]
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{microtype}
+\usepackage{fancyvrb}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\urlstyle{same}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\Dcost}{D}
+\DeclareMathOperator{\diag}{diag}
+
+\title{A sharp spectral-deficit stability inequality\\ for triangle-free graphs}
+\author{Ryosuke Shiroshita\\[3pt]
+\small\href{mailto:Ryosuke.Shiroshita@exactory.ai}{Ryosuke.Shiroshita@exactory.ai}}
+\date{25 October 2026}
+\hypersetup{pdftitle={A sharp spectral-deficit stability inequality for triangle-free graphs},pdfauthor={Ryosuke Shiroshita}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Let $G$ be a finite simple triangle-free graph with $m$ edges and adjacency spectral radius
+$\lambda$, and let $D(G)$ be the least number of edge insertions and deletions that turn $G$ into a
+complete bipartite graph together with isolated vertices. Nosal's inequality states that
+$\lambda^2\le m$. We prove that $D(G)\le 3(m-\lambda^2)$. The five-cycle attains equality, so the
+constant $3$ is best possible. For bipartite graphs this inequality is a lemma of Li, Liu and
+Ning; the theorem removes the bipartiteness assumption. The proof averages the costs of the
+targets $K_{N(v),N(u)}$ over the edges $uv$ of $G$ with the weights $x_u^2/d(u)+x_v^2/d(v)$, where
+$x$ is a unit eigenvector for $\lambda$, and bounds this average by two Cauchy--Schwarz
+inequalities and a counting lemma that uses triangle-freeness. The theorem and the sharpness
+example are formalized in Lean~4 with Mathlib; the proof is accepted by Lean's kernel and by five
+further proof checkers.
+\end{abstract}
+
+\section{Introduction}
+
+For a finite simple graph $G$ we write $e(G)$ for its number of edges and $\lambda(G)$ for the
+spectral radius of its adjacency matrix ($\lambda(G)=0$ when $G$ has no vertices). Nosal
+\cite{Nosal} proved that every triangle-free graph satisfies $\lambda(G)^2\le e(G)$; see also
+Nikiforov \cite{Nikiforov}. Complete bipartite graphs attain equality,
+since $\lambda(K_{s,t})^2=st=e(K_{s,t})$, and adding isolated vertices changes neither side. We
+measure the distance from this extremal situation by the \emph{spectral deficit}
+\[
+  \xi(G)=e(G)-\lambda(G)^2\ \ge\ 0 ,
+\]
+and the distance from complete bipartite graphs by
+\[
+  D(G)=\min_{\substack{A,B\subseteq V(G)\\ A\cap B=\varnothing}}\bigl|E(G)\,\triangle\,E(K_{A,B})\bigr| ,
+\]
+where $K_{A,B}$ is the graph on $V(G)$ whose edges are the pairs with one end in $A$ and the
+other in $B$, and empty parts are allowed. Thus $D(G)$ is the least number of edge insertions and
+deletions that turn $G$ into a complete bipartite graph together with isolated vertices (the
+graph without edges included).
+
+Li, Liu and Zhang \cite[Theorem~4.1]{LLZ} proved a qualitative edge-spectral stability theorem for
+triangle-free graphs. For bipartite graphs, Li, Liu and Ning \cite[Lemma~4.3]{LLN} proved the
+linear bound $D(H)\le 3\,\xi(H)$; their target is $K_{N(v),N(u)}$ for a suitable edge $uv$, found
+by averaging over all edges. The question whether the same coefficient holds for every
+triangle-free graph was posed in \cite{Problem}, together with the bound $D(G)\le 15\,\xi(G)$. We
+answer it.
+
+\begin{theorem}\label{thm:main}
+For every finite simple triangle-free graph $G$,
+\[
+  D(G)\ \le\ 3\bigl(e(G)-\lambda(G)^2\bigr).
+\]
+\end{theorem}
+
+The constant cannot be lowered. Label the five-cycle $C_5$ cyclically by $1,\dots,5$. Then
+$e(C_5)=5$ and $\lambda(C_5)=2$, so $\xi(C_5)=1$, and $D(C_5)=3$: the target $K_{\{1\},\{2,5\}}$
+costs the three edges $23$, $34$, $45$, and no target costs less (Section~\ref{sec:sharp}).
+
+The proof gives slightly more: when $G$ has an edge, there is an edge $uv$ whose target
+$K_{N(v),N(u)}$ costs at most $3\,\xi(G)$, as in the bipartite lemma of \cite{LLN}. Since
+$D(G)=0$ only for complete bipartite graphs with isolated vertices, Theorem~\ref{thm:main} also
+contains the equality case of Nosal's inequality: $\xi(G)=0$ forces $G$ to be such a graph.
+
+\paragraph{Idea of the proof.} For an edge $uv$ of a triangle-free graph the neighbourhoods
+$N(u)$ and $N(v)$ are disjoint, so $K_{N(v),N(u)}$ is a target. Li, Liu and Ning average its cost
+uniformly over the edges, which works for bipartite graphs. For triangle-free graphs the uniform
+average can exceed $3\xi$ (Remark~\ref{rem:weights}). We choose a vertex $u$ with probability
+$x_u^2$, where $x$ is a unit eigenvector for $\lambda$, and then a uniformly random neighbour $v$
+of $u$. Two Cauchy--Schwarz inequalities for $\|Ax\|^2=\lambda^2$ and one counting lemma
+(Lemma~\ref{lem:count}), the only place where triangle-freeness is used beyond the disjointness of
+$N(u)$ and $N(v)$, show that the expected cost is at most $3\xi$.
+
+\section{Notation and the edge targets}
+
+Let $G$ be a triangle-free graph on the vertex set $V$ with $m$ edges and adjacency matrix $A$.
+We write $d(u)$ for the degree of $u$, $d=A\mathbf 1$ for the degree vector, $N(u)$ for the
+neighbourhood of $u$ and $N[u]=N(u)\cup\{u\}$. For $S\subseteq V$ and $z\in V$ let
+$d_S(z)=|N(z)\cap S|$. For a vertex $u$ put
+\[
+  W_u=V\setminus N[u],\qquad Z_u=e\bigl(G[W_u]\bigr).
+\]
+The codegree $c(u,z)=|N(u)\cap N(z)|$ equals $(A^2)_{uz}$, and $c(u,u)=d(u)$. Hence
+$(A^2d)_u=\sum_z c(u,z)\,d(z)$ and $(A^4)_{uu}=\sum_z c(u,z)^2$. Triangle-freeness gives two
+facts that we use repeatedly: $N(u)$ is an independent set for every $u$, and $c(u,v)=0$ for every
+edge $uv$.
+
+Because $N(u)$ is independent, every edge that meets $N(u)$ meets it in exactly one end. An edge
+misses $N(u)$ exactly when both its ends lie in $W_u$, since $u$ has no neighbour in $W_u$.
+Therefore
+\begin{equation}\label{eq:Ad}
+  (Ad)_u=\sum_{v\in N(u)}d(v)=m-Z_u .
+\end{equation}
+
+For an edge $uv$ define the cost of the target $K_{N(v),N(u)}$,
+\[
+  \Dcost_{uv}=\bigl|E(G)\,\triangle\,E(K_{N(v),N(u)})\bigr| .
+\]
+As $N(u)\cap N(v)=\varnothing$, this target is admissible, and $D(G)\le \Dcost_{uv}$.
+
+\begin{lemma}\label{lem:cost}
+For every edge $uv$, $\Dcost_{uv}=m+d(u)d(v)-2(A^3)_{uv}$. For every vertex $u$ with $d(u)\ge1$,
+\begin{equation}\label{eq:mean}
+  \overline\Dcost_u:=\frac{1}{d(u)}\sum_{v\in N(u)}\Dcost_{uv}
+  \;=\;2m-Z_u-\frac{2(A^4)_{uu}}{d(u)} .
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+The target has $d(u)d(v)$ edges. An edge of $G$ belongs to it exactly when it has one end in
+$N(u)$ and the other in $N(v)$. Since these sets are disjoint, each such edge is counted exactly
+once in $\sum_{a\in N(u)}\sum_{b\in N(v)}A_{ab}=(A^3)_{uv}$. Hence
+$\Dcost_{uv}=m+d(u)d(v)-2(A^3)_{uv}$. Summing over $v\in N(u)$, and using
+$\sum_{v}A_{uv}(A^3)_{vu}=(A^4)_{uu}$ and \eqref{eq:Ad},
+\[
+  \sum_{v\in N(u)}\Dcost_{uv}=d(u)\,m+d(u)\,(Ad)_u-2(A^4)_{uu}
+  =d(u)\,(2m-Z_u)-2(A^4)_{uu} .\qedhere
+\]
+\end{proof}
+
+\section{A counting lemma}
+
+\begin{lemma}\label{lem:count}
+For every vertex $u$ with $d(u)\ge1$,
+\[
+  (A^2d)_u-(A^4)_{uu}
+  =\sum_{zz'\in E(G[W_u])}\bigl(d_{N(u)}(z)+d_{N(u)}(z')\bigr)
+  \ \le\ d(u)\,Z_u .
+\]
+\end{lemma}
+
+\begin{proof}
+We have $(A^2d)_u-(A^4)_{uu}=\sum_z c(u,z)\bigl(d(z)-c(u,z)\bigr)$. The term $z=u$ vanishes
+because $c(u,u)=d(u)$, and the terms $z\in N(u)$ vanish because $c(u,z)=0$ for an edge $uz$. For
+$z\in W_u$ the vertex $z$ is not adjacent to $u$, so $N(z)\subseteq N(u)\cup W_u$; hence
+$c(u,z)=d_{N(u)}(z)$ and $d(z)-c(u,z)=d_{W_u}(z)$. Therefore
+\[
+  (A^2d)_u-(A^4)_{uu}=\sum_{z\in W_u}d_{N(u)}(z)\,d_{W_u}(z)
+  =\sum_{zz'\in E(G[W_u])}\bigl(d_{N(u)}(z)+d_{N(u)}(z')\bigr),
+\]
+where the second sum counts each edge $zz'$ of $G[W_u]$ once from each end. For such an edge,
+triangle-freeness gives $N(z)\cap N(z')=\varnothing$, so
+$d_{N(u)}(z)+d_{N(u)}(z')=|(N(z)\cup N(z'))\cap N(u)|\le d(u)$. Summing over the $Z_u$ edges of
+$G[W_u]$ gives the bound.
+\end{proof}
+
+The slack of the lemma is $\sum_{zz'\in E(G[W_u])}|N(u)\setminus(N(z)\cup N(z'))|$.
+
+\section{Two Cauchy--Schwarz bounds}
+
+\begin{lemma}\label{lem:cs}
+Let $G$ be a graph without isolated vertices and let $y\in\mathbb R^V$. Then
+\begin{align}
+  y^{\mathsf T}A^2y&\le\sum_u y_u^2\,(Ad)_u, \label{eq:cs1}\\
+  y^{\mathsf T}A^2y&\le\sum_u y_u^2\,\frac{(A^2d)_u}{d(u)} . \label{eq:cs2}
+\end{align}
+\end{lemma}
+
+\begin{proof}
+We have
+\[
+  y^{\mathsf T}A^2y=\|Ay\|^2=\sum_v\Bigl(\sum_{u\in N(v)}y_u\Bigr)^2 .
+\]
+For \eqref{eq:cs1}, bound $\bigl(\sum_{u\in N(v)}y_u\bigr)^2\le d(v)\sum_{u\in N(v)}y_u^2$ and
+exchange the order of summation:
+\[
+  \sum_v d(v)\sum_{u\in N(v)}y_u^2=\sum_u y_u^2\sum_{v\in N(u)}d(v)=\sum_u y_u^2\,(Ad)_u .
+\]
+For \eqref{eq:cs2}, use the weights $d(u)$:
+\[
+  \Bigl(\sum_{u\in N(v)}y_u\Bigr)^2
+  \le\Bigl(\sum_{u\in N(v)}d(u)\Bigr)\Bigl(\sum_{u\in N(v)}\frac{y_u^2}{d(u)}\Bigr)
+  =(Ad)_v\sum_{u\in N(v)}\frac{y_u^2}{d(u)},
+\]
+and exchange the order of summation:
+$\sum_v(Ad)_v\sum_{u\in N(v)}y_u^2/d(u)=\sum_u\bigl(y_u^2/d(u)\bigr)\sum_{v\in N(u)}(Ad)_v$, and
+$\sum_{v\in N(u)}(Ad)_v=(A^2d)_u$.
+\end{proof}
+
+\section{Proof of Theorem~\ref{thm:main}}\label{sec:proof}
+
+If $m=0$, then $D(G)=0$ (take $A=B=\varnothing$) and $\lambda=0$, so the statement holds. Let
+$m\ge1$. Deleting the isolated vertices changes neither $m$ nor $\lambda$. It does not change
+$D(G)$ either: an isolated vertex can be removed from either part of a target without increasing
+its cost, and every target of the smaller graph is a target of $G$. So we may assume that every
+vertex has degree at least one.
+
+The adjacency matrix is symmetric and nonnegative, so its spectral radius $\lambda$ is its
+largest eigenvalue. Let $x$ be a real unit eigenvector for $\lambda$; any such vector works. Then
+$x^{\mathsf T}A^2x=\|Ax\|^2=\lambda^2$ and $\sum_ux_u^2=1$. Adding \eqref{eq:cs1} and twice
+\eqref{eq:cs2} at $y=x$, and bounding $(A^2d)_u\le(A^4)_{uu}+d(u)Z_u$ by Lemma~\ref{lem:count},
+\[
+  3\lambda^2\le\sum_ux_u^2\Bigl[(Ad)_u+\frac{2(A^4)_{uu}}{d(u)}+2Z_u\Bigr]
+  =\sum_ux_u^2\Bigl[m+Z_u+\frac{2(A^4)_{uu}}{d(u)}\Bigr],
+\]
+where the equality is \eqref{eq:Ad}. By \eqref{eq:mean},
+\[
+  \sum_ux_u^2\,\overline\Dcost_u
+  =\sum_ux_u^2\Bigl[2m-Z_u-\frac{2(A^4)_{uu}}{d(u)}\Bigr]
+  =3m-\sum_ux_u^2\Bigl[m+Z_u+\frac{2(A^4)_{uu}}{d(u)}\Bigr]
+  \le3m-3\lambda^2 .
+\]
+The left side is a convex combination of the numbers $\overline\Dcost_u$, and each
+$\overline\Dcost_u$ is the mean of $\Dcost_{uv}$ over the nonempty set $N(u)$. Hence some vertex
+$u$ has $\overline\Dcost_u\le3\xi$, and some neighbour $v$ of $u$ has
+$\Dcost_{uv}\le\overline\Dcost_u\le3\xi$. Therefore $D(G)\le\Dcost_{uv}\le3\xi(G)$. \qed
+
+\medskip
+In terms of edges, the inequality just proved says that
+\[
+  \sum_{uv\in E(G)}\Bigl(\frac{x_u^2}{d(u)}+\frac{x_v^2}{d(v)}\Bigr)\Dcost_{uv}\ \le\ 3\,\xi(G),
+\]
+where the weights are nonnegative and sum to $1$.
+
+\section{Sharpness}\label{sec:sharp}
+
+For the five-cycle, $m=5$ and the all-ones vector is a positive eigenvector with eigenvalue $2$,
+so $\lambda(C_5)=2$ and $\xi(C_5)=1$. For disjoint $A,B\subseteq V(C_5)$ with $a=|A|$ and
+$b=|B|$, the cost of $K_{A,B}$ is $5+ab-2e(A,B)$, where $e(A,B)$ is the number of edges between
+$A$ and $B$. We show that $2e(A,B)-ab\le2$, which gives $D(C_5)\ge3$. We may assume $a\le b$, so
+$a\le2$ since $a+b\le5$. If $a=0$ the claim is clear. If $a=1$, then $e(A,B)\le\min(2,b)$ and
+$2\min(2,b)-b\le2$. If $a=2$, then $e(A,B)\le4$ because every vertex has degree two, and
+$e(A,B)\le3$ when $b=2$ because $C_5$ has no four-cycle; so $2e(A,B)-ab\le\max(6-4,\,8-6)=2$.
+The target $K_{\{1\},\{2,5\}}$ costs $3$. Hence $D(C_5)=3=3\,\xi(C_5)$, and no coefficient below
+$3$ bounds $D$ by a multiple of $\xi$ on all triangle-free graphs.
+
+\section{Remarks}
+
+\begin{remark}[Other weightings]\label{rem:weights}
+The uniform average of $\Dcost_{uv}$ over the edges, which proves the bipartite lemma of
+\cite{LLN}, can exceed $3\xi$ for triangle-free graphs. A search over all labelled triangle-free
+graphs on at most seven vertices, with eigenvalues computed to $50$ digits, finds no example on
+five or fewer vertices. On six vertices the largest excess occurs for the blow-up
+$C_5[1,1,2,1,1]$ of the five-cycle in which one vertex is replaced by two nonadjacent copies:
+there the uniform average exceeds $3\xi$ by about $0.0133$.
+Weights proportional to $x_ux_v$ also fail: on the double star $S(8,7)$, two adjacent vertices
+with $8$ and $7$ pendant neighbours, one has $\lambda^2=8+2\sqrt2$ and
+$3\xi=24-6\sqrt2\approx15.515$, while $\tfrac{2}{\lambda}\sum_{uv\in E}x_ux_v\Dcost_{uv}\approx15.985$.
+The bound $D\le3\xi$ itself holds there with room, since a pendant edge gives a target of cost
+$7$.
+\end{remark}
+
+\begin{remark}[A matrix form]
+Lemmas~\ref{lem:count} and~\ref{lem:cs} show that for every triangle-free graph without isolated
+vertices the matrix
+\[
+  Q=\diag\Bigl(m+Z_u+\frac{2(A^4)_{uu}}{d(u)}\Bigr)_{u\in V}-3A^2
+\]
+is positive semidefinite; the key inequality of Section~\ref{sec:proof} is $x^{\mathsf T}Qx\ge0$.
+\end{remark}
+
+\begin{remark}[Equality in the weighted bound]
+The three inequalities used in Section~\ref{sec:proof} are all equalities for complete bipartite
+graphs and for the balanced blow-ups $C_5[t]$, in which every vertex of $C_5$ is replaced by an
+independent set of size $t$ and every edge by a complete bipartite graph $K_{t,t}$. On $K_{s,t}$
+the eigenvector is constant on each part and $G[W_u]$ has no edges. On the regular graph $C_5[t]$
+the eigenvector is constant, and for every $u$ each edge $zz'$ of $G[W_u]$ joins the two classes
+at distance two from the class of $u$, whose neighbourhoods together contain $N(u)$. Hence the
+weighted average equals $3\xi$ on these graphs. This does not by itself give $D(C_5[t])=3\xi$,
+which needs a lower bound on $D$; we have $\xi(C_5[t])=t^2$, and a computer check found
+$D(C_5[t])=3t^2$ for $t\le9$.
+\end{remark}
+
+\section{Formal verification}
+
+Theorem~\ref{thm:main} and the sharpness example are formalized in Lean~4 \cite{Lean4} with
+Mathlib \cite{Mathlib} (Lean v4.35.0, Mathlib v4.35.0). The formal statement uses the following
+definitions, reproduced in Appendix~\ref{app:lean}.
+\begin{itemize}
+  \item \texttt{editCost G S T} is $|E(G)\triangle E(K_{S,T})|$ on the vertex type, and
+  \texttt{editDistance G} is its minimum over all pairs of disjoint finite sets $(S,T)$, empty
+  sets allowed; this is $D(G)$.
+  \item \texttt{spectralRadius G} is the largest absolute value of an eigenvalue of the real
+  adjacency matrix ($0$ when there are no vertices). For an adjacency matrix this is the largest
+  eigenvalue $\lambda(G)$.
+  \item \texttt{G.CliqueFree 3} says that $G$ has no triangle. The vertex type is any finite type
+  with decidable equality, so disconnected graphs and isolated vertices are included.
+\end{itemize}
+Two theorems state the results.
+\begin{itemize}
+  \item \texttt{TriangleFreeEdit.editDistance\_le\_three\_deficit}\\
+  For every such $G$,
+  $(\texttt{editDistance G}:\mathbb R)\le3\,(|E(G)|-\texttt{spectralRadius G}^2)$.
+  \item \texttt{TriangleFreeSharpness.triangleFree\_constant\_sharp}\\
+  For every real $c<3$ some finite triangle-free graph has $D(G)>c\,\xi(G)$.
+\end{itemize}
+For both, the command \texttt{\#print axioms} reports only \texttt{propext},
+\texttt{Classical.choice} and \texttt{Quot.sound}.
+
+The formal statement of the problem is a separate file, \texttt{Challenge.lean}, which contains
+the definitions and the theorem with the proof replaced by \texttt{sorry}. The tool
+\texttt{lake comparator} of Lean~v4.35.0 checks that the proved theorem has the same statement as
+the challenge, uses only the permitted axioms, and is accepted by the kernel. With the option
+\texttt{--paranoid} it also replays the proof in five further kernels (Lean's paranoid kernel,
+\texttt{lean4lean}, \texttt{nanoda}, \texttt{con-leche} and \texttt{con-ron}); all six kernels
+accepted it on 25 October 2026. That run used the option \texttt{--inadvisably-no-sandbox},
+because the sandbox requires Linux; a checker who does not trust our files can repeat it with the
+sandbox.
+
+\section*{How the result was obtained}
+
+The problem was created by the math-conjecturer harness of exactory and posted on 22 October 2026
+\cite{Problem}. The proof was found on 24 October 2026 by the math-solver harness of exactory, in
+which the Anthropic language model Claude Fable~5.1 wrote the proof, Claude Opus~5.5 reviewed it
+independently, and the OpenAI model gpt-6-astra reviewed it adversarially. Every identity and inequality of the
+proof was also checked numerically, with exact integer arithmetic for the combinatorial steps, on
+$2{,}918$ triangle-free graphs. The Lean proof was written by OpenAI Codex with gpt-6-astra and checked as
+described above. No human mathematician has yet reviewed the proof.
+
+\section*{Data availability}
+
+The Lean sources, the formal statement, the configuration of \texttt{lake comparator} and the
+scripts of the numerical checks are in the public repository
+\url{https://github.com/exactory/exactory-math}, folder
+\texttt{attempts/triangle-free-spectral-stability}.
+
+\begin{thebibliography}{9}
+\bibitem{Lean4} L.~de~Moura and S.~Ullrich, The Lean~4 theorem prover and programming language,
+  in: \emph{Automated Deduction -- CADE 28}, Lecture Notes in Computer Science 12699, Springer,
+  2021, 625--635.
+\bibitem{Problem} exactory, Sharp spectral-deficit stability for triangle-free graphs, open
+  problem posted 22 October 2026,
+  \url{https://www.exactory.ai/math/5aa390a0-bf63-4326-9b97-b50c46334fd8}.
+\bibitem{LLN} Y.~Li, L.~Liu and B.~Ning, The spectral Erd\H{o}s book theorem: sharp bounds and
+  stability, arXiv:2609.20225v2.
+\bibitem{LLZ} Y.~Li, H.~Liu and S.~Zhang, An edge-spectral Erd\H{o}s--Stone--Simonovits theorem
+  and its stability, arXiv:2508.15271v2.
+\bibitem{Mathlib} The mathlib Community, The Lean mathematical library, in: \emph{Proceedings of
+  the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs (CPP 2020)}, 2020,
+  367--381.
+\bibitem{Nikiforov} V.~Nikiforov, On a theorem of Nosal, arXiv:2104.12171.
+\bibitem{Nosal} E.~Nosal, Eigenvalues of graphs, Master's thesis, University of Calgary, 1970.
+\end{thebibliography}
+
+\appendix
+\section{The formal statement}\label{app:lean}
+
+The definitions and the theorem statement of \texttt{Challenge.lean}, without its header
+comments. In \texttt{TriangleFreeEdit.lean} the same lines are followed by the proof.
+
+\begin{Verbatim}[fontsize=\small]
+namespace TriangleFreeEdit
+
+variable {V : Type*} [Fintype V] [DecidableEq V]
+
+def bicliqueEdges (S T : Finset V) : Finset (Sym2 V) :=
+  (S ×ˢ T).image (fun p => s(p.1, p.2))
+
+def editCost (G : SimpleGraph V) [DecidableRel G.Adj] (S T : Finset V) : ℕ :=
+  (symmDiff G.edgeFinset (bicliqueEdges S T)).card
+
+def disjointPairs (V : Type*) [Fintype V] [DecidableEq V] : Finset (Finset V × Finset V) :=
+  (Finset.univ : Finset (Finset V × Finset V)).filter (fun p => Disjoint p.1 p.2)
+
+lemma disjointPairs_nonempty : (disjointPairs V).Nonempty :=
+  ⟨(∅, ∅), by simp [disjointPairs]⟩
+
+lemma editCosts_nonempty (G : SimpleGraph V) [DecidableRel G.Adj] :
+    ((disjointPairs V).image (fun p => editCost G p.1 p.2)).Nonempty :=
+  Finset.Nonempty.image disjointPairs_nonempty _
+
+noncomputable def editDistance (G : SimpleGraph V) [DecidableRel G.Adj] : ℕ :=
+  ((disjointPairs V).image (fun p => editCost G p.1 p.2)).min' (by exact editCosts_nonempty G)
+
+lemma adjMatrix_isHermitian (G : SimpleGraph V) [DecidableRel G.Adj] :
+    (G.adjMatrix ℝ).IsHermitian := by
+  exact Matrix.isHermitian_iff_isSymm.mpr (G.isSymm_adjMatrix)
+
+noncomputable def spectralRadius (G : SimpleGraph V) [DecidableRel G.Adj] : ℝ :=
+  if h : Nonempty V then
+    (Finset.univ : Finset V).sup' Finset.univ_nonempty
+      (fun i => |(adjMatrix_isHermitian G).eigenvalues i|)
+  else 0
+
+theorem editDistance_le_three_deficit (G : SimpleGraph V) [DecidableRel G.Adj]
+    (hG : G.CliqueFree 3) :
+    (editDistance G : ℝ) ≤ 3 * ((G.edgeFinset.card : ℝ) - (spectralRadius G) ^ 2) := by
+  sorry
+
+end TriangleFreeEdit
+\end{Verbatim}
+
+\end{document}
