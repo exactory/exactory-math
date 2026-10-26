@@ -1,0 +1,5 @@
+n=3: identities (i)-(v) hold exactly on 3 random rational matrices
+n=4: identities (i)-(v) hold exactly on 3 random rational matrices
+n=5: identities (i)-(v) hold exactly on 3 random rational matrices
+Schur(1): sum x(x-y)(x-z) = e1^3 - 4 e1 e2 + 9 e3   (exact)
+(I + C_3)/2: per/gamma_3 - 1 - ||E||^2/4 = 0 exactly

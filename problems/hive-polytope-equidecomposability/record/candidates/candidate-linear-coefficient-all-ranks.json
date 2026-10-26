@@ -1,0 +1,37 @@
+{
+ "disposition": {
+  "evidence_needed": null,
+  "reason": "A bare weakening of a known conjecture whose only route in the record (the rank-five reductions) was overtaken by Ferudun's certificate.",
+  "status": "rejected"
+ },
+ "id": "candidate-linear-coefficient-all-ranks",
+ "neighbours": [
+  "The full King-Tollu-Toumazet conjecture.",
+  "The effectivity statement (HTE) of Ferudun 2026."
+ ],
+ "notes": "A weakening of the conjecture that isolates its hardest coefficient; it would be an arbitrary cut without a reason why the linear coefficient alone has structure, and the rank-five footholds are now theorems of Ferudun.",
+ "observation": "The linear coefficient is the first coefficient the local-formula method cannot reach termwise; at rank five it needed a global certificate. Our own record holds reductions (cell reduction, per-facet identity) proved at rank five and tested nowhere else.",
+ "potential": {
+  "priority": 1,
+  "readiness": "pass",
+  "significance": {
+   "B1": 2,
+   "B2": 1
+  }
+ },
+ "previous": null,
+ "recorded_revision": 246,
+ "source": {
+  "evidence": [
+   {
+    "digest": "3b3ddf996d37bc51489d886b756ae54239573863c1008e7623fb256b4c8370a7",
+    "id": "reading-ferudun-2026-3",
+    "kind": "record",
+    "record_kind": "reading"
+   }
+  ],
+  "kind": "literature",
+  "reference": "Ferudun 2026, Section 9: six or more parts remain open below the top four coefficients, and the linear coefficient is where pointwise positivity of the local weights fails."
+ },
+ "statement": "For every triple with $c^{\\nu}_{\\lambda\\mu}>0$, the coefficient of $t$ in $c^{t\\nu}_{t\\lambda,t\\mu}$ is nonnegative."
+}

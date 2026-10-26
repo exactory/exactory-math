@@ -1,0 +1,26 @@
+{
+  "id": "candidate-linear-bipartite-deletion",
+  "previous": null,
+  "statement": "For every finite simple triangle-free graph $G$, can at most $e(G)-\\lambda(G)^2$ edges be deleted to obtain a bipartite graph?",
+  "source": {
+    "kind": "literature",
+    "reference": "Full readings reading-spectral-book-full-v1 (arXiv:2609.20225v2, Lemmas 4.3-4.4 and Theorem 1.9) and reading-edge-spectral-full-v1 (arXiv:2508.15271v2, Theorem 4.1).",
+    "evidence": []
+  },
+  "observation": "Lemma 4.4 of arXiv:2609.20225v2, with booksize zero, proves this for a spectral-radius component; delete all edges of other components to obtain the full statement. This is an established neighbouring result, so it is rejected as a new problem.",
+  "neighbours": [],
+  "potential": {
+    "significance": {
+      "B1": 0,
+      "B2": 0
+    },
+    "priority": 0,
+    "readiness": "pass"
+  },
+  "notes": "Exploration does not establish openness or proof credit. The exact statement must receive a bounded native attempt and current literature review.",
+  "disposition": {
+    "status": "rejected",
+    "reason": "Settled by a fully read source.",
+    "evidence_needed": null
+  }
+}

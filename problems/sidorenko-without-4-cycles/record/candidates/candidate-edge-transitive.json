@@ -1,0 +1,55 @@
+{
+ "id": "candidate-edge-transitive",
+ "previous": null,
+ "statement": "Is every connected edge-transitive bipartite graph Sidorenko?",
+ "source": {
+  "kind": "literature",
+  "reference": "Sidorenko (2020): weakly norming graphs are edge-transitive; Kral, Martins, Pach and Wrochna (2019): toroidal grids are edge-transitive and not weakly norming; Conlon and Lee (2017, Section 6) conjecture a characterization of weakly norming graphs through edge-transitivity.",
+  "evidence": [
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-sidorenko-2020",
+    "digest": "691735869a2afa57ff97bf8224259a14eb0792628883d5701a6c2dd1bae78276"
+   },
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-kmpw-2019",
+    "digest": "ad653d22cb72657b1bb34adb831c9d0e4249272022c22000ccb874e4d61a6e6a"
+   },
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-conlon-lee-2017-2",
+    "digest": "5bd57f11a2fe88379c19b46ed6c364f49dbe84632ac55ab6f3b63ff6372083b5"
+   },
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-openai-sidorenko-2026",
+    "digest": "6c700b460bee4bff698967efd76353d7efc824aa78bbf686f6bb40e0b3f3ac48"
+   }
+  ]
+ },
+ "observation": "Edge-transitive graphs are biregular, so the counterexample's pinning step cannot apply; the known edge-transitive graphs that are not weakly norming (toroidal grids) are Sidorenko through product theorems.",
+ "neighbours": [
+  "Is every connected biregular bipartite graph Sidorenko?",
+  "Conlon-Lee Conjecture 6.1",
+  "Is the Heawood graph Sidorenko?"
+ ],
+ "potential": {
+  "significance": {
+   "B1": 2,
+   "B2": 1
+  },
+  "priority": 1,
+  "readiness": "pass"
+ },
+ "notes": "Narrower than the biregular candidate and without an established consequence beyond the class.",
+ "disposition": {
+  "status": "open",
+  "reason": "Compare with the other candidates of the slate.",
+  "evidence_needed": null
+ }
+}

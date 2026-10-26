@@ -1,0 +1,4 @@
+corner pairs: 400;  pairs with 4 h_max (1-hbar) > 1: 0
+max drop/B = 0.441;  max D~/B = 0.441;  min kappa = 1.158
+p* - (1-hbar) max = -0.02194;  p* - 1/(4 h_max) max = -0.05810;  min disc at fixed point = 1.81e-02
+max tilted entry rho*_max = 0.3705  (must stay < 0.5);  max |theta*-1| = 0.0072

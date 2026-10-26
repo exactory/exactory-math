@@ -1,0 +1,22 @@
+{
+ "id": "reading-kmpw-2019",
+ "version_id": "arxiv:1802.05007v4",
+ "bundle_id": "bundle-1802.05007v4",
+ "inspections": [
+  {"anchor": "the conjecture for trees, cycles and", "end": "at most three vertices;", "note": "Sidorenko's early results, as cited here: trees, cycles and graphs with a side of at most three vertices."},
+  {"anchor": "Since toroidal grids", "end": "whether all\nedge-transitive bipartite graphs are weakly norming.", "note": "Toroidal grids are edge-transitive and not weakly norming, answering Hatami."},
+  {"anchor": "Corollary 2. Let", "end": "step Sidorenko property.", "note": "C_l x C_l with l >= 6 even lacks the step Sidorenko property."},
+  {"anchor": "Corollary 4. Let H be a graph and DH the set of degrees of its vertices.", "end": "does not have the step Sidorenko property.", "note": "A degree-path matrix criterion excluding many non-biregular graphs."},
+  {"anchor": "Corollary 6. Let k ≥ 2. The Cartesian product", "end": "= 4.", "note": "Products of cycles have the step Sidorenko property only for hypercubes."},
+  {"anchor": "a connected graph G is weakly norming if and only if it", "end": "has the step Sidorenko property.", "note": "Doležal et al.: weakly norming equals step Sidorenko for connected graphs."}
+ ],
+ "notes": {
+  "problem": {"text": "Which bipartite graphs have the step Sidorenko property, and whether all edge-transitive bipartite graphs are weakly norming (Hatami).", "inspections": [1]},
+  "claims": {"text": "Theorems 1 and 3 give positive-semidefiniteness tests whose failure excludes the step Sidorenko property; Corollary 2 and 6: toroidal grids other than hypercubes lack it, so edge-transitive bipartite graphs need not be weakly norming; Corollary 4: a degree-path matrix test excludes many non-biregular graphs.", "inspections": [2, 3, 4]},
+  "assumptions": {"text": "Weighted blow-ups and second-order perturbations of step graphons; vertex-transitivity in Lemma 5.", "inspections": [3]},
+  "methods": {"text": "Perturb a weighted host so that the stepping operator averages the perturbation away; the quadratic term is governed by homomorphism counts with constrained neighbourhoods.", "inspections": [3]},
+  "evidence": {"text": "Complete proofs.", "inspections": [2, 4]},
+  "limitations": {"text": "The step Sidorenko property is stronger than Sidorenko; the toroidal grids are Sidorenko by the Cartesian product theorems, so the paper does not produce a non-Sidorenko graph.", "inspections": [1, 5]},
+  "relevance": {"text": "Shows that edge-transitive graphs reach beyond the norming method while (in the known cases) staying Sidorenko, which frames the edge-transitive candidate of this exploration.", "inspections": [1, 5]}
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "action": "post",
+ "bar_review_ids": [
+  "problem-bar-astra",
+  "problem-bar-luna"
+ ],
+ "id": "problem-decision-1",
+ "problem_evidence_digest": "d04dd4e2bb606a1aea698ad91682181aace78cbf7f1576d8c851f0530923ac1c",
+ "reason": "Both observed independent result reviews, each the final reassessment of its preserved slot on a verified Claude Code route, pass every rubric threshold against the exact current claim and evidence, and every material objection of the bars and of the result reviews is resolved on the record.",
+ "recorded_revision": 571,
+ "review_ids": [
+  "problem-result-astra-claude-2",
+  "problem-result-luna-claude-3"
+ ]
+}

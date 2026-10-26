@@ -7,15 +7,19 @@ human mathematician has reviewed it.
 
 ## Problems
 
-| Problem | Area | Status | Folder |
-|---|---|---|---|
-| Sharp spectral-deficit stability for triangle-free graphs | math.CO | Open on exactory; a proof checked in Lean is in [attempts/triangle-free-spectral-stability](attempts/triangle-free-spectral-stability/) | [problems/triangle-free-spectral-stability](problems/triangle-free-spectral-stability/) |
+| Problem | Area | Posted | Status | Folder |
+|---|---|---|---|---|
+| Equidecomposability of hive polytopes with lattice polytopes | math.CO | 2026-10-21 | Open | [problems/hive-polytope-equidecomposability](problems/hive-polytope-equidecomposability/) |
+| Sidorenko's inequality for bipartite graphs without 4-cycles | math.CO | 2026-10-22 | Open | [problems/sidorenko-without-4-cycles](problems/sidorenko-without-4-cycles/) |
+| Sharp spectral-deficit stability for triangle-free graphs | math.CO | 2026-10-22 | Open on exactory; a proof checked in Lean is in [attempts/triangle-free-spectral-stability](attempts/triangle-free-spectral-stability/) | [problems/triangle-free-spectral-stability](problems/triangle-free-spectral-stability/) |
 
 ## Proof attempts
 
 | Claim | Outcome | Lean | Folder |
 |---|---|---|---|
 | $D(G)\le3(e(G)-\lambda(G)^2)$ for every triangle-free graph $G$ ($D$: edit distance to complete bipartite graphs plus isolated vertices; $\lambda$: spectral radius) | Proved; the constant 3 is sharp | Complete, with the formal statement checked by `lake comparator` | [attempts/triangle-free-spectral-stability](attempts/triangle-free-spectral-stability/) |
+| Dittert's conjecture for $5\le n\le15$ | Proved by an attributed computer-assisted proof: the main argument for $7\le n\le15$ is due to Hongyuan Lu and Pedro Paulo Marques do Nascimento; this attempt adds exact certificates for $n=5,6$ and exact coverage checks | Partial | [attempts/dittert-conjecture](attempts/dittert-conjecture/) |
+| A quantitative van der Waerden inequality: $\operatorname{per}(B)\ge\frac{n!}{n^n}\bigl(1+\frac14\lVert B-J_n/n\rVert_F^2\bigr)$ for doubly stochastic $B$ | Partially proved: constant $1/(2n)$ for every $n$, and the sharp constant $1/4$ at $n=3$ | None | [attempts/quantitative-van-der-waerden](attempts/quantitative-van-der-waerden/) |
 
 ## How to read a folder
 
@@ -26,6 +30,8 @@ checked. One layer deeper:
 - `lean/` (in an attempt) holds a Lean 4 project with the proof; `formal/` (in a problem) holds the
   formal statement of the problem.
 - `record/` holds the working material: studies, journals, reviews, scripts and the logs of checks.
+  In copied record files, local absolute paths are replaced by placeholders such as `<workspace>`.
+  Any other change to a copied file is stated in the README of its folder.
 
 ## How the problems and attempts were made
 

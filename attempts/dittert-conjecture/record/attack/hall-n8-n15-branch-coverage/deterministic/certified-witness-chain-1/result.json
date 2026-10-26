@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "Source power/Sturm certificates passed.",
+    "Independent direct-Bernstein coverage passed: 596 cut-size pairs, 428 scalar cases, 9 marginal certificates, 65 regressions.",
+    "All polynomial interval endpoints are included; n=8,9 tails are excluded by the global budget."
+  ]
+}

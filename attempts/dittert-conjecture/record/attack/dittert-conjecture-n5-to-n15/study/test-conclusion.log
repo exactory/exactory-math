@@ -1,0 +1,16 @@
+n=5: min ratio found = 0.01834057   claimed c_1 = 0.01024000   HOLDS with margin x1.79   (from: Knopp-Sinkhorn T_n)
+      at the minimiser: min entry 7.792e-15, ||A-U||_F^2 = 6.2993e-02, phi gap = 1.1553e-03
+n=6: min ratio found = 0.00740604   claimed c_1 = 0.00274348   HOLDS with margin x2.70   (from: Knopp-Sinkhorn T_n)
+      at the minimiser: min entry 4.956e-15, ||A-U||_F^2 = 4.0081e-02, phi gap = 2.9684e-04
+
+[exited with code 0]
+
+Run 2026-09-03 after the attack finished, at the user's question "did n = 5 and n = 6
+really get proved?".  This tests the CONCLUSION of units 1 and 2 directly from the
+definition of phi, sharing no code with the certificates: it minimises
+(phi(U_n) - phi(A)) / ||A - U_n||_F^2 over K_n from 440 (n = 5) and 320 (n = 6) starts,
+including points near U_n and the Knopp-Sinkhorn extremal T_n.  A value below the
+claimed c_1 would refute the theorem.  None was found; both minima are attained at
+T_n, in agreement with deterministic/numerical-optimisation-run-1 (the face maximum of
+phi is 2 - m_n at T_n).  This is supporting evidence, not a proof: a local
+optimisation can miss a global minimum.

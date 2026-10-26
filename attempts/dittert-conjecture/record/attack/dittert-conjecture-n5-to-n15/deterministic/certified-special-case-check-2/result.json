@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "[    1.6s] orbits",
+    "[   40.5s] symmetry and M 1 = 0 hold exactly; common scale L has 14 digits",
+    "[   40.5s] expanding the certificate side over all monomials",
+    "[   42.2s] largest scaled entry 8.234e+16; accumulating in Python integers",
+    "[  102.0s] expansion done",
+    "[  102.0s] expanding Q and D from the definitions",
+    "[  415.8s] comparing coefficients",
+    "[  439.2s] identity: holds exactly",
+    "[  439.2s] aligned: deflated 665 x 665, floating Cholesky of A - alpha I succeeded with alpha = 1.052e-03, rigorous error bound 4.307e-07: positive definite",
+    "[  439.3s] generic: deflated 665 x 665, floating Cholesky of A - alpha I succeeded with alpha = 1.089e-03, rigorous error bound 4.327e-07: positive definite",
+    "[  517.5s] main: deflated 8435 x 8435, floating Cholesky of A - alpha I succeeded with alpha = 7.514e-05, rigorous error bound 3.064e-05: positive definite",
+    "CHECK PASS"
+  ]
+}

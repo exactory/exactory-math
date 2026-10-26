@@ -1,0 +1,64 @@
+{
+ "disposition": {
+  "evidence_needed": null,
+  "reason": "The only candidate whose resolution changes something for two active lines at once (period collapse and Littlewood-Richardson positivity) and whose evidence is structural (a theorem of period collapse plus a census of necessary conditions) rather than a pattern.",
+  "status": "selected"
+ },
+ "id": "candidate-hive-equidecomposable",
+ "neighbours": [
+  "Ehrhart form: for every admissible triple there is a lattice polytope $Q$ with $L_Q(t)=c^{t\\nu}_{t\\lambda,t\\mu}$.",
+  "Haase-McAllister form: $H(\\lambda,\\mu,\\nu)$ is $\\mathrm{GL}_D(\\mathbb{Z})$-equidecomposable with a disjoint union of integral open simplices (their Conjecture 3.2 restricted to hive polytopes).",
+  "Gelfand-Tsetlin sibling: the Gelfand-Tsetlin polytope $GT(\\lambda,\\mu)$ of a Kostka number is $\\mathrm{GL}(\\mathbb{Z})$-equidecomposable with a lattice polytope.",
+  "Consequence: the numerator $G^{\\nu}_{\\lambda\\mu}(z)$ of $\\sum_t c^{t\\nu}_{t\\lambda,t\\mu}z^t$ has nonnegative coefficients (the second King-Tollu-Toumazet conjecture of 2004).",
+  "Rank restriction: the statement for partitions of length at most $r$; for $r\\le 4$ every hive polytope is a lattice polytope (Buch), so the first open rank is $r=5$."
+ ],
+ "notes": "Grade what the question would be if it holds: a positive answer is the first polyhedral explanation of the period collapse of hive polytopes, the motivating open case of Haase-McAllister's conjecture, and it implies the h*-positivity conjecture of King-Tollu-Toumazet; a negative answer identifies a representation-theoretic family whose period collapse is not explained by rearrangement into one lattice polytope, which would sharpen Haase-McAllister's Example 2.4 from an ad hoc quadrilateral to a structured family. The strongest objection is that the statement is a special case of a known conjecture; it is not: Haase-McAllister ask for a union of open simplices and show the single-polytope form fails in general, so the single-polytope form for hives is strictly sharper and is supported by evidence that the general form cannot have.",
+ "observation": "Every one of the 6,855,302 certified hive polynomials (five, six and seven parts, size at most 30, denominators up to 6) has an h*-vector satisfying the five inequalities that the h*-vector of a lattice polytope must satisfy (nonnegativity, interior bound, Hibi's lower bound, Stanley's inequality, Hibi's 1990 inequality), and every one of the 52,671 two-dimensional hive polytopes of at most five parts and size at most 22 has the Ehrhart polynomial of a lattice polygon (b >= 3 and Scott's inequality), although Haase-McAllister's Example 2.4 and Bohnert's classification show that rational polytopes with period collapse in general do not. The period collapse of hive polytopes is a theorem (Derksen-Weyman, Rassart, Thawinrak) with no polyhedral proof, which is exactly the gap Haase-McAllister's conjecture names; a single-lattice-polytope equidecomposition would give that proof and would imply the second King-Tollu-Toumazet conjecture (nonnegative integer coefficients of the generating-function numerator G(z)) through Stanley's nonnegativity.",
+ "potential": {
+  "priority": 3,
+  "readiness": "pass",
+  "significance": {
+   "B1": 3,
+   "B2": 3
+  }
+ },
+ "previous": null,
+ "recorded_revision": 243,
+ "source": {
+  "evidence": [
+   {
+    "digest": "0b26a9ecf0e28d73a0eddafd7913626ab2e9d2faf602d638c7b0b9fd05a615fb",
+    "id": "hstar-inequalities-1",
+    "kind": "record",
+    "record_kind": "probe"
+   },
+   {
+    "digest": "9021e71c0fe1a8af6afd10ba75779b9a1f2f560144f165968ffc6d39a37064ad",
+    "id": "dim2-hives-1",
+    "kind": "record",
+    "record_kind": "probe"
+   },
+   {
+    "digest": "aae21c2354cdedad834a228e381555897b487a7ca68f25aa309e73f6a9454edc",
+    "id": "reading-haase-mcallister-2008-3",
+    "kind": "record",
+    "record_kind": "reading"
+   },
+   {
+    "digest": "ab6abbdc4f71759b2a43ce9c1a1b8f265786a90c378f9203a048fa8808e35178",
+    "id": "reading-ktt-2006-3",
+    "kind": "record",
+    "record_kind": "reading"
+   },
+   {
+    "digest": "6fe3a9b00faff3da43d1043596af97dcda15d8959a935acfedb13870ea054c3a",
+    "id": "reading-rassart-2004-3",
+    "kind": "record",
+    "record_kind": "reading"
+   }
+  ],
+  "kind": "own_record",
+  "reference": "The h-vector census of the root attack ktt-positivity-conjecture (moves 5 to 7, 2026-09-05) and this record's probes hstar-inequalities-1 and dim2-hives-1, read against Haase-McAllister 2008, Conjecture 3.2 and Example 2.4."
+ },
+ "statement": "For every triple of partitions $(\\lambda,\\mu,\\nu)$ with $c^{\\nu}_{\\lambda\\mu}>0$, let $H=H(\\lambda,\\mu,\\nu)\\subset\\mathbb{R}^{D}$ be the hive polytope. Is $H$ $\\mathrm{GL}_D(\\mathbb{Z})$-equidecomposable with a lattice polytope, that is, a disjoint union of finitely many relatively open rational simplices $T_i$ together with affine unimodular maps $U_i$ such that $\\bigsqcup_i U_i(T_i)$ is a lattice polytope $Q$? In particular, is every stretched Littlewood-Richardson polynomial $c^{t\\nu}_{t\\lambda,t\\mu}$ the Ehrhart polynomial of a lattice polytope?"
+}

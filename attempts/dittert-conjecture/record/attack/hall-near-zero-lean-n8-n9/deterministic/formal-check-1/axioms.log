@@ -1,0 +1,23 @@
+'NearZero.identity8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NearZero.positive8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NearZero.identity9' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NearZero.positive9' depends on axioms: [propext, Classical.choice, Quot.sound]
+'near_zero_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+        6.14 real         1.16 user         3.72 sys
+          1506377728  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              186051  page reclaims
+                 155  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  45  voluntary context switches
+               45262  involuntary context switches
+          7021570406  instructions retired
+          7003465966  cycles elapsed
+           136816192  peak memory footprint

@@ -1,0 +1,56 @@
+{
+ "correction_admissible": null,
+ "disposition": "not_binding",
+ "evidence": [
+  {
+   "digest": "fb0c54d62c9c76ebd8961110752ed2731c41f779f15f5ea2cbc52dc9365b9d6c",
+   "id": "statement-girth-six",
+   "kind": "record",
+   "record_kind": "problem_statement"
+  },
+  {
+   "digest": "b37f1c681a5817730963a0175395151224fba8f30c90933a9fb0e676eaca9cd2",
+   "id": "value-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_value"
+  },
+  {
+   "digest": "0b59f4d8c1fcbaeb2f7095b25c46bac620802cc3a200712d780702adb5122939",
+   "id": "attempt-girth-six-solver-1",
+   "kind": "record",
+   "record_kind": "problem_attempt"
+  },
+  {
+   "digest": "a16c3a7427ab47d8894b78b5c0a85e6410e6bd7ca62a0d51793df9743ca5edf3",
+   "id": "assessment-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_assessment"
+  },
+  {
+   "digest": "f9c03908ead9b00015f055935e44db2255ca087c3e257a99ad66feb35711e6bd",
+   "id": "search-openness-heawood",
+   "kind": "record",
+   "record_kind": "literature_search"
+  },
+  {
+   "digest": "3e77a8ce00cf56947b68033e00e8506a64d572a6030921b900e7edcfa709b09a",
+   "id": "reading-ill-2024",
+   "kind": "record",
+   "record_kind": "reading"
+  },
+  {
+   "digest": "7339219d8012b31819267c0f4ae0582c30a076dfa2a2d6d321fc4f183ef14a56",
+   "id": "reading-openai-sidorenko-2026-located",
+   "kind": "record",
+   "record_kind": "reading"
+  },
+  {
+   "media_type": "application/atom+xml",
+   "path": "research/sources/objects/f690444b553fcff698bedf16337b89f19dd4ea84e8faf4ef0ee955a132d7a2d2",
+   "sha256": "f690444b553fcff698bedf16337b89f19dd4ea84e8faf4ef0ee955a132d7a2d2",
+   "size": 808
+  }
+ ],
+ "objection_id": "obj-girth-six-threshold-support",
+ "reason": "I re-decided this objection because the protocol changed. The material version and the problem-evidence digest are the same as before, so the delivered evidence is unchanged.\n\n(1) The claim holds on the delivered evidence.\n- The attempt record limits the accepted obstruction to the kernels of the reported construction. It holds at leading order as q tends to infinity, and only if an analogue of Lemma 3.1 (the rank-layer limit) holds. The manuscript proves Lemma 3.1 only for its own pattern.\n- The attempt lists that analogue as not studied. It also says no method was tried for the positive direction outside C_2.\n- Neither branch of the resolution condition is met. No proof of the rank-layer analogue for any girth-six pattern is delivered.\n- The arXiv query for Heawood together with Sidorenko, homomorphism or norming is complete and returned 0 results. No captured work decides the Heawood graph or any linear incidence graph.\n- Im, Li and Liu (Proposition 4.2) do yield decided girth-six patterns outside C_2. One example, my own inference, is the 2-subdivision of K_{3,3}: girth 12, with degree-3 vertices on both sides. These follow from the base graph's Sidorenko property, so they say nothing about girth six as a threshold.\n- The statement can therefore be false outside C_2 while Problem 1.5 holds. The comparative case is not independently established.\n\n(2) The claim does not bind the problem.\n- The statement and its resolution criteria do not use the barrier. They pose an exact universal question over bipartite graphs with no 4-cycle.\n- The value record's comparative payoff over Problem 1.5 is unconditional. It is the proved containment on C_2: a proof settles Problem 1.5, and a counterexample inside C_2 refutes it. It also counts a counterexample outside C_2 as informative, which is exactly the scenario the objection raises. So the value does not depend on the strengthening being plausible.\n- Where the value record does use the barrier, it states the dependence explicitly. It says 'at leading order and under the analogue of the manuscript's rank-layer limit for the pattern'. It says 'The barrier is conditional on the analogue of the rank-layer limit for the pattern, which the manuscript proves only for its own pattern, and it says nothing about the error at a fixed field size or about other constructions'. It also frames the girth-six claim as holding only if the manuscript is correct.\n- The assessment's priority answer to the bare-strengthening objection likewise labels the barrier conditional.\n- The record asserts no conjectured answer.\n\n(3) Scope of this finding. Both result reviews already withhold priority level 3 on this ground, and this finding leaves that unchanged. I waive no grade.\n\nMissing decisive sources: a proof of the rank-layer analogue for some girth-six pattern, or a decision of the Heawood graph or another girth-six pattern outside C_2 that is not obtained from a Sidorenko base."
+}

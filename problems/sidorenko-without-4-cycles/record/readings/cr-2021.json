@@ -1,0 +1,110 @@
+{
+ "id": "reading-cr-2021",
+ "version_id": "arxiv:2108.06599v2",
+ "bundle_id": "bundle-2108.06599v2",
+ "inspections": [
+  {
+   "anchor": "A tensor power trick [Sid91, Remark 2] implies that to show that G is a",
+   "end": "t(G, W ) ≥ cG · t(ρ, W )e(G) .",
+   "note": "The tensor power trick: a constant factor cG > 0 suffices."
+  },
+  {
+   "anchor": "Clearly, every Sidorenko bigraph is also symmetrically Sidorenko",
+   "end": "but whether the converse is true is unknown.",
+   "note": "Symmetrically Sidorenko (graphon hosts) versus Sidorenko (bigraphon hosts); the converse is unknown."
+  },
+  {
+   "anchor": "Remark 2. Since in a biregular bigraphon W , we have t(G, W ) = t(G −",
+   "end": "if and only if C2 (G) weakly dominates C2 (H).",
+   "note": "In a biregular host a vertex of degree at most one contributes exactly a factor t(rho,W)^deg."
+  },
+  {
+   "anchor": "Theorem 3.1. Let G be a bigraph. If there exists cG > 0 such that t(G, W ) ≥",
+   "end": "then G is a Sidorenko bigraph.",
+   "note": "Theorem 3.1: biregular bigraphon hosts suffice, up to a constant factor."
+  },
+  {
+   "anchor": "Theorem 3.3. Let F be a left 1-flag and k ∈ N+ . Then |F | is a Sidorenko",
+   "end": "is a Sidorenko bigraph.",
+   "note": "Theorem 3.3: an amalgamation of k copies along one vertex is Sidorenko exactly when one copy is."
+  },
+  {
+   "anchor": "Theorem 3.5. If T is a reflective tree decomposition of a connected non-",
+   "end": "then G is also a Sidorenko bigraph.",
+   "note": "Theorem 3.5: reflective tree decompositions with a dominating core give Sidorenko bigraphs."
+  },
+  {
+   "anchor": "Corollary 5.3. If v is a vertex of degree 1 in a bigraph G, then G is a",
+   "end": "W we have t(G, W ) = t(G − v, W ) · t(ρ, W ).",
+   "note": "Corollary 5.3: removing a vertex of degree one preserves the Sidorenko property in both directions (bigraph setting)."
+  },
+  {
+   "anchor": "Theorem 8.2. Let G be a bigraph. If there exists cG > 0 such that t(G, W ) ≥",
+   "end": "so G is symmetrically Sidorenko.",
+   "note": "Theorem 8.2 with its proof sketch: regular graphon hosts suffice for the symmetric setting, through CKLL Lemmas 3.3 and 3.4 and the symmetric reweighting Lemma 8.1."
+  },
+  {
+   "anchor": "Conjecture 1. If T is a reflective tree decomposition of a connected non-",
+   "end": "G weakly dominates G|SU ∈V U .",
+   "note": "Conjecture 1 of the concluding section, on reflective tree decompositions."
+  }
+ ],
+ "notes": {
+  "problem": {
+   "text": "Reducing Sidorenko's conjecture to biregular bigraphon hosts (regular graphon hosts in the symmetric setting) and deriving closure properties of Sidorenko bigraphs.",
+   "inspections": [
+    3,
+    7
+   ]
+  },
+  "claims": {
+   "text": "Theorem 3.1: a constant-factor Sidorenko bound on biregular bigraphons implies the Sidorenko property. Theorem 3.2 and 3.3: amalgamations along a vertex. Theorem 3.4: a d-star version. Theorem 3.5: reflective tree decompositions, which unify strong tree decompositions and N-decompositions. Corollary 5.3: a vertex of degree one can be removed or added without changing the Sidorenko property. Theorem 8.2: the symmetric analogue of Theorem 3.1 for regular graphons.",
+   "inspections": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  },
+  "assumptions": {
+   "text": "Bounded measurable hosts on probability spaces; the tensor power trick (Lemma 4.1) holds in both settings. Theorem 8.2 relies on the finite near-regular reduction of Conlon, Kim, Lee and Lee (Lemmas 3.3 and 3.4 of their paper) and on Lemma 8.1.",
+   "inspections": [
+    0,
+    7
+   ]
+  },
+  "methods": {
+   "text": "Reweighting of measures (Lemma 4.2 and its symmetric version Lemma 8.1), a deletion procedure that bounds degrees from below (Lemma 5.2), the tensor power trick, and an induction over the tree for Theorem 3.5.",
+   "inspections": [
+    0,
+    3,
+    7
+   ]
+  },
+  "evidence": {
+   "text": "Complete proofs in the bigraph setting (Sections 4 to 7); the symmetric setting of Section 8 is given as proof sketches, including Theorem 8.2.",
+   "inspections": [
+    3,
+    6,
+    7
+   ]
+  },
+  "limitations": {
+   "text": "The symmetric results are sketched, not written in full. Whether every symmetrically Sidorenko bigraph is Sidorenko is unknown. The concluding section leaves open the symmetric version of Theorem 3.4 and Conjecture 1. No result here concerns girth or subdivisions as such.",
+   "inspections": [
+    1,
+    7,
+    8
+   ]
+  },
+  "relevance": {
+   "text": "This paper does not decide the girth-six statement, which is posed for graphons, that is, in the symmetric setting. It gives the regular-host reduction: Theorem 8.2 (used by Im, Li and Liu as their Lemma 2.2), with which a vertex of degree one contributes exactly a factor t(K2,W) in a regular graphon, so that adding or removing it does not change the Sidorenko property; Corollary 5.3 states this in the bigraph setting. This record's inference, not a statement of the paper: with this reduction, the girth-six statement restricted to bipartite graphs with one side of maximum degree at most two is equivalent to Problem 1.5 of Conlon, Kim, Lee and Lee (the 1-subdivision of every graph), because removing the vertices of degree at most one on that side leaves the 1-subdivision of a graph, which is simple when there is no 4-cycle.",
+   "inspections": [
+    2,
+    6,
+    7
+   ]
+  }
+ }
+}

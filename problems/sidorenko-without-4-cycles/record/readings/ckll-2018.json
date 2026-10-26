@@ -1,0 +1,23 @@
+{
+ "id": "reading-ckll-2018",
+ "version_id": "arxiv:1510.06533v2",
+ "bundle_id": "bundle-1510.06533v2",
+ "inspections": [
+  {"anchor": "Theorem 1.2. If H is strongly tree-decomposable, then H has Sidorenko", "note": "Strongly tree-decomposable graphs are Sidorenko."},
+  {"anchor": "Theorem 1.3. (i) For every positive integer k, the subdivision of Kk has Sidorenko", "end": "also has Sidorenko", "note": "Subdivisions of cliques and of Sidorenko graphs are Sidorenko."},
+  {"anchor": "Theorem 1.4. Let k ≥ 2 be a positive integer.", "end": "also\nhas Sidorenko", "note": "H times an even cycle (Cartesian product) is Sidorenko when H is."},
+  {"anchor": "Problem 1.5. Show that the subdivision of an arbitrary graph H has Sidorenko", "note": "Open problem: the 1-subdivision of every graph."},
+  {"anchor": "suggest the following open problem, which lies outside the reach of current methods.", "note": "The authors place Problem 1.5 outside the reach of current methods."},
+  {"anchor": "Schacht [8] states that for any", "end": "labeled copies of H.", "note": "The KNRS conjecture for locally dense graphs."},
+  {"anchor": "Theorem 3.1. Suppose that H is a graph for which there exists a function", "end": "Then the subdivision of H has Sidorenko", "note": "A KNRS-type bound for H implies Sidorenko for its subdivision."}
+ ],
+ "notes": {
+  "problem": {"text": "Extending the class of bipartite graphs known to satisfy Sidorenko's conjecture.", "inspections": [0]},
+  "claims": {"text": "Theorem 1.2: strongly tree-decomposable graphs are Sidorenko; Theorem 1.3 and 3.1: subdivisions of cliques, of Sidorenko graphs, and of any graph satisfying a KNRS-type bound are Sidorenko; Theorem 1.4: H times C_{2k} is Sidorenko when H is; Problem 1.5 asks for the subdivision of an arbitrary graph.", "inspections": [0, 1, 2, 3, 6]},
+  "assumptions": {"text": "Entropy of branching random walks for tree decompositions; Fox's reduction to hosts with bounded maximum degree (Lemma 3.3); locally dense graphs and the KNRS conjecture for the subdivision theorem.", "inspections": [5, 6]},
+  "methods": {"text": "Branching random walks and entropy; codegree averaging in large minimum-degree subgraphs; an auxiliary graph psi_K(G) for Cartesian products.", "inspections": [0, 2, 6]},
+  "evidence": {"text": "Complete proofs.", "inspections": [0, 1, 2]},
+  "limitations": {"text": "Problem 1.5 is stated as outside the reach of current methods; the subdivision results need a KNRS-type input for the base graph.", "inspections": [3, 4]},
+  "relevance": {"text": "Problem 1.5 is a consequence of the girth-six candidate of this exploration, because every 1-subdivision of a simple graph has girth at least six; the KNRS link is the known route toward it.", "inspections": [3, 5, 6]}
+ }
+}

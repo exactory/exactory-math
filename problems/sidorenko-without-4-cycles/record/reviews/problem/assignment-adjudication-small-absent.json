@@ -1,0 +1,50 @@
+{
+ "correction_admissible": null,
+ "disposition": "not_upheld",
+ "evidence": [
+  {
+   "digest": "b37f1c681a5817730963a0175395151224fba8f30c90933a9fb0e676eaca9cd2",
+   "id": "value-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_value"
+  },
+  {
+   "digest": "a16c3a7427ab47d8894b78b5c0a85e6410e6bd7ca62a0d51793df9743ca5edf3",
+   "id": "assessment-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_assessment"
+  },
+  {
+   "digest": "fb0c54d62c9c76ebd8961110752ed2731c41f779f15f5ea2cbc52dc9365b9d6c",
+   "id": "statement-girth-six",
+   "kind": "record",
+   "record_kind": "problem_statement"
+  },
+  {
+   "digest": "70879ffecaaa7d788cb17f5d1e8793fff4edd88947c31fdba96a9f11a9eed7ee",
+   "id": "reading-hatami-2010",
+   "kind": "record",
+   "record_kind": "reading"
+  },
+  {
+   "digest": "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e",
+   "id": "search-openness-statement",
+   "kind": "record",
+   "record_kind": "literature_search"
+  },
+  {
+   "media_type": "text/plain; charset=utf-8",
+   "path": "research/sources/objects/767184c725c84646e5d7402960633a95ef889c0ed9b479dd127bb03d427f755d",
+   "sha256": "767184c725c84646e5d7402960633a95ef889c0ed9b479dd127bb03d427f755d",
+   "size": 948
+  },
+  {
+   "media_type": "text/plain; charset=utf-8",
+   "path": "research/sources/objects/7e632d8485bbde639006da4751846510e05506af064b920312b2dc935ff8f0fc",
+   "sha256": "7e632d8485bbde639006da4751846510e05506af064b920312b2dc935ff8f0fc",
+   "size": 968
+  }
+ ],
+ "objection_id": "obj-small-graph-computations-absent",
+ "reason": "This decides the version stated by problem-result-opus-2.\n\nThe factual premise is correct. No delivered source enumerates small bipartite graphs, certifies any of them as Sidorenko or open, or reports numerical density searches. The resolution condition is therefore unmet.\n- The SOS abstract (767184c7) shows only that the smallest open case has no sum-of-squares certificate.\n- The Lee–Schülke abstract shows only that K_{5,5}\\C_{10} is not weakly norming.\n- The Sason abstract's 'numerical results' compare homomorphism-count bounds. They do not certify the Sidorenko property.\n- arXiv:2206.10058 appears only as a search disposition. Its text was not delivered.\n\nThe objection's second clause also holds. The only attested smallest open case is K_{5,5}\\C_{10}, named by Hatami and repeated in the CLM, KLL and Conlon–Lee 2021 readings.\n\nThe objection does not identify a defect in this problem, and the version's own reason concedes as much.\n- The statement and resolution criteria contain no small-graph or minimal-size claim.\n- The value record attributes 'the smallest open case named in the literature' to the literature, which matches the objection's own clause. Its Heawood remark concerns the minimal cubic girth-six graph, a structural fact, not evidence about Sidorenko status.\n- The assessment's calibration item states that no computation is cited and that no claim is made about small-graph computations or the size of a smallest counterexample. The accessibility item explicitly declines to claim that the Heawood graph is the smallest unresolved case.\n- The one small-pattern remark in the openness search disposition is checkable by hand. A girth-six pattern with at most 7 edges and a cycle is C_6 plus at most one extra edge, and these are covered by known results. It rests on no enumeration.\n\nThe absence of a computational source therefore remains a field-level gap. Any future claim that appeals to small-graph evidence would need that source. It is not a material defect of this problem. No correction was requested."
+}

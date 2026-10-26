@@ -1,0 +1,190 @@
+{
+ "limitations": [
+  "Theorem 1.1 and its corollaries are taken from the delivered manuscript as reported. The finite-field rank-layer estimates of Sections 4-7 were read but not independently verified.",
+  "The Lean formalization and any small-graph computations named in the field description are not in the inventory and are treated as unsupported.",
+  "The remark that colour-refinement pinning does not reach biregular patterns is an inference from the hypothesis of Lemma 3.4. It shows only that this proof does not extend, not that biregular graphs are Sidorenko.",
+  "Lovasz's local radii, Coregliano's degree-count thresholds, Szegedy's reductions, Im-Li-Liu and the original KNRS paper are known only through the counterexample's citations or abstracts.",
+  "Several neighbouring lines (tournament and digraph analogues, hypergraph Sidorenko exponents, spectral Sidorenko inequalities) are inventoried but not delivered, so the standard does not rank questions in them.",
+  "The standard rests on extracted PDF text in which some formulas are garbled. Theorem statements were read from the surrounding prose, and a statement under review should quote the exact hypothesis it relies on.",
+  "This reassessment follows recorded context contamination of the earlier Fable-route review. Its conclusions were re-derived from the delivered texts, not inherited."
+ ],
+ "objections": [
+  {
+   "claim": "The host-reduction results used for the symmetric-pattern and host-structure questions (Szegedy's biregular and symmetric-group Cayley-type reductions) are known here only through abstracts, so the standard does not rely on their precise hypotheses.",
+   "evidence": [
+    {
+     "media_type": "text/plain; charset=utf-8",
+     "path": "research/sources/objects/1be62d11d529064e5bf88a7a7ad5965c44f0bc1c2e6d4152b5ce187d111ce169",
+     "sha256": "1be62d11d529064e5bf88a7a7ad5965c44f0bc1c2e6d4152b5ce187d111ce169",
+     "size": 920
+    },
+    {
+     "media_type": "text/plain; charset=utf-8",
+     "path": "research/sources/objects/c2cf33823a4367805f0ea23555ae30ece83a699b310d9add5464381758bc1b40",
+     "sha256": "c2cf33823a4367805f0ea23555ae30ece83a699b310d9add5464381758bc1b40",
+     "size": 796
+    }
+   ],
+   "id": "obj-szegedy-reduction-undelivered",
+   "reason": "The biregularity abstract and Zhao's abstract only state that a result of Szegedy reduces Sidorenko to biregular bigraphons, and to Cayley-type hosts from symmetric groups. If the Cayley-type statement holds as quoted, the counterexample would imply a symmetric-group Cayley-type counterexample, but no delivered text says this or constructs one. A statement relying on either reduction must quote its exact hypotheses.",
+   "resolution_condition": "Delivery of Szegedy's full text (sparse graph limits / entropy maximization) with the exact statement of the biregular and Cayley-type reductions."
+  }
+ ],
+ "reassessment": {
+  "assignment_id": "assignment-bar-fable-3",
+  "findings": [
+   {
+    "disposition": "revised",
+    "evidence": [
+     {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+      "sha256": "3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+      "size": 196723
+     },
+     {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/0fc6cc7e787229489aee55209ef5b90c6cb0cd6b6839ebb78f1f7063946e11d6",
+      "sha256": "0fc6cc7e787229489aee55209ef5b90c6cb0cd6b6839ebb78f1f7063946e11d6",
+      "size": 70324
+     }
+    ],
+    "reason": "The earlier bar's overall standard is largely reproduced, and its status 'sufficient' is kept. The wording, objection ids, limitations and the P1-P8 structure are restated. The inherited objections move to objection_findings, all three as continuing. One new objection is raised, on the undelivered Szegedy reductions. The pinning/biregular remark is explicitly marked as an inference about the proof, not a theorem. Because the output text differs from the inherited review, it is labelled revised, not confirmed.",
+    "review_id": "problem-bar-fable"
+   }
+  ]
+ },
+ "stage": "bar",
+ "support": null,
+ "value": {
+  "assurances": [],
+  "bar_ids": [],
+  "consequence": "The standard is fixed on the delivered texts. The field question is no longer whether Sidorenko's conjecture is true. It is the characterization-and-replacement problem left by the reported 2026 counterexample. A statement graded against this bar must place its question, by an explicit reduction or implication, in one of the lines P1-P8 below. It must say what the counterexample does and does not settle for that question: one density or all densities, homomorphism or injective counts, graph or kernel, and the example's irregular point side. It must compare against the named neighbours. It must answer the strongest objection in this field: a question about one more graph, one more triple system or one more parameter is an increment without a new mechanism. It must also state its dependence on the counterexample manuscript, whose proof was not independently verified.",
+  "evidence": [
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+    "sha256": "3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+    "size": 196723
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/0fc6cc7e787229489aee55209ef5b90c6cb0cd6b6839ebb78f1f7063946e11d6",
+    "sha256": "0fc6cc7e787229489aee55209ef5b90c6cb0cd6b6839ebb78f1f7063946e11d6",
+    "size": 70324
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/46e048d50a36cb3c4b7cc4b86ae2f37277d9dfc8e370cc0a3cf3363f72201b9b",
+    "sha256": "46e048d50a36cb3c4b7cc4b86ae2f37277d9dfc8e370cc0a3cf3363f72201b9b",
+    "size": 43713
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/a662797f1d7d3feeda3132ed8be556abf792dc04afaeabb5ff84db02c0fe091b",
+    "sha256": "a662797f1d7d3feeda3132ed8be556abf792dc04afaeabb5ff84db02c0fe091b",
+    "size": 59749
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/fb503c6b05d61ac5a473107c9932629822a29bdb2d4361193dd04deaab78ba8b",
+    "sha256": "fb503c6b05d61ac5a473107c9932629822a29bdb2d4361193dd04deaab78ba8b",
+    "size": 95192
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/9fc838efdd34ca92fdd9401311a01780e7781ff79b346b8ba5bb95992d02dec3",
+    "sha256": "9fc838efdd34ca92fdd9401311a01780e7781ff79b346b8ba5bb95992d02dec3",
+    "size": 669
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/7e632d8485bbde639006da4751846510e05506af064b920312b2dc935ff8f0fc",
+    "sha256": "7e632d8485bbde639006da4751846510e05506af064b920312b2dc935ff8f0fc",
+    "size": 968
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/6649ce75b27a7da6d55e8a83cef74e3266629de7973d33da63b5ad13aca3460e",
+    "sha256": "6649ce75b27a7da6d55e8a83cef74e3266629de7973d33da63b5ad13aca3460e",
+    "size": 1254
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/767184c725c84646e5d7402960633a95ef889c0ed9b479dd127bb03d427f755d",
+    "sha256": "767184c725c84646e5d7402960633a95ef889c0ed9b479dd127bb03d427f755d",
+    "size": 948
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/f0705972694e608feb069b4cbfb29c7e271fd97470c9191b70a450f34c3adfab",
+    "sha256": "f0705972694e608feb069b4cbfb29c7e271fd97470c9191b70a450f34c3adfab",
+    "size": 1528
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/5aeaa6ee36f75290dc83836207395c77472f626a43c02d1fede979c16e1282bb",
+    "sha256": "5aeaa6ee36f75290dc83836207395c77472f626a43c02d1fede979c16e1282bb",
+    "size": 1320
+   }
+  ],
+  "method_adequacy": "not_assessed",
+  "objection_findings": [
+   {
+    "evidence": [
+     {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+      "sha256": "3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+      "size": 196723
+     }
+    ],
+    "id": "obj-lean-formalization-undelivered",
+    "reason": "Still no Lean artifact is delivered or inventoried, and the delivered manuscript text makes no mention of one. The field description's claim that a Lean formalization covers the Sidorenko statement remains unsupported, so the refutation is treated as a reported manuscript result.",
+    "status": "continuing"
+   },
+   {
+    "evidence": [
+     {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+      "sha256": "3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+      "size": 196723
+     }
+    ],
+    "id": "obj-counterexample-unverified",
+    "reason": "The re-read manuscript still reduces Theorem 1.1 to Lemma 3.1 (Sections 4-7) with a large fixed even dimension and an existence-only host (Lemma 3.6). No independent verification, refereed version or explicit finite host was delivered, so the premises that depend on the refutation stay conditional.",
+    "status": "continuing"
+   },
+   {
+    "evidence": [
+     {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/0fc6cc7e787229489aee55209ef5b90c6cb0cd6b6839ebb78f1f7063946e11d6",
+      "sha256": "0fc6cc7e787229489aee55209ef5b90c6cb0cd6b6839ebb78f1f7063946e11d6",
+      "size": 70324
+     },
+     {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/767184c725c84646e5d7402960633a95ef889c0ed9b479dd127bb03d427f755d",
+      "sha256": "767184c725c84646e5d7402960633a95ef889c0ed9b479dd127bb03d427f755d",
+      "size": 948
+     },
+     {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/7e632d8485bbde639006da4751846510e05506af064b920312b2dc935ff8f0fc",
+      "sha256": "7e632d8485bbde639006da4751846510e05506af064b920312b2dc935ff8f0fc",
+      "size": 968
+     }
+    ],
+    "id": "obj-small-graph-computations-absent",
+    "reason": "No delivered source enumerates small bipartite graphs or gives numerical evidence. Hatami names K_{5,5} minus a Hamilton cycle as the smallest open case, and the SOS and convex-graphon abstracts treat it as open and not weakly norming. Appeals to small-graph evidence remain uncheckable.",
+    "status": "continuing"
+   }
+  ],
+  "objective_adequacy": "not_assessed",
+  "reason": "1. FIELD AND ACTIVE LINES. The field is the set of homomorphism-density inequalities t(H,.) >= t(K_2,.)^{e(H)} for bipartite H over graphs, kernels and graphons, with the forcing, local Sidorenko and KNRS relatives.\n\nOrganizing event. The delivered manuscript 'A counterexample to Sidorenko's conjecture' (2026-09-23) takes H to be the incidence graph of 22 triples (faces) on 13 points. H has 35 vertices and 66 edges, with part sizes 13 and 22. Point degrees are 4, 5, 6 and every face has degree 3. Every point pair lies in exactly two faces, and colour refinement from the part colours becomes discrete within each part (Prop. 2.1).\n- Theorem 1.1 gives a finite simple G with t(H,G) < p(G)^66.\n- The proof builds a kernel from half-rank layers of symmetric matrices over F_q with a discriminant-sign constraint. The double occurrence of pairs forces a negative four-incidence correlation.\n- Colour-refinement pinning (Lemma 3.4), dilution and a crossed product give a symmetric kernel, and sampling gives the host (Lemma 3.6).\n- Lemma 3.1 is proved in Sections 4-7 with D fixed large (the singular nondirect case uses D > 1641) before q tends to infinity.\n- Corollary 1.2: tensor powers make t(H,F)/p(F)^66 arbitrarily small, and balanced blow-ups give a fixed injective-count deficit at one positive limiting density.\n- Corollary 1.3: a nonconstant graphon with t(K_2,W)=p, t(H,W)=p^66 and t(C_4,W)>p^4. So H is not p-forcing at one density, and the Conlon-Fox-Sudakov forcing conjecture (bipartite with a cycle iff forcing) fails. The manuscript explicitly does not claim failure at every density.\n- The manuscript locates H outside the known classes. It has no vertex complete to the other part, so CFS Theorem 1.2 does not apply. It is not weakly norming, because Hatami's Theorem 2.10(ii) needs equal degrees within a part. It fails Coregliano's degree-count hypothesis, and its kernel lies outside Lovasz's local radii.\n\nLines with the delivered works showing activity:\n(1) Gluing and entropy positive classes. These are Li-Szegedy logarithmic calculus (with forcing when one vertex is complete to the other side), Szegedy's entropy method, Kim-Lee-Lee tree-arrangeability, and Conlon-Kim-Lee-Lee strong tree decompositions, subdivisions via locally dense hypotheses, and H box C_{2k}. CKLL Problem 1.5 (subdivisions of arbitrary graphs) is stated there. Also in this line are the higher-tree-decomposition note, Coregliano-Razborov reflective tree decompositions with the biregular host reduction, and CFS Theorem 1.1 and Corollary 1.1 (t(H,G) >= p^{m+w}).\n(2) Graph norms and domination. This covers Hatami's Holder characterization, positive classes (K_{m,n}, hypercubes) and necessary conditions, with K_{5,5} minus a Hamilton cycle and K_2 box C_6 listed as open. The step-Sidorenko paper gives an edge-transitive bipartite graph that is not weakly norming. The convex-graphon-parameters abstract says K_{5,5}\\C_{10} and C_6 box K_2 are not weakly norming. Other delivered works are the paper showing weakly norming graphs are edge-transitive, the factorisation/non-uniform-convexity paper, the domination papers, the cyclic strong-domination family and the fold-stability characterization of cut-percolation.\n(3) Blow-up and L^p versions: the Conlon-Lee divisibility criterion, with every H having a Sidorenko one-sided blow-up (equivalently an L^p Sidorenko inequality), and Coregliano's left-cut-percolation.\n(4) Forcing: CFS Conjecture 2 and Theorem 1.3, the adjunction/box-product forcing-family paper, and Corollary 1.3.\n(5) KNRS and locally dense hosts. Bradac-Sudakov-Wigderson gives gluing preservation, KNRS-forcing, regular-KNRS (Conjecture 1.8), W-p positive semidefinite for regular locally dense W (Cor. 2.15), hereditarily PSD-nonnegative graphs, and Prop. 5.1-5.2 as obstructions. Others are the KNRS subdivision paper, the L^p-KNRS paper and the tensor-amplification/spectral-transfer framework.\n(6) Local Sidorenko (Lovasz), known here by abstract only.\n(7) Proof-system obstruction: no sum-of-squares certificate for the smallest open case.\n(8) Host reductions: the Coregliano-Razborov biregularity reduction, and Zhao's conjugacy-class averaging with the Szegedy reduction to symmetric-group Cayley-type hosts as quoted in the abstract.\n(9) Analogues: the Fox-Pham-Zhao characterization of Sidorenko linear equations, the reverse Sidorenko inequality, and hypergraph Sidorenko, which is false (noted in CFS).\n\n2. NEAREST PROBLEMS AND WHAT A RESOLUTION GIVES.\nP1 (characterization): determine the class S of bipartite graphs with the Sidorenko property. Sub-questions with sharp resolution conditions are K_{5,5}\\C_{10}, C_6 box K_2, a smaller counterexample, closure of S under subdivision (the subdivision of the counterexample is a test for CKLL Problem 1.5), and decidability. A resolution replaces a refuted universal statement by a boundary. No delivered text gives any necessary condition for S beyond bipartiteness.\nP2 (symmetric patterns): are biregular, edge-transitive or vertex-transitive bipartite graphs Sidorenko? Documented distinction: the proof's pinning lemma requires colour refinement from the part colours to become discrete within each part, and for a biregular H with parts larger than one vertex the part colouring is already equitable, so it never becomes discrete. Hence this proof does not reach biregular patterns. This is an observation about the proof's hypotheses, not a theorem that biregular graphs are Sidorenko. Weakly norming implies edge-transitive, but edge-transitive does not imply weakly norming. So the symmetric classes are covered neither by the norming route nor by the counterexample.\nP3 (forcing replacement): the conjecture is false. Open are whether 'bipartite with a cycle and Sidorenko' implies forcing, whether failure at one density gives failure at all densities, and stability for the positive classes.\nP4 (quantitative): the Sidorenko exponent s(H) = inf{s : t(H,G) >= p(G)^s for all G}. CFS give s <= e+w. Cor. 1.2(i) gives s(H) > 66 for the counterexample. Determine s(H) there, and the minimal L^p/blow-up exponent.\nP5 (KNRS status of the counterexample): by BSW Lemma 2.6, H is KNRS iff t(H,W) >= p^{e(H)} on every p-locally dense W, and the counterexample kernel need not be locally dense. Whether H is KNRS, regular-KNRS or hereditarily PSD-nonnegative is open. A resolution decides whether local density is the right replacement hypothesis.\nP6 (local radius): Lovasz's radii depend on m. Is there a better m-dependence, and how does the counterexample kernel sit relative to it?\nP7 (obstruction theorem): a checkable necessary condition for S generalizing the double-occurrence correlation, and whether the entropy, norming and blow-up methods are jointly complete for S.\nP8 (proof systems): extend the SOS obstruction.\n\n3. SUBSTANTIAL ADVANCE. A result that changes what specialists do next, namely:\n(a) a necessary condition for S, or a second counterexample with a different mechanism or much smaller order, with the mechanism isolated;\n(b) resolution of P2 for a named symmetric class in either direction;\n(c) a proved implication between Sidorenko and forcing, KNRS, regular-KNRS or local minimality;\n(d) decidability or undecidability of S;\n(e) s(H) for the counterexample, or a general bound beating the width bound;\n(f) the status of K_{5,5}\\C_{10};\n(g) a positive method with a documented exclusion showing it exceeds gluing, norming and blow-ups.\nNot substantial: adding a graph to a class by an existing gluing rule, a second triple system through the same construction, or restating Corollaries 1.2-1.3.\n\n4. SPECIALIST MEANING OF LEVELS 2 AND 3.\nB1 (standing), level 2. The question is placed by an explicit implication or reduction inside P1-P8. For example: if H' is Sidorenko then CKLL Thm 1.3(ii) gives its subdivision; or biregular Sidorenko plus the Coregliano-Razborov reduction yields X. The premises are verified against the delivered statements: CFS Thm 1.1 hypotheses, Hatami Thm 2.10, the Conlon-Lee criteria, Lovasz's radii and Cor. 1.3's single-density quantifier. The objection 'already refuted, so one more instance settles nothing' is answered by saying what the instance decides for the line. Dependence on the unverified counterexample is explicit. Shared vocabulary is not a connection.\nB1 level 3. In addition, a demonstrated or compellingly argued account that the resolution removes an obstacle the line is stuck on, with a reason why existing results do not already give it. Examples are that neither the positive methods nor colour-refinement pinning reach a symmetric class, or that the width bound and blow-up thresholds leave s(H) undetermined by a documented gap.\nB2 (influence), level 2. The carrying criterion is met concretely: named results that become unconditional (Ramsey multiplicity for the class, forcing or stability via CFS Thm 1.3, product and subdivision closures), or competing mechanisms distinguished (gluing-type positivity versus double-occurrence negative correlation, local density versus edge density, homomorphism versus injective counts), or a delimited limitation of a named method, or implications under each answer, with the argued part saying why it matters.\nB2 level 3. The answer changes the organizing explanation: a structural criterion for S, an undecidability theorem, or a proved equivalence of Sidorenko with forcing or KNRS for cyclic bipartite graphs, with a reason existing results do not yield it.\nComparative priority, level 2. Credible neighbours are compared by payoff: K_{5,5}\\C_{10}; C_6 box K_2; the subdivision of the counterexample; one density versus all densities; KNRS versus regular-KNRS versus PSD-nonnegativity; s(H) versus the L^p threshold; biregular versus edge-transitive; sup-norm versus cut-norm radius. The strongest objection (a parameter increment, or a better general-obstruction question) is answered.\nComparative priority, level 3. A concrete advantage of the formulation supported by documented distinctions. Examples are the pinning step's need for discrete refinement, BSW's PSD structure for regular locally dense graphons, Conlon-Lee's eventual blow-up positivity, and Lovasz's explicit radii. A neighbour's settledness alone is not enough.\n\n5. UNINTERESTING. Restating Sidorenko's conjecture or asking whether it is true. A graph already in a delivered positive class. Re-running the delivered construction with a different triple system, dimension or prime and no new mechanism. A conjecture resting only on small-graph enumeration (none was delivered). A programme with no resolution condition. Hypergraph Sidorenko, or Sidorenko linear equations (characterized). Forcing questions with no fixed density quantifier. Questions already answered by Lovasz's local results, Cor. 1.2-1.3 or Hatami's necessary conditions. Lack of a route to progress, or of downstream theorems when the explanation is itself the payoff, is not by itself a reason against a question.\n\nMISSING OR UNSUPPORTED. The Lean artifact is absent (the 'Lean' inventory query returned nothing and the manuscript does not mention it). No small-graph computations were delivered. Theorem 1.1 rests on Lemma 3.1 and on an existence-only host and was not independently checked. Lovasz's radii, Coregliano's thresholds and Szegedy's reduction are known only through citations or abstracts.",
+  "status": "sufficient",
+  "work_items": []
+ }
+}

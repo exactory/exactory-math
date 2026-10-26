@@ -1,0 +1,78 @@
+{
+ "id": "reading-zhao-2026-corr",
+ "version_id": "arxiv:2606.23018v1",
+ "bundle_id": "bundle-2606.23018v1",
+ "inspections": [
+  {
+   "anchor": "Theorem 1.1 (Main theorem). Let Γ be a finite group, and let",
+   "end": "t(F, Cf ) ≥ t(K2 , Cf )e(F ) .",
+   "note": "Theorem 1.1: every directed graph satisfies the inequality on two-sided correlation kernels."
+  },
+  {
+   "anchor": "Proposition 3.1 (Subdivision form). Let F = (V, E) be a finite directed graph, and let",
+   "end": "(Eg∈Γ f (g))2e(F ) .",
+   "note": "Proposition 3.1: the subdivision form on product kernels."
+  },
+  {
+   "anchor": "Corollary 4.1. Let F be a finite directed graph, let Γ be a finite group, and let f : Γ → R.",
+   "end": "Define Wf× (x, y) = f (xy). Then",
+   "note": "Corollary 4.1: directed 1-subdivisions on product Cayley kernels."
+  },
+  {
+   "anchor": "Remark 4.2. The product Cayley formulation contains the conjugacy-averaged Cayley",
+   "end": "formulation for 1-subdivisions as a special case.",
+   "note": "Remark 4.2: this contains the conjugacy-averaged 1-subdivision theorem."
+  }
+ ],
+ "notes": {
+  "problem": {
+   "text": "Sidorenko-type inequalities for directed graphs on two-sided correlation kernels of finite groups, equivalently for directed 1-subdivisions on product Cayley kernels.",
+   "inspections": [
+    0,
+    2
+   ]
+  },
+  "claims": {
+   "text": "Theorem 1.1: for every finite group, every real function f and every finite directed graph F, t(F, C_f) >= (E f)^{2 e(F)}, where C_f(x,y) = E_z f(x^{-1} z) f(z y^{-1}). Corollary 4.1: the directed 1-subdivision of every directed graph satisfies the inequality on the product kernel f(xy). Remark 4.2: this contains the 1-subdivision theorem for conjugacy-averaged Cayley kernels.",
+   "inspections": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "assumptions": {
+   "text": "Finite groups with uniform measure; real-valued functions.",
+   "inspections": [
+    0
+   ]
+  },
+  "methods": {
+   "text": "Fourier expansion over irreducible representations; the average over each subdivision vertex forces contragredient pairs and gives a positive semidefinite edge block; vertex averages are commuting orthogonal projections.",
+   "inspections": [
+    1
+   ]
+  },
+  "evidence": {
+   "text": "Complete proofs.",
+   "inspections": [
+    1,
+    2
+   ]
+  },
+  "limitations": {
+   "text": "Only kernels of the correlation or product form on finite groups.",
+   "inspections": [
+    0,
+    2
+   ]
+  },
+  "relevance": {
+   "text": "No result of this paper decides the statement or a declared neighbour. For the 1-subdivision neighbours it gives a further restricted host class (product Cayley kernels) on which every 1-subdivision satisfies the inequality.",
+   "inspections": [
+    2,
+    3
+   ]
+  }
+ }
+}

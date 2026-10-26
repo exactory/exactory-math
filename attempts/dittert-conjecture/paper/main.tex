@@ -1,0 +1,495 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,array}
+\usepackage{microtype}
+\usepackage[numbers]{natbib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\usepackage{fancyvrb}
+\hypersetup{pdftitle={Scalar Hall Exclusion in Dimensions 11 through 15: A Partial Lean Formalization},pdfsubject={A technical note on a verified scalar theorem},pdfauthor={Ryosuke Shiroshita}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\code}[1]{\texttt{\small #1}}
+\setlength{\emergencystretch}{1.5em}
+\title{Scalar Hall Exclusion in Dimensions 11 through 15:\\A Partial Lean Formalization}
+\author{Ryosuke Shiroshita\\[2pt]
+\small\href{mailto:Ryosuke.Shiroshita@exactory.ai}{\texttt{Ryosuke.Shiroshita@exactory.ai}}}
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+We formalize a finite scalar layer of an existing computer-assisted argument
+for Dittert's conjecture. For dimensions 11 through 15, the artifact checks
+direct rational formulas for every ordered proper cut and one normalized
+marginal cut, then derives a strict polynomial inequality for every real
+parameter $u\leq 1$. Its corollary excludes simultaneous permanent and
+deficit lower bounds even under a relaxed scalar budget. Lean verifies
+340 normalized cases and proves that they cover the entire specified
+nonfull scalar domain. Independent execution and statement review confirm
+that the positivity, exclusion, and finite-certificate declarations depend
+only on \code{propext}, \code{Classical.choice}, and \code{Quot.sound}.
+A separate appendix verifies two literal near-zero polynomial
+certificates in dimensions 8 and 9 on specified closed intervals;
+it does not establish full scalar coverage in either dimension.
+The contribution is an attributed partial formalization and reproducible
+verification artifact. The matrix reduction, its analytic and structural
+inputs, and the full Dittert theorem are outside the formalization.
+\end{abstract}
+
+\section{Source argument and contribution}
+
+For a nonnegative real $n\times n$ matrix $A$ of total entry sum $n$, let
+$r_i$ and $c_j$ be its row and column sums. Dittert's functional is
+\[
+ \Phi(A)=\prod_{i=1}^{n}r_i+\prod_{j=1}^{n}c_j-\operatorname{per}(A).
+\]
+The conjecture asserts $\Phi(A)\leq 2-n!/n^n$, with equality precisely at
+the matrix whose entries are $1/n$. Cheon and Wanless establish structural
+restrictions on potential maximizers, including exclusions associated
+with partial decomposability and rectangular zero sets
+\cite{cheon2012some}. Pang's scaling argument provides related
+large-dimension context \cite{pang2026proof}.
+
+This note concerns a scalar calculation in Nascimento's public working
+proof, at a fixed source revision.\footnote{\raggedright Pedro Paulo Marques do
+Nascimento, \href{https://github.com/pedromnasc/dittert-conjecture-proof/tree/894066bbaa715138c98bf3cb7c6fdb4f39a37701}{\texttt{pedromnasc/dittert-conjecture-proof}},
+\par\noindent Source commit: \nolinkurl{894066bbaa715138c98bf3cb7c6fdb4f39a37701}.}
+That repository already presents an assembled working-proof chain and
+states the review boundaries of its components. Its Hall argument
+associates a possible boundary maximizer with cut sizes and a scaling
+parameter, bounds its permanent from below, and bounds its deficit from
+below. A strict scalar inequality makes those bounds incompatible with
+the available budget. The finite arithmetic and this final scalar
+implication are the objects formalized here.
+
+The source mathematics is not a new discovery of this artifact.
+In particular, the note does not claim a new mathematical theorem or
+the first formalization of Dittert's conjecture. Li, Xiong, and Yang
+already report a dimension-four proof based on an exact sum-of-squares
+certificate and a Lean formalization \cite{li2026proof}. Our scope is a
+different, explicitly bounded scalar layer of the public Hall argument.
+Neither the name of a scalar variable nor a successful arithmetic
+check establishes its relationship to an arbitrary matrix.
+
+The formalization uses Lean~4 \cite{moura2021lean} and Mathlib
+\cite{community2020lean}. The implementation combines direct
+dimension-dependent formulas, exhaustive coverage, rational-to-real
+transport, a completed-square argument, Bernoulli comparison, and the
+relaxed-budget corollary. The accompanying evidence records
+both the exact theorem and what remains outside it.
+
+\section{Exact scalar statement}
+
+All factorials and powers below have natural indices. The constants are
+first defined in $\Q$ and then mapped into $\R$ by the canonical embedding.
+For the positive indices used below, define
+\begin{equation}\label{eq:gamma}
+ \gamma_k=\frac{k!}{k^k}.
+\end{equation}
+Fix $n,a,b\in\N$ satisfying
+\begin{equation}\label{eq:domain}
+ 11\leq n\leq 15,\qquad 0<a+b<n.
+\end{equation}
+Put $p=n-a-b$. The scalar floor and curvature are
+\begin{equation}\label{eq:floor}
+ M_{n,a,b}=
+ \begin{cases}
+ \displaystyle\frac{\gamma_{n-a}\gamma_{n-b}}{\gamma_{n-a-b}},
+       & a>0,\ b>0,\\[6pt]
+ \displaystyle(n-2)!\left(\frac{n-2}{(n-1)^2}\right)^{n-2},
+       & a=0\ \text{or}\ b=0,
+ \end{cases}
+\end{equation}
+and
+\begin{equation}\label{eq:curvature}
+ C_{n,a,b}=
+ \begin{cases}
+ \displaystyle\frac{7n(n-a-b)^2}
+ {16\{a(n-a)+b(n-b)\}},& a>0,\ b>0,\\[6pt]
+ \displaystyle\frac{7n}{16(n-1)}
+       \bigl(1+(1-\gamma_n)^2\bigr),& a=0\ \text{or}\ b=0.
+ \end{cases}
+\end{equation}
+The domain ensures that $p$, $n-a$, and $n-b$ are positive. Every
+denominator displayed in the proper branch is therefore positive;
+the marginal branch has $n-1>0$. Natural subtraction in the Lean
+definitions agrees with ordinary subtraction at all these indices.
+Although the definitions are total Lean functions, no assertion here
+uses out-of-domain values to avoid a denominator obligation.
+
+\begin{theorem}[Scalar positivity]\label{thm:positive}
+For every $n,a,b\in\N$ satisfying~\eqref{eq:domain} and every $u\in\R$
+with $u\leq 1$,
+\begin{equation}\label{eq:positive}
+ C_{n,a,b}u^2+M_{n,a,b}(1-u)^n-\gamma_n>0.
+\end{equation}
+\end{theorem}
+
+\begin{corollary}[Relaxed-budget exclusion]\label{cor:exclusion}
+Under the same natural-size restrictions, there are no real $u,P,\delta$
+with $u\leq 1$ satisfying all three inequalities
+\begin{equation}\label{eq:budget}
+ P\geq M_{n,a,b}(1-u)^n,\qquad
+ \delta\geq C_{n,a,b}u^2,\qquad P+\delta\leq\gamma_n.
+\end{equation}
+\end{corollary}
+
+\begin{proof}
+The first two inequalities imply
+$P+\delta-\gamma_n\geq M_{n,a,b}(1-u)^n+C_{n,a,b}u^2-\gamma_n>0$
+by Theorem~\ref{thm:positive}, contradicting the last inequality.
+\end{proof}
+
+There is no lower bound on $u$ in either statement. The polynomial
+result includes both endpoints of $[0,1]$ and every negative $u$.
+This larger scalar domain does not assert that the matrix construction
+has a corresponding interpretation there. Likewise, $P$ and $\delta$
+are arbitrary real variables in Corollary~\ref{cor:exclusion}; no
+definition identifying them with matrix quantities occurs in the theorem.
+
+\section{Finite criterion and real-variable proof}
+
+The finite calculation proves a strict discriminant condition. Writing
+$M=M_{n,a,b}$ and $C=C_{n,a,b}$, the exact predicate is
+\begin{equation}\label{eq:good}
+ M>0,\qquad C>0,\qquad
+ D_{n,a,b}:=4C(M-\gamma_n)-(nM)^2>0.
+\end{equation}
+This is the conjunction named \code{HallScalar.Good} in the source.
+It is checked directly from~\eqref{eq:gamma}--\eqref{eq:curvature},
+without a table of externally computed successful margins as a premise.
+
+\begin{lemma}[Exhaustive finite criterion]\label{lem:finite}
+Every triple satisfying~\eqref{eq:domain} satisfies~\eqref{eq:good}.
+\end{lemma}
+
+\begin{proof}[Verification and coverage]
+Call $(a,b)$ proper if $a,b>0$ and $a+b<n$. At each of the five
+dimensions, \code{Finite.lean} proves the implication from the reduced
+predicate to \code{Good} for every $(a,b)$ in
+$\code{Fin 15}\times\code{Fin 15}$. The reduced predicate consists
+of all ordered proper pairs and the pair $(n-1,0)$.
+The five declarations \code{finite\_n11} through \code{finite\_n15}
+use \code{decide +kernel}. Thus Lean reduces the finite decidable
+proposition using its ordinary rational arithmetic definitions.
+
+For an arbitrary proper pair in~\eqref{eq:domain}, both coordinates
+are less than $15$, so the pair lies in the checked universe. The
+declaration \code{reduced\_good} proves this embedding and selects the
+applicable dimension. If a coordinate is zero, both piecewise formulas
+are independent of the other coordinate. Consequently their values,
+and hence the predicate \code{Good}, equal those at $(n-1,0)$.
+The declaration \code{all\_good} makes this split and covers every
+natural pair in the domain. No transpose quotient is taken for proper
+pairs, and neither marginal orientation is omitted.
+\end{proof}
+
+The finite statement is an exact computational lemma. Its proof is the
+checked reduction and coverage argument just described, rather than
+a printed decimal estimate for the weakest case. The complete rational
+formulas and quantified checks are included in the portable source.
+
+\begin{lemma}[Quadratic comparison]\label{lem:quadratic}
+Let $C,M,g,u\in\R$ and $n\in\N$. If $C>0$ and
+$4C(M-g)-(nM)^2>0$, then
+\[
+ Cu^2-nMu+M-g>0.
+\]
+\end{lemma}
+
+\begin{proof}
+The identity
+\begin{align*}
+ 4C(Cu^2-nMu+M-g)
+ &= (2Cu-nM)^2+4C(M-g)-(nM)^2
+\end{align*}
+has a nonnegative square and a strictly positive remainder on its
+right-hand side. Division by the positive factor $4C$ proves the claim.
+In Lean, \code{ring} checks the identity and ordered-field reasoning
+supplies the sign conclusion.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:positive}]
+Lemma~\ref{lem:finite}, transported from $\Q$ to $\R$, supplies
+$M>0$, $C>0$, and $D_{n,a,b}>0$. Lemma~\ref{lem:quadratic} therefore
+gives $Cu^2-nMu+M-\gamma_n>0$ for every real $u$.
+For $u\leq 1$, Bernoulli's inequality gives
+\[
+ (1-u)^n\geq 1-nu.
+\]
+Its usual hypothesis $-u\geq-1$ follows directly from $u\leq1$.
+Multiplication by $M>0$ and addition of $Cu^2-\gamma_n$ yield
+\[
+ Cu^2+M(1-u)^n-\gamma_n
+ \geq Cu^2-nMu+M-\gamma_n>0.
+\]
+The formal proof invokes Mathlib's \code{one\_add\_mul\_le\_pow};
+the installed version permits the weaker hypothesis $-2\leq -u$,
+which also follows from the stated domain. No interval sampling,
+root selection, or small-parameter assumption is used.
+\end{proof}
+
+\section{Coverage and formal artifact}
+
+For a fixed $n$, the number of ordered proper pairs is
+\[
+ \sum_{s=2}^{n-1}(s-1)=\frac{(n-1)(n-2)}2.
+\]
+The nonfull marginal pairs are $(a,0)$ and $(0,b)$ with
+$1\leq a,b\leq n-1$, giving $2(n-1)$ pairs. They share one
+scalar formula. Table~\ref{tab:coverage} distinguishes these counts
+from the reduced family actually checked.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{@{}rrrrrr@{}}
+\toprule
+$n$ & Proper & Marginal & Normalized marginal & Reduced & Uncompressed\\
+\midrule
+11 &45&20&1&46&65\\
+12 &55&22&1&56&77\\
+13 &66&24&1&67&90\\
+14 &78&26&1&79&104\\
+15 &91&28&1&92&119\\
+\midrule
+Total &335&120&5&340&455\\
+\bottomrule
+\end{tabular}
+\caption{Ordered nonfull scalar cases. ``Reduced'' adds one normalized
+marginal to every proper pair. ``Uncompressed'' retains every marginal
+size and orientation.}\label{tab:coverage}
+\end{table}
+
+The declarations \code{case\_counts} and \code{total\_case\_count}
+prove the five reduced counts and their sum $340$ in Lean.
+The combined declaration \code{finite\_certificate} includes both
+universal coverage and this cardinality result. The uncompressed total
+$455$ is the combinatorial calculation above, checked in the independent
+source review; it is not presented as a named Lean cardinality theorem.
+Universal scalar coverage follows from \code{all\_good}, regardless
+of how the explanatory table is computed.
+
+The source modules separate the obligations. \code{Definitions.lean}
+contains the rational formulas and predicates. \code{Finite.lean}
+proves the finite criterion and coverage. \code{Main.lean} proves
+\code{HallScalar.scalar\_positive} and
+\code{HallScalar.scalar\_exclusion}. Finally, \code{Audit.lean}
+exposes \code{hall\_scalar\_certificate}, the same fully quantified
+exclusion corollary, through the test import chain.
+
+The fixtures in \code{Tests.lean} check the normalization
+$\gamma_3=2/9$, proper and excluded cut boundaries, the normalized
+marginal, and exclusion of $(0,0)$ from the reduced predicate.
+They also instantiate positivity at $u=0$, $u=1$, and $u=-2$,
+including a non-normalized marginal in the opposite orientation.
+These fixtures supplement the universal proof; they do not replace
+its coverage argument.
+
+\section{Verification and reproducibility}
+
+The portable package under \code{evidence/lean/} pins Lean
+\code{v4.33.1} and Mathlib revision
+\begin{center}
+\code{0df444a360eaa60ab8c11dca51a86af692955474}.
+\end{center}
+Its manifest contains repository URLs and dependency revisions, without
+an absolute local dependency path. With the required toolchain and
+dependencies available, the package is built from that directory by
+\begin{Verbatim}[fontsize=\small]
+export LEAN_NUM_THREADS=1
+nice -n 15 lake build
+nice -n 15 lake env lean -j1 -M2048 ../FinalScalarAxiomAudit.lean
+\end{Verbatim}
+The configuration supplies one Lean thread and a 2048\,MB Lean memory
+ceiling. A fresh environment may require the dependency cache download;
+the recorded verification reused existing dependencies.
+The harness also uses a lightweight axiom printer without those explicit
+command-line limits; the separate direct audit above applies them.
+
+Independent source and execution review reran the full scalar package
+and the finite-only package, and directly audited the positivity theorem
+as well as its corollary. Both harness records report \code{pass}.
+These reviews were performed by separate assistant agents, not by
+external human peer reviewers.
+The four audited declarations were
+\begin{Verbatim}[fontsize=\small]
+HallScalar.scalar_positive
+HallScalar.scalar_exclusion
+HallScalar.finite_certificate
+hall_scalar_certificate
+\end{Verbatim}
+Each printed exactly the transitive axiom list
+\begin{Verbatim}[fontsize=\small]
+[propext, Classical.choice, Quot.sound]
+\end{Verbatim}
+The accompanying \code{FinalScalarAxiomAudit.lean} checks the theorem
+types and prints these closures and the imported arithmetic definitions.
+The completed dependency graph contains no \code{sorryAx}, custom
+axiom, or native-evaluation axiom. Rational inequalities are converted
+to real inequalities using the standard cast interface; no arithmetic
+operation is locally redefined.
+
+The finite-only package uses the same definitions and finite proof as
+the full package. It provides a separately executed audit of a different
+target, not an independent arithmetic implementation. Independence here
+refers to the reviewer and fresh executions, not to two distinct proof
+algorithms. The evidence includes source hashes checked before and after
+review. The review did not rebuild all Mathlib dependencies from source
+or use an alternate proof-assistant kernel.
+
+Table~\ref{tab:resources} records two observed coordinator runs from
+\code{resource-measurements.json}. Both used macOS arm64, one Lean
+thread, niceness 15, and the stated memory ceiling. The rows have
+different incremental build states and shared machine load, so they
+are observations rather than a performance comparison. They do not
+measure total development effort, a clean installation, or total cost.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{@{}p{0.49\linewidth}rr@{}}
+\toprule
+Observed build and axiom check & Wall seconds & Maximum RSS, bytes\\
+\midrule
+Standalone finite package, dependencies cached &36.05&1\,713\,913\,856\\
+Completed real theorem, finite proofs cached &20.74&1\,534\,099\,456\\
+\bottomrule
+\end{tabular}
+\caption{Two recorded incremental runs under shared local load.
+These are not clean-build benchmarks.}\label{tab:resources}
+\end{table}
+
+\section{Related work and remaining obligations}
+
+Exact certificate replay is an established formal-verification approach.
+Siddique and Mian describe independent rational replay and a sound
+Lean checker for geometric non-embeddability certificates
+\cite{siddique2026machine}. That work provides a methodological
+comparison for making the certificate interpretation and trusted base
+explicit, rather than a runtime baseline for this finite family.
+The prior Dittert formalization of Li, Xiong, and Yang uses an SOS
+certificate \cite{li2026proof}; this note verifies a Hall scalar
+comparison and does not reimplement their dimension-four proof.
+
+Bernstein polynomials and de Casteljau computation have prior formal
+treatments \cite{bertot2011formal,munoz2012formalization}.
+Appendix~\ref{app:nearzero} separately verifies two literal expansions
+in an unnormalized Bernstein basis. It uses direct polynomial identities
+and positivity proofs, not a generic Bernstein checker, subdivision
+theorem, or de Casteljau implementation. These additional certificates
+are not used in Theorem~\ref{thm:positive}.
+
+The boundary of the formalization is substantive. It does not construct
+a Hall minorant from a matrix, prove the relevant permanent floors,
+derive row or column deficit estimates, or justify stationarity and
+support reductions. Marginal normalization proves equality of the
+defined scalar constants; the source argument selecting a smallest row
+of a matrix remains outside Lean. The full cut $(a,b)=(0,0)$ is excluded
+by~\eqref{eq:domain}, and its separate analytic exclusion is not
+formalized here. Nor does the artifact prove the matrix inequality's
+equality characterization.
+
+Complete coverage of the nonfull scalar domain is proved here in dimensions
+11 through 15. The appendix adds only two near-zero polynomial results
+in dimensions 8 and 9. Full scalar coverage in dimensions 7 through 10,
+dimensions 5 and 6, and any extension above 15 remain outside
+this artifact. Lower-dimensional source arguments may involve different
+interfaces, including work attributed to Lu in the public proof chain;
+they cannot be inferred from the scalar theorem here.\footnote{\raggedright Hongyuan
+Lu's \href{https://github.com/lueluelue2006/dittert-n7-extension/tree/56397b70299278b338a286b90361180833dbf983}{\texttt{lueluelue2006/dittert-n7-extension}},
+\par\noindent Source commit: \nolinkurl{56397b70299278b338a286b90361180833dbf983}.}
+Formalizing additional matrix interfaces or a different certificate
+family would require a separately stated result, checked coverage, and
+a corresponding extension of the evidence record. The present note
+claims the completed finite scalar formalization and the separately
+bounded polynomial certificates, with their documented verification
+boundaries only.
+
+\appendix
+\section{Separate near-zero certificates in dimensions 8 and 9}
+\label{app:nearzero}
+
+This appendix concerns only the near-zero polynomial portion of the
+source marginal arguments. For $n\in\{8,9\}$, use
+$\gamma_n=n!/n^n$ and define the following real constants and polynomials:
+\begin{align*}
+ \kappa_n&=(n-2)!\left(\frac{n-2}{(n-1)^2}\right)^{n-2},
+ &L_n&=\kappa_n\left(1+\frac{1}{2n^2}\right),\\
+ E_n(u)&=1-(2-\gamma_n)u,
+ &H_n(u)&=(1-\gamma_n)u,\\
+ T_n(u)&=E_n(u)-\frac{H_n(u)}{n-1},
+ &F_n(u)&=(1-u)\left(1+\frac{u}{n-1}\right)^{n-1}.
+\end{align*}
+The literal polynomial checked in \code{NearZero.p} is
+\begin{equation}\label{eq:nearpoly}
+\begin{split}
+ p_n(u)={}&\bigl(2-\gamma_n+L_n(1-u)^n-F_n(u)\bigr)E_n(u)^n\\
+          &-\bigl(E_n(u)+H_n(u)\bigr)T_n(u)^{n-1}.
+\end{split}
+\end{equation}
+There is no division by $E_n(u)$ in this definition and thus no
+nonvanishing premise for $E_n$ is omitted.
+
+\begin{theorem}[Literal near-zero positivity]\label{thm:nearzero}
+For every real $u$, $0\leq u\leq 1/400$ implies $p_8(u)>0$, and
+$0\leq u\leq 1/500$ implies $p_9(u)>0$.
+\end{theorem}
+
+\begin{proof}
+For $(n,d)=(8,400)$ and $(9,500)$, the supplied rational coefficients
+$c_{n,k}>0$ give the exact identities, for every real $x$,
+\begin{equation}\label{eq:nearidentity}
+ p_n(x/d)=\sum_{k=0}^{2n}c_{n,k}x^k(1-x)^{2n-k}.
+\end{equation}
+There are respectively 17 and 19 coefficients, with homogeneous basis
+degrees 16 and 18. The binomial factors of the normalized Bernstein
+basis are absorbed into $c_{n,k}$. The complete rational lists are
+the literal constants in \code{Certificate8.lean} and
+\code{Certificate9.lean}, under \code{evidence/near-zero/}.
+For example, their initial coefficients are
+\[
+ c_{8,0}=\frac{77405634405}{1814205196009472},\qquad
+ c_{9,0}=\frac{33970014498175}{2629465015396073472}.
+\]
+The declarations \code{NearZero.identity8} and \code{NearZero.identity9}
+prove~\eqref{eq:nearidentity} by unfolding~\eqref{eq:nearpoly},
+normalizing factorials and rational arithmetic with \code{norm\_num},
+and checking the full identity with \code{ring}.
+
+If $0\leq x<1$, all summands are nonnegative and the $k=0$
+summand is strictly positive. At $x=1$ only the last summand
+survives, with value $c_{n,2n}>0$. The declarations
+\code{NearZero.positive8} and \code{NearZero.positive9} check these
+signs exactly, including both endpoints. Finally, $0\leq u\leq1/d$
+implies $0\leq du\leq1$, and $(du)/d=u$. This substitution proves
+the conjunction named \code{near\_zero\_certificate} in \code{Main.lean}.
+Neither the coefficient signs nor the identities are hypotheses of
+that theorem.
+\end{proof}
+
+The Python generator proposes constants and source text; it is outside
+the trusted proof. A separate assistant-agent review reran and audited
+the final conjunction and the four identity and positivity declarations, each
+with exactly \code{propext}, \code{Classical.choice}, and
+\code{Quot.sound}. The portable package uses the same pinned Lean
+and Mathlib versions as the scalar package. Its \code{replay.sh}
+rebuilds the proof modules and runs the five-declaration axiom audit;
+its README gives the standalone command and dependency requirements.
+
+These certificates do not prove the remaining support intervals,
+their monotone tails, support compression, matrix reductions, or an
+$n=7$ case. In particular, they are neither full dimension-8 or
+dimension-9 scalar coverage nor full Dittert proofs. Their contribution
+is the reproducible formal verification of these two existing,
+explicitly bounded polynomial inequalities.
+
+\bibliographystyle{plainnat}
+\bibliography{draft/references}
+\end{document}

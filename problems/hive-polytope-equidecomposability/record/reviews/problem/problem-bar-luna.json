@@ -1,0 +1,104 @@
+{
+ "assignment_id": "assignment-bar-sol-repair-2",
+ "digest": "92ffc0aaae35360bee577d40ba78140fc98740b037455ecb6d6f62044af83aa1",
+ "dossier_digest": null,
+ "dossier_id": null,
+ "id": "problem-bar-luna",
+ "independence_at_recording": "verified_for_route",
+ "output_digest": "e99a5d5af4f00966758b34c9017622d9b729651e6f32c1ead7fac4d4680b70ca",
+ "packet_digest": "bd9f094142aa82b77db2fa9c67e822412439b5650a5c33377a0f6539d56c6cec",
+ "payload": {
+  "assignment_id": "assignment-bar-sol-repair-2",
+  "dossier_id": null,
+  "id": "problem-bar-luna",
+  "limitations": [
+   "The rank-five and finite-box computational claims are source-reported; the underlying certificates and replay records were not delivered for independent inspection in this turn.",
+   "The supplied sources do not settle unrestricted positivity beyond the stated rank and finite-box results, establish a cross-field connection to Kronecker or plethysm positivity, or document a unique priority ordering among open targets."
+  ],
+  "objections": [],
+  "reassessment": {
+   "assignment_id": "assignment-bar-sol-8",
+   "findings": []
+  },
+  "stage": "bar",
+  "support": null,
+  "value": {
+   "assurances": [],
+   "bar_ids": [],
+   "consequence": "This evidence supports a field-specific bar for later assessment, but not a ranking of a withheld candidate or a claim about what specialists most want resolved.",
+   "evidence": [
+    {
+     "kind": "source",
+     "link": {
+      "artifact": {
+       "media_type": "text/plain; charset=utf-8",
+       "path": "research/sources/objects/0b4e309236b959d248b506c7e4736b227c6c4ba4c92653f8e422b95b460f96a5",
+       "sha256": "0b4e309236b959d248b506c7e4736b227c6c4ba4c92653f8e422b95b460f96a5",
+       "size": 59805
+      },
+      "locator": {
+       "end": 57475,
+       "kind": "span",
+       "sha256": "0b4e309236b959d248b506c7e4736b227c6c4ba4c92653f8e422b95b460f96a5",
+       "start": 0
+      },
+      "source_id": "acq:4e7067a4bcd73f1f84bcab062cf8e3d197beb9c5f076a9d65eb8c7854865430f",
+      "version_id": "arxiv:math/0308101v2"
+     }
+    },
+    {
+     "kind": "source",
+     "link": {
+      "artifact": {
+       "media_type": "text/plain; charset=utf-8",
+       "path": "research/sources/objects/9a4b9a68a3cf123ac5de3ac6b03715468b34baaf4028b4444abc78d2831bc9c2",
+       "sha256": "9a4b9a68a3cf123ac5de3ac6b03715468b34baaf4028b4444abc78d2831bc9c2",
+       "size": 45065
+      },
+      "locator": {
+       "end": 44121,
+       "kind": "span",
+       "sha256": "9a4b9a68a3cf123ac5de3ac6b03715468b34baaf4028b4444abc78d2831bc9c2",
+       "start": 0
+      },
+      "source_id": "acq:975a1979a1d8331fb699e03a73e72ef8f58252b95918ec5e900b18e0504330fd",
+      "version_id": "arxiv:2607.22301v2"
+     }
+    },
+    {
+     "kind": "source",
+     "link": {
+      "artifact": {
+       "media_type": "text/plain; charset=utf-8",
+       "path": "research/sources/objects/195385e840b0ab4fe9b6ba3cd0f318e38194653dac700c8b3160f34b8d4d54ab",
+       "sha256": "195385e840b0ab4fe9b6ba3cd0f318e38194653dac700c8b3160f34b8d4d54ab",
+       "size": 66831
+      },
+      "locator": {
+       "end": 65372,
+       "kind": "span",
+       "sha256": "195385e840b0ab4fe9b6ba3cd0f318e38194653dac700c8b3160f34b8d4d54ab",
+       "start": 0
+      },
+      "source_id": "acq:9e5fdd84a9ba6b9d504436454e8d5031d0292ed0adf3975fd957d454c407970b",
+      "version_id": "arxiv:2609.14357v1"
+     }
+    }
+   ],
+   "method_adequacy": "not_assessed",
+   "objection_findings": [],
+   "objective_adequacy": "not_assessed",
+   "reason": "1. Field and active lines. The central line is the King–Tollu–Toumazet conjecture that the ordinary monomial coefficients of stretched Littlewood–Richardson polynomials are nonnegative. Rassart establishes polynomiality, not coefficient positivity. The delivered rank-five paper reports a structural proof through four parts, a proof through five parts using local Ehrhart weights and a global correction, and a rank-uniform result for the top four Ehrhart coefficients. A separate delivered paper reports a finite-cover, computer-assisted positivity result in a seven-row, outer-size-thirty box. These show distinct active approaches: rank-specific hive geometry and an explicit finite reduction/computation. The hive/Ehrhart framework connects stretching to lattice-point counts. The delivered material does not establish a mathematical connection carrying this significance to Kronecker or plethysm positivity, so those are not included in this standard’s significance case.\n\n2. Nearest known problems and conjectures. The general KTT monomial-coefficient positivity conjecture remains open in the delivered rank-five paper beyond base multiplicity two, while positivity is established there through five parts; that source also reports positivity of the top four Ehrhart coefficients for full-dimensional hives in every rank. The finite-cover paper reports positivity for its specified seven-row, size-thirty box, not outside it. Extending rank-specific positivity or resolving the general conjecture would provide scope beyond those bounds; proving the general conjecture would settle the stated positivity question. The paper’s proposed hive-specific effectivity problem is a possible route, not a result shown equivalent to or necessary for every proof of the conjecture. The supplied rectangular-Kostka comparator and multiplicity-two results are related special cases, not substitutes for general LR coefficient positivity.\n\n3. Substantial advance. A substantial advance is a theorem or explanatory mechanism that proves coefficientwise nonnegativity for a genuinely broader or structurally important class, or resolves the general conjecture; a method that identifies and overcomes the obstruction to pointwise local-weight positivity can also be substantial if its scope and hypotheses are proved. A finite-box computation can be a substantial advance when its domain, reductions, exact computations, and software trust boundary are explicit, but it does not establish unrestricted positivity. Computed patterns alone, polynomiality alone, or nonnegative values of the stretched coefficients alone do not establish nonnegative monomial coefficients.\n\n4. Rubric in this field. Significance B1 (standing): level 2 means evidence fixes the target in an active line by an actual mathematical connection or reduction, and the case explains the unresolved need while answering the strongest objection; activity or shared vocabulary alone is insufficient. Level 3 adds a demonstrated or compelling account that resolution removes a consequential obstacle or meets an important unmet need, with an explanation why existing results and nearby alternatives do not already supply that gain; no proved downstream implication is required for a conceptual case. Significance B2 (influence): level 2 means an evidenced account of what changes for mathematics, for example the positivity status, bounds, construction, mechanism, or limitations of a named method, and why that change matters. Level 3 additionally makes compelling why resolution removes a consequential obstacle, meets an important need, or changes an organizing explanation or connection, and why known results and alternatives do not already do so. The grounds do not add; the higher one governs. Comparative priority: level 2 requires mathematical payoff comparisons among credible nearby targets and an answer to the strongest relevant objection, such as that the target restates a known result, changes only a parameter without a new mechanism, settles nothing else, or is inferior to a neighbour. Level 3 requires documented mathematical distinctions supporting a concrete advantage of the formulation or target; a neighbour’s settledness or equivalence alone is not enough.\n\n5. Uninteresting questions. In this area, a restatement of a known result, an arbitrary parameter change from a settled case, a numerical-pattern-only conjecture, or an indefinite programme without a definite resolution condition is uninteresting. Lack of a route to progress is not by itself disqualifying if the significance case reaches level 3; lack of further consequences is not disqualifying when the explanatory gain itself is the significance. Accessibility does not affect value. Remaining uncertainty: source descriptions of computational replay and certificates do not let me independently inspect the underlying records here; the computational claims are supported as reported results subject to the stated software trust boundary, not as computations I have rerun. No supplied evidence establishes a broader Kronecker/plethysm connection or that any particular open target outranks all its neighbours.",
+   "status": "sufficient",
+   "work_items": []
+  }
+ },
+ "prompt_hash": "5c639c001cfcd22864130b984d8ee7474a6d63d9c1660f3718bc8d8f0e6ed651",
+ "recorded_revision": 364,
+ "reviewer_id": "gpt-6-luna-codex-high",
+ "subject": {
+  "kind": "problem",
+  "statement_id": "statement-1"
+ },
+ "support": null
+}

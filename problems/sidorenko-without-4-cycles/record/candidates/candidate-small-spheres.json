@@ -1,0 +1,49 @@
+{
+ "id": "candidate-small-spheres",
+ "previous": null,
+ "statement": "Let $T$ be a triangulation of the 2-sphere with at most 12 vertices and $H(T)$ its vertex-face incidence graph. Is $H(T)$ Sidorenko for every such $T$?",
+ "source": {
+  "kind": "computation",
+  "reference": "This record's probes complex-structure-1 and small-spheres-1: the 2026 counterexample is the incidence graph of a 13-vertex triangulated sphere, and its combinatorial hypotheses hold for no sphere with at most 12 vertices and for exactly two with 13.",
+  "evidence": [
+   {
+    "kind": "record",
+    "record_kind": "probe",
+    "id": "complex-structure-1",
+    "digest": "ee45b92fe4273d21eec3d9af5cfff1d87b823af758548c0edb90de592b5faf1e"
+   },
+   {
+    "kind": "record",
+    "record_kind": "probe",
+    "id": "small-spheres-1",
+    "digest": "65e434f44c51c86a6bed54609346338dae156cd9f6fa983c9a3475157d003ded"
+   },
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-conlon-lee-2017-2",
+    "digest": "5bd57f11a2fe88379c19b46ed6c364f49dbe84632ac55ab6f3b63ff6372083b5"
+   }
+  ]
+ },
+ "observation": "The three regular deltahedra give weakly norming incidence graphs; bipyramids (suspensions of a polygon) give Sidorenko incidence graphs by doubling a cone, which has a vertex complete to the other part; the 9,150 spheres with 4 to 12 vertices are outside the counterexample's hypotheses. Whether the threshold 13 belongs to the Sidorenko property or only to the construction is not known; the pattern is computational and has no structural explanation yet.",
+ "neighbours": [
+  "Is the incidence graph of the second 13-vertex sphere satisfying the hypotheses non-Sidorenko?",
+  "Incidence graphs of triangulated Mobius bands (odd twisted blow-ups)",
+  "Incidence graphs of triangulated surfaces of higher genus"
+ ],
+ "potential": {
+  "significance": {
+   "B1": 1,
+   "B2": 1
+  },
+  "priority": 1,
+  "readiness": "pass"
+ },
+ "notes": "A finite family question whose threshold comes from one construction.",
+ "disposition": {
+  "status": "open",
+  "reason": "Compare with the other candidates of the slate.",
+  "evidence_needed": null
+ }
+}

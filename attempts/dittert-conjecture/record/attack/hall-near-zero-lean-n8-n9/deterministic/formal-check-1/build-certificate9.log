@@ -1,0 +1,20 @@
+✔ [972/972] Built Certificate9 (7.4s)
+Build completed successfully (972 jobs).
+       11.46 real         3.43 user         4.98 sys
+          1640792064  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              187821  page reclaims
+               14082  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 413  voluntary context switches
+               78863  involuntary context switches
+         12506041292  instructions retired
+         10265248843  cycles elapsed
+           167849728  peak memory footprint

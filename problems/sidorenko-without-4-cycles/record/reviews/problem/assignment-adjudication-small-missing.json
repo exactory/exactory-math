@@ -1,0 +1,44 @@
+{
+ "correction_admissible": null,
+ "disposition": "upheld",
+ "evidence": [
+  {
+   "digest": "a16c3a7427ab47d8894b78b5c0a85e6410e6bd7ca62a0d51793df9743ca5edf3",
+   "id": "assessment-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_assessment"
+  },
+  {
+   "digest": "f9c03908ead9b00015f055935e44db2255ca087c3e257a99ad66feb35711e6bd",
+   "id": "search-openness-heawood",
+   "kind": "record",
+   "record_kind": "literature_search"
+  },
+  {
+   "digest": "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e",
+   "id": "search-openness-statement",
+   "kind": "record",
+   "record_kind": "literature_search"
+  },
+  {
+   "media_type": "text/plain; charset=utf-8",
+   "path": "research/sources/objects/767184c725c84646e5d7402960633a95ef889c0ed9b479dd127bb03d427f755d",
+   "sha256": "767184c725c84646e5d7402960633a95ef889c0ed9b479dd127bb03d427f755d",
+   "size": 948
+  },
+  {
+   "media_type": "text/plain; charset=utf-8",
+   "path": "research/sources/objects/81d5d473f15951851c06ffe6926503afc925f595b3af1ef20c4dc92d2bc861f7",
+   "sha256": "81d5d473f15951851c06ffe6926503afc925f595b3af1ef20c4dc92d2bc861f7",
+   "size": 1678
+  },
+  {
+   "media_type": "application/atom+xml",
+   "path": "research/sources/objects/f690444b553fcff698bedf16337b89f19dd4ea84e8faf4ef0ee955a132d7a2d2",
+   "sha256": "f690444b553fcff698bedf16337b89f19dd4ea84e8faf4ef0ee955a132d7a2d2",
+   "size": 808
+  }
+ ],
+ "objection_id": "obj-small-graph-computations-missing",
+ "reason": "I decide the version stated in problem-result-opus-2, whose cited evidence is assessment-girth-six-2 and search-openness-heawood. The resolution condition requires a source that reports small-graph computations: which bipartite graphs up to a stated size are certified Sidorenko or open, with the method and admitted code or data. No delivered source meets it.\n\nThe closest delivered items each fall short:\n- The sum-of-squares abstract (767184c7) shows that one smallest open case has no sum-of-squares certificate. It does not enumerate small graphs or report their status.\n- Hatami, Chen-Lin-Ma, Kim-Lee-Lee and Lee-Schülke name K5,5 minus C10 as the smallest or simplest open case. They do so by citation to Sidorenko 1993 or by plain statement, with no stated method, size bound or data.\n- The abstract 81d5d473 compares computed bounds with exact homomorphism counts. It concerns counting, not Sidorenko status.\n- The Heawood search found nothing. Its arXiv query is complete with 0 hits, and its 20 OpenAlex hits are all out of scope.\n\nThe nearest candidate source, arXiv:2206.10058 (sum-of-squares certificates for bipartite patterns with at most 7 edges), appears only as a one-line disposition in search-openness-statement. It is not delivered as a text, so it cannot satisfy the condition. It remains a missing source.\n\nCurrent evidence therefore does not resolve the objection, and its claim stands. Small-graph evidence, and any claim about the size of a minimal counterexample, lack support on the held sources.\n\nThe objection does not conflict with anything the candidate relies on. The assessment's calibration item states that no computation is cited and that no claim is made about small-graph computations or the size of a smallest counterexample. Its accessibility item declines to claim that the Heawood graph is the smallest unresolved case.\n\nNo correction is requested."
+}

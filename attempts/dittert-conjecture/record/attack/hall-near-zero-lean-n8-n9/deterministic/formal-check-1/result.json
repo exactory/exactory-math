@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "theorem": "near_zero_certificate",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "reason": null,
+  "output_head": [
+    "'near_zero_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ]
+}

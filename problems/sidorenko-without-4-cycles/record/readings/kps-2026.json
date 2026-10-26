@@ -1,0 +1,27 @@
+{
+ "id": "reading-kps-2026",
+ "version_id": "arxiv:2412.12904v2",
+ "bundle_id": "bundle-2412.12904v2",
+ "inspections": [
+  {"anchor": "and Im, Li, and Liu [18] showed", "end": "for all k ≥ 1.", "note": "The authors' survey of subdivision results as of 21 September 2026: Im, Li and Liu; CKLL (KNRS to 1-subdivisions); Chen, Lin and Ma (odd subdivisions)."},
+  {"anchor": "Forcing Conjecture. Every bipartite graph with at least one cycle is forcing.", "note": "The forcing conjecture."},
+  {"anchor": "The conjecture is known for weakly norming graphs containing a cycle [7, 17].", "end": "Theorem 2.4].", "note": "Known cases of the forcing conjecture."},
+  {"anchor": "Proposition 1.1. If G is Sidorenko and has at least one edge, then the m-fold blow-up G[m]", "end": "for every m ≥ 2.", "note": "Proposition 1.1: balanced blow-ups of Sidorenko graphs are forcing."},
+  {"anchor": "Proposition 1.4. The k-subdivision of a forcing family F is again a forcing family.", "note": "Proposition 1.4: subdivisions preserve forcing families."},
+  {"anchor": "Conlon, Kim, Lee, and Lee proved that the 1-subdivision of every Sidorenko graph is", "end": "therefore forcing [7].", "note": "Known subdivision results: 1-subdivisions of Sidorenko graphs are Sidorenko (CKLL, Theorem 1.3(ii)); 1-subdivisions of complete graphs and of 1-skeleta of regular polytopes are weakly norming (Conlon and Lee)."},
+  {"anchor": "Proposition 2.2. Let (L, R) be an adjunction and H a Sidorenko graph without isolated ver-", "end": "is Sidorenko.", "note": "Proposition 2.2: the adjunction criterion for transporting the Sidorenko property."},
+  {"anchor": "Theorem 2.4. Let a, b, c ∈ N, and let F be a graph on [2] × [a] ⊔ [b] ⊔ [c] that is symmetric with", "end": "has µ(Z) = 1.", "note": "Theorem 2.4: gadget substitution operators are left adjoints."},
+  {"anchor": "Corollary 2.5. If F [({1} × [a]) ⊔ [c]] is edgeless and F is Sidorenko, then the left adjoint", "end": "preserves the Sidorenko property.", "note": "Corollary 2.5: substitution of a Sidorenko gadget with an edgeless vertex part preserves the Sidorenko property."},
+  {"anchor": "It would be interesting to determine which adjoints on simple graphs admit a representation", "end": "relations this induces between domination exponents [3, 4].", "note": "Concluding open directions: which adjoints have this form; which binomial inequalities they preserve."},
+  {"anchor": "[18] Seonghyuk Im, Ruonan Li, and Hong Liu, Sidorenko’s conjecture for subdivisions and theta", "end": "269–279.", "note": "Publication data of Im, Li and Liu: Combin. Probab. Comput. 35 (2026), no. 2, 269–279."}
+ ],
+ "notes": {
+  "problem": {"text": "Transporting Sidorenko and forcing properties through graph-substitution operators by an adjoint identity.", "inspections": [7, 6]},
+  "claims": {"text": "Theorem 2.4: every gadget substitution L_{F,a,b,c} has a right adjoint. Proposition 2.2 and Corollary 2.5: such operators preserve the Sidorenko property under an edge-count or edgelessness condition. Proposition 1.1: balanced blow-ups of Sidorenko graphs are forcing, and blow-ups preserve forcing families. Propositions 1.2 and 1.3: Cartesian and strong products with a bipartite graph preserve forcing families when that graph is added. Proposition 1.4: subdivisions preserve forcing families. Proposition 1.5: G box F box Q_n is forcing for Sidorenko G and F with F dominated by Q_{n+2}.", "inspections": [3, 4, 6, 7, 8]},
+  "assumptions": {"text": "Graphons on standard probability spaces with vertex-colored densities; the forcing property in its graphon form.", "inspections": [7]},
+  "methods": {"text": "Adjoint identities for substitution operators with vertex-colored right adjoints, zero sets of density equations, and Lebesgue-point arguments for the equality cases.", "inspections": [6, 7]},
+  "evidence": {"text": "Complete proofs for the graph results; the hypergraph extension of Section 5 is described as expected, not proved.", "inspections": [6, 7, 8]},
+  "limitations": {"text": "The operators preserve properties that the input already has; none produces a Sidorenko graph from a graph whose status is unknown. The hypergraph extension is not developed. The authors leave open which adjoints have the substitution form.", "inspections": [8, 9]},
+  "relevance": {"text": "No result of this paper decides the girth-six statement or its declared neighbours; its subdivision results transport properties that the base graph already has. It confirms the state of the subdivision question as of 21 September 2026, two days before the reported counterexample: the 1-subdivision of every Sidorenko graph is Sidorenko (CKLL, Theorem 1.3(ii)), the 1-subdivisions of complete graphs and of 1-skeleta of regular polytopes are weakly norming (Conlon and Lee), and the 1-subdivision of a KNRS graph is Sidorenko; no result settles the 1-subdivision of an arbitrary graph. Proposition 1.4 concerns the forcing neighbour: if a family is forcing, so is its k-subdivision. It also gives the journal publication of Im, Li and Liu (Combin. Probab. Comput. 35 (2026), 269-279) and cites Baek, Conlon and Lee on the extremal number of incidence graphs (arXiv:2501.00521).", "inspections": [0, 4, 5, 10]}
+ }
+}

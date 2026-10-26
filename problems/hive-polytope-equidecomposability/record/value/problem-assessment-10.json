@@ -1,0 +1,281 @@
+{
+ "grades": {
+  "accessibility": "E-F",
+  "admission": {
+   "A1": "pass",
+   "A2": "pass",
+   "A3": "pass",
+   "A4": "pass",
+   "A5": "pass",
+   "A6": "pass"
+  },
+  "attempt": "pass",
+  "calibration": "pass",
+  "priority": 2,
+  "significance": {
+   "B1": 2,
+   "B2": 2
+  }
+ },
+ "id": "problem-assessment-10",
+ "items": {
+  "A1": {
+   "evidence": [
+    {
+     "digest": "573d37c84ec560145e2caed32f37f7aa53362e22b058fe7ae77b7845db3dec8a",
+     "id": "statement-4",
+     "kind": "record",
+     "record_kind": "problem_statement"
+    },
+    {
+     "digest": "aae21c2354cdedad834a228e381555897b487a7ca68f25aa309e73f6a9454edc",
+     "id": "reading-haase-mcallister-2008-3",
+     "kind": "record",
+     "record_kind": "reading"
+    }
+   ],
+   "note": "The statement fixes the polytope (border labels and rhombus inequalities), the group, the pieces (relatively open rational simplices) and the target (a convex polytope with integral vertices); the criteria name the proof forms and the disproof forms (a non-realizable polynomial, or an invariant of equidecomposability); the notion matches Haase-McAllister's Definition 3.1; the criteria state the elementary observation that settles at most three parts and the unproved Buch statement for four parts. No formal statement is supplied."
+  },
+  "A2": {
+   "evidence": [
+    {
+     "digest": "027d494f649c4a38d270c2b379ef3e3c20d2412ad0988a70bb8684e2663a4700",
+     "id": "assignment-openness-astra-5",
+     "kind": "record",
+     "record_kind": "problem_openness"
+    },
+    {
+     "digest": "aae21c2354cdedad834a228e381555897b487a7ca68f25aa309e73f6a9454edc",
+     "id": "reading-haase-mcallister-2008-3",
+     "kind": "record",
+     "record_kind": "reading"
+    }
+   ],
+   "note": "The observed openness finding (assignment-openness-astra-5, gpt-6-astra, supported_open, searched 2026-10-21) covers the exact statement and the three declared neighbours (the Ehrhart form, the Haase-McAllister form for hives, the rank restriction) with dated complete arXiv coverage; every relevant work of the bound searches has a complete full reading delivered to the reviewer. The reviewer states that no bound work proves or refutes the statement, that the general Haase-McAllister conjecture has a weaker target, and that the low-rank integrality assertion (Buch, n <= 4, no printed proof) does not settle it. Two further formulations are discussed in the value case but not declared as openness neighbours: the numerator consequence (whose refutation would refute the declared Ehrhart form, so it is covered there) and the Gelfand-Tsetlin sibling (logically independent of the statement)."
+  },
+  "A3": {
+   "evidence": [
+    {
+     "digest": "aae21c2354cdedad834a228e381555897b487a7ca68f25aa309e73f6a9454edc",
+     "id": "reading-haase-mcallister-2008-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "digest": "dda7fc232cd0cd0a783ceeb65ce14fca1bf6030b3759034c48ddaf6faa1e1af4",
+     "id": "reading-ktt-2006-4",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "digest": "ddf1f9dbd258b69a234c7b027f319a42b49999beaa9084b70b8cf9ca0b915aa5",
+     "id": "reading-turner-wu-2014-3",
+     "kind": "record",
+     "record_kind": "reading"
+    }
+   ],
+   "note": "The statement sharpens the hive case of Haase-McAllister's Conjecture 3.2 (one lattice polytope instead of a union of integral open simplices), which is established by the definitions; it implies the numerator conjecture of King-Tollu-Toumazet through Stanley's nonnegativity (a conjecture whose current status this record does not establish, since it is not a declared neighbour); and it implies its Ehrhart form, whose converse is unknown for hives (Turner-Wu separate the two notions for rational polygons in general). What remains unresolved is the statement itself from four parts on: the four-part class rests on Buch's unproved integrality statement, and from five parts on only the seed instance is proved."
+  },
+  "A4": {
+   "evidence": [
+    {
+     "digest": "f85945fdf911c0cd40691280fbd9045385a5377618261d3c6b1811abe014b675",
+     "id": "reading-buch-2000-3",
+     "kind": "record",
+     "record_kind": "reading"
+    }
+   ],
+   "note": "A specialist in Ehrhart theory or in the hive model reads the statement directly; the hive polytope is defined in the statement in Buch's terms."
+  },
+  "A5": {
+   "evidence": [
+    {
+     "digest": "5945c794daa30a89081fa6e85091b707070ca92260b340e3b7af93d621d26594",
+     "id": "problem-attempt-4",
+     "kind": "record",
+     "record_kind": "problem_attempt"
+    },
+    {
+     "digest": "aae21c2354cdedad834a228e381555897b487a7ca68f25aa309e73f6a9454edc",
+     "id": "reading-haase-mcallister-2008-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "digest": "ddf1f9dbd258b69a234c7b027f319a42b49999beaa9084b70b8cf9ca0b915aa5",
+     "id": "reading-turner-wu-2014-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "digest": "2e5ae0b7cbae580c3a1baeb49c6479e1470705823e9fa4aa5b88c1505f3e0b17",
+     "id": "reading-ehrhart-equivalent-3-polytopes-2018",
+     "kind": "record",
+     "record_kind": "reading"
+    }
+   ],
+   "note": "Routine routes considered: taking Q = H (fails from five parts on); dilation by the common denominator (gives a lattice polytope with a different polynomial); the Ehrhart form via Scott in dimension 2 (does not give the geometric form, Turner-Wu); Haase-McAllister's weak equidecomposability (a common dilation, not the statement); the amplification lemmas (translations, zero parts, products) and the Horn factorization (a polynomial identity, not a polytope statement). The disproof routes considered: a hive polynomial that no lattice polytope realizes, and the superlattice orbit counts of Erbe-Haase-Santos (Remark 5), an invariant in every dimension. The attempt proved the smallest non-lattice instance by hand; nothing certifies what routine methods cannot do."
+  },
+  "A6": {
+   "evidence": [
+    {
+     "digest": "aae21c2354cdedad834a228e381555897b487a7ca68f25aa309e73f6a9454edc",
+     "id": "reading-haase-mcallister-2008-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "digest": "3b3ddf996d37bc51489d886b756ae54239573863c1008e7623fb256b4c8370a7",
+     "id": "reading-ferudun-2026-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "digest": "dda7fc232cd0cd0a783ceeb65ce14fca1bf6030b3759034c48ddaf6faa1e1af4",
+     "id": "reading-ktt-2006-4",
+     "kind": "record",
+     "record_kind": "reading"
+    }
+   ],
+   "note": "Every source that decides the standing of the statement or of a declared neighbour was read in full: Haase-McAllister 2008 (the general conjecture and its examples), Ferudun 2026, Ghodsi 2026, Rassart 2004, De Loera-McAllister 2006, Buch 2000, Turner-Wu 2014, Erbe-Haase-Santos 2018, Bohnert 2024, Alexandersson-Alhajjar 2018, the 2022 paper read as reading-ahz-2022-3, Fernandes 2018, Thawinrak 2022 and King-Tollu-Toumazet 2006; Derksen-Weyman's paper was not read, and its result (polynomiality through quiver representations) is taken from Rassart and De Loera-McAllister, which restate it; the harness can state the claim's standing (open from five parts on, with the seed instance proved and the general Haase-McAllister conjecture open). Two historical originals were not read: King-Tollu-Toumazet 2004 (CRM Proceedings 34, DOI 10.1090/crmp/034/10; closed at the publisher, no file at the Southampton repository, notice only at HAL) and King-Tollu-Toumazet 2009 (JCTA 116, DOI 10.1016/j.jcta.2008.06.005; restricted at the Southampton repository, the publisher copy behind an interactive challenge). Every premise the record draws from them (the statement of the numerator conjecture; the essential Horn factorization at the level of coefficients and stretched polynomials) is bound to the full readings of works that restate them with attribution (the numerator conjecture and the factorization from KTT 2006; the factorization also as Ghodsi 2026 applies it), and no claim of the record depends on text of the two originals beyond those restatements; the posted text names them as the origin and cites the read works. Graded pass on that ground; the two gaps are disclosed here and in the current state for the reviewers to weigh."
+  },
+  "B1": {
+   "evidence": [
+    {
+     "digest": "3b3ddf996d37bc51489d886b756ae54239573863c1008e7623fb256b4c8370a7",
+     "id": "reading-ferudun-2026-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "digest": "35f875777a59e3aca9b4e8562d99302f42627843061c95726b0cbbfa122ee025",
+     "id": "reading-ghodsi-2026-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "digest": "6be9fce8384df602f13e559a5e593bbafb707323a3f71369831558a2dfb105ec",
+     "id": "reading-ahz-2022-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "digest": "900e1fdf0af41ea3c0698ac0b0908a8c7ae63c344b31503cb00fa6b6e6f501a8",
+     "id": "reading-alexandersson-alhajjar-2018-3",
+     "kind": "record",
+     "record_kind": "reading"
+    }
+   ],
+   "note": "The line (period collapse and positivity of stretched Littlewood-Richardson and Kostka polynomials) is active in 2022-2026 (Ferudun, Ghodsi, AHZ, Alexandersson-Alhajjar); the question's place is fixed by a reduction: a proof implies the numerator conjecture of King-Tollu-Toumazet through Stanley's inequality (restated as a conjecture in King-Tollu-Toumazet 2006, which this record read; its current status is not established by this record), and the period collapse of hives is the motivating example of the Haase-McAllister conjecture. Supported, level 2: the strongest objection (the Ehrhart form could hold for every hive without the geometric form, so the geometric question might add nothing) is answered in general by Turner-Wu's separation of the two notions and, for hives, only by the seed construction; the converse for hives stays unknown, and that is stated."
+  },
+  "B2": {
+   "evidence": [
+    {
+     "digest": "aae21c2354cdedad834a228e381555897b487a7ca68f25aa309e73f6a9454edc",
+     "id": "reading-haase-mcallister-2008-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "digest": "b5ba1f1fc81eb05bbed3e4c9e0a3be947735c0b13ec421384cf472405d5ce4e8",
+     "id": "reading-bohnert-2024-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "digest": "6fe3a9b00faff3da43d1043596af97dcda15d8959a935acfedb13870ea054c3a",
+     "id": "reading-rassart-2004-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "digest": "2e5ae0b7cbae580c3a1baeb49c6479e1470705823e9fa4aa5b88c1505f3e0b17",
+     "id": "reading-ehrhart-equivalent-3-polytopes-2018",
+     "kind": "record",
+     "record_kind": "reading"
+    }
+   ],
+   "note": "A resolution changes the explanation of a theorem (the period collapse of hive polytopes has three non-polyhedral proofs and no polyhedral one); a positive answer gives the first polyhedral mechanism for a representation-theoretic family and explains the h*-positivity conjecture; a negative answer gives the first natural family where period collapse is not explained by rearrangement into one lattice polytope. Existing results (Example 2.4, Bohnert) show the general conjecture cannot deliver this, which is why the sharp hive form carries the gain. Supported, level 2, by criterion V2 (explanation): the premises are read and the strongest objection is answered, but the record shows no consequence that requires the single-lattice-polytope form and that the Ehrhart form or the Haase-McAllister form for hives does not already supply, so a compelling case (level 3) is not made."
+  },
+  "accessibility": {
+   "evidence": [
+    {
+     "digest": "5945c794daa30a89081fa6e85091b707070ca92260b340e3b7af93d621d26594",
+     "id": "problem-attempt-4",
+     "kind": "record",
+     "record_kind": "problem_attempt"
+    },
+    {
+     "digest": "f85945fdf911c0cd40691280fbd9045385a5377618261d3c6b1811abe014b675",
+     "id": "reading-buch-2000-3",
+     "kind": "record",
+     "record_kind": "reading"
+    }
+   ],
+   "note": "E-F: the seed proof is a two-page hand construction, the invariance under zero parts and translations gives the first reductions, and the smallest unresolved cases the record can name are the four-part class (Buch's integrality statement without a printed proof) and the four further size-15 five-part instances of the attempt's exploratory, unadmitted scan; the first five-part instance with a vertex of denominator three is the first case outside the mechanism found."
+  },
+  "attempt": {
+   "evidence": [
+    {
+     "digest": "5945c794daa30a89081fa6e85091b707070ca92260b340e3b7af93d621d26594",
+     "id": "problem-attempt-4",
+     "kind": "record",
+     "record_kind": "problem_attempt"
+    }
+   ],
+   "note": "A bounded solver attempt on the exact statement: five moves, no computation runs; it proved the seed instance (accepted after independent review), argued amplification lemmas in its journal without independent review, and left the statement open from four parts on with its unresolved items and candidates stated and no obstruction claimed."
+  },
+  "calibration": {
+   "evidence": [
+    {
+     "digest": "5945c794daa30a89081fa6e85091b707070ca92260b340e3b7af93d621d26594",
+     "id": "problem-attempt-4",
+     "kind": "record",
+     "record_kind": "problem_attempt"
+    },
+    {
+     "digest": "3b3ddf996d37bc51489d886b756ae54239573863c1008e7623fb256b4c8370a7",
+     "id": "reading-ferudun-2026-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "digest": "2e5ae0b7cbae580c3a1baeb49c6479e1470705823e9fa4aa5b88c1505f3e0b17",
+     "id": "reading-ehrhart-equivalent-3-polytopes-2018",
+     "kind": "record",
+     "record_kind": "reading"
+    }
+   ],
+   "note": "Established: the seed instance (accepted after independent review) and the literature facts as read. Journalled without independent review: the invariance lemmas. Stated from the definition without an accepted result: the case of at most three parts (a point, or a lattice segment). Conjectural: the statement itself; the Horn-product lemma. Exploratory and unadmitted, supporting no grade: the attempt's censuses (five to seven parts, size at most 30; two-dimensional hives, size at most 22) and its scan of the five size-15 instances; no computation record of this problem record holds them. The geometric statement implies its Ehrhart form; the converse for hives is stated as unknown. The superlattice orbit counts of Erbe-Haase-Santos are recorded as a known invariant of equidecomposability, so no claim that a disproof needs a new invariant is made. The status of the numerator conjecture is stated as not established by this record. The influence case is graded supported (level 2), not compelling. No community outcome, difficulty, completion time or human feasibility is asserted; the unresolved complement is not called an obstruction. Reported, not re-run: Ferudun's five-part positivity proof and Ghodsi's seven-part size-thirty verification (both read in full; their enumerations and certificates were not executed for this record)."
+  },
+  "priority": {
+   "evidence": [
+    {
+     "digest": "ddf1f9dbd258b69a234c7b027f319a42b49999beaa9084b70b8cf9ca0b915aa5",
+     "id": "reading-turner-wu-2014-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "digest": "aae21c2354cdedad834a228e381555897b487a7ca68f25aa309e73f6a9454edc",
+     "id": "reading-haase-mcallister-2008-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "digest": "dda7fc232cd0cd0a783ceeb65ce14fca1bf6030b3759034c48ddaf6faa1e1af4",
+     "id": "reading-ktt-2006-4",
+     "kind": "record",
+     "record_kind": "reading"
+    }
+   ],
+   "note": "Neighbours compared: the Ehrhart form (weaker, redundant), the Haase-McAllister form for hives (a restatement of a known conjecture), the Gelfand-Tsetlin sibling (its own period collapse and positivity questions; whether the piecewise-linear maps between the settings identify polytopes lattice-preservingly was not examined, so no reduction or transfer is claimed), the numerator conjecture (a known conjecture that the statement explains), rank restrictions. The strongest case that the question is uninteresting (it is a special case of a known conjecture) is answered: the sharp form is not implied by the conjecture and carries the consequence the conjecture lacks. Level 2. The comparison is confined to the Littlewood-Richardson and Ehrhart scope; the record claims no connection to Kronecker or plethysm positivity and does not use one."
+  }
+ },
+ "primary": {
+  "criterion": "V2",
+  "ground": "B2"
+ },
+ "recorded_revision": 551,
+ "statement_id": "statement-4"
+}

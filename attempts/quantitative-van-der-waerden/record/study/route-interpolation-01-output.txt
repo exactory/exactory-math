@@ -1,0 +1,6 @@
+(1) bernstein   max abs discrepancy 2.22e-16
+(1) taylor      max abs discrepancy 3.33e-16
+(2) r3          max abs discrepancy 5.68e-14
+(3) r4          max abs discrepancy 7.96e-13
+(4) q2          max abs discrepancy 4.16e-16
+(5) step        max abs discrepancy 1.78e-14

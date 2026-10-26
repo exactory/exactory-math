@@ -1,0 +1,43 @@
+{
+ "disposition": {
+  "evidence_needed": null,
+  "reason": "A restatement of a known conjecture of King, Tollu and Toumazet (2004).",
+  "status": "rejected"
+ },
+ "id": "candidate-ktt-numerator-positivity",
+ "neighbours": [
+  "The selected candidate, which implies it.",
+  "The monomial-basis King-Tollu-Toumazet conjecture."
+ ],
+ "notes": "Recorded so that the slate shows the known conjecture the selected candidate would explain.",
+ "observation": "A known conjecture; the census supports it over 6,855,302 polynomials; the selected candidate would imply it.",
+ "potential": {
+  "priority": 0,
+  "readiness": "pass",
+  "significance": {
+   "B1": 2,
+   "B2": 2
+  }
+ },
+ "previous": null,
+ "recorded_revision": 249,
+ "source": {
+  "evidence": [
+   {
+    "digest": "ab6abbdc4f71759b2a43ce9c1a1b8f265786a90c378f9203a048fa8808e35178",
+    "id": "reading-ktt-2006-3",
+    "kind": "record",
+    "record_kind": "reading"
+   },
+   {
+    "digest": "0b26a9ecf0e28d73a0eddafd7913626ab2e9d2faf602d638c7b0b9fd05a615fb",
+    "id": "hstar-inequalities-1",
+    "kind": "record",
+    "record_kind": "probe"
+   }
+  ],
+  "kind": "literature",
+  "reference": "King-Tollu-Toumazet 2004, restated in King-Tollu-Toumazet 2006 (introduction) as the second of their two positivity conjectures."
+ },
+ "statement": "For every triple with $c^{\\nu}_{\\lambda\\mu}>0$, the numerator $G^{\\nu}_{\\lambda\\mu}(z)$ in $\\sum_{t\\ge 0} c^{t\\nu}_{t\\lambda,t\\mu}z^t=G^{\\nu}_{\\lambda\\mu}(z)/(1-z)^{d+1}$ has nonnegative integer coefficients."
+}

@@ -1,0 +1,24 @@
+{
+ "id": "reading-cfs-2010",
+ "version_id": "arxiv:1004.4236v2",
+ "bundle_id": "bundle-1004.4236v2",
+ "inspections": [
+  {"anchor": "Theorem 1.1 Let H be a bipartite graph with m edges which has r", "end": "From Theorem 1.1, by taking r = 1 and d = 1", "note": "Main theorem: r vertices of the first part complete to the second and minimum degree d give t_H >= t_{K_{r,d}}^{m/(rd)}."},
+  {"anchor": "Theorem 1.2 Sidorenko", "end": "complete to the other part.", "note": "Sidorenko's conjecture holds when one vertex is complete to the other part."},
+  {"anchor": "Conjecture 2 A graph H is forcing if and only if it is bipartite and contains a cycle.", "note": "The forcing conjecture, as formulated by Conlon, Fox and Sudakov."},
+  {"anchor": "Theorem 1.3 The forcing conjecture holds for every bipartite graph H which has two vertices", "end": "which has at least two vertices.", "note": "Forcing for graphs with two vertices complete to the other part."},
+  {"anchor": "Corollary 1.1 If H is a bipartite graph with m edges and width w", "end": "for every graph G.", "note": "Approximate version: t_H >= t_{K2}^{m+w}."},
+  {"anchor": "It is not hard to see that the forcing conjecture is stronger than Sidorenko", "end": "stability result for Sidorenko", "note": "The forcing conjecture implies Sidorenko's conjecture."},
+  {"anchor": "tempting to conjecture that the products of integrals", "end": "was found in 1966 by London", "note": "The general correlation inequality fails already for paths."},
+  {"anchor": "This discussion leads to the following general question", "end": "holds if and only if", "note": "Domination question between graph norms, with Sidorenko as the case H' = K2."}
+ ],
+ "notes": {
+  "problem": {"text": "Lower bounds for homomorphism densities of bipartite graphs (Sidorenko's conjecture) and which bipartite graphs force quasirandomness (the question of Chung, Graham, Wilson and of Skokan and Thoma).", "inspections": [1, 2]},
+  "claims": {"text": "Theorem 1.1 and its corollary Theorem 1.2: Sidorenko holds for every bipartite graph with a vertex complete to the other part; Corollary 1.1: t_H >= t_{K2}^{m+w} with w the width; Theorem 1.3: the forcing conjecture holds when two vertices of one part are complete to the other part; Conjecture 2: a graph is forcing if and only if it is bipartite and contains a cycle.", "inspections": [0, 1, 2, 3, 4]},
+  "assumptions": {"text": "Finite host graphs and the normalized homomorphism density; the tensor power trick to remove constant factors; the forcing statements use that K_{2,2} and stars satisfy Sidorenko.", "inspections": [0, 3]},
+  "methods": {"text": "Dependent random choice (Lemmas 2.1-2.3) to show most small subsets of a random neighbourhood have large common neighbourhoods, then the tensor power trick; forcing via the K_{2,2} density.", "inspections": [0, 3]},
+  "evidence": {"text": "Complete combinatorial proofs.", "inspections": [0]},
+  "limitations": {"text": "The vertex-complete hypothesis excludes most graphs; the general correlation inequality (6) is false (London's path counterexample); the forcing conjecture is left open beyond the stated class.", "inspections": [5, 6]},
+  "relevance": {"text": "Positive class used to locate the 2026 counterexample (which has no vertex complete to the other part); source of the forcing conjecture that the 2026 manuscript refutes; Theorem 1.2 is also the base case for the doubling argument this record uses for reflection-symmetric triangulated spheres.", "inspections": [1, 2, 7]}
+ }
+}

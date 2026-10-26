@@ -1,0 +1,401 @@
+ℹ [3448/3476] Built GurvitsPort.LorentzianGenerator (6.0s)
+info: GurvitsPort/LorentzianGenerator.lean:166:0: 'LorentzianPoly.linForm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LorentzianGenerator.lean:167:0: 'LorentzianPoly.linForm_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LorentzianGenerator.lean:168:0: 'LorentzianPoly.linForm_isHomogeneous' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LorentzianGenerator.lean:169:0: 'LorentzianPoly.linForm_coeff_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LorentzianGenerator.lean:170:0: 'LorentzianPoly.pderiv_linForm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LorentzianGenerator.lean:171:0: 'LorentzianPoly.coeff_mul_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3449/3476] Built Dittert.Hall (7.0s)
+ℹ [3450/3476] Built GurvitsPort.Capacity (6.5s)
+info: GurvitsPort/Capacity.lean:317:0: 'Capacity.PosVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:318:0: 'Capacity.instNonemptyPosVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:319:0: 'Capacity.monom' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:320:0: 'Capacity.monom_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:321:0: 'Capacity.monom_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:322:0: 'Capacity.monom_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:323:0: 'Capacity.monom_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:324:0: 'Capacity.monom_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:325:0: 'Capacity.monom_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:326:0: 'Capacity.monom_one_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:327:0: 'Capacity.NonnegOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:328:0: 'Capacity.cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:329:0: 'Capacity.bddBelow_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:330:0: 'Capacity.cap_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:331:0: 'Capacity.le_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:332:0: 'Capacity.cap_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:333:0: 'Capacity.nonnegOn_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:334:0: 'Capacity.cap_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:335:0: 'Capacity.cap_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:336:0: 'Capacity.le_cap_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:337:0: 'Capacity.cap_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:338:0: 'Capacity.le_cap_dilate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:339:0: 'Capacity.cap_dilate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:340:0: 'Capacity.cap_mul_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:341:0: 'Capacity.cap_monom_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:342:0: 'Capacity.cap_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:343:0: 'Capacity.prod_le_one_of_sum_eq_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:344:0: 'Capacity.rowProd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:345:0: 'Capacity.rowSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:346:0: 'Capacity.rowProd_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:347:0: 'Capacity.nonnegOn_rowProd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:348:0: 'Capacity.cap_rowProd_le_prod_rowSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:349:0: 'Capacity.prod_rowSum_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Capacity.lean:350:0: 'Capacity.cap_rowProd_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3451/3476] Built Dittert.Reduction (7.4s)
+warning: Dittert/Reduction.lean:160:74: Variable name `hik` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hik
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3452/3476] Built GurvitsPort.BorderPayment (6.8s)
+warning: GurvitsPort/BorderPayment.lean:112:13: This simp argument is unused:
+  div_self (pow_ne_zero n hn')
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [G]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GurvitsPort/BorderPayment.lean:119:13: This simp argument is unused:
+  div_self (pow_ne_zero n hn')
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [G]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: GurvitsPort/BorderPayment.lean:267:0: 'BorderPayment.exact_payment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:268:0: 'BorderPayment.exact_payment_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:269:0: 'BorderPayment.exact_payment_mul'' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:270:0: 'BorderPayment.G' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:271:0: 'BorderPayment.G_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:272:0: 'BorderPayment.G_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:273:0: 'BorderPayment.G_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:274:0: 'BorderPayment.G_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:275:0: 'BorderPayment.gammaC' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:276:0: 'BorderPayment.cap0' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:277:0: 'BorderPayment.C_ref' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:278:0: 'BorderPayment.C_new' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:279:0: 'BorderPayment.pow_self_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:280:0: 'BorderPayment.C_new_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:281:0: 'BorderPayment.C_new_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:282:0: 'BorderPayment.theoremHprime' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:283:0: 'BorderPayment.rho_new' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:284:0: 'BorderPayment.rho_new_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:285:0: 'BorderPayment.C_new_eq_C_ref_of_m_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/BorderPayment.lean:286:0: 'BorderPayment.C_new_eq_C_ref_of_m_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3453/3476] Built GurvitsPort.NewtonInequalities (10s)
+warning: GurvitsPort/NewtonInequalities.lean:301:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: GurvitsPort/NewtonInequalities.lean:407:4: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [zero_add, Nat.choose_zero_right, Nat.choose_one_right, Nat.cast_one, mul_one, hch2']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: GurvitsPort/NewtonInequalities.lean:631:0: 'NewtonIneq.esymF_eq_esymm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:632:0: 'NewtonIneq.esymF_compl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:633:0: 'NewtonIneq.realRooted_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:634:0: 'NewtonIneq.realRooted_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:635:0: 'NewtonIneq.polyOf_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:636:0: 'NewtonIneq.polyOf_monic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:637:0: 'NewtonIneq.polyOf_natDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:638:0: 'NewtonIneq.polyOf_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:639:0: 'NewtonIneq.coeff_derivative_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:640:0: 'NewtonIneq.choose_mul_sub' depends on axioms: [propext, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:641:0: 'NewtonIneq.natDegree_derivative_of_realRooted' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:642:0: 'NewtonIneq.esymS_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:643:0: 'NewtonIneq.esymS_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:644:0: 'NewtonIneq.esymF_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:645:0: 'NewtonIneq.esymF_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:646:0: 'NewtonIneq.esymF_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:647:0: 'NewtonIneq.newton_index_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:648:0: 'NewtonIneq.exists_vector_of_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:649:0: 'NewtonIneq.exists_root_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:650:0: 'NewtonIneq.newtonAt_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:651:0: 'NewtonIneq.newtonAt_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:652:0: 'NewtonIneq.newtonAt_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:653:0: 'NewtonIneq.realRooted_polyOf' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:654:0: 'NewtonIneq.esymF_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:655:0: 'NewtonIneq.newton_esymF' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:656:0: 'NewtonIneq.pnorm_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:657:0: 'NewtonIneq.pnorm_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:658:0: 'NewtonIneq.pnorm_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:659:0: 'NewtonIneq.pnorm_newton' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:660:0: 'NewtonIneq.esymF_succ_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:661:0: 'NewtonIneq.pnorm_eq_zero_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:662:0: 'NewtonIneq.pnorm_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/NewtonInequalities.lean:663:0: 'NewtonIneq.pnorm_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3454/3476] Built GurvitsPort.LemmaB6 (5.7s)
+info: GurvitsPort/LemmaB6.lean:155:0: 'LemmaB6.entropyWitness' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaB6.lean:156:0: 'LemmaB6.entropyWitness_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaB6.lean:157:0: 'LemmaB6.entropyWitness_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaB6.lean:158:0: 'LemmaB6.row_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaB6.lean:159:0: 'LemmaB6.lemmaB6' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaB6.lean:160:0: 'LemmaB6.one_le_cap_rowProd_of_doublyStochastic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaB6.lean:161:0: 'LemmaB6.cap_rowProd_eq_one_of_doublyStochastic' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3455/3476] Built GurvitsPort.Gurvits (5.0s)
+warning: GurvitsPort/Gurvits.lean:155:10: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp at this
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GurvitsPort/Gurvits.lean:159:10: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp at this
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: GurvitsPort/Gurvits.lean:219:0: 'Gurvits.topIdx' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Gurvits.lean:220:0: 'Gurvits.topIdx_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Gurvits.lean:221:0: 'Gurvits.topIdx_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Gurvits.lean:222:0: 'Gurvits.HStable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Gurvits.lean:223:0: 'Gurvits.GurvitsBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Gurvits.lean:224:0: 'Gurvits.sqSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Gurvits.lean:225:0: 'Gurvits.sqSum_isHomogeneous' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Gurvits.lean:226:0: 'Gurvits.sqSum_coeff_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Gurvits.lean:227:0: 'Gurvits.sqSum_topCoeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Gurvits.lean:228:0: 'Gurvits.sqSum_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Gurvits.lean:229:0: 'Gurvits.cap_sqSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Gurvits.lean:230:0: 'Gurvits.not_gurvitsBound_without_stability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/Gurvits.lean:231:0: 'Gurvits.factorial_div_pow_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3456/3476] Built GurvitsPort.LemmaU (8.1s)
+warning: GurvitsPort/LemmaU.lean:97:10: This simp argument is unused:
+  Polynomial.natDegree_X_add_C
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: GurvitsPort/LemmaU.lean:485:0: 'LemmaU.fVal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:486:0: 'LemmaU.coeff_prod_X_add_C' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:487:0: 'LemmaU.natDegree_prod_X_add_C' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:488:0: 'LemmaU.fVal_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:489:0: 'LemmaU.dseq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:490:0: 'LemmaU.dseq_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:491:0: 'LemmaU.esymF_eq_choose_mul_dseq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:492:0: 'LemmaU.dseq_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:493:0: 'LemmaU.dseq_newton' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:494:0: 'LemmaU.dseq_eq_zero_of_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:495:0: 'LemmaU.dseq_pos_of_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:496:0: 'LemmaU.dseq_ratio_up' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:497:0: 'LemmaU.dseq_ratio_down' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:498:0: 'LemmaU.window' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:499:0: 'LemmaU.fVal_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:500:0: 'LemmaU.sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:501:0: 'LemmaU.S0' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:502:0: 'LemmaU.G_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:503:0: 'LemmaU.certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:504:0: 'LemmaU.capU' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:505:0: 'LemmaU.capU_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:506:0: 'LemmaU.lemmaU' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:507:0: 'LemmaU.G_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:508:0: 'LemmaU.dseq_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/LemmaU.lean:509:0: 'LemmaU.lemmaU_of_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3457/3476] Built GurvitsPort.HStableDerivative (6.6s)
+info: GurvitsPort/HStableDerivative.lean:250:0: 'HStableDerivative.hstable_X_mul_X' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableDerivative.lean:251:0: 'HStableDerivative.pderiv_zero_X_mul_X' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableDerivative.lean:252:0: 'HStableDerivative.not_hstable_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableDerivative.lean:253:0: 'HStableDerivative.not_forall_hstable_pderiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableDerivative.lean:254:0: 'HStableDerivative.cons_add_single_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableDerivative.lean:255:0: 'HStableDerivative.finSuccEquiv_pderiv_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableDerivative.lean:256:0: 'HStableDerivative.cpoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableDerivative.lean:257:0: 'HStableDerivative.lineRestrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableDerivative.lean:258:0: 'HStableDerivative.eval_lineRestrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableDerivative.lean:259:0: 'HStableDerivative.derivative_lineRestrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableDerivative.lean:260:0: 'HStableDerivative.cons_re_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableDerivative.lean:261:0: 'HStableDerivative.lineRestrict_root_re_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableDerivative.lean:262:0: 'HStableDerivative.aeval_pderiv_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3458/3476] Built GurvitsPort.OneVarCapacity (6.4s)
+info: GurvitsPort/OneVarCapacity.lean:278:0: 'OneVarCapacity.esymF_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/OneVarCapacity.lean:279:0: 'OneVarCapacity.le_capU' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/OneVarCapacity.lean:280:0: 'OneVarCapacity.capU_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/OneVarCapacity.lean:281:0: 'OneVarCapacity.capU_one_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/OneVarCapacity.lean:282:0: 'OneVarCapacity.gurvits_one_var_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/OneVarCapacity.lean:283:0: 'OneVarCapacity.gurvits_one_var' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/OneVarCapacity.lean:284:0: 'OneVarCapacity.Dom' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/OneVarCapacity.lean:285:0: 'OneVarCapacity.instNonemptyDom' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/OneVarCapacity.lean:286:0: 'OneVarCapacity.NonnegOn₁' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/OneVarCapacity.lean:287:0: 'OneVarCapacity.capOne' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/OneVarCapacity.lean:288:0: 'OneVarCapacity.bddBelow_ratio₁' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/OneVarCapacity.lean:289:0: 'OneVarCapacity.capOne_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/OneVarCapacity.lean:290:0: 'OneVarCapacity.le_capOne' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/OneVarCapacity.lean:291:0: 'OneVarCapacity.stone12' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/OneVarCapacity.lean:292:0: 'OneVarCapacity.g_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3459/3476] Built Dittert.Bridge.Common (18s)
+ℹ [3460/3476] Built GurvitsPort.GurvitsInduction (6.0s)
+info: GurvitsPort/GurvitsInduction.lean:423:0: 'GurvitsInduction.pow_ratio_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:424:0: 'GurvitsInduction.G_one_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:425:0: 'GurvitsInduction.G_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:426:0: 'GurvitsInduction.prod_G_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:427:0: 'GurvitsInduction.factorial_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:428:0: 'GurvitsInduction.monom_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:429:0: 'GurvitsInduction.monom_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:430:0: 'GurvitsInduction.cons_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:431:0: 'GurvitsInduction.capOne_eq_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:432:0: 'GurvitsInduction.capOne_nonpos_of_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:433:0: 'GurvitsInduction.reduce' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:434:0: 'GurvitsInduction.coeff_reduce' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:435:0: 'GurvitsInduction.topIdx_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:436:0: 'GurvitsInduction.coeff_topIdx_reduce' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:437:0: 'GurvitsInduction.eval_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:438:0: 'GurvitsInduction.eval_fin_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:439:0: 'GurvitsInduction.eval_reduce_of_fac' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:440:0: 'GurvitsInduction.ClassFac' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:441:0: 'GurvitsInduction.ClassClosed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:442:0: 'GurvitsInduction.gurvits_of_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:443:0: 'GurvitsInduction.ClassHfac' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsInduction.lean:444:0: 'GurvitsInduction.gurvitsBound_of_classHfac' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3461/3476] Built GurvitsPort.FaceBounds (5.9s)
+info: GurvitsPort/FaceBounds.lean:259:0: 'FaceBounds.rowPoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/FaceBounds.lean:260:0: 'FaceBounds.eval_rowPoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/FaceBounds.lean:261:0: 'FaceBounds.rowPoly_isHomogeneous' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/FaceBounds.lean:262:0: 'FaceBounds.rowPoly_coeff_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/FaceBounds.lean:263:0: 'FaceBounds.hstable_rowPoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/FaceBounds.lean:264:0: 'FaceBounds.prod_X_eq_monomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/FaceBounds.lean:265:0: 'FaceBounds.cond_iff_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/FaceBounds.lean:266:0: 'FaceBounds.coeff_topIdx_rowPoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/FaceBounds.lean:267:0: 'FaceBounds.egorychev_falikman' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3462/3476] Built GurvitsPort.HStableOrbit (6.6s)
+info: GurvitsPort/HStableOrbit.lean:293:0: 'HStableOrbit.reduceAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableOrbit.lean:294:0: 'HStableOrbit.coeff_reduceAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableOrbit.lean:295:0: 'HStableOrbit.coeff_cons_zero_pderiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableOrbit.lean:296:0: 'HStableOrbit.coeff_cons_zero_reduce' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableOrbit.lean:297:0: 'HStableOrbit.degree_topIdx_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableOrbit.lean:298:0: 'HStableOrbit.coeff_topIdx_reduceAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableOrbit.lean:299:0: 'HStableOrbit.coeff_reduce_le_reduceAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableOrbit.lean:300:0: 'HStableOrbit.eval_reduce_le_reduceAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableOrbit.lean:301:0: 'HStableOrbit.NonDegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableOrbit.lean:302:0: 'HStableOrbit.hstable_pderiv_of_nonDegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableOrbit.lean:303:0: 'HStableOrbit.aeval_reduceAt_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableOrbit.lean:304:0: 'HStableOrbit.aeval_smul_of_homogeneous' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableOrbit.lean:305:0: 'HStableOrbit.restriction_root_real_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3463/3476] Built Dittert.Bridge.N11 (19s)
+ℹ [3464/3476] Built GurvitsPort.SlicedTower (6.2s)
+info: GurvitsPort/SlicedTower.lean:277:0: 'SlicedTower.DegBd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/SlicedTower.lean:278:0: 'SlicedTower.degBd_of_isHomogeneous' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/SlicedTower.lean:279:0: 'SlicedTower.degree_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/SlicedTower.lean:280:0: 'SlicedTower.coeff_reduceAt_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/SlicedTower.lean:281:0: 'SlicedTower.degBd_reduceAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/SlicedTower.lean:282:0: 'SlicedTower.coeff_topIdx_reduceAt_of_degBd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/SlicedTower.lean:283:0: 'SlicedTower.ClassClosedAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/SlicedTower.lean:284:0: 'SlicedTower.gurvits_of_classAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/SlicedTower.lean:285:0: 'SlicedTower.ClassHfacAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/SlicedTower.lean:286:0: 'SlicedTower.gurvitsBound_of_classHfacAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/SlicedTower.lean:287:0: 'SlicedTower.reduceAt_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/SlicedTower.lean:288:0: 'SlicedTower.classHfacAt_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3465/3476] Built Dittert.Bridges (4.3s)
+warning: Dittert/Bridges.lean:29:8: declaration uses `sorry`
+warning: Dittert/Bridges.lean:34:8: declaration uses `sorry`
+ℹ [3466/3476] Built GurvitsPort.HStableFac (7.0s)
+info: GurvitsPort/HStableFac.lean:250:0: 'HStableFac.exists_fac_of_complex_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableFac.lean:251:0: 'HStableFac.aeval_cons_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableFac.lean:252:0: 'HStableFac.eval_pos_of_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableFac.lean:253:0: 'HStableFac.coeff_finSuccEquiv_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableFac.lean:254:0: 'HStableFac.natDegree_lineRestrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableFac.lean:255:0: 'HStableFac.natDegree_finSuccEquiv_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableFac.lean:256:0: 'HStableFac.classFac_hstable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableFac.lean:257:0: 'HStableFac.classFac_hstable_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3467/3476] Built GurvitsPort.HStableClass (8.8s)
+warning: GurvitsPort/HStableClass.lean:384:52: Variable name `q` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _q
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: GurvitsPort/HStableClass.lean:420:0: 'HStableClass.NonnegCoeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:421:0: 'HStableClass.nonnegCoeff_bind₁' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:422:0: 'HStableClass.sliceMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:423:0: 'HStableClass.homSlice' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:424:0: 'HStableClass.liftMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:425:0: 'HStableClass.homLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:426:0: 'HStableClass.subMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:427:0: 'HStableClass.eval_C_finSuccEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:428:0: 'HStableClass.reduceAt_eq_bind₁' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:429:0: 'HStableClass.reduceAt_zero_poly' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:430:0: 'HStableClass.pderiv_homSlice' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:431:0: 'HStableClass.homSlice_homLift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:432:0: 'HStableClass.eval_homSlice' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:433:0: 'HStableClass.SliceClass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:434:0: 'HStableClass.NonDegenerateClass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:435:0: 'HStableClass.sliceClass_of_hstable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:436:0: 'HStableClass.sliceClass_reduceAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:437:0: 'HStableClass.sliceClass_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:438:0: 'HStableClass.sliceClass_fac' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:439:0: 'HStableClass.classHfacAt_of_nonDegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/HStableClass.lean:440:0: 'HStableClass.gurvitsBound_of_nonDegenerate' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3468/3476] Built GurvitsPort.VanDerWaerden (6.6s)
+info: GurvitsPort/VanDerWaerden.lean:408:0: 'VanDerWaerden.PosTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:409:0: 'VanDerWaerden.posTop_reduceAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:410:0: 'VanDerWaerden.coeff_lineRestrict_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:411:0: 'VanDerWaerden.nonDegenerate_of_coeff_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:412:0: 'VanDerWaerden.aeval_homSlice' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:413:0: 'VanDerWaerden.lineRestrict_homSlice' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:414:0: 'VanDerWaerden.coeff_top_homSlice' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:415:0: 'VanDerWaerden.PosClass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:416:0: 'VanDerWaerden.posClass_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:417:0: 'VanDerWaerden.posClass_fac' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:418:0: 'VanDerWaerden.coeff_prod_linForm_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:419:0: 'VanDerWaerden.posTop_mul_linForm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:420:0: 'VanDerWaerden.posTop_prod_linForm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:421:0: 'VanDerWaerden.posTop_rowPoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:422:0: 'VanDerWaerden.posClass_rowPoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:423:0: 'VanDerWaerden.gurvits_at_rowPoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:424:0: 'VanDerWaerden.egorychev_falikman_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:425:0: 'VanDerWaerden.pert' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:426:0: 'VanDerWaerden.pert_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:427:0: 'VanDerWaerden.pert_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:428:0: 'VanDerWaerden.pert_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:429:0: 'VanDerWaerden.pert_col' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:430:0: 'VanDerWaerden.continuous_permanent_pert' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/VanDerWaerden.lean:431:0: 'VanDerWaerden.egorychev_falikman' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3469/3476] Built Dittert.Floors.Analytic (7.6s)
+⚠ [3470/3476] Built GurvitsPort.GurvitsUnconditional (6.5s)
+warning: GurvitsPort/GurvitsUnconditional.lean:273:36: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: GurvitsPort/GurvitsUnconditional.lean:407:0: 'GurvitsUnconditional.lin' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:408:0: 'GurvitsUnconditional.pertRow' does not depend on any axioms
+info: GurvitsPort/GurvitsUnconditional.lean:409:0: 'GurvitsUnconditional.psub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:410:0: 'GurvitsUnconditional.lin_pertRow_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:411:0: 'GurvitsUnconditional.psub_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:412:0: 'GurvitsUnconditional.hom_psub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:413:0: 'GurvitsUnconditional.nonneg_psub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:414:0: 'GurvitsUnconditional.aeval_lin' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:415:0: 'GurvitsUnconditional.hstable_psub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:416:0: 'GurvitsUnconditional.nonneg_prod_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:417:0: 'GurvitsUnconditional.posTop_prod_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:418:0: 'GurvitsUnconditional.posTop_bind₁' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:419:0: 'GurvitsUnconditional.posTop_psub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:420:0: 'GurvitsUnconditional.eval_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:421:0: 'GurvitsUnconditional.eval_lin_pertRow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:422:0: 'GurvitsUnconditional.eval_psub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:423:0: 'GurvitsUnconditional.cap_le_cap_psub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:424:0: 'GurvitsUnconditional.map_lin' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:425:0: 'GurvitsUnconditional.map_psub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:426:0: 'GurvitsUnconditional.map_eval_psubX' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:427:0: 'GurvitsUnconditional.continuous_coeff_psub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:428:0: 'GurvitsUnconditional.bound_at_psub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:429:0: 'GurvitsUnconditional.gurvitsBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GurvitsPort/GurvitsUnconditional.lean:430:0: 'GurvitsUnconditional.egorychev_falikman' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3471/3476] Built GurvitsPort (5.5s)
+✔ [3473/3476] Built Dittert.Floors.Chain (6.3s)
+✔ [3474/3476] Built Dittert.Floors (5.9s)
+⚠ [3475/3476] Built Dittert (6.1s)
+warning: Dittert.lean:24:8: declaration uses `sorry`
+warning: Dittert.lean:25:8: declaration uses `sorry`
+warning: Dittert.lean:26:8: declaration uses `sorry`
+warning: Dittert.lean:27:8: declaration uses `sorry`
+warning: Dittert.lean:28:8: declaration uses `sorry`
+warning: Dittert.lean:29:8: declaration uses `sorry`
+warning: Dittert.lean:30:8: declaration uses `sorry`
+Build completed successfully (3476 jobs).
+lake build  88.54s user 95.33s system 190% cpu 1:36.32 total

@@ -1,0 +1,113 @@
+{
+  "id": "value-sharp-three-v2",
+  "statement_id": "statement-sharp-three-v1",
+  "motivation": [
+    {
+      "text": "Nosal's inequality $\\lambda(G)^2\\le e(G)$ makes the spectral deficit $\\xi=e(G)-\\lambda(G)^2$ a measure of departure from the complete-bipartite extremal situation. Recent edge-spectral stability work controls structural distance when this deficit is small. The present question asks for an exact finite inequality, valid at every deficit and independent of graph order: does the same coefficient three that controls complete-bipartite editing for bipartite graphs also control every triangle-free graph? Both additions and deletions count, and the target may have arbitrary part sizes and isolated vertices. This is the target and deficit of the cited bipartite theorem, with only the bipartiteness hypothesis removed.",
+      "evidence": [
+        {
+          "kind": "reading",
+          "version_id": "arxiv:2609.20225v2",
+          "reading_id": "reading-spectral-book-full-v1"
+        },
+        {
+          "kind": "reading",
+          "version_id": "arxiv:2508.15271v2",
+          "reading_id": "reading-edge-spectral-full-v1"
+        }
+      ]
+    },
+    {
+      "text": "The coefficient is fixed by mathematics: the five-cycle has $D(C_5)=3$ and $\\xi(C_5)=1$, while a proved supporting bound gives $D(G)\\le15\\xi$ and an asymptotic upper coefficient three as $\\xi/e(G)\\to0$. An affirmative answer would determine the optimal uniform coefficient exactly and show that allowing odd cycles introduces no extra coefficient beyond the bipartite theorem. A counterexample would refute that proposed uniform law. These are the established bounds and the explanatory distinction supporting the question; no classification of equality graphs or consequence for other open conjectures is asserted.",
+      "evidence": [
+        {
+          "kind": "reading",
+          "version_id": "arxiv:2609.20225v2",
+          "reading_id": "reading-spectral-book-full-v1"
+        },
+        {
+          "kind": "result",
+          "attempt_id": "attempt-sharp-three-v1",
+          "acceptance_id": "acceptance-000001"
+        }
+      ]
+    },
+    {
+      "text": "The strongest objection is that this is merely a constant improvement after a linear bound is available. The intended gain is narrower and exact: deciding whether the bipartite coefficient remains valid throughout the triangle-free class, including finite positive deficits, despite the non-bipartite sharp example. Asking only for some finite linear coefficient is now settled by the supporting theorem, and asking only for deletion distance to bipartiteness is already settled by the cited cut lemma. Qualitative stability and the asymptotic upper coefficient do not decide the displayed exact inequality. This comparison identifies the remaining gain without claiming that every improvement of the bound fifteen is significant or that the available methods cannot settle the question.",
+      "evidence": [
+        {
+          "kind": "reading",
+          "version_id": "arxiv:2609.20225v2",
+          "reading_id": "reading-spectral-book-full-v1"
+        },
+        {
+          "kind": "reading",
+          "version_id": "arxiv:2508.15271v2",
+          "reading_id": "reading-edge-spectral-full-v1"
+        },
+        {
+          "kind": "result",
+          "attempt_id": "attempt-sharp-three-v1",
+          "acceptance_id": "acceptance-000001"
+        }
+      ]
+    }
+  ],
+  "current_state": [
+    {
+      "text": "Li, Liu and Zhang, arXiv:2508.15271v2, Theorem 4.1, establish qualitative triangle-free edge-spectral stability. Li, Liu and Ning, arXiv:2609.20225v2, Lemma 4.3, prove $D(H)\\le3(e(H)-\\lambda(H)^2)$ for bipartite graphs. Their Lemma 4.4 also supplies a triangle-free cut obtained by deleting at most $e(G)-\\lambda(G)^2$ edges. That deletion conclusion has a different target: a bipartite graph need not be complete bipartite. These fully read results are the direct comparisons.",
+      "evidence": [
+        {
+          "kind": "reading",
+          "version_id": "arxiv:2609.20225v2",
+          "reading_id": "reading-spectral-book-full-v1"
+        },
+        {
+          "kind": "reading",
+          "version_id": "arxiv:2508.15271v2",
+          "reading_id": "reading-edge-spectral-full-v1"
+        }
+      ]
+    },
+    {
+      "text": "A supporting analytical theorem, independently reviewed in this study, establishes $D(G)\\le15\\xi$ for every finite simple triangle-free graph and, when $\\lambda(G)>0$, $D(G)\\le3\\xi+18\\sqrt{6}\\,\\xi^{3/2}/\\lambda(G)$. Its proof cuts along the signs of a least-eigenvalue eigenvector, applies the published bipartite editing lemma, and uses the triangle-free trace identity $\\operatorname{tr}(A^3)=0$ to control the gap between the extreme eigenvalue magnitudes. Consequently, for any sequence with positive deficit and $\\xi/e(G)\\to0$, one has $\\limsup D(G)/\\xi\\le3$. The proof handles disconnected graphs, isolates, zero deficit and the empty graph. Historical priority of this supporting result is not claimed.",
+      "evidence": [
+        {
+          "kind": "result",
+          "attempt_id": "attempt-sharp-three-v1",
+          "acceptance_id": "acceptance-000001"
+        },
+        {
+          "kind": "reading",
+          "version_id": "arxiv:2609.20225v2",
+          "reading_id": "reading-spectral-book-full-v1"
+        }
+      ]
+    },
+    {
+      "text": "The supporting argument can be stated explicitly. For $m>0$, write the least adjacency eigenvalue as $-\\mu$, with $0<\\mu\\le\\lambda$. Retain only edges between opposite nonzero signs of a unit eigenvector for $-\\mu$, obtaining a bipartite graph $F$ after $b$ deletions. The absolute value of that vector has Rayleigh quotient at least $\\mu$ in $F$. Hence $D(G)\\le b+D(F)\\le3(m-\\mu^2)-2b\\le3(m-\\mu^2)$. Since $\\operatorname{tr}(A^3)=0$ and $\\operatorname{tr}(A^2)=2m$, $\\lambda^3\\le\\mu(2m-\\lambda^2)$. With $r=\\lambda^2/m\\in(0,1]$, this implies $m-\\mu^2\\le\\xi(r^2+4)/(2-r)^2\\le5\\xi$. Put $\\delta=\\lambda^2-\\mu^2\\le4\\xi$. After removing one occurrence of each extreme eigenvalue, the remaining squared eigenvalues sum to $2\\xi+\\delta\\le6\\xi$. Their cubed absolute values sum to at most $(6\\xi)^{3/2}$, so the trace-cube identity gives $\\lambda\\delta\\le\\lambda^3-\\mu^3\\le(6\\xi)^{3/2}$. Substitution proves both bounds. When $m=0$, both $D$ and $\\xi$ vanish.",
+      "evidence": [
+        {
+          "kind": "result",
+          "attempt_id": "attempt-sharp-three-v1",
+          "acceptance_id": "acceptance-000001"
+        },
+        {
+          "kind": "reading",
+          "version_id": "arxiv:2609.20225v2",
+          "reading_id": "reading-spectral-book-full-v1"
+        }
+      ]
+    },
+    {
+      "text": "The same reviewed evidence proves $D(C_5)=3$ exactly, with $e(C_5)-\\lambda(C_5)^2=1$. Thus the optimal universal coefficient lies between three and fifteen. This five-cycle witness does not establish asymptotic sharpness when the relative deficit tends to zero. The bounded attempt on the exact statement leaves its universal coefficient-three conclusion unresolved. The signed-cut argument provides a concrete entry point, but its remaining spectral-gap and editing-slack terms have not been uniformly cancelled. This unresolved calculation is not a proof of a limitation of the method, and exploratory numerics are not used as support for the question.",
+      "evidence": [
+        {
+          "kind": "result",
+          "attempt_id": "attempt-sharp-three-v1",
+          "acceptance_id": "acceptance-000001"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "claim": "For every integer n >= 2 and every doubly stochastic n by n real matrix B, per(B) >= (n!/n^n)(1 + ||B - J_n/n||_F^2 / 4), where J_n is the all-ones matrix and ||.||_F is the Frobenius norm.",
+  "quadruple": {
+    "statement": "For every integer n >= 2 and every doubly stochastic n by n real matrix B, per(B) >= (n!/n^n)(1 + ||B - J_n/n||_F^2 / 4).",
+    "stage": "Real matrices on the Birkhoff polytope, with the permanent as a multilinear polynomial; the same stage as the van der Waerden inequality itself.",
+    "direction": "true",
+    "mode": "certificate"
+  },
+  "shape": {
+    "objects": "Doubly stochastic n by n real matrices, one family for each n >= 2. For fixed n the set is the Birkhoff polytope, compact and convex, of dimension (n-1)^2 with n! vertices. Finite dimensional at each n, infinitely many n.",
+    "quantifiers": "Universal over n >= 2 and universal over the polytope. No existential quantifier and no limit.",
+    "target_quantity": "An explicit constant: the largest c for which per(B) >= gamma_n (1 + c ||B - J_n/n||_F^2) holds, where gamma_n = n!/n^n. The claim asserts that constant is at least 1/4 for every n.",
+    "ambient_structure": "Convex geometry and multilinear algebra coexist: the constraint set is a polytope and the objective is a multilinear polynomial of degree n. The simpler ambient that keeps the constraint is the set of nonnegative matrices with unit row sums, where the permanent is still multilinear but the column constraint is dropped.",
+    "symmetries": "Both sides are invariant under B -> P B Q for permutation matrices P and Q and under transpose, so under the group (S_n x S_n) semidirect Z_2 of order 2 (n!)^2. J_n/n is the unique fixed point of that action on the polytope.",
+    "configuration": "The equality configuration. At n = 2 the inequality is an identity, both sides equal 1/2 + 2(t - 1/2)^2 on the one-parameter family. At n = 3, 4, 5 the minimiser of the ratio is (I + C_n)/2 with C_n the n-cycle, the average of two permutation matrices whose union is a single n-cycle; the ratio there is 1/4, 1/3 and 0.418403, matching hand computation exactly. At n >= 6 the minimiser leaves that family.",
+    "extremal_candidate": "Known and verified at n = 3, 4, 5: (I + C_n)/2, unique up to the symmetry group. At n = 6 the measured minimiser has 12 zeros and largest entry 0.391, and at n = 7 and 8 it has no zeros at all, so the extremal family changes at n = 6 and is not yet identified there.",
+    "finite_certificates": "The false side has one: a single doubly stochastic B with per(B) < gamma_n (1 + ||B - J_n/n||_F^2 / 4) refutes the claim at that n. The true side at fixed n is a polynomial inequality on a polytope, so a sum-of-squares certificate exists whenever the Positivstellensatz degree is reachable; the sibling attack reached degree 6 at n = 5 and 6.",
+    "monotonicity": "The sharp constant c*(n) increases over the measured range: 0.250000, 0.333333, 0.418403, 0.460519, 0.486709, 0.497450 at n = 3 to 8, against the local upper bound n/(2(n-1)) = 0.750000 down to 0.571429. So the smallest open parameter is n = 3, where the claim is tight, and the claim gets easier as n grows.",
+    "uniformity_parameter": "n. The difficulty is that the constant must not decay with n; a bound of the form c(n) >= 1/poly(n) would already serve the application, and the measured values suggest a constant.",
+    "proof_shape": "Van der Waerden with a deficiency term. Three natural shapes: a second-order expansion at J_n/n, which gives the local constant n/(2(n-1)) and is measured to fail globally from n = 3 on; a capacity or hyperbolic-polynomial argument in the style of Gurvits, which gives the value at J_n/n and loses the distance; and an interpolation along the segment from B to J_n/n inside the polytope, where the permanent is a polynomial in one variable of degree n. Each loses the deficiency term at a different step.",
+    "neighbours": "The van der Waerden inequality per(B) >= gamma_n with J_n/n the unique equality point: known true (Egorychev 1981, Falikman 1981). The Knopp-Sinkhorn minimum per(B) >= m_n for B with a zero entry: known true (1982). The local Hessian identity per(J_n/n + E) = gamma_n(1 + (n/(2(n-1))) ||E||_F^2) + O(E^3) for E with zero row and column sums: known true, proved in the sibling attack. The same inequality with the constant n/(2(n-1)): known false, refuted by measurement here at n = 3 to 7. Dittert's conjecture: open at 5 <= n <= 15, and it is the application.",
+    "known_bounds": "Lower: per(B) >= gamma_n, with equality only at J_n/n (Egorychev, Falikman 1981; also Gurvits by capacity, arXiv:0711.3496). Lower, on the face with a zero entry: per(B) >= m_n = (n-2)!((n-2)/(n-1)^2)^(n-2) (Knopp and Sinkhorn 1982). Local: the exact second-order constant n/(2(n-1)) at J_n/n. The documented ceiling of the capacity method is that it is insensitive to the distance from the minimiser: the capacity of B and of J_n/n agree to the order the method sees, so no deficiency term comes out of it.",
+    "missing_input": "A lower bound on the permanent that degrades gracefully in the distance to J_n/n. Every proof in print gives the value at the minimiser and nothing about the rate of increase away from it.",
+    "base_theory": "Ordinary mathematics in ZFC. The statement is a first-order arithmetical statement about real closed fields at each fixed n, so it is decidable at fixed n by quantifier elimination in principle and covered by Lean's standard axioms. No hypothesis beyond ZFC bears on it."
+  },
+  "known": [
+    "Egorychev, The solution of van der Waerden's problem for permanents, Advances in Mathematics 42 (1981) 299-305: per(B) >= n!/n^n on the doubly stochastic matrices, with equality only at J_n/n.",
+    "Falikman, A proof of van der Waerden's conjecture on the permanent of a doubly stochastic matrix, Matematicheskie Zametki 29 (1981) 931-938, https://link.springer.com/article/10.1007/BF01163285: the same lower bound.",
+    "Gurvits, Van der Waerden / Schrijver-Valiant like Conjectures and Stable (aka Hyperbolic) Homogeneous Polynomials: One Theorem for all, arXiv:0711.3496; and Hyperbolic Polynomials Approach to Van der Waerden / Schrijver-Valiant like Conjectures, arXiv:math/0510452: the capacity proof and its generalisations.",
+    "Gurvits and Leake, Counting Matchings via Capacity Preserving Operators, arXiv:1804.04351: capacity-preserving operators; the bounds degrade where the capacity is small.",
+    "Knopp and Sinkhorn, Minimum permanents of doubly stochastic matrices with at least one zero entry, Linear and Multilinear Algebra 11 (1982) 351-355: per(B) >= m_n on the face with a zero.",
+    "Cheon and Wanless, An update on Minc's survey of open problems involving permanents, Linear Algebra and its Applications 436 (2012) 1197-1218, and arXiv:1608.02844: no refinement of this shape is listed.",
+    "Pang, Proof of Dittert's conjecture for dimensions n >= 17, arXiv:2606.01531: the application.",
+    "This repository, attack/spectral-gap-near-maximisers unit 3: per(J_n/n + E) = gamma_n(1 + (n/(2(n-1))) ||E||_F^2) + O(E^3) for E with zero row and column sums, so no constant above n/(2(n-1)) can hold.",
+    "This repository, attack/quantitative-van-der-waerden study/qvdw-test.py: the constant n/(2(n-1)) fails globally from n = 3 on, by 5.6e-2 at n = 3 down to 1.9e-4 at n = 7.",
+    "This repository, attack/quantitative-van-der-waerden study/qvdw-constant.py: the sharp constant c*(n) is 0.250000, 0.333333, 0.418403, 0.460519, 0.486709, 0.497450 at n = 3 to 8, attained at (I + C_n)/2 for n = 3, 4, 5."
+  ]
+}

@@ -1,0 +1,4 @@
+n=5: min lambda_2 over feasible optima = 0.6971 (per/gamma = 1.0500), required c_n = 0.6123, ratio 1.1
+n=6: min lambda_2 over feasible optima = 0.6955 (per/gamma = 1.0500), required c_n = 0.3233, ratio 2.2
+n=7: min lambda_2 over feasible optima = 0.7263 (per/gamma = 1.0500), required c_n = 0.1834, ratio 4.0
+n=8: min lambda_2 over feasible optima = 0.7327 (per/gamma = 1.0500), required c_n = 0.1080, ratio 6.8

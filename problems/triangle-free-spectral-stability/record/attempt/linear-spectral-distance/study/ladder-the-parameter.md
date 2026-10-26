@@ -1,0 +1,7 @@
+# Strategy study: ladder-the-parameter
+
+The problem and novelty studies record the actual 2026-10-21 searches and their bounded scope. Complete primary source texts are delivered in problem.md. Lemma 4.3 of arXiv:2609.20225v2 establishes the bipartite rung. The first root move retained a square-root loss after a deletion cut; root move 2 suggested replacing the positive Perron vector by a least-eigenvalue eigenvector. This branch investigates that distinct auxiliary-vector rung rather than repeating the failed separate perturbation estimate.
+
+The planned proof checks, in order, the sign-cut Rayleigh comparison, the trace-cube bound on the least eigenvalue, the algebra yielding fifteen, and the higher-order remainder after removing the two extreme eigenvalues. It also proves the exact edit cost of C5 by enumerating possible part sizes analytically. All statements include disconnected graphs and isolates. This is a finite analytical task; no computational run is authorized or needed.
+
+Success is independent acceptance of the exact admitted theorem. Failure is an invalid inequality, an unhandled boundary case, or an unsupported source application. A corrected exact claim would require a new proposal, not an unrecorded change. The branch consumes at most two analytical moves from the existing 24-move account and creates no budget renewal. Its endpoint does not close the original problem.

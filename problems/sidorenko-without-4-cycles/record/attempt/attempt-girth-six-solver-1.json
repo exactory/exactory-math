@@ -1,0 +1,46 @@
+{
+ "id": "attempt-girth-six-solver-1",
+ "statement_id": "statement-girth-six",
+ "kind": "solver",
+ "solver": {
+  "native_attempt_digest": "834cdf10777b00395e65ac88388dd06a90739fac5732bef33a2d02445da35b06",
+  "applicability": "The native contract's original claim is the exact statement text of statement-girth-six, with the named scope 'general quantified obligation'; its quantifiers are universal over every finite bipartite graph with at least one edge and no cycle of length four and over every graphon, as in the statement, and the requested outcome is a decision with a complete proof, as in the resolution criteria (either the inequality for every such pattern and graphon, or one pattern with a violating graphon or finite simple host). The attempt splits the statement by a case-split route into the class C_2 (a bipartition with one side of maximum degree at most two) and its complement among girth-six patterns. Its two accepted results concern these premises, not the root obligation: a reduction of the premise on C_2 to Problem 1.5 of Conlon, Kim, Lee and Lee, and an obstruction that excludes the refutation strategy of transferring the reported counterexample's construction to the premise outside C_2 at leading order. Neither resolves the statement."
+ },
+ "literature": null,
+ "outcomes": {
+  "resolved": false,
+  "footholds": [
+   {
+    "claim": "On the class C_2 of finite bipartite graphs with at least one edge and no cycle of length four that have a bipartition whose one side has maximum degree at most two, the statement holds if and only if the 1-subdivision of every simple graph with at least one edge is Sidorenko (Problem 1.5 of Conlon, Kim, Lee and Lee). Deleting a vertex of degree one preserves the Sidorenko property in both directions, proved from finite lemmas only.",
+    "evidence": {
+     "kind": "acceptance",
+     "acceptance_id": "acceptance-000001"
+    }
+   }
+  ],
+  "unresolved": [
+   {
+    "description": "Problem 1.5 of Conlon, Kim, Lee and Lee itself, to which the statement on C_2 was reduced, was not attempted beyond the reduction."
+   },
+   {
+    "description": "No method was tried for the positive direction on the girth-six patterns outside C_2, for example the Heawood graph."
+   },
+   {
+    "description": "The analogue of the rank-layer limit of the reported counterexample for girth-six patterns, on which the barrier is conditional, and the error terms at a fixed field size were not studied."
+   }
+  ],
+  "obstructions": [
+   {
+    "claim": "The leading-order mechanism of the reported counterexample gives no deficit on any bipartite pattern of girth at least six: for such a pattern its sign model is identically 1, so for every finite choice of the construction's data the limit of t(H, V_q) equals (E V_q)^{e(H)}, while on every pattern with a 4-cycle the sign model takes the values 0 and 2.",
+    "scope": "The kernels of the reported construction (Equation (3.6) of the manuscript) with arbitrary finite type, coordinate and activation data, in the limit as the field size tends to infinity, and conditional on the analogue of its rank-layer limit (Lemma 3.1, proved there only for its own pattern) holding for the pattern with the pairwise sign model. It excludes this one refutation strategy for the premise outside C_2 (the proof covers C_2 as well). It says nothing about the error at a fixed field size, about other kernels or constructions, or about limits with terms beyond the pairwise sign model.",
+    "evidence": {
+     "kind": "acceptance",
+     "acceptance_id": "acceptance-000002"
+    }
+   }
+  ]
+ },
+ "proportion": {
+  "extension_reason": null
+ }
+}

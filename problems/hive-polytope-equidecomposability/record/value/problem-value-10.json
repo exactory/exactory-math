@@ -1,0 +1,169 @@
+{
+ "current_state": [
+  {
+   "evidence": [
+    {
+     "kind": "reading",
+     "reading_id": "reading-buch-2000-3",
+     "version_id": "arxiv:math/9810180v1"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-ferudun-2026-3",
+     "version_id": "arxiv:2607.22301v2"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-ghodsi-2026-3",
+     "version_id": "arxiv:2609.14357v1"
+    },
+    {
+     "acceptance_id": "acceptance-000001",
+     "attempt_id": "problem-attempt-4",
+     "kind": "result"
+    }
+   ],
+   "text": "What is settled. For at most three parts the hive polytope has dimension at most one and is a lattice polytope: for $n\\le 2$ it is a point, and for $n=3$ each rhombus inequality bounds its single interior label by a difference of two integral border labels, so it is a lattice segment (an elementary observation from the definition, stated by this record without an accepted result); for four parts Buch states, without a printed proof, that every hive polytope has integral vertices; non-integral vertices occur from five parts on (Buch's Example 2). The monomial-positivity conjecture of King, Tollu and Toumazet is reported proved for at most five parts by Ferudun's computer-assisted argument and reported verified throughout the seven-part size-thirty box by Ghodsi's computation; this record read both papers in full but did not re-run their enumerations or check their certificates, so it treats both as reported results. Neither result concerns the $h^*$-vector, the mechanism of the period collapse or equidecomposability, and monomial positivity is neither necessary nor sufficient for lattice realizability."
+  },
+  {
+   "evidence": [
+    {
+     "acceptance_id": "acceptance-000001",
+     "attempt_id": "problem-attempt-4",
+     "kind": "result"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-ferudun-2026-3",
+     "version_id": "arxiv:2607.22301v2"
+    }
+   ],
+   "text": "What the attempt established. The bounded solver attempt of this record proved, with independent review, that the hive polytope of the instance $n=5$, $\\lambda=(4,3,2,1)$, $\\mu=(3,2)$, $\\nu=(5,4,3,2,1)$ (a three-dimensional polytope in $\\mathbb{R}^6$ with one half-integral vertex), is $\\mathrm{GL}_6(\\mathbb{Z})$-equidecomposable with a lattice polytope by one cut along a lattice hyperplane through the half-integral vertex and one unimodular shear fixing it. The attempt also recorded hand proofs, not independently reviewed, that the property is invariant under appending zero parts and under adding a common integer to the parts of two of the three partitions, so the statement depends on the triple and not on $n$, and a general cut-and-shear lemma. The attempt's exploratory scan of five-part triples of size 15, a computation that was not admitted as a computation record of this record, found the seed as its first instance with a non-integral vertex and four further instances with a half-integral vertex that the lemma reaches in that computation; the scan supports no grade, and those four are candidates, not results."
+  },
+  {
+   "evidence": [
+    {
+     "kind": "reading",
+     "reading_id": "reading-ghodsi-2026-3",
+     "version_id": "arxiv:2609.14357v1"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-ktt-2006-4",
+     "version_id": "url:https://eudml.org/doc/227653"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-alexandersson-alhajjar-2018-3",
+     "version_id": "arxiv:1812.03345v1"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-ahz-2022-3",
+     "version_id": "arxiv:2206.02276v2"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-fernandes-2018-3",
+     "version_id": "arxiv:1802.07164v1"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-turner-wu-2014-3",
+     "version_id": "arxiv:1412.0196v1"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-ferudun-2026-3",
+     "version_id": "arxiv:2607.22301v2"
+    }
+   ],
+   "text": "What is open and why. The statement is open from five parts on. The mechanism found at the seed (straightening a half-integral vertex by a unit shear) says nothing about vertices of denominator three or more, which occur at larger sizes, and the only known reduction of the family, the essential Horn factorization of King, Tollu and Toumazet, is a theorem for coefficients and stretched polynomials (so it gives Ehrhart equivalence with a product of two smaller hive polytopes) and not for the polytopes, so no reduction of the statement to finitely many cases is in sight. The Gelfand-Tsetlin polytopes, whose stretched Kostka polynomials show the same kind of period collapse and carry their own open positivity questions in the read works, are a sibling family; whether the piecewise-linear maps in print between the two settings (piecewise-linear RSK, combinatorial mutations, nearest-neighbour interchanges for the polytopes of cubic graphs) identify polytopes lattice-preservingly was not examined for this record, so no transfer of a result between the families is claimed, and those mechanisms as read map rational polytopes to rational polytopes, not to lattice polytopes. Two historical originals were not read for this record: the 2004 proceedings paper of King, Tollu and Toumazet, where the polynomiality and positivity conjectures were first stated, and their 2009 paper with the proof of the factorization; the statement of the conjectures and the factorization theorem are taken from their 2006 paper, from Ferudun and from Ghodsi, which restate them with attribution. The comparison of the statement with its neighbours is made within the Littlewood-Richardson and Ehrhart scope (its Ehrhart form, the Haase-McAllister form for hives, the Gelfand-Tsetlin sibling, the numerator conjecture and the rank restrictions); no connection to Kronecker or plethysm positivity is claimed, and none is used in the value case."
+  },
+  {
+   "evidence": [
+    {
+     "kind": "reading",
+     "reading_id": "reading-buch-2000-3",
+     "version_id": "arxiv:math/9810180v1"
+    },
+    {
+     "acceptance_id": "acceptance-000001",
+     "attempt_id": "problem-attempt-4",
+     "kind": "result"
+    }
+   ],
+   "text": "Accessibility. The statement needs only the hive model, elementary Ehrhart theory and the affine unimodular group; the seed proof is two pages, and the natural next computations (the vertex denominators of five-part hive polytopes by size, and the first instances with a vertex of denominator three) are finite enumerations of small size. The smallest unresolved cases the record can name are the four-part class, where Buch's statement that every hive polytope has integral vertices has no printed proof, and the four further size-15 five-part instances of the attempt's exploratory, unadmitted scan, which are not proved by hand; the first five-part hive polytope with a vertex of denominator three is the first case outside the mechanism found at the seed."
+  }
+ ],
+ "id": "problem-value-10",
+ "motivation": [
+  {
+   "evidence": [
+    {
+     "kind": "reading",
+     "reading_id": "reading-haase-mcallister-2008-3",
+     "version_id": "arxiv:0709.4070v1"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-rassart-2004-3",
+     "version_id": "arxiv:math/0308101v2"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-dlm-2006-3",
+     "version_id": "arxiv:math/0501446v1"
+    }
+   ],
+   "text": "Period collapse of hive polytopes is a theorem without a polyhedral proof. The stretched Littlewood-Richardson coefficient $c^{t\\nu}_{t\\lambda,t\\mu}$ counts the lattice points of the $t$-th dilate of the hive polytope $H(\\lambda,\\mu,\\nu)$, a rational polytope with non-integral vertices from five parts on, and it is a polynomial in $t$. The proofs in print (Derksen and Weyman through quiver representations, as restated by Rassart and by De Loera and McAllister, whose papers this record read; Rassart through chamber polynomiality and Steinberg's formula) pass through representation theory or the chamber structure and produce no rearrangement of the polytope; Haase and McAllister name these polynomials among the motivating examples of quasi-period collapse with no polyhedral explanation and state the general conjecture that every rational polytope with quasi-period 1 is $\\mathrm{GL}_n(\\mathbb{Z})$-equidecomposable with a disjoint union of integral open simplices."
+  },
+  {
+   "evidence": [
+    {
+     "kind": "reading",
+     "reading_id": "reading-haase-mcallister-2008-3",
+     "version_id": "arxiv:0709.4070v1"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-bohnert-2024-3",
+     "version_id": "arxiv:2405.13404v2"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-ktt-2006-4",
+     "version_id": "url:https://eudml.org/doc/227653"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-ahz-2022-3",
+     "version_id": "arxiv:2206.02276v2"
+    }
+   ],
+   "text": "The posed statement is the sharp form of that conjecture for hives, and it is the form that explains the coefficients. Haase and McAllister's Example 2.4 is a rational quadrilateral with quasi-period 1 whose Ehrhart polynomial is that of no integral polygon, and Bohnert's classification of half-integral polygons with period collapse gives whole families, with $b=2$ or $b=2i+7$, that no lattice polygon realizes; so equidecomposability with one lattice polytope is a property of a family and not of period collapse, and asking it of hives asks what in the hive structure forces the Ehrhart polynomial to be lattice-realizable. A positive answer gives, through Stanley's nonnegativity of the $h^*$-vector of a lattice polytope, the second positivity conjecture of King, Tollu and Toumazet (nonnegative integer coefficients of the numerator $G(z)$ of the generating series), stated in their 2004 proceedings paper and restated as a conjecture in their 2006 paper, which this record read; the numerator conjecture is not a declared neighbour of the statement, so this record's openness finding does not establish its current status, and the value case rests on the explanatory ground rather than on that implication; a negative answer exhibits a representation-theoretic family whose period collapse is not explained by rearrangement into one lattice polytope."
+  },
+  {
+   "evidence": [
+    {
+     "kind": "reading",
+     "reading_id": "reading-turner-wu-2014-3",
+     "version_id": "arxiv:1412.0196v1"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-haase-mcallister-2008-3",
+     "version_id": "arxiv:0709.4070v1"
+    },
+    {
+     "kind": "reading",
+     "reading_id": "reading-ehrhart-equivalent-3-polytopes-2018",
+     "version_id": "arxiv:1807.09485v1"
+    }
+   ],
+   "text": "The statement is geometric: it implies its Ehrhart consequence (that every stretched polynomial is the Ehrhart polynomial of a lattice polytope), and the converse is not known for hives. In general the two notions differ: Turner and Wu exhibit Ehrhart-equivalent rational polygons that are not finitely rationally equidecomposable, separated by an edge weighting on minimal triangulations; whether a hive polytope can realize a lattice Ehrhart polynomial without being equidecomposable with a lattice polytope is open. Erbe, Haase and Santos record (Remark 5) that the number of lattice points of a superlattice in each orbit of the affine unimodular group is an invariant of $\\mathrm{GL}_d(\\mathbb{Z})$-equidecomposability in every dimension, and their Example 4 separates two Ehrhart-equivalent rational segments by it; whether these orbit counts separate Ehrhart-equivalent rational polytopes in higher dimension is not stated in the works this record read, and Haase and McAllister's Problem 4.5 asks for a complete set of invariants. So a disproof has two known routes, a hive polynomial that no lattice polytope realizes, or a hive polytope whose superlattice orbit counts match those of no lattice polytope with its Ehrhart polynomial, and a proof needs an actual construction; the read works give necessary conditions and no sufficient criterion for rational polytopes."
+  }
+ ],
+ "recorded_revision": 550,
+ "statement_id": "statement-4"
+}

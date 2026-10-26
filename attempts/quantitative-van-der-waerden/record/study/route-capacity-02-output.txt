@@ -1,0 +1,20 @@
+Lemma A check: min over (B, column) of cap(q_{n-1}) / K(v)   [must be >= 1]
+  n=3: min cap/K = 1.000000000000 over 63 matrices x 3 columns
+  n=4: min cap/K = 1.000000000000 over 63 matrices x 4 columns
+  n=5: min cap/K = 1.000000000000 over 63 matrices x 5 columns
+  n=6: min cap/K = 1.000000000000 over 63 matrices x 6 columns
+
+Theorem check: min over B of per(B) / (gamma_{n-1} max_j K(col_j))   [must be >= 1]
+  and of per(B) / (gamma_n exp(max_j ||col_j-1/n||^2/2)), per(B) / (gamma_n (1 + ||E||^2/(2n)))
+  n=3: min per/(gamma_(n-1) max K) = 1.000001106, min per/(gamma_n e^(d/2)) = 1.000001290, min per/(gamma_n(1+||E||^2/2n)) = 1.000001290
+      eps=0.01: (per/gamma-1)/||E||^2 = 0.739503, (gamma_(n-1) max K/gamma - 1)/||E||^2 = 0.436013, n/(2(n-1)) = 0.750000
+      eps=0.001: (per/gamma-1)/||E||^2 = 0.748950, (gamma_(n-1) max K/gamma - 1)/||E||^2 = 0.437153, n/(2(n-1)) = 0.750000
+  n=4: min per/(gamma_(n-1) max K) = 1.000020854, min per/(gamma_n e^(d/2)) = 1.000022587, min per/(gamma_n(1+||E||^2/2n)) = 1.000022587
+      eps=0.01: (per/gamma-1)/||E||^2 = 0.663185, (gamma_(n-1) max K/gamma - 1)/||E||^2 = 0.291368, n/(2(n-1)) = 0.666667
+      eps=0.001: (per/gamma-1)/||E||^2 = 0.666318, (gamma_(n-1) max K/gamma - 1)/||E||^2 = 0.291463, n/(2(n-1)) = 0.666667
+  n=5: min per/(gamma_(n-1) max K) = 1.000011258, min per/(gamma_n e^(d/2)) = 1.000011821, min per/(gamma_n(1+||E||^2/2n)) = 1.000011821
+      eps=0.01: (per/gamma-1)/||E||^2 = 0.628252, (gamma_(n-1) max K/gamma - 1)/||E||^2 = 0.196883, n/(2(n-1)) = 0.625000
+      eps=0.001: (per/gamma-1)/||E||^2 = 0.625310, (gamma_(n-1) max K/gamma - 1)/||E||^2 = 0.196909, n/(2(n-1)) = 0.625000
+  n=6: min per/(gamma_(n-1) max K) = 1.000948483, min per/(gamma_n e^(d/2)) = 1.000980135, min per/(gamma_n(1+||E||^2/2n)) = 1.000980147
+      eps=0.01: (per/gamma-1)/||E||^2 = 0.593982, (gamma_(n-1) max K/gamma - 1)/||E||^2 = 0.158601, n/(2(n-1)) = 0.600000
+      eps=0.001: (per/gamma-1)/||E||^2 = 0.599366, (gamma_(n-1) max K/gamma - 1)/||E||^2 = 0.158630, n/(2(n-1)) = 0.600000

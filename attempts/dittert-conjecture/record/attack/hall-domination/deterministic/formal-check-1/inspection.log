@@ -1,0 +1,5 @@
+EXACTORY_TYPE_BEGIN
+Dittert.hall_domination : Dittert.HallDomination
+EXACTORY_TYPE_END
+'Dittert.hall_domination' depends on axioms: [propext, Classical.choice, Quot.sound]
+'exactory_correspondence' depends on axioms: [propext, Classical.choice, Quot.sound]

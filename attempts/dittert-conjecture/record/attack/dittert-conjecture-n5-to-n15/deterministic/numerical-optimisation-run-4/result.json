@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "n=5: feasible=True, per/gamma=1.050000 (recorded 1.050000), lambda_2=0.697081 (recorded 0.697081), c_n=0.61234: ok",
+    "n=6: feasible=True, per/gamma=1.049999 (recorded 1.049999), lambda_2=0.695492 (recorded 0.695492), c_n=0.32328: ok",
+    "n=7: feasible=True, per/gamma=1.049999 (recorded 1.049999), lambda_2=0.726296 (recorded 0.726296), c_n=0.18335: ok",
+    "n=8: feasible=True, per/gamma=1.049990 (recorded 1.049990), lambda_2=0.732720 (recorded 0.732720), c_n=0.10800: ok",
+    "CHECK PASS"
+  ]
+}

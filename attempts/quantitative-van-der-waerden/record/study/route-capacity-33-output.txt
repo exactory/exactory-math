@@ -1,0 +1,4 @@
+pairs 600, corner pairs (h_max > 1/(4(1-hbar))): 0
+max drop_true/B = 0.413;  max (Phi0 - Phi(tau~))/B = 0.406;  max corr/B = 0.0074;  max D~/B = 0.413
+min kappa along segments = 1.201 (centre value 2(n-2)/(n-1) = 1.667);  max |grad Phi(tau~)|_inf = 1.06e-02;  max |tau~ - tau*|_inf = 0.037
+worst D~/B: d+d'=0.0518 drop=0.01291 Phi0-Phi~=0.01268 corr=0.000232 B=0.03127 kappa=1.201

@@ -1,0 +1,322 @@
+{
+  "id": "assessment-sharp-three-v1",
+  "statement_id": "statement-sharp-three-v1",
+  "grades": {
+    "admission": {
+      "A1": "pass",
+      "A2": "pass",
+      "A3": "pass",
+      "A4": "pass",
+      "A5": "pass",
+      "A6": "pass"
+    },
+    "significance": {
+      "B1": 2,
+      "B2": 2
+    },
+    "priority": 2,
+    "attempt": "pass",
+    "accessibility": "E-F",
+    "calibration": "pass"
+  },
+  "primary": {
+    "ground": "B1",
+    "criterion": "V4"
+  },
+  "items": {
+    "A1": {
+      "note": "The statement defines the edit target on the same vertex set, permits empty parts, and quantifies over every finite simple triangle-free graph. A universal proof or an exact certified counterexample decides it; no numerical eigenvalue alone suffices.",
+      "evidence": [
+        {
+          "kind": "record",
+          "record_kind": "problem_statement",
+          "id": "statement-sharp-three-v1",
+          "digest": "082c918661bdb491c7a232ccf06a6cac971e9578244bf5a97de1d3321afd1c97"
+        }
+      ]
+    },
+    "A2": {
+      "note": "The current observed finding covers the exact statement and all four declared neighbours using dated bounded searches and decisive full readings. This is evidence-supported openness within that coverage, not a proof of absence from all literature.",
+      "evidence": [
+        {
+          "kind": "record",
+          "record_kind": "problem_openness",
+          "id": "openness-sharp-three-v5",
+          "digest": "6e53a2722797b3259fbcb3e6ae0b3ad02d7d1ad14a67f90c41bd5e6858ed9fd1"
+        }
+      ]
+    },
+    "A3": {
+      "note": "The target and deficit coincide exactly with the published bipartite Lemma 4.3; the proposed contribution removes only the bipartiteness hypothesis with the same coefficient. The local coefficient-fifteen theorem settles the finite-constant neighbour, and the five-cycle forces the proposed coefficient. Neither result settles the exact triangle-free statement.",
+      "evidence": [
+        {
+          "kind": "record",
+          "record_kind": "reading",
+          "id": "reading-spectral-book-full-v1",
+          "digest": "c2d3620df39c3b39792713677a58b2a9713469c134c486028175db307e1e7291"
+        },
+        {
+          "sha256": "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "path": "research/sources/objects/6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "size": 7245,
+          "media_type": "text/plain"
+        },
+        {
+          "kind": "record",
+          "record_kind": "problem_attempt",
+          "id": "attempt-sharp-three-v1",
+          "digest": "040064f32b415df55a1cf0ef2a09127e7bd68b3fbfc972fc57c8a4ad90f665fe"
+        },
+        {
+          "kind": "record",
+          "record_kind": "problem_value",
+          "id": "value-sharp-three-v2",
+          "digest": "5c0454b615b7112b0a83067a44b839872edb31d692ae92e8d99c4ced96332e13"
+        }
+      ]
+    },
+    "A4": {
+      "note": "The distance is explicitly defined by symmetric difference to one complete bipartite graph plus isolates. Both edge additions and deletions count. The statement and criteria distinguish that target from deletion distance to arbitrary bipartite graphs.",
+      "evidence": [
+        {
+          "kind": "record",
+          "record_kind": "problem_statement",
+          "id": "statement-sharp-three-v1",
+          "digest": "082c918661bdb491c7a232ccf06a6cac971e9578244bf5a97de1d3321afd1c97"
+        },
+        {
+          "kind": "record",
+          "record_kind": "problem_value",
+          "id": "value-sharp-three-v2",
+          "digest": "5c0454b615b7112b0a83067a44b839872edb31d692ae92e8d99c4ced96332e13"
+        }
+      ]
+    },
+    "A5": {
+      "note": "The bounded attempt examined the published cut plus bipartite editing lemma, its perturbation loss, a weighted five-cycle reduction, and the signed least-eigenvector cut with a joint slack ledger. The latter proves useful weaker bounds but leaves a specific uncancelled term. These records answer the direct-composition objection within the calculation examined; they do not certify a limitation of all routine methods or turn an unfinished calculation into an obstruction.",
+      "evidence": [
+        {
+          "sha256": "17660c5ed5111b95c11db7edc938f02c9947eb6731a8f8e810185dbd7ed83fdf",
+          "path": "research/sources/objects/17660c5ed5111b95c11db7edc938f02c9947eb6731a8f8e810185dbd7ed83fdf",
+          "size": 3472,
+          "media_type": "text/plain"
+        },
+        {
+          "sha256": "c8dc1209f96b6965eefdda95d10d558df5629d59669fec4ad290871be9cc0c4c",
+          "path": "research/sources/objects/c8dc1209f96b6965eefdda95d10d558df5629d59669fec4ad290871be9cc0c4c",
+          "size": 4287,
+          "media_type": "text/plain"
+        },
+        {
+          "sha256": "b9d292dd5d156a9937fddaa7bca7db893fc03a06d11ea260b7329c8590f6dafd",
+          "path": "research/sources/objects/b9d292dd5d156a9937fddaa7bca7db893fc03a06d11ea260b7329c8590f6dafd",
+          "size": 3170,
+          "media_type": "text/plain"
+        },
+        {
+          "sha256": "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "path": "research/sources/objects/6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "size": 7245,
+          "media_type": "text/plain"
+        },
+        {
+          "kind": "record",
+          "record_kind": "problem_attempt",
+          "id": "attempt-sharp-three-v1",
+          "digest": "040064f32b415df55a1cf0ef2a09127e7bd68b3fbfc972fc57c8a4ad90f665fe"
+        }
+      ]
+    },
+    "A6": {
+      "note": "The decisive spectral sources and comparison papers have complete reading records, version identities, and actual supporting proof evidence. The openness finding supplies the bounded standing of every declared formulation. No unavailable work is treated as read.",
+      "evidence": [
+        {
+          "kind": "record",
+          "record_kind": "problem_openness",
+          "id": "openness-sharp-three-v5",
+          "digest": "6e53a2722797b3259fbcb3e6ae0b3ad02d7d1ad14a67f90c41bd5e6858ed9fd1"
+        },
+        {
+          "kind": "record",
+          "record_kind": "reading",
+          "id": "reading-spectral-book-full-v1",
+          "digest": "c2d3620df39c3b39792713677a58b2a9713469c134c486028175db307e1e7291"
+        },
+        {
+          "kind": "record",
+          "record_kind": "reading",
+          "id": "reading-edge-spectral-full-v1",
+          "digest": "12a65595256d3f855c60b96c87199dc305ccdbfe0a43f62180b39f4c6b8fe763"
+        },
+        {
+          "sha256": "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "path": "research/sources/objects/6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "size": 7245,
+          "media_type": "text/plain"
+        }
+      ]
+    },
+    "B1": {
+      "note": "The active edge-spectral stability line supplies a direct mathematical connection: the same deficit and complete-bipartite edit target already have a coefficient-three bipartite theorem and qualitative triangle-free stability. The proposed exact extension decides whether this coefficient works uniformly despite odd cycles. The supported interval three to fifteen and the asymptotic upper coefficient three locate a finite, mathematically forced gap. This is level two; no consequential downstream theorem or broad change of method is established.",
+      "evidence": [
+        {
+          "kind": "record",
+          "record_kind": "problem_value",
+          "id": "value-sharp-three-v2",
+          "digest": "5c0454b615b7112b0a83067a44b839872edb31d692ae92e8d99c4ced96332e13"
+        },
+        {
+          "kind": "record",
+          "record_kind": "reading",
+          "id": "reading-spectral-book-full-v1",
+          "digest": "c2d3620df39c3b39792713677a58b2a9713469c134c486028175db307e1e7291"
+        },
+        {
+          "kind": "record",
+          "record_kind": "reading",
+          "id": "reading-edge-spectral-full-v1",
+          "digest": "12a65595256d3f855c60b96c87199dc305ccdbfe0a43f62180b39f4c6b8fe763"
+        },
+        {
+          "sha256": "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "path": "research/sources/objects/6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "size": 7245,
+          "media_type": "text/plain"
+        }
+      ]
+    },
+    "B2": {
+      "note": "The influence account is the exact uniform law: a proof determines the optimal coefficient three because of C5, while a counterexample refutes transfer of the bipartite coefficient. The strongest objection, mere constant improvement, is answered by the forced sharp value and the hypothesis-removal comparison. This is a bounded significance judgment, not a claim of a community outcome or consequences for unrelated problems.",
+      "evidence": [
+        {
+          "kind": "record",
+          "record_kind": "problem_value",
+          "id": "value-sharp-three-v2",
+          "digest": "5c0454b615b7112b0a83067a44b839872edb31d692ae92e8d99c4ced96332e13"
+        },
+        {
+          "sha256": "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "path": "research/sources/objects/6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "size": 7245,
+          "media_type": "text/plain"
+        },
+        {
+          "kind": "record",
+          "record_kind": "reading",
+          "id": "reading-spectral-book-full-v1",
+          "digest": "c2d3620df39c3b39792713677a58b2a9713469c134c486028175db307e1e7291"
+        }
+      ]
+    },
+    "priority": {
+      "note": "The finite-linear-coefficient and bipartite-deletion alternatives are already settled by the supplied proof and published cut lemma. Qualitative stability and an asymptotic upper coefficient do not decide the exact finite inequality. The regular restriction is a narrower test case whose status remains recorded. The proposed uniform sharp coefficient has a specific payoff beyond an arbitrary constant improvement; these distinctions justify level two without asserting that no neighbouring question is better.",
+      "evidence": [
+        {
+          "kind": "record",
+          "record_kind": "problem_value",
+          "id": "value-sharp-three-v2",
+          "digest": "5c0454b615b7112b0a83067a44b839872edb31d692ae92e8d99c4ced96332e13"
+        },
+        {
+          "kind": "record",
+          "record_kind": "problem_statement",
+          "id": "statement-sharp-three-v1",
+          "digest": "082c918661bdb491c7a232ccf06a6cac971e9578244bf5a97de1d3321afd1c97"
+        },
+        {
+          "kind": "record",
+          "record_kind": "problem_openness",
+          "id": "openness-sharp-three-v5",
+          "digest": "6e53a2722797b3259fbcb3e6ae0b3ad02d7d1ad14a67f90c41bd5e6858ed9fd1"
+        },
+        {
+          "sha256": "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "path": "research/sources/objects/6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "size": 7245,
+          "media_type": "text/plain"
+        }
+      ]
+    },
+    "attempt": {
+      "note": "The current delivered attempt matches the exact universal statement with named scope. Three root moves and one supporting branch move stay within the normal total limits. The accepted branch proves coefficient fifteen, the quantitative asymptotic estimate and C5 sharpness; the root remains unresolved and executable. This delivered screen does not claim a root proof, cash-out or accepted obstruction.",
+      "evidence": [
+        {
+          "kind": "record",
+          "record_kind": "problem_attempt",
+          "id": "attempt-sharp-three-v1",
+          "digest": "040064f32b415df55a1cf0ef2a09127e7bd68b3fbfc972fc57c8a4ad90f665fe"
+        },
+        {
+          "sha256": "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "path": "research/sources/objects/6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "size": 7245,
+          "media_type": "text/plain"
+        },
+        {
+          "sha256": "b9d292dd5d156a9937fddaa7bca7db893fc03a06d11ea260b7329c8590f6dafd",
+          "path": "research/sources/objects/b9d292dd5d156a9937fddaa7bca7db893fc03a06d11ea260b7329c8590f6dafd",
+          "size": 3170,
+          "media_type": "text/plain"
+        }
+      ]
+    },
+    "accessibility": {
+      "note": "E-F is supported by the published bipartite theorem and the accepted global linear and asymptotic bounds. The signed-cut slack identity gives an explicit entry point. The unresolved scope is the exact coefficient at positive finite deficit in the non-bipartite triangle-free class; no minimal unresolved vertex order is certified by the exploratory computations.",
+      "evidence": [
+        {
+          "sha256": "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "path": "research/sources/objects/6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "size": 7245,
+          "media_type": "text/plain"
+        },
+        {
+          "sha256": "b9d292dd5d156a9937fddaa7bca7db893fc03a06d11ea260b7329c8590f6dafd",
+          "path": "research/sources/objects/b9d292dd5d156a9937fddaa7bca7db893fc03a06d11ea260b7329c8590f6dafd",
+          "size": 3170,
+          "media_type": "text/plain"
+        },
+        {
+          "kind": "record",
+          "record_kind": "reading",
+          "id": "reading-spectral-book-full-v1",
+          "digest": "c2d3620df39c3b39792713677a58b2a9713469c134c486028175db307e1e7291"
+        },
+        {
+          "kind": "record",
+          "record_kind": "problem_attempt",
+          "id": "attempt-sharp-three-v1",
+          "digest": "040064f32b415df55a1cf0ef2a09127e7bd68b3fbfc972fc57c8a4ad90f665fe"
+        }
+      ]
+    },
+    "calibration": {
+      "note": "Published theorems, the locally accepted supporting result, the unresolved universal claim and significance judgments remain separate. Historical priority of the supporting theorem is not claimed. C5 is a global lower-bound witness, not proof of asymptotic sharpness. Exploratory floating-point probes carry no value evidence, and the unfinished root is not called a demonstrated method obstruction.",
+      "evidence": [
+        {
+          "kind": "record",
+          "record_kind": "problem_value",
+          "id": "value-sharp-three-v2",
+          "digest": "5c0454b615b7112b0a83067a44b839872edb31d692ae92e8d99c4ced96332e13"
+        },
+        {
+          "kind": "record",
+          "record_kind": "problem_attempt",
+          "id": "attempt-sharp-three-v1",
+          "digest": "040064f32b415df55a1cf0ef2a09127e7bd68b3fbfc972fc57c8a4ad90f665fe"
+        },
+        {
+          "kind": "record",
+          "record_kind": "problem_openness",
+          "id": "openness-sharp-three-v5",
+          "digest": "6e53a2722797b3259fbcb3e6ae0b3ad02d7d1ad14a67f90c41bd5e6858ed9fd1"
+        },
+        {
+          "sha256": "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "path": "research/sources/objects/6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+          "size": 7245,
+          "media_type": "text/plain"
+        }
+      ]
+    }
+  }
+}

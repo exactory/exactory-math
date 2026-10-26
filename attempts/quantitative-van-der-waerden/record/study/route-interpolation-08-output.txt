@@ -1,0 +1,12 @@
+Part 1: Moebius expansion against direct matching sums, n = 7
+  k=4: 4 no-singleton partitions, 16 diagrams, max relative discrepancy 8.10e-15
+  k=5: 11 no-singleton partitions, 121 diagrams, max relative discrepancy 9.38e-15
+  k=6: 41 no-singleton partitions, 1681 diagrams, max relative discrepancy 2.83e-14
+  k=7: 162 no-singleton partitions, 26244 diagrams, max relative discrepancy 2.66e-14
+
+Part 2: diagram-wise bound of |alpha_k| on the application regime at n = 7
+  K_0 = 0.01330, Phi <= 9.121, row/col squared norm <= 1.3030, max|F| <= 1.1415
+  k=4: |alpha_k| <= 0.0796 = 0.428 ||E||^2   (one-block/one-block diagram alone: 0.114 ||E||^2; budget for k>=5 total: 0.17)
+  k=5: |alpha_k| <= 0.1945 = 1.045 ||E||^2   (one-block/one-block diagram alone: 0.139 ||E||^2; budget for k>=5 total: 0.17)
+  k=6: |alpha_k| <= 0.8784 = 4.719 ||E||^2   (one-block/one-block diagram alone: 0.330 ||E||^2; budget for k>=5 total: 0.17)
+  k=7: |alpha_k| <= 9.0512 = 48.623 ||E||^2   (one-block/one-block diagram alone: 1.938 ||E||^2; budget for k>=5 total: 0.17)

@@ -1,0 +1,62 @@
+{
+ "id": "candidate-biregular",
+ "previous": null,
+ "statement": "Is every connected bipartite graph in which all vertices of the same part have the same degree Sidorenko?",
+ "source": {
+  "kind": "literature",
+  "reference": "Hatami (2010) proves that a weakly norming graph is biregular; the 2026 counterexample pins its types by colour refinement, which is stable from the first step on every biregular graph; K_{5,5} minus C_10, which Hatami (2010) and Conlon and Lee (2021) name as the smallest graph for which the conjecture is open, is 3-regular.",
+  "evidence": [
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-hatami-2010",
+    "digest": "70879ffecaaa7d788cb17f5d1e8793fff4edd88947c31fdba96a9f11a9eed7ee"
+   },
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-openai-sidorenko-2026",
+    "digest": "6c700b460bee4bff698967efd76353d7efc824aa78bbf686f6bb40e0b3f3ac48"
+   },
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-conlon-lee-2021",
+    "digest": "14bcfa100f3e35e36dbe09b75b5086877f0cc1dc8a39e401a0212b51e03627eb"
+   },
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-lee-schuelke-2019",
+    "digest": "2be85e87032b4ace253045c3b43ad830ff091c1774f07ceb93223aff35e4c884"
+   },
+   {
+    "kind": "record",
+    "record_kind": "probe",
+    "id": "band-triangulations-1",
+    "digest": "7f9ca00b763d8370c703e2496538109f4c1c5fe30942098cb3da56cc4a7eb309"
+   }
+  ]
+ },
+ "observation": "On a biregular bipartite graph the first refinement step gives every vertex of a part the same neighbour-colour histogram, so the pinning lemma of the counterexample never applies, while biregularity is the necessary condition of the norming method. The class contains K_{5,5} minus C_10 and every odd twisted blow-up C_{2k+1}^bowtie, which this record identifies with the incidence graphs of the triangulated Mobius bands.",
+ "neighbours": [
+  "Is K_{5,5} minus C_10 Sidorenko?",
+  "Is every odd twisted blow-up $C_{2k+1}^{\\bowtie}$ Sidorenko?",
+  "Is every connected edge-transitive bipartite graph Sidorenko?",
+  "Is every regular bipartite graph Sidorenko?"
+ ],
+ "potential": {
+  "significance": {
+   "B1": 2,
+   "B2": 2
+  },
+  "priority": 2,
+  "readiness": "pass"
+ },
+ "notes": "The class contains the long-standing smallest open case, so a resolution would settle it.",
+ "disposition": {
+  "status": "open",
+  "reason": "Compare with the other candidates of the slate.",
+  "evidence_needed": null
+ }
+}

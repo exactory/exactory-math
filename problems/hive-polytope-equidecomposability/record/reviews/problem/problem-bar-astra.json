@@ -1,0 +1,155 @@
+{
+ "assignment_id": "assignment-bar-astra-4",
+ "digest": "4e62bf176b88a4d1607de485fb542492a6a21833b9a5ed7a0bd701b89b83398e",
+ "dossier_digest": null,
+ "dossier_id": null,
+ "id": "problem-bar-astra",
+ "independence_at_recording": "verified_for_route",
+ "output_digest": "fdc5ebcab56aeeb3222a168a726c1b3191e67dd5fe9e7728765ae72f5227907e",
+ "packet_digest": "8e9bebc82c3ff53f770b9472f2679b36967c78038b8746332a9acbd8b1e66698",
+ "payload": {
+  "assignment_id": "assignment-bar-astra-4",
+  "dossier_id": null,
+  "id": "problem-bar-astra",
+  "limitations": [
+   "This bar evaluates neither a withheld statement nor any candidate, title or author value claim.",
+   "The standard distinguishes reported recent results from verified proofs and admitted computations; no external computational bundle was inspected or executed.",
+   "The inventory queries returned no matching supplementary or Kronecker/plethysm entries; this establishes no mathematical conclusion about those subjects.",
+   "Historical conjecture lists are not current-status certificates: Ferroni's delivered work explicitly overturns the generalized-permutohedron conjecture appearing in Liu's older survey.",
+   "No unique community-wide priority is inferred from activity, numerical evidence, effort, accessibility or majority opinion."
+  ],
+  "objections": [
+   {
+    "claim": "The reported five-part, top-four and finite-box results cannot yet be used here as independently established frontier boundaries.",
+    "evidence": [
+     {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/9a4b9a68a3cf123ac5de3ac6b03715468b34baaf4028b4444abc78d2831bc9c2",
+      "sha256": "9a4b9a68a3cf123ac5de3ac6b03715468b34baaf4028b4444abc78d2831bc9c2",
+      "size": 45065
+     },
+     {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/195385e840b0ab4fe9b6ba3cd0f318e38194653dac700c8b3160f34b8d4d54ab",
+      "sha256": "195385e840b0ab4fe9b6ba3cd0f318e38194653dac700c8b3160f34b8d4d54ab",
+      "size": 66831
+     }
+    ],
+    "id": "bar-current-frontier-evidence",
+    "reason": "Ferudun's essential enumerations and global correction certificate, and Ghodsi's computational dependencies E, R and P, rely on supplementary material not delivered. The articles document activity and mathematical implications, but prose descriptions of successful checks do not supply those checks. This is an evidence limitation, not a finding that the results are false.",
+    "resolution_condition": "Supply the source-bound supplementary proofs, complete coverage data, exact certificates and verification records, with explicit computation-admission and software trust assumptions. Supply the cited primary Horn-factorization and reduction statements where those results are decisive."
+   },
+   {
+    "claim": "The proposed general hive effectivity formulation is not established as an equivalent replacement for coefficient positivity by the delivered argument.",
+    "evidence": [
+     {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/9a4b9a68a3cf123ac5de3ac6b03715468b34baaf4028b4444abc78d2831bc9c2",
+      "sha256": "9a4b9a68a3cf123ac5de3ac6b03715468b34baaf4028b4444abc78d2831bc9c2",
+      "size": 45065
+     }
+    ],
+    "id": "bar-effectivity-realizability",
+    "reason": "For a specified finite matrix, Farkas duality concerns all nonnegative vectors satisfying its balance equations. Restricting these vectors to realizable hive face-volume weights requires a separate theorem. A negative balanced vector need not produce an actual hive, while an effectivity certificate may still be sufficient for positivity without being necessary.",
+    "resolution_condition": "Supply precise definitions of the general cone systems, boundary maps and realizable weights, together with proofs separating sufficiency, necessity and realizability. Delimit any method obstruction to the valuation and formulation actually tested."
+   },
+   {
+    "claim": "Comparative priority across the full stated field remains unsupported.",
+    "evidence": [
+     {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/f8a222d408c5191c692704d15912e52fa2513b8578886f80b16e9d9920e6aef4",
+      "sha256": "f8a222d408c5191c692704d15912e52fa2513b8578886f80b16e9d9920e6aef4",
+      "size": 47914
+     },
+     {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/ec52808311a4d6b800d1bd6f88b20800a3b7fc400b15341b10bf4a0e14bf84f7",
+      "sha256": "ec52808311a4d6b800d1bd6f88b20800a3b7fc400b15341b10bf4a0e14bf84f7",
+      "size": 29911
+     }
+    ],
+    "id": "bar-neighbour-comparison-gap",
+    "reason": "The delivered material supports concrete distinctions among LR, Kostka, marked-order, GT and general Ehrhart positivity, but supplies no decisive Kronecker or plethysm comparator. It also does not establish the complete present status of the older fixed-weight and Demazure conjectures. Shared terminology does not provide the missing mathematical connection.",
+    "resolution_condition": "Supply current sources stating the precise neighbouring Kronecker, plethysm, fixed-weight and Demazure problems, their known boundaries and any claimed reductions or implications; alternatively delimit the requested comparative standard to the supported LR/Ehrhart scope."
+   }
+  ],
+  "stage": "bar",
+  "support": null,
+  "value": {
+   "assurances": [],
+   "bar_ids": [],
+   "consequence": "A substantive LR/Ehrhart significance standard can be fixed, but the supplied evidence does not establish the complete current frontier or comparative priority across Kronecker and plethysm questions.",
+   "evidence": [
+    {
+     "media_type": "text/plain; charset=utf-8",
+     "path": "research/sources/objects/0b4e309236b959d248b506c7e4736b227c6c4ba4c92653f8e422b95b460f96a5",
+     "sha256": "0b4e309236b959d248b506c7e4736b227c6c4ba4c92653f8e422b95b460f96a5",
+     "size": 59805
+    },
+    {
+     "media_type": "text/plain; charset=utf-8",
+     "path": "research/sources/objects/9a4b9a68a3cf123ac5de3ac6b03715468b34baaf4028b4444abc78d2831bc9c2",
+     "sha256": "9a4b9a68a3cf123ac5de3ac6b03715468b34baaf4028b4444abc78d2831bc9c2",
+     "size": 45065
+    },
+    {
+     "media_type": "text/plain; charset=utf-8",
+     "path": "research/sources/objects/195385e840b0ab4fe9b6ba3cd0f318e38194653dac700c8b3160f34b8d4d54ab",
+     "sha256": "195385e840b0ab4fe9b6ba3cd0f318e38194653dac700c8b3160f34b8d4d54ab",
+     "size": 66831
+    },
+    {
+     "media_type": "text/plain; charset=utf-8",
+     "path": "research/sources/objects/246a5572aa1b427b865fb0811baaeb6bebbdf3d7d968367530e983702890dd13",
+     "sha256": "246a5572aa1b427b865fb0811baaeb6bebbdf3d7d968367530e983702890dd13",
+     "size": 87005
+    },
+    {
+     "media_type": "text/plain; charset=utf-8",
+     "path": "research/sources/objects/24b0f3128f2d9925e588c5c52c5f4deea46c8dbfc91597019f7ffba9192e0f9f",
+     "sha256": "24b0f3128f2d9925e588c5c52c5f4deea46c8dbfc91597019f7ffba9192e0f9f",
+     "size": 56026
+    },
+    {
+     "media_type": "text/plain; charset=utf-8",
+     "path": "research/sources/objects/ec52808311a4d6b800d1bd6f88b20800a3b7fc400b15341b10bf4a0e14bf84f7",
+     "sha256": "ec52808311a4d6b800d1bd6f88b20800a3b7fc400b15341b10bf4a0e14bf84f7",
+     "size": 29911
+    },
+    {
+     "media_type": "text/plain; charset=utf-8",
+     "path": "research/sources/objects/f8a222d408c5191c692704d15912e52fa2513b8578886f80b16e9d9920e6aef4",
+     "sha256": "f8a222d408c5191c692704d15912e52fa2513b8578886f80b16e9d9920e6aef4",
+     "size": 47914
+    },
+    {
+     "media_type": "text/plain; charset=utf-8",
+     "path": "research/sources/objects/ed78c22f6f61751a9da600c68f8cf4b05f1a47fde70a283293d2bb06e130d8fc",
+     "sha256": "ed78c22f6f61751a9da600c68f8cf4b05f1a47fde70a283293d2bb06e130d8fc",
+     "size": 139991
+    },
+    {
+     "media_type": "text/plain; charset=utf-8",
+     "path": "research/sources/objects/c32c10777c285526ac01df6c5dd25edcc20247ba5214a6c577751f5a334b709b",
+     "sha256": "c32c10777c285526ac01df6c5dd25edcc20247ba5214a6c577751f5a334b709b",
+     "size": 76444
+    }
+   ],
+   "method_adequacy": "not_assessed",
+   "objection_findings": [],
+   "objective_adequacy": "not_assessed",
+   "reason": "1. FIELD AND CURRENT ACTIVITY. The central field is monomial-coefficient positivity of stretched representation multiplicities, interpreted through lattice-point enumeration in rational hive polytopes. Polynomiality, nonnegative integer values at positive integers, and nonnegative monomial coefficients are different properties. Rassart supplies chamber polynomiality and the hive connection, not coefficient positivity. Current activity is documented by Ferudun's 2026 work on local Ehrhart weights, fixed-rank positivity and chamber transfer; Ghodsi's 2026 finite-cover computation using polynomial-preserving reductions; and Jochemko–Menon's 2026 multivariate positivity results for marked order polytopes and skew Gelfand–Tsetlin polytopes. These works demonstrate activity without establishing the importance of every restriction or computational target. The computational conclusions of the first two remain reported results here because their external certificates were not supplied. Berline–Vergne supplies the local formula underlying the geometric approach. Ferroni supplies a decisive negative comparator: matroid and generalized-permutohedron positivity fail despite substantial positive special cases.\n\n2. NEAREST PROBLEMS AND THEIR PAYOFF. The central unresolved conjecture, as reported in the supplied recent literature, is nonnegativity of every ordinary monomial coefficient of every stretched LR polynomial. An affirmative resolution would establish a uniform sign law for these multiplicity polynomials; a negative resolution would identify the failure of that proposed law within actual representation-theoretic data. Neither conclusion follows from polynomiality, saturation or counting interpretations. Stretched Kostka positivity is a mathematically connected restriction: De Loera–McAllister gives an explicit Kostka-to-LR construction commuting with stretching. Its resolution would settle signs for fixed-weight multiplicities, but would not by itself settle general LR positivity. Alexandersson–Alhajjar also formulates skew fixed-weight and Demazure-specialization positivity questions. Resolving these would distinguish positivity preserved under weight constraints or prescribed unions of faces from positivity of unrestricted tableau enumerators; arbitrary GT faces already provide negative examples. Their full present open status is not established here. Jochemko–Menon settles the unrestricted skew-GT comparator and certain flagged cases, not every fixed-weight slice or every Demazure specialization. Within hive geometry, understanding cancellation among local weights could explain coefficient positivity beyond termwise positivity. Ferudun proposes such an effectivity approach, but its general definitions and realizability assertions require further evidence before it can be treated as an established equivalent formulation. Fixed-rank extensions could provide genuine new structural information; a larger finite box alone supplies only additional bounded coverage. Precise Kronecker and plethysm problems and their connections cannot be supplied from this evidence.\n\n3. SUBSTANTIAL MATHEMATICAL ADVANCE. The benchmark is a theorem, counterexample, reduction or explanation that changes the available sign theory, not simply the amount of computation. Examples include a uniform positivity proof; an exact negative coefficient for a genuine LR triple; a new infinite family distinguished by structural hypotheses; a sign-preserving reduction exposing the genuinely irreducible cases; or a geometric or combinatorial mechanism explaining why local negative contributions compensate. A rigorous limitation of a specified method can also qualify if it changes which explanations remain viable. A new proof of an existing result can qualify through a substantial new explanation or transferable method, but not through restatement alone. A computational theorem must specify its domain, coverage, lattice, degree bounds, exact arithmetic and trust assumptions. Its significance depends on the mathematical distinction established, not its runtime, certificate size or number of cases. Ferroni's explicit sparse-paving construction illustrates an advance that overturns an organizing positivity expectation; the marked-order theorem illustrates a criterion that settles multiple structured families.\n\n4. SPECIALIST RUBRIC. B1 standing, level 2: identify an unresolved need in one of the documented active lines and establish the proposed question's place by an actual identity, reduction, implication or geometric correspondence. Explain the substantial advance and answer the strongest objection—for example, that the target is already covered, is merely the next rank, or confuses positivity of values with positivity of coefficients. State unresolved premises explicitly. B1 level 3: additionally show, or compellingly argue, that resolving the question removes a consequential obstruction or meets an important unmet need in that line, and explain why existing fixed-rank results, finite covers, marked-order criteria and nearby formulations do not supply that gain. Activity and citation frequency alone do not suffice.\n\nB2 influence, level 2: specify what a resolution changes independently of current activity. Suitable carrying criteria here include an explicit implication for stretched Kostka or other named families; a distinction between termwise local positivity and global compensation; a rigorous boundary of a named valuation method; or an exact separation between known positive classes and a realizable negative construction. Explain why the distinction matters and address the strongest objection. A negative abstract cone weight is not a negative Ehrhart coefficient, and a negative coefficient of an unrelated polytope is not an LR counterexample without a dilation-compatible counting connection. B2 level 3: additionally establish or compellingly argue a consequential change in explanation or capability—for example, a uniform explanation replacing separate rank certificates, or a counterexample overturning the general LR sign law. Explain why polynomiality, saturation, nonnegative generating-series numerators and nearby positive families do not already provide it. A conceptual argument need not prove a downstream implication, but its mathematical premises require evidence.\n\nComparative priority, level 2: compare credible alternatives by payoff, including the full conjecture, structurally defined subclasses, fixed ranks, individual coefficients, local-weight strengthenings and bounded computations. Answer the strongest relevant objection: known reformulation, parameter increment without a new mechanism, no additional mathematical information, or a better neighbouring target. Explanatory gain can answer the objection even without further theorems. Level 3: document a concrete advantage of the formulation or target, such as capturing a verified first failure of a mechanism, avoiding an unnecessarily strong false condition, or unifying genuinely distinct cases through a proved connection. Merely showing that a neighbour is settled or equivalent does not establish superiority. On significance, the higher of B1 and B2 counts; they never add. Accessibility does not move a level.\n\n5. UNINTERESTING QUESTIONS. A question lacks a substantial case when it merely renames a known result, changes a parameter without a meaningful mathematical distinction, extrapolates a numerical pattern without structural justification, or proposes a programme with no definite resolution condition. Particular pitfalls are treating positive LR values as evidence sufficient for positive polynomial coefficients, treating period collapse as a sign theorem, or declaring a wider computational box important solely because it is wider. Absence of a route to progress is not itself an objection when the significance case reaches level 3. Absence of further consequences is likewise not an objection when the explanation supplied by resolution is itself substantial.",
+   "status": "insufficient",
+   "work_items": []
+  }
+ },
+ "prompt_hash": "e402dcf92926adac0a536d702e93a6e0d33c317f8ec5ff9440028731f695703b",
+ "recorded_revision": 346,
+ "reviewer_id": "gpt-6-astra-codex-high",
+ "subject": {
+  "kind": "problem",
+  "statement_id": "statement-1"
+ },
+ "support": null
+}

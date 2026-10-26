@@ -1,0 +1,86 @@
+{
+ "correction_admissible": null,
+ "disposition": "not_binding",
+ "evidence": [
+  {
+   "digest": "b37f1c681a5817730963a0175395151224fba8f30c90933a9fb0e676eaca9cd2",
+   "id": "value-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_value"
+  },
+  {
+   "digest": "fb0c54d62c9c76ebd8961110752ed2731c41f779f15f5ea2cbc52dc9365b9d6c",
+   "id": "statement-girth-six",
+   "kind": "record",
+   "record_kind": "problem_statement"
+  },
+  {
+   "digest": "711410e0a450465dcf1afacdd23990ba5dc4681636f8d000f16b077fb5a75d78",
+   "id": "assignment-openness-fable-2",
+   "kind": "record",
+   "record_kind": "problem_openness"
+  },
+  {
+   "digest": "7339219d8012b31819267c0f4ae0582c30a076dfa2a2d6d321fc4f183ef14a56",
+   "id": "reading-openai-sidorenko-2026-located",
+   "kind": "record",
+   "record_kind": "reading"
+  },
+  {
+   "digest": "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e",
+   "id": "search-openness-statement",
+   "kind": "record",
+   "record_kind": "literature_search"
+  },
+  {
+   "digest": "e3367e30340b8054ec13a0f287b5b7765e6f5fb1c94700254ac5c7cb62d7f1c9",
+   "id": "problem-bar-opus",
+   "kind": "record",
+   "record_kind": "value_review"
+  },
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+   "sha256": "0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+   "size": 13670
+  },
+  {
+   "media_type": "text/markdown",
+   "path": "research/sources/objects/a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+   "sha256": "a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+   "size": 946
+  },
+  {
+   "media_type": "text/plain",
+   "path": "research/sources/objects/489688f5c4eb60c6dd8cfe0ef69663aaf11e795d6252e9626972764a50187de9",
+   "sha256": "489688f5c4eb60c6dd8cfe0ef69663aaf11e795d6252e9626972764a50187de9",
+   "size": 1764
+  },
+  {
+   "media_type": "text/plain",
+   "path": "research/sources/objects/55939da0aa76a1fe10faeae5f402e8516e14d2bfc4c4f3e708a19f09f81489c9",
+   "sha256": "55939da0aa76a1fe10faeae5f402e8516e14d2bfc4c4f3e708a19f09f81489c9",
+   "size": 226
+  },
+  {
+   "media_type": "text/plain",
+   "path": "research/sources/objects/e671e6006c246e3b27905244363f261642b69887ff49e29b84e26228dcbe4aa7",
+   "sha256": "e671e6006c246e3b27905244363f261642b69887ff49e29b84e26228dcbe4aa7",
+   "size": 1504
+  },
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/16e01aefc02504a3dadf6eb7af9e3b663a9d58c9b082390ee396bbff3af1560a",
+   "sha256": "16e01aefc02504a3dadf6eb7af9e3b663a9d58c9b082390ee396bbff3af1560a",
+   "size": 1001
+  },
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/6dbe77e72e637ed8854fff2ad55a1c7377bec3784fc8a552dd8534af8a118798",
+   "sha256": "6dbe77e72e637ed8854fff2ad55a1c7377bec3784fc8a552dd8534af8a118798",
+   "size": 3185
+  }
+ ],
+ "objection_id": "obj-counterexample-unverified@problem-bar-opus",
+ "reason": "Version decided: the one stated by problem-result-opus-2 (material_version 674df76a…). The material version and the problem-evidence digest (82a9e590…) are unchanged from the earlier turn; this refresh is for a protocol change. Every reference the version cites was delivered: the audit record 0288ac5d, the scope note a1da28a9 and the record value-girth-six-2. No correction was requested.\n\n1. The objection's claim holds on the delivered evidence. The resolution condition asks for an independent verification of Theorem 1.1 and Corollary 1.3, either a checked formal proof record or a published or refereed confirmation. Nothing in the original pair's evidence or in the current evidence meets it.\n- The comparator challenge 489688f5 states Theorem 1.1 in graph form. It counts all homomorphisms, uses edge density 2e/m^2 and an existential host, and its target is `sorry`.\n- The audit record 0288ac5d is a comment-stripped textual token search. It says it 'did not build the Lean project or run the comparator' and that 'a textual search is not a kernel check'. No comparator run or #print axioms output is delivered.\n- The scope note a1da28a9 puts the forcing consequence 'outside this statement'. So Corollary 1.3 has no formal coverage even in principle.\n- The build log 55939da0 belongs to the girth-six statement file, which is a statement without a proof (assessment item A1). It certifies nothing about the counterexample development.\n- The artifact 5a8a1642 is elided and is not identified as a proof check. The record's calibration note says it did not build or run the development.\n- The only engagement after the counterexample is MathOverflow question 515955 (16e01aef, 6dbe77e7). It asks whether the proof is correct, was closed the same day with score -2 and no answer, and its comments concern site policy only.\n- The complete arXiv window from 2026-09-23 to 2026-10-21 (search-openness-statement) holds no response, refereed version or independent check.\n\n2. The claim does not bind this problem.\n\n(a) The statement and resolution criteria (statement-girth-six) concern finite bipartite H with no 4-cycle.\n- Neither uses Theorem 1.1 or Corollary 1.3.\n- The Lean statement e671e600 takes only the density conventions from the comparator file, not its correctness.\n- The reported pattern H0 has every point pair in exactly two faces (reading-openai-sidorenko-2026-located), so it contains 4-cycles. It lies outside the statement's class whether or not Theorem 1.1 is correct.\n- The openness record assignment-openness-fable-2 states this dependence explicitly. If the counterexample does not exist, the statement is a subcase of the previously open Sidorenko conjecture. If it exists as described, it has 4-cycles.\n\n(b) The value paragraphs (value-girth-six-2) either do not rest on the premise or state their dependence on it.\n- Motivation 1 calls the manuscript unrefereed and says its Lemma 3.1 has not been independently checked. It states that 'the question posed here does not depend on that report: it is open whether or not the report is correct'.\n- Motivation 2 says its description of the construction 'holds whether or not the manuscript's estimates are correct'. It puts the significance claim in conditional form ('If they are correct, girth six is exactly where…'), and the barrier is conditioned on the analogue of the rank-layer limit.\n- Motivations 3 and 4, and current-state paragraphs 1 to 4, rest only on the proved equivalence of the C_2 case with CKLL Problem 1.5 and on class results from before September 2026.\n- Current-state paragraph 5 states the barrier's conditional scope explicitly.\n- Corollary 1.3, the forcing refutation, is not used anywhere in the statement, the criteria or the value record.\n\n3. The objection therefore remains a correct, continuing objection to the field premise in the bar problem-bar-opus. It does not bind this problem, whose statement, criteria and value paragraphs either do not rest on the unverified refutation or condition on it explicitly."
+}

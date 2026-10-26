@@ -1,0 +1,15 @@
+{
+  "id": "statement-sharp-three-v1",
+  "candidate_id": "candidate-sharp-three",
+  "title": "Sharp spectral-deficit stability for triangle-free graphs",
+  "area": "math.CO",
+  "statement": "For every finite simple triangle-free graph $G$, put $m=e(G)$ and let $\\lambda(G)$ denote its adjacency spectral radius (with $\\lambda(G)=0$ when $G$ has no vertices). Define $D(G)=\\min_{A,B\\subseteq V(G),\\ A\\cap B=\\varnothing}|E(G)\\mathbin{\\triangle}E(K_{A,B})|$, where $K_{A,B}$ has all edges between $A$ and $B$ and no other edges on $V(G)$; empty parts are permitted. Then $D(G)\\le 3\\bigl(m-\\lambda(G)^2\\bigr)$.",
+  "resolution_criteria": "A proof must establish the stated inequality for every finite simple triangle-free graph, allowing disconnected graphs and isolated vertices and counting both edge additions and deletions in $D(G)$. A disproof must give a finite simple triangle-free graph and rigorously certify $D(G)>3(e(G)-\\lambda(G)^2)$. Numerical eigenvalues or an upper bound on $D(G)$ alone do not certify a counterexample.",
+  "neighbours": [
+    "The same inequality $D(G)\\le3(e(G)-\\lambda(G)^2)$ restricted to finite simple bipartite graphs.",
+    "The same inequality $D(G)\\le3(e(G)-\\lambda(G)^2)$ restricted to finite simple regular triangle-free graphs.",
+    "There exists an absolute constant $C<\\infty$ such that $D(G)\\le C(e(G)-\\lambda(G)^2)$ for every finite simple triangle-free graph $G$.",
+    "Every finite simple triangle-free graph $G$ can be made bipartite by deleting at most $e(G)-\\lambda(G)^2$ edges."
+  ],
+  "formal_statement": null
+}

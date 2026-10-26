@@ -1,0 +1,26 @@
+{
+  "id": "candidate-sharp-three",
+  "previous": null,
+  "statement": "For a finite simple triangle-free graph $G$, let $m=e(G)$, let $\\lambda(G)$ be its adjacency spectral radius, and let $D(G)=\\min_{A\\cap B=\\varnothing}|E(G)\\mathbin{\\triangle}E(K_{A,B})|$, where $A,B\\subseteq V(G)$ and vertices outside $A\\cup B$ are isolated in the target; empty parts are allowed. Is $D(G)\\le 3(m-\\lambda(G)^2)$ true for every such $G$?",
+  "source": {
+    "kind": "literature",
+    "reference": "Full readings reading-spectral-book-full-v1 (arXiv:2609.20225v2, Lemmas 4.3-4.4 and Theorem 1.9) and reading-edge-spectral-full-v1 (arXiv:2508.15271v2, Theorem 4.1).",
+    "evidence": []
+  },
+  "observation": "The bipartite bound of Lemma 4.3 in arXiv:2609.20225v2 has exactly this coefficient. Theorem 4.1 of arXiv:2508.15271v2 proves qualitative stability for triangle-free graphs. An elementary neighbourhood argument establishes the proposed estimate in the regular subcase, pending independent native acceptance. The five-cycle motivates sharpness. Small floating-point probes only support exploration.",
+  "neighbours": [],
+  "potential": {
+    "significance": {
+      "B1": 2,
+      "B2": 1
+    },
+    "priority": 2,
+    "readiness": "pass"
+  },
+  "notes": "Exploration does not establish openness or proof credit. The exact statement must receive a bounded native attempt and current literature review.",
+  "disposition": {
+    "status": "open",
+    "reason": "Compare sharpness, mathematical payoff, routine routes and current evidence.",
+    "evidence_needed": null
+  }
+}

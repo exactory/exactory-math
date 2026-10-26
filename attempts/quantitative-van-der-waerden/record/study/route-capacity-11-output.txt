@@ -1,0 +1,17 @@
+(a) P_4 partition formula vs direct sum of 4x4 subpermanents (zero-margin E):
+   n=4: direct=0.3366760200 formula=0.3366760200 ok=True
+   n=4: direct=-0.3062760022 formula=-0.3062760022 ok=True
+   n=4: direct=-0.7681952601 formula=-0.7681952601 ok=True
+   n=4: P_3 direct=-0.3651363391  (2/3) sum e^3=-0.3651363391
+   n=5: direct=3.3828853145 formula=3.3828853145 ok=True
+   n=5: direct=1.1038451321 formula=1.1038451321 ok=True
+   n=5: direct=1.7844726136 formula=1.7844726136 ok=True
+   n=5: P_3 direct=0.6515864342  (2/3) sum e^3=0.6515864342
+   n=6: direct=44.0605288771 formula=44.0605288771 ok=True
+   n=6: direct=0.1422924896 formula=0.1422924896 ok=True
+   n=6: direct=5.0097190948 formula=5.0097190948 ok=True
+   n=6: P_3 direct=0.7476701438  (2/3) sum e^3=0.7476701438
+
+(b) n = 7, region ||E||^2 <= 2 n log(m_n/gamma_n) = 0.1861
+   samples in region: 2307;  min r = 0.4820 (local n/(2(n-1)) = 0.5833);  min cubic/||E||^2 = -0.1079;  k>=4 remainder/||E||^2 in [-0.0007, 0.0877]
+   minimised r over the region (12 Nelder-Mead runs): 0.4850   [1/n = 0.1429, 1/(2n) = 0.0714]

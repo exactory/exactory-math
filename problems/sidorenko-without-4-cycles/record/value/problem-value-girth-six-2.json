@@ -1,0 +1,183 @@
+{
+ "id": "value-girth-six-2",
+ "statement_id": "statement-girth-six",
+ "motivation": [
+  {
+   "text": "Sidorenko's conjecture asserts that $t(H,W)\\ge t(K_2,W)^{e(H)}$ for every bipartite graph $H$ and every graphon $W$. A manuscript dated 23 September 2026 in the openai/math repository reports a counterexample: the incidence graph $H_0$ of 22 triples on 13 points, with 35 vertices and 66 edges, in which every pair of points that lies in a triple lies in exactly two triples, so that $H_0$ contains many cycles of length four. The manuscript has not been refereed, and its key finite-field estimate (Lemma 3.1), which occupies its Sections 4 to 7, has not been checked independently. The question posed here does not depend on that report: it is open whether or not the report is correct. The next paragraph says which part of the motivation depends on it.",
+   "evidence": [
+    {
+     "kind": "reading",
+     "version_id": "url:https://github.com/openai/math/blob/main/preprints/A-counterexample-to-Sidorenkos-conjecture-September-23-2026/paper.pdf",
+     "reading_id": "reading-openai-sidorenko-2026-located"
+    }
+   ]
+  },
+  {
+   "text": "The reported construction works through a property that can be written down. At leading order its kernels have the moments of a sign model whose only nonconstant factors belong to pairs of points lying in two faces of the pattern, so that \"every fully active pair tests the parity of its four incidence signs\" (Equations (3.2) and (3.4) of the manuscript); every such pair spans a 4-cycle. The attempt made with this problem proves that for every bipartite pattern without 4-cycles this sign model is identically $1$, so that the construction gives exactly the Sidorenko value on every pattern of girth at least six, for every choice of its finite data, at leading order and under the analogue of the manuscript's rank-layer limit for the pattern; on every pattern with a 4-cycle the sign model takes the values $0$ and $2$. This holds whether or not the manuscript's estimates are correct. If they are correct, girth six is exactly where the only reported way for the inequality to fail stops working, and the question is whether forbidding 4-cycles restores Sidorenko's inequality: a proof would identify the 4-cycle as the obstruction, and a counterexample would exhibit a failure of a different kind.",
+   "evidence": [
+    {
+     "kind": "reading",
+     "version_id": "url:https://github.com/openai/math/blob/main/preprints/A-counterexample-to-Sidorenkos-conjecture-September-23-2026/paper.pdf",
+     "reading_id": "reading-openai-sidorenko-2026-located"
+    },
+    {
+     "kind": "result",
+     "attempt_id": "attempt-girth-six-solver-1",
+     "acceptance_id": "acceptance-000002"
+    }
+   ]
+  },
+  {
+   "text": "The statement contains a named open problem exactly. Conlon, Kim, Lee and Lee (2018, Problem 1.5) ask whether the 1-subdivision of every graph is Sidorenko, and describe the problem as outside the reach of current methods. The attempt made with this problem proves that on the class of girth-six patterns with a bipartition whose one side has maximum degree at most two, the statement is equivalent to Problem 1.5: deleting a vertex of degree one preserves the Sidorenko property, and after such deletions a pattern of the class is the 1-subdivision of a simple graph, simple because the pattern has no 4-cycle. So a proof of the statement settles Problem 1.5, and a counterexample inside that class answers Problem 1.5 negatively. A counterexample outside it, for instance among incidence graphs of linear triple systems such as the Heawood graph, would leave Problem 1.5 open and show that Sidorenko's inequality can fail without 4-cycles on a pattern that is not a 1-subdivision.",
+   "evidence": [
+    {
+     "kind": "reading",
+     "version_id": "arxiv:1510.06533v2",
+     "reading_id": "reading-ckll-2018"
+    },
+    {
+     "kind": "result",
+     "attempt_id": "attempt-girth-six-solver-1",
+     "acceptance_id": "acceptance-000001"
+    }
+   ]
+  },
+  {
+   "text": "The line of work around Problem 1.5 is active. Im, Li and Liu (2024) treat even theta replacements and subdivisions of Sidorenko graphs and state their Conjecture 4.1; Chen, Lin and Ma (2024) prove that odd subdivisions of KNRS graphs are Sidorenko; Zhao proves the inequality for 1-subdivisions on Cayley hosts over finite abelian groups (2025), on conjugacy-averaged and product Cayley kernels of finite groups (2026), and for 1-subdivisions of regular-KNRS graphs (2026); Kiem, Parczyk and Spiegel (revised 21 September 2026) show that subdivisions preserve forcing families. Each of these results covers a class of base graphs or of hosts; none covers the 1-subdivision of every graph, and none concerns girth-six patterns that are not subdivisions.",
+   "evidence": [
+    {
+     "kind": "reading",
+     "version_id": "arxiv:2408.03491v2",
+     "reading_id": "reading-ill-2024"
+    },
+    {
+     "kind": "reading",
+     "version_id": "arxiv:2407.10861v2",
+     "reading_id": "reading-clm-2024"
+    },
+    {
+     "kind": "reading",
+     "version_id": "arxiv:2507.15723v1",
+     "reading_id": "reading-zhao-2025-even"
+    },
+    {
+     "kind": "reading",
+     "version_id": "arxiv:2606.15368v1",
+     "reading_id": "reading-zhao-2026-conj"
+    },
+    {
+     "kind": "reading",
+     "version_id": "arxiv:2606.23018v1",
+     "reading_id": "reading-zhao-2026-corr"
+    },
+    {
+     "kind": "reading",
+     "version_id": "arxiv:2606.30010v1",
+     "reading_id": "reading-zhao-2026-lp"
+    },
+    {
+     "kind": "reading",
+     "version_id": "arxiv:2412.12904v2",
+     "reading_id": "reading-kps-2026"
+    }
+   ]
+  }
+ ],
+ "current_state": [
+  {
+   "text": "Many girth-six patterns are known to be Sidorenko: trees and even cycles (Sidorenko, as recalled by Kim, Lee and Lee), the 1-subdivisions of cliques, of Sidorenko graphs and of KNRS graphs (Conlon, Kim, Lee and Lee, Theorems 1.3 and 3.1), the 1-subdivisions of the graphs of regular polytopes, which are weakly norming (Conlon and Lee 2017), uniform subdivisions of Sidorenko graphs (Im, Li and Liu, Proposition 4.2) and odd subdivisions of KNRS graphs (Chen, Lin and Ma). These are class results; none covers all girth-six patterns.",
+   "evidence": [
+    {
+     "kind": "reading",
+     "version_id": "arxiv:1310.4383v3",
+     "reading_id": "reading-kll-2016"
+    },
+    {
+     "kind": "reading",
+     "version_id": "arxiv:1510.06533v2",
+     "reading_id": "reading-ckll-2018"
+    },
+    {
+     "kind": "reading",
+     "version_id": "arxiv:1611.05784v2",
+     "reading_id": "reading-conlon-lee-2017-2"
+    },
+    {
+     "kind": "reading",
+     "version_id": "arxiv:2408.03491v2",
+     "reading_id": "reading-ill-2024"
+    },
+    {
+     "kind": "reading",
+     "version_id": "arxiv:2407.10861v2",
+     "reading_id": "reading-clm-2024"
+    }
+   ]
+  },
+  {
+   "text": "The general methods have documented limits on this class. Weakly norming patterns are biregular (Hatami), and the smallest open case named in the literature, $K_{5,5}$ minus a 10-cycle, is not weakly norming (Lee and Sch\u00fclke); it has 4-cycles. The one-side-regular criterion of Conlon and Lee (2021) needs many vertices of each degree on one side and does not cover the Heawood graph, the smallest cubic bipartite graph of girth six (7 lines against $\\binom{7}{3}=35$).",
+   "evidence": [
+    {
+     "kind": "reading",
+     "version_id": "arxiv:1809.01259v3",
+     "reading_id": "reading-conlon-lee-2021"
+    },
+    {
+     "kind": "reading",
+     "version_id": "arxiv:0806.0047v1",
+     "reading_id": "reading-hatami-2010"
+    },
+    {
+     "kind": "reading",
+     "version_id": "arxiv:1910.08454v2",
+     "reading_id": "reading-lee-schuelke-2019"
+    },
+    {
+     "kind": "reading",
+     "version_id": "arxiv:2407.10861v2",
+     "reading_id": "reading-clm-2024"
+    }
+   ]
+  },
+  {
+   "text": "Sidorenko's inequality holds locally for every bipartite pattern (Lov\u00e1sz 2011): a host scaled to mean one that is close to the constant graphon in cut norm, with values at most two, cannot violate it. A counterexample to the statement must therefore be far from the constant graphon.",
+   "evidence": [
+    {
+     "kind": "reading",
+     "version_id": "arxiv:1004.3026v1",
+     "reading_id": "reading-lovasz-2011"
+    }
+   ]
+  },
+  {
+   "text": "The attempt made with this problem reduces one part of the statement to a named problem: on girth-six patterns with a bipartition whose one side has maximum degree at most two, the statement is equivalent to Problem 1.5 of Conlon, Kim, Lee and Lee, and known cases of Problem 1.5 transfer to this class through the reduction. The girth-six patterns outside it, in which every bipartition has vertices of degree at least three on both sides, are not reached. Both results of the attempt were accepted after an independent automated review.",
+   "evidence": [
+    {
+     "kind": "result",
+     "attempt_id": "attempt-girth-six-solver-1",
+     "acceptance_id": "acceptance-000001"
+    },
+    {
+     "kind": "reading",
+     "version_id": "arxiv:1510.06533v2",
+     "reading_id": "reading-ckll-2018"
+    }
+   ]
+  },
+  {
+   "text": "On the negative side, the attempt proves that the reported construction cannot produce a counterexample on any girth-six pattern at leading order: its sign model is identically $1$ without 4-cycles, while every pattern with a 4-cycle admits active sets on which it takes the values $0$ and $2$. The barrier is conditional on the analogue of the rank-layer limit for the pattern, which the manuscript proves only for its own pattern, and it says nothing about the error at a fixed field size or about other constructions.",
+   "evidence": [
+    {
+     "kind": "result",
+     "attempt_id": "attempt-girth-six-solver-1",
+     "acceptance_id": "acceptance-000002"
+    },
+    {
+     "kind": "reading",
+     "version_id": "url:https://github.com/openai/math/blob/main/preprints/A-counterexample-to-Sidorenkos-conjecture-September-23-2026/paper.pdf",
+     "reading_id": "reading-openai-sidorenko-2026-located"
+    }
+   ]
+  }
+ ]
+}

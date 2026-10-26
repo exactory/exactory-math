@@ -1,0 +1,14 @@
+F..
+======================================================================
+FAIL: test_negative_slack_rejects (__main__.ExitGateTest.test_negative_slack_rejects)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<workspace>/dittert-conjecture/attack/dittert-completion-tree/deterministic/certified-special-case-check-5/test_exit_gate.py", line 38, in test_negative_slack_rejects
+    with self.assertRaises(SystemExit) as caught:
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: SystemExit not raised
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.030s
+
+FAILED (failures=1)

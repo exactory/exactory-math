@@ -1,0 +1,32 @@
+[    0.0s] n = 7, D = 4: expanding Q_n and D_n
+t=10s rss=515MB
+t=20s rss=955MB
+t=30s rss=1412MB
+t=40s rss=1756MB
+t=50s rss=2037MB
+t=60s rss=2650MB
+t=70s rss=3083MB
+t=80s rss=3478MB
+t=90s rss=3840MB
+t=100s rss=4147MB
+t=110s rss=4430MB
+t=120s rss=4842MB
+t=130s rss=5248MB
+t=140s rss=5589MB
+t=150s rss=5864MB
+t=160s rss=6514MB
+t=170s rss=6902MB
+t=180s rss=7274MB
+t=190s rss=7561MB
+t=200s rss=7781MB
+t=210s rss=8045MB
+t=220s rss=8343MB
+t=230s rss=8612MB
+t=240s rss=8932MB
+t=250s rss=9180MB
+t=260s rss=9578MB
+t=270s rss=10518MB
+t=280s rss=10825MB
+t=290s rss=11091MB
+t=300s rss=11469MB
+killed after 300 s

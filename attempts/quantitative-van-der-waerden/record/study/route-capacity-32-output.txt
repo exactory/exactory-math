@@ -1,0 +1,5 @@
+pairs 700; root-formula mismatches: 0; eta(t*,p*) vs -<G,tau*> max abs diff = 8.17e-10
+eta_1 monotone in p in all samples: True
+max drop/B = 0.346   max -<G,tau*>/B = 0.697   max eta_1(p*)/B = 0.693   max eta_1(p_up)/B = 0.706
+t-correction eta(t*,p*) - eta(1,p*): max |.| = 3.47e-04, max ratio to B = 0.036; max |t*-1| = 0.0274
+worst eta_1(p_up)/B pair: d+d'=0.0520, drop=0.00565, -<G,tau*>=0.01138, eta_1(p_up)=0.01152, B=0.01632

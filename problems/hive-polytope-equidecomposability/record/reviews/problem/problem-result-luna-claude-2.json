@@ -1,0 +1,366 @@
+{
+ "assignment_id": "assignment-result-luna-refresh",
+ "digest": "8a13d03c7e75c1a1e88065f8307287317496d4bbd8515d830996c7fed6f5e9be",
+ "dossier_digest": null,
+ "dossier_id": null,
+ "id": "problem-result-luna-claude-2",
+ "independence_at_recording": "verified_for_route",
+ "output_digest": "c1e518cf0f53cb183fde6d71d8ce1eed2daebed0e8ad145729299f648ca5b4f4",
+ "packet_digest": "15e77093dd27dec723420b604dcf60126ba3a57bf3ec72164c184eb9dfb3e5c4",
+ "payload": {
+  "assignment_id": "assignment-result-luna-refresh",
+  "dossier_id": null,
+  "id": "problem-result-luna-claude-2",
+  "limitations": [
+   "Ferudun's rank-five certificates and Ghodsi's finite-box enumerations were read but not re-run, and their supplementary materials were not delivered. They are treated as reported results.",
+   "The openness finding rests on bounded arXiv API queries. It does not cover non-arXiv literature, including the KTT 2004 and 2009 originals, which were not read.",
+   "The body of the reviewed seed proof (acceptance-000001) was not delivered to me. I rely on the record of its independent acceptance. The exploratory scan and censuses have no delivered computation record and support no grade.",
+   "The status of the KTT numerator (h*) conjecture is not established by the record, so the B1 link through it is an implication to a conjecture of unknown current status.",
+   "The attempt state reads 'running' with 5 of 24 moves used and openness 'pending'. Its openness-state statement digest differs from the openness record's statement digest, which I did not resolve.",
+   "Residual overstatements: statement-3 still says n≤3 is 'proved in the attempt'. The value case says the b=2i+7 families are unrealizable by lattice polygons although the pair (1,9) is realizable. Derksen–Weyman's method is described only from restatements.",
+   "This reassessment follows a contaminated, retired route. I re-derived the grades from the delivered record, and two of my judgments (the attempt criterion and B2) differ from the inherited review."
+  ],
+  "objections": [
+   {
+    "claim": "Statement-3, including its neighbours and resolution criteria, still says that the n≤3 case is 'proved in the attempt' and 'settled in the affirmative', although no accepted result covers n≤3 and the refreshed value case calls it an unreviewed journalled argument.",
+    "evidence": [
+     {
+      "id": "statement-3",
+      "kind": "record",
+      "record_kind": "problem_statement"
+     },
+     {
+      "id": "problem-attempt-3",
+      "kind": "record",
+      "record_kind": "problem_attempt"
+     },
+     {
+      "id": "problem-value-9",
+      "kind": "record",
+      "record_kind": "problem_value"
+     }
+    ],
+    "id": "result-statement3-n3-wording",
+    "reason": "Problem-attempt-3's only accepted result is the seed instance. Problem-value-9 now describes n≤3 as argued without independent review. Statement-3 (revision 450) and the openness neighbour text still carry the stronger wording. This is a calibration inconsistency in the posted statement, not a defect in the mathematics: the elementary argument is plausible.",
+    "resolution_condition": "Reword the n≤3 remarks in statement-3 and the neighbour text as an elementary, unreviewed observation, or obtain an accepted proof for n≤3."
+   }
+  ],
+  "reassessment": {
+   "assignment_id": "assignment-result-luna-3",
+   "findings": [
+    {
+     "disposition": "revised",
+     "evidence": [
+      {
+       "id": "problem-attempt-3",
+       "kind": "record",
+       "record_kind": "problem_attempt"
+      },
+      {
+       "id": "problem-value-9",
+       "kind": "record",
+       "record_kind": "problem_value"
+      },
+      {
+       "id": "problem-assessment-9",
+       "kind": "record",
+       "record_kind": "problem_assessment"
+      },
+      {
+       "id": "reading-haase-mcallister-2008-3",
+       "kind": "record",
+       "record_kind": "reading"
+      }
+     ],
+     "reason": "The scientific support is retained: A1–A6 pass, B1=2, priority 2, calibration pass, E-F, and the statement, openness, value and citation assurances pass. Two judgments are revised. (1) Attempt: the historical review graded fail on the ground that the obstruction list is empty. I grade pass. The attempt criterion fails only when no substantive attempt or critical assessment exists, and the record gives footholds, unresolved items and argument-scoped limits without claiming an obstruction. This contests the material objection assessment-attempt-limitation. (2) B2: I grade 2, not 3, because the value case concedes that no consequence requires the single-polytope form beyond the Ehrhart form. The consequence is status sufficient. The continuing finding on bar-current-frontier-evidence and the resolved findings on the effectivity and neighbour-comparison bars are confirmed.",
+     "review_id": "problem-result-luna"
+    }
+   ]
+  },
+  "stage": "result",
+  "support": null,
+  "value": {
+   "assurances": [
+    {
+     "evidence": [
+      {
+       "id": "statement-3",
+       "kind": "record",
+       "record_kind": "problem_statement"
+      },
+      {
+       "id": "reading-haase-mcallister-2008-3",
+       "kind": "record",
+       "record_kind": "reading"
+      }
+     ],
+     "kind": "problem_statement",
+     "reason": "Statement-3 fixes the polytope, group, pieces and target. The resolution criteria name the proof and disproof forms and state that class-restricted results do not resolve the statement. The notion matches Haase–McAllister Definition 3.1.",
+     "status": "passed"
+    },
+    {
+     "evidence": [
+      {
+       "id": "assignment-openness-astra-5",
+       "kind": "record",
+       "record_kind": "problem_openness"
+      },
+      {
+       "id": "reading-buch-2000-3",
+       "kind": "record",
+       "record_kind": "reading"
+      },
+      {
+       "id": "reading-haase-mcallister-2008-3",
+       "kind": "record",
+       "record_kind": "reading"
+      }
+     ],
+     "kind": "problem_openness",
+     "reason": "The finding is supported_open for the exact statement and the three declared neighbours (Ehrhart form, Haase–McAllister form, rank restriction). It has dated arXiv coverage and full readings of the relevant works. It is explicitly limited to that coverage. Buch's unproved n≤4 integrality remark is recorded as not settling the statement. The decisive neighbours Haase–McAllister and Turner–Wu were fully read.",
+     "status": "passed"
+    },
+    {
+     "evidence": [
+      {
+       "id": "problem-value-9",
+       "kind": "record",
+       "record_kind": "problem_value"
+      },
+      {
+       "id": "reading-turner-wu-2014-3",
+       "kind": "record",
+       "record_kind": "reading"
+      },
+      {
+       "id": "reading-bohnert-2024-3",
+       "kind": "record",
+       "record_kind": "reading"
+      }
+     ],
+     "kind": "problem_value",
+     "reason": "The motivation is supported by delivered readings: hive period collapse has no polyhedral proof, Haase–McAllister Example 2.4 applies, and Turner–Wu separate Ehrhart equivalence from equidecomposability. Problem-value-9 now describes the n≤3 argument as unreviewed and the scan as unadmitted. The Ferudun and Ghodsi results are treated as reported. No Kronecker or plethysm connection is claimed. One residual overstatement is that the b=2i+7 families are said to be unrealizable by lattice polygons, although the pair (1,9) is realizable.",
+     "status": "passed"
+    },
+    {
+     "evidence": [
+      {
+       "id": "reading-ktt-2006-4",
+       "kind": "record",
+       "record_kind": "reading"
+      },
+      {
+       "id": "reading-ferudun-2026-3",
+       "kind": "record",
+       "record_kind": "reading"
+      },
+      {
+       "id": "reading-ghodsi-2026-3",
+       "kind": "record",
+       "record_kind": "reading"
+      },
+      {
+       "id": "reading-rassart-2004-3",
+       "kind": "record",
+       "record_kind": "reading"
+      }
+     ],
+     "kind": "problem_citations",
+     "reason": "The cited works have delivered full-text readings used within their stated scopes. KTT 2004 and 2009 are disclosed as unread, with their claims bound to the read restatements in KTT 2006, Ferudun and Ghodsi.",
+     "status": "passed"
+    },
+    {
+     "evidence": [
+      {
+       "id": "assignment-openness-astra-5",
+       "kind": "record",
+       "record_kind": "problem_openness"
+      },
+      {
+       "id": "problem-attempt-3",
+       "kind": "record",
+       "record_kind": "problem_attempt"
+      }
+     ],
+     "kind": "stop",
+     "reason": "Nothing in the record requires the work to stop. The statement is treated as an open problem, not a claimed proof, and no formal check is bound.",
+     "status": "not_assessed"
+    }
+   ],
+   "bar_ids": [
+    "problem-bar-astra",
+    "problem-bar-luna"
+   ],
+   "consequence": "On the delivered record the statement is a precise hive-equidecomposability question. It is supported as open within bounded arXiv coverage and sharpens the hive case of Haase–McAllister Conjecture 3.2. One seed instance has a reviewed proof. The case meets the posting thresholds at significance 2 (B1 = 2, B2 = 2), priority 2, with the attempt and calibration both passing and accessibility E-F. The case is supported and explanatory, not compelling.",
+   "evidence": [
+    {
+     "id": "statement-3",
+     "kind": "record",
+     "record_kind": "problem_statement"
+    },
+    {
+     "id": "assignment-openness-astra-5",
+     "kind": "record",
+     "record_kind": "problem_openness"
+    },
+    {
+     "id": "problem-value-9",
+     "kind": "record",
+     "record_kind": "problem_value"
+    },
+    {
+     "id": "problem-attempt-3",
+     "kind": "record",
+     "record_kind": "problem_attempt"
+    },
+    {
+     "id": "problem-assessment-9",
+     "kind": "record",
+     "record_kind": "problem_assessment"
+    }
+   ],
+   "method_adequacy": "not_assessed",
+   "objection_findings": [
+    {
+     "evidence": [
+      {
+       "id": "problem-attempt-3",
+       "kind": "record",
+       "record_kind": "problem_attempt"
+      },
+      {
+       "id": "problem-value-9",
+       "kind": "record",
+       "record_kind": "problem_value"
+      }
+     ],
+     "id": "assessment-attempt-limitation",
+     "reason": "Problem-attempt-3 is a substantive bounded attack with one independently reviewed proof (acceptance-000001). Its unresolved list scopes the limits of the arguments tried: cut-and-shear does not reach denominators ≥3, the Horn-product lift is unproved, and no finite reduction is obtained. Its obstructions list is empty, which is correct because an unresolved attempt must not be called an obstruction. The rubric requires a substantive attempt or critical assessment with footholds, unresolved items and demonstrated limitations. It does not require a method obstruction. The condition 'a specific limitation demonstrated by the attack' is met only in the argument-scoped sense above, and no method limitation is claimed. The attempt state still reads 'running', with 5 of 24 moves used.",
+     "status": "contested"
+    },
+    {
+     "evidence": [
+      {
+       "id": "reading-ferudun-2026-3",
+       "kind": "record",
+       "record_kind": "reading"
+      },
+      {
+       "id": "reading-ghodsi-2026-3",
+       "kind": "record",
+       "record_kind": "reading"
+      },
+      {
+       "id": "problem-value-9",
+       "kind": "record",
+       "record_kind": "problem_value"
+      }
+     ],
+     "id": "bar-current-frontier-evidence",
+     "reason": "No certificates, coverage data or verification records for Ferudun's five-part proof or Ghodsi's box computation were delivered. The resolution condition is unmet. Problem-value-9 treats both results as reported, not re-run. Neither concerns equidecomposability, and the statement's openness does not depend on them.",
+     "status": "continuing"
+    },
+    {
+     "evidence": [
+      {
+       "id": "statement-3",
+       "kind": "record",
+       "record_kind": "problem_statement"
+      },
+      {
+       "id": "reading-ferudun-2026-3",
+       "kind": "record",
+       "record_kind": "reading"
+      }
+     ],
+     "id": "bar-effectivity-realizability",
+     "reason": "The candidate is the geometric equidecomposability statement. It does not use Ferudun's effectivity statement (HTE) as an equivalent replacement. The Ferudun reading records that HTE is neither proved nor refuted. No sufficiency, necessity or realizability claim about effectivity is made.",
+     "status": "resolved"
+    },
+    {
+     "evidence": [
+      {
+       "id": "problem-value-9",
+       "kind": "record",
+       "record_kind": "problem_value"
+      },
+      {
+       "id": "problem-assessment-9",
+       "kind": "record",
+       "record_kind": "problem_assessment"
+      }
+     ],
+     "id": "bar-neighbour-comparison-gap",
+     "reason": "The bar's alternative resolution condition is met: the comparison is delimited to the supported LR/Ehrhart scope. Problem-value-9 and problem-assessment-9 compare the Ehrhart form, the Haase–McAllister form, the Gelfand–Tsetlin sibling, the numerator conjecture and the rank restrictions. They claim no Kronecker or plethysm connection and no field-wide priority.",
+     "status": "resolved"
+    },
+    {
+     "evidence": [
+      {
+       "id": "problem-value-9",
+       "kind": "record",
+       "record_kind": "problem_value"
+      },
+      {
+       "id": "problem-assessment-9",
+       "kind": "record",
+       "record_kind": "problem_assessment"
+      },
+      {
+       "id": "problem-attempt-3",
+       "kind": "record",
+       "record_kind": "problem_attempt"
+      }
+     ],
+     "id": "result-undelivered-exploratory-provenance",
+     "reason": "Problem-value-9 and problem-assessment-9 now label the five-part size-15 scan and the censuses as exploratory and unadmitted, supporting no grade. They describe the n≤3 argument as journalled without independent review. The calibration note states this explicitly. The residual wording in statement-3 ('proved in the attempt') is noted separately under my new objection.",
+     "status": "resolved"
+    }
+   ],
+   "objective_adequacy": "not_assessed",
+   "reason": "Statement-3 is exact: border labels, rhombus inequalities, finitely many relatively open rational simplices, affine unimodular maps with integral translations, and a convex lattice target. Assignment-openness-astra-5 gives dated per-formulation coverage and a supported_open finding. The relevant works were read in full (Haase–McAllister, Turner–Wu, Buch, Erbe–Haase–Santos, Bohnert, AHZ, Alexandersson–Alhajjar, Ferudun, Ghodsi). None of them poses or settles the statement. Problem-value-9 confines the comparison to LR/Ehrhart scope and, in the refreshed version, labels the scan and the n≤3 argument as exploratory or unreviewed. Problem-attempt-3 contains one reviewed accepted proof (the seed triple, n=5), a scoped list of unresolved items, and no claimed obstruction, which is the calibrated choice. I grade the attempt as pass. The attempt criterion fails only when no substantive attempt or critical assessment exists, and the record states the footholds, the unresolved items and the scoped limits of the routes tried. I grade B2 at 2, not 3, because the value case concedes that no consequence requires the single-lattice-polytope form beyond what the Ehrhart form already supplies. Remaining uncertainties: the reported, not re-run, Ferudun and Ghodsi computations, the arXiv-only openness coverage, and the unread KTT 2004 and 2009 originals.",
+   "rubric": {
+    "accessibility": "E-F",
+    "admission": {
+     "A1": "pass",
+     "A2": "pass",
+     "A3": "pass",
+     "A4": "pass",
+     "A5": "pass",
+     "A6": "pass"
+    },
+    "attempt": "pass",
+    "calibration": "pass",
+    "priority": 2,
+    "significance": {
+     "B1": 2,
+     "B2": 2
+    }
+   },
+   "rubric_evidence": {
+    "A1": "Statement-3 defines H by border labels and rhombus inequalities, the finite decomposition into relatively open rational simplices, maps in Aff(Z) with integral translations, and Q as a convex integral-vertex polytope. The resolution criteria name the proof and disproof forms and say that class-restricted results do not resolve the statement. The notion matches Haase–McAllister Definition 3.1. No formal statement is supplied.",
+    "A2": "Assignment-openness-astra-5 is supported_open (searched 2026-10-20/21) with complete arXiv coverage for the exact statement and each declared neighbour. The relevant works were read in full. The neighbours' statuses are recorded: the Haase–McAllister form is open (AHZ), no work realizes the Ehrhart form, and the rank restriction has n≤3 elementary, n=4 resting on Buch's unproved remark, and n≥5 open. The finding is limited to arXiv queries and is dated.",
+    "A3": "The statement sharpens the hive case of Haase–McAllister Conjecture 3.2 (one lattice polytope in place of a union of integral open simplices). It implies the Ehrhart form and, via Stanley, the KTT numerator conjecture, whose current status is explicitly not established. The original is named. Turner–Wu and Example 2.4 distinguish the notions. The unresolved remainder is everything from five parts on except the seed.",
+    "A4": "Statement-3 defines the hive polytope in Buch's terms, and the lattice-point interpretation follows (reading-buch-2000-3). A specialist in Ehrhart theory or the hive model can read it directly.",
+    "A5": "Routes considered: Q=H, dilation by the denominator, the Ehrhart form via Scott in dimension two, weak equidecomposability with a common dilation or rational translations, the amplification lemmas, and the Horn factorization (a polynomial identity, not a polytope statement). Disproof routes: a non-realizable polynomial and the superlattice-orbit-count invariant of Erbe–Haase–Santos. Each route's limited reach is explained. Nothing is certified about what routine methods cannot do.",
+    "A6": "Full readings exist for Haase–McAllister, Buch, Rassart, Thawinrak, KTT 2006, Turner–Wu, Erbe–Haase–Santos, Bohnert, AHZ, Alexandersson–Alhajjar, Fernandes, Ferudun and Ghodsi. The unread KTT 2004 and 2009 originals are disclosed, with claims bound to read restatements, and they would not settle the exact statement. The standing can be stated: open from five parts on, one reviewed seed instance, general conjecture open.",
+    "B1": "The question sits in the period-collapse line, active through AHZ 2022, Bohnert 2024 and Fernandes 2018. The connection is by implication: a proof gives the Ehrhart form, the Haase–McAllister form for hives and, via Stanley, the KTT numerator conjecture. Hives are the motivating example in Haase–McAllister. Weaknesses: the numerator conjecture's current status is not established, and Ferudun and Ghodsi explicitly do not touch equidecomposability. A negative answer would not refute Haase–McAllister. The strongest objection, that the Ehrhart form could hold without the geometric form, is answered only in general by Turner–Wu, and the converse for hives is stated as unknown. Level 2.",
+    "B2": "A resolution would change the explanation of a theorem that has three non-polyhedral proofs and no polyhedral one. A positive answer gives a polyhedral mechanism. A negative answer gives a natural family where collapse is not explained by rearrangement into one lattice polytope. The premises are read. The record concedes no consequence requires the single-polytope form beyond the Ehrhart form, and only one instance is proved. Supported, not compelling: level 2.",
+    "accessibility": "E-F. The seed is a reviewed, two-page foothold, and the definitions are elementary (hive model, Ehrhart theory, the affine unimodular group). Smallest unresolved cases named: the four-part class (Buch's unproved integrality remark), the further size-15 five-part candidates (unadmitted scan), and the first five-part instance with a vertex of denominator three.",
+    "attempt": "Problem-attempt-3 is a bounded attack on the exact contract, with a reviewed proof of the seed triple (acceptance-000001). It states the unresolved inventory and the scoped limits of the routes tried: denominator ≥3 lies outside the cut-and-shear mechanism, the polytope-level Horn product is unproved, and no finite reduction is found. It claims no obstruction. Noted: the state field reads 'running', with 5 of 24 moves and 0 runs used.",
+    "calibration": "Problem-value-9 separates the accepted seed result, the unreviewed journalled lemmas, the conjectural statement and the reported-not-re-run literature results. The scan and censuses are labelled exploratory and unadmitted, and no grade rests on them. The geometric-to-Ehrhart implication is kept apart from its unknown converse. No difficulty, completion time or community outcome is asserted, and the unresolved complement is not called an obstruction. Residual wording issues are noted in my objection and the limitations.",
+    "priority": "Problem-value-9 compares the Ehrhart form (weaker), the Haase–McAllister form (a known conjecture with a weaker target), the Gelfand–Tsetlin sibling (no transfer claimed), the numerator conjecture and the rank restrictions. It answers the objection that the target is a special case of a known conjecture: the sharp form is not implied by the conjecture and is the one that carries the explanatory content. Level 2, not 3, because no documented concrete advantage over the Ehrhart form is shown. The comparison is confined to LR/Ehrhart scope."
+   },
+   "status": "sufficient",
+   "work_items": []
+  }
+ },
+ "prompt_hash": "d4f39634bd4668d4f6e7ed0439384656339d96d434693b71d225d750343956c2",
+ "recorded_revision": 547,
+ "reviewer_id": "claude-sonnet-5-5-high",
+ "subject": {
+  "kind": "problem",
+  "statement_id": "statement-3"
+ },
+ "support": null
+}

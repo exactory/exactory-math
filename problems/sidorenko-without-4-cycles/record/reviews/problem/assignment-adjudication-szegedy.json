@@ -1,0 +1,56 @@
+{
+ "correction_admissible": null,
+ "disposition": "upheld",
+ "evidence": [
+  {
+   "media_type": "text/plain; charset=utf-8",
+   "path": "research/sources/objects/0536bc09f005b00a463ea4cd3aea894ec5186b233b16fa7d875f4e25f88a037c",
+   "sha256": "0536bc09f005b00a463ea4cd3aea894ec5186b233b16fa7d875f4e25f88a037c",
+   "size": 73089
+  },
+  {
+   "digest": "393fbc19c92757a2dbe2a9e5cc944484606ce6287ca9014543c79b966a9a9df9",
+   "id": "reading-cr-2021",
+   "kind": "record",
+   "record_kind": "reading"
+  },
+  {
+   "digest": "f31bd1e895ae1b37941287c0e68dee57975c31c5cae5c85f728544c3e3b651c2",
+   "id": "reading-zhao-2026-conj",
+   "kind": "record",
+   "record_kind": "reading"
+  },
+  {
+   "digest": "ab83f883a903b570015caa9ce2e8358b1e0feac36b441825dea480000093cbca",
+   "id": "reading-zhao-2025-even",
+   "kind": "record",
+   "record_kind": "reading"
+  },
+  {
+   "digest": "b37f1c681a5817730963a0175395151224fba8f30c90933a9fb0e676eaca9cd2",
+   "id": "value-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_value"
+  },
+  {
+   "media_type": "text/plain; charset=utf-8",
+   "path": "research/sources/objects/1be62d11d529064e5bf88a7a7ad5965c44f0bc1c2e6d4152b5ce187d111ce169",
+   "sha256": "1be62d11d529064e5bf88a7a7ad5965c44f0bc1c2e6d4152b5ce187d111ce169",
+   "size": 920
+  },
+  {
+   "media_type": "text/plain; charset=utf-8",
+   "path": "research/sources/objects/01e30ac6dfa6a777652ca3189e6da200bf737417416005659173d6bb07b1c5d6",
+   "sha256": "01e30ac6dfa6a777652ca3189e6da200bf737417416005659173d6bb07b1c5d6",
+   "size": 988
+  },
+  {
+   "media_type": "text/plain; charset=utf-8",
+   "path": "research/sources/objects/c2cf33823a4367805f0ea23555ae30ece83a699b310d9add5464381758bc1b40",
+   "sha256": "c2cf33823a4367805f0ea23555ae30ece83a699b310d9add5464381758bc1b40",
+   "size": 796
+  }
+ ],
+ "objection_id": "obj-szegedy-reduction-undelivered",
+ "reason": "Version decided: the problem-result-opus-2 restatement. All three references it cites are delivered: reading-cr-2021, reading-zhao-2026-conj and value-girth-six-2. No correction was requested.\n\nThe resolution condition is not met. Neither the current evidence nor the original evidence contains Szegedy's full text (arXiv:1504.00858). Szegedy's reductions reach the packet only through other authors' restatements, and those restatements disagree:\n- Coregliano-Razborov (full text) cite [Sze15b, Theorem 4] as reducing to edge-vertex transitive host bigraphs. They describe the biregular reduction only as a consequence of Szegedy's result, and they reprove it themselves.\n- Zhao 2025, Proposition 1.2, states it for Cay(G,S) over an arbitrary finite group G with symmetric S contained in G\\{e}.\n- Zhao 2026, Proposition 1.2, states it for bipartite Cayley hosts on S_n with connection set T1T2, and concludes 'strong Sidorenko'.\nThese three renderings differ in host class and in conclusion. Szegedy's exact hypotheses therefore cannot be fixed from the delivered evidence, and nothing in the packet may rely on them. The objection's claim holds.\n\nWhat the objection does not reach:\n- The biregular and regular reduction is available through Coregliano-Razborov's own theorems, whose statements are delivered. Theorem 3.1 has a full proof in the bigraph setting. Theorem 8.2 has a proof sketch only in the symmetric setting.\n- The delivered problem evidence does not invoke Szegedy's reductions. value-girth-six-2 cites the Cayley results only as restricted host-class theorems.\n- The only trace of reliance is in the relevance note of reading-zhao-2026-conj ('general hosts, which by Proposition 1.2 would need arbitrary Cayley kernels'). That note rests on Zhao's secondary form and should carry this caveat.\n\nThis disposition confirms that the restriction stands. It is not a judgment on the problem's grades."
+}

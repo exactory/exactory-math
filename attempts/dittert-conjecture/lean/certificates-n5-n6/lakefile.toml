@@ -1,0 +1,16 @@
+name = "formal-check-2"
+version = "0.1.0"
+defaultTargets = ["Theorem56"]
+
+[leanOptions]
+relaxedAutoImplicit = false
+
+# `precompileModules` is what makes `native_decide` run the checks as compiled code.  Without it
+# Lean interprets every imported definition, which measured three times slower here.  The theorem
+# module sits outside this library so that building the library does not run either check.
+[[lean_lib]]
+name = "Cert"
+precompileModules = true
+
+[[lean_lib]]
+name = "Theorem56"

@@ -1,0 +1,28 @@
+{
+ "contract": {
+  "schema_version": 1,
+  "original_claim": {
+   "statement": "Let $H$ be a finite bipartite graph with at least one edge and no cycle of length four, that is, a bipartite graph of girth at least six. Is it true that $$t(H,W)\\ge t(K_2,W)^{e(H)}$$ for every graphon $W$, where $t(F,W)=\\int_{[0,1]^{V(F)}}\\prod_{uv\\in E(F)}W(x_u,x_v)\\,dx$ is the homomorphism density?",
+   "quantifiers": "Universal over every finite bipartite graph H with at least one edge and no cycle of length four, and over every graphon W; the decision asks whether t(H,W) >= t(K_2,W)^{e(H)} holds for every such pair.",
+   "assumption_ids": [],
+   "proof_policy": "reviewed",
+   "scope": {
+    "kind": "named",
+    "name": "general quantified obligation"
+   }
+  },
+  "assumption_ids": [],
+  "root_obligation": "obligation-000001",
+  "root_attack_slug": "girth-six-sidorenko",
+  "requested_outcome": "decision",
+  "proof_policy": "reviewed",
+  "required_deliverables": [
+   "A decision of the statement with a complete proof: either the inequality for every bipartite graph of girth at least six and every graphon, or one bipartite graph of girth at least six with a graphon or a finite simple host graph violating it."
+  ],
+  "resource_policy": {
+   "max_total_moves": 24,
+   "max_total_runs": 24,
+   "max_workers": 1
+  }
+ }
+}

@@ -1,0 +1,15 @@
+(A) n = 3 identity and Schur form
+    max |lhs - rhs| over 2000 random B: 5.21e-08
+    at (I+C_3)/2: per/gamma - 1 - ||E||^2/4 = 0.00e+00
+    min of 1 - 4e_2 + 9e_3 over 200000 random simplex points: 1.56e-07 (Schur: >= 0)
+(B) max |alpha_k| / ||E||^k
+  n=4: max|alpha_k|/||E||^k, k=2..n: 0.667, 0.577, 0.972
+        most negative alpha_k/||E||^k:  +0.000, -0.451, -0.325
+  n=5: max|alpha_k|/||E||^k, k=2..n: 0.625, 0.423, 0.430, 0.427
+        most negative alpha_k/||E||^k:  +0.000, -0.282, -0.145, -0.263
+  n=6: max|alpha_k|/||E||^k, k=2..n: 0.600, 0.358, 0.360, 0.300, 1.024
+        most negative alpha_k/||E||^k:  +0.000, -0.200, -0.095, -0.125, -0.795
+  n=7: max|alpha_k|/||E||^k, k=2..n: 0.583, 0.317, 0.316, 0.351, 6.362, 6210.353
+        most negative alpha_k/||E||^k:  +0.000, -0.137, -0.011, -0.351, -0.047, -34.043
+  n=8: max|alpha_k|/||E||^k, k=2..n: 0.571, 0.288, 2.743, 151.549, 3683903.075, 41955269.027, 1388051435504.423
+        most negative alpha_k/||E||^k:  +0.000, -0.084, -2.743, -151.549, -63985.371, -0.459, -1388051435504.423

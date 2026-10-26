@@ -1,0 +1,51 @@
+{
+ "id": "candidate-girth-six",
+ "previous": null,
+ "statement": "Is every bipartite graph without a cycle of length four Sidorenko? That is, if $H$ is a bipartite graph of girth at least six, does $t(H,W) \\ge t(K_2,W)^{e(H)}$ hold for every graphon $W$?",
+ "source": {
+  "kind": "literature",
+  "reference": "The 2026 counterexample (openai/math family 161) obtains its deficit only from point pairs that lie in two faces, that is, from 4-cycles of its pattern (its Equation 3.4); Conlon, Kim, Lee and Lee (2018, Problem 1.5) ask for the 1-subdivision of every graph, and every such subdivision has girth at least six.",
+  "evidence": [
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-openai-sidorenko-2026",
+    "digest": "6c700b460bee4bff698967efd76353d7efc824aa78bbf686f6bb40e0b3f3ac48"
+   },
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-ckll-2018",
+    "digest": "2a33ae2a7f8689256c12867cc5505d151bdb4f955135a07e85201dc93b83084e"
+   },
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-conlon-lee-2017-2",
+    "digest": "5bd57f11a2fe88379c19b46ed6c364f49dbe84632ac55ab6f3b63ff6372083b5"
+   }
+  ]
+ },
+ "observation": "As this record reads the counterexample's coordinate expansion (its Equation 3.4), a point pair contributes a nonconstant term only when it lies in two faces that are both active. In an incidence structure without 4-cycles no pair lies in two faces, so that expansion has no nonconstant term and the construction gives no deficit there. This is a reading of the construction, not a proved lemma, and it does not exclude other mechanisms. The class of bipartite graphs of girth at least six contains every 1-subdivision of a graph and every incidence graph of a linear hypergraph. Known positive members include trees, even cycles, the 1-subdivisions of cliques, of Sidorenko graphs and of graphs with a KNRS-type bound (Conlon, Kim, Lee and Lee 2018, Theorems 1.3 and 3.1), and the 1-subdivisions of the graphs of regular polytopes (Conlon and Lee 2017, Theorem 1.1).",
+ "neighbours": [
+  "Is the 1-subdivision of every graph Sidorenko? (Conlon-Kim-Lee-Lee 2018, Problem 1.5)",
+  "Is there an integer $g$ such that every bipartite graph of girth at least $g$ is Sidorenko?",
+  "Is the vertex-edge incidence graph of every linear 3-uniform hypergraph Sidorenko?",
+  "Is the Heawood graph (the incidence graph of the Fano plane) Sidorenko?",
+  "Is every bipartite graph of girth at least six that contains a cycle forcing?"
+ ],
+ "potential": {
+  "significance": {
+   "B1": 2,
+   "B2": 2
+  },
+  "priority": 2,
+  "readiness": "pass"
+ },
+ "notes": "No conjectured answer is taken; either answer is informative. A counterexample of girth six would need a deficit mechanism other than pairs lying in two faces.",
+ "disposition": {
+  "status": "open",
+  "reason": "Compare with the other candidates of the slate.",
+  "evidence_needed": null
+ }
+}

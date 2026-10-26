@@ -1,0 +1,202 @@
+{
+  "limitations": [
+    "Supported openness is bounded by the recorded searches and inspected sources through 2026-10-21; it is not exhaustive absence or historical-priority certification.",
+    "The complete Wang\u2013Lou article remains unavailable. Its delivered preview supports only the stated principal-theorem scope comparison, not conclusions about hidden lemmas.",
+    "The exact coefficient-three inequality has neither a delivered proof nor a certified counterexample.",
+    "No asymptotic matching lower-bound family, smallest unresolved order, equality classification or consequential downstream theorem is established.",
+    "The supplied designated rendered pages were inspected; this does not establish inspection of every original PDF page or independent reproduction of computational tables."
+  ],
+  "objections": [],
+  "stage": "result",
+  "support": null,
+  "value": {
+    "assurances": [
+      {
+        "evidence": [
+          {
+            "id": "statement-sharp-three-v1",
+            "kind": "record",
+            "record_kind": "problem_statement"
+          }
+        ],
+        "kind": "problem_statement",
+        "reason": "statement-sharp-three-v1 precisely defines the graph class, spectral radius, symmetric-difference distance, unused isolated vertices and empty target parts. Its proof and rigorously certified counterexample criteria resolve the statement without ambiguity.",
+        "status": "passed"
+      },
+      {
+        "evidence": [
+          {
+            "id": "openness-sharp-three-v5",
+            "kind": "record",
+            "record_kind": "problem_openness"
+          },
+          {
+            "id": "openness-search-exact-v3",
+            "kind": "record",
+            "record_kind": "literature_search"
+          },
+          {
+            "id": "openness-search-regular-v1",
+            "kind": "record",
+            "record_kind": "literature_search"
+          },
+          {
+            "media_type": "text/plain",
+            "path": "research/sources/objects/77014f0938289774270f71666f0422ad953c13d0b8385b14f2246286e7e1f395",
+            "sha256": "77014f0938289774270f71666f0422ad953c13d0b8385b14f2246286e7e1f395",
+            "size": 10536
+          }
+        ],
+        "kind": "problem_openness",
+        "reason": "openness-sharp-three-v5 supplies dated, bounded coverage through 2026-10-21 and records the status of all four declared neighbours. The decisive complete readings do not settle the exact question. The bipartite, regular, deletion-only and finite-constant neighbours are settled, with their mathematical distinctions established. The delivered Wang\u2013Lou preview supports screening its principal containment theorem out of scope, without crediting its unavailable full article as read.",
+        "status": "passed"
+      },
+      {
+        "evidence": [
+          {
+            "id": "value-sharp-three-v2",
+            "kind": "record",
+            "record_kind": "problem_value"
+          },
+          {
+            "media_type": "text/plain",
+            "path": "research/sources/objects/6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+            "sha256": "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+            "size": 7245
+          },
+          {
+            "id": "reading-spectral-book-full-v1",
+            "kind": "record",
+            "record_kind": "reading"
+          }
+        ],
+        "kind": "problem_value",
+        "reason": "value-sharp-three-v2 correctly identifies the remaining gain as an exact finite deficit\u2013distance law, not merely existence of a stability modulus. The published bipartite lemma and the delivered supporting proof substantiate the comparison and answer the constant-improvement objection within this limited scope.",
+        "status": "passed"
+      },
+      {
+        "evidence": [
+          {
+            "id": "reading-color-critical-full-v1",
+            "kind": "record",
+            "record_kind": "reading"
+          },
+          {
+            "id": "reading-edge-spectral-full-v1",
+            "kind": "record",
+            "record_kind": "reading"
+          },
+          {
+            "id": "reading-edge-survey-full-v1",
+            "kind": "record",
+            "record_kind": "reading"
+          },
+          {
+            "id": "reading-entropy-bridge-full-v1",
+            "kind": "record",
+            "record_kind": "reading"
+          },
+          {
+            "id": "reading-spectral-book-full-v1",
+            "kind": "record",
+            "record_kind": "reading"
+          },
+          {
+            "id": "reading-two-eigenvalues-full-v1",
+            "kind": "record",
+            "record_kind": "reading"
+          }
+        ],
+        "kind": "problem_citations",
+        "reason": "The six directly cited candidate works have complete delivered texts and corresponding full readings. Their relevant uses distinguish qualitative stability, bipartite editing, fixed-edge extremizers, weighted alternatives and spectral-moment arguments correctly. The supplied rendered pages resolve the designated visual checks. Reading Nikiforov's alternative proof is not treated as reading the original Lin\u2013Ning\u2013Wu article, and internal bibliographies receive no recursive reading credit.",
+        "status": "passed"
+      },
+      {
+        "evidence": [
+          {
+            "id": "attempt-sharp-three-v1",
+            "kind": "record",
+            "record_kind": "problem_attempt"
+          }
+        ],
+        "kind": "stop",
+        "reason": "Assessment of the delivered native contract, execution inventory and acceptance scope reveals no condition requiring the work to stop. The root remains open and executable; the supporting acceptance neither closes it nor renews resources. An unresolved mathematical objective is not itself a stop condition.",
+        "status": "passed"
+      }
+    ],
+    "bar_ids": [
+      "bar-astra-v2",
+      "bar-sol-v2"
+    ],
+    "consequence": "The question meets the posting thresholds. The exact universal coefficient-three inequality remains unresolved.",
+    "evidence": [
+      {
+        "id": "statement-sharp-three-v1",
+        "kind": "record",
+        "record_kind": "problem_statement"
+      },
+      {
+        "id": "openness-sharp-three-v5",
+        "kind": "record",
+        "record_kind": "problem_openness"
+      },
+      {
+        "id": "value-sharp-three-v2",
+        "kind": "record",
+        "record_kind": "problem_value"
+      },
+      {
+        "id": "attempt-sharp-three-v1",
+        "kind": "record",
+        "record_kind": "problem_attempt"
+      },
+      {
+        "media_type": "text/plain",
+        "path": "research/sources/objects/6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+        "sha256": "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+        "size": 7245
+      }
+    ],
+    "method_adequacy": "not_assessed",
+    "objection_findings": [],
+    "objective_adequacy": "not_assessed",
+    "reason": "The delivered record supports a precise, supported-open question with a substantive bounded attempt. The contribution is an exact extension of the published bipartite editing inequality to triangle-free graphs. The verified coefficient-fifteen bound, asymptotic upper coefficient three, and exact five-cycle witness establish a meaningful remaining gap. This supports significance and comparative priority at level 2, but not a consequential downstream claim or level-3 significance.",
+    "rubric": {
+      "accessibility": "E-F",
+      "admission": {
+        "A1": "pass",
+        "A2": "pass",
+        "A3": "pass",
+        "A4": "pass",
+        "A5": "pass",
+        "A6": "pass"
+      },
+      "attempt": "pass",
+      "calibration": "pass",
+      "priority": 2,
+      "significance": {
+        "B1": 2,
+        "B2": 2
+      }
+    },
+    "rubric_evidence": {
+      "A1": "statement-sharp-three-v1 specifies every finite simple triangle-free graph and the exact minimum over disjoint target parts, including empty parts and isolates. The native contract in attempt-sharp-three-v1 matches these quantifiers and edit operations. A universal proof or rigorously certified finite counterexample decides it.",
+      "A2": "openness-sharp-three-v5 and its bound literature_search records document bounded coverage dated 2026-10-21. The complete six comparator texts and delivered supporting proof distinguish the exact question from all four settled neighbours. The regular-case neighbourhood calculation is valid; the Wang\u2013Lou preview's containment disjunction does not imply the requested editing law. No delivered settling result covers the exact statement.",
+      "A3": "value-sharp-three-v2 identifies a direct extension of Li\u2013Liu\u2013Ning's Lemma 4.3: preserve the deficit, complete-bipartite target and coefficient while removing bipartiteness. The delivered supporting proof establishes coefficient fifteen and an asymptotic upper coefficient three, explicitly leaving the exact finite inequality unresolved.",
+      "A4": "statement-sharp-three-v1 defines the spectral parameter and target distance explicitly. value-sharp-three-v2 supplies the relevant stability context and distinguishes full editing from deletion to arbitrary bipartite graphs. An appropriate graph theorist can understand the question without further formalization.",
+      "A5": "The delivered Moves 1\u20133 and attempt-sharp-three-v1 examine cut deletion, spectral perturbation, the original Perron vector, least-eigenvector sign cuts and joint editing slack. The C5/P5 calculation demonstrates loss in the displayed separate-bound composition. Move 3 explicitly recognizes that introducing slack alone does not establish its required estimate. These address the examined routine-corollary objections without claiming that routine methods cannot succeed.",
+      "A6": "The complete texts associated with reading-color-critical-full-v1, reading-edge-spectral-full-v1, reading-edge-survey-full-v1, reading-entropy-bridge-full-v1, reading-spectral-book-full-v1 and reading-two-eigenvalues-full-v1 are delivered, together with the designated rendered pages. Their relevant mathematics and the supporting analytical proof are assessable. Wang\u2013Lou's unavailable full article receives no reading credit and is not a decisive dependency of the screened principal-theorem comparison.",
+      "B1": "value-sharp-three-v2 has a direct mathematical connection to the active edge-spectral stability line: the delivered edge-spectral and spectral-book papers use the same deficit and complete-bipartite edit target. Qualitative triangle-free stability and bipartite linear editing leave the stated finite sharp extension unanswered. This supports a specific level-2 need, but no consequential downstream obstacle is established.",
+      "B2": "The delivered supporting proof establishes 3 <= C_opt <= 15 and an asymptotic upper coefficient three at vanishing relative deficit. Its exact C5 calculation forces the universal lower coefficient. A positive resolution determines the optimal uniform coefficient; a counterexample refutes transfer of the bipartite coefficient to all triangle-free graphs. value-sharp-three-v2 explains why this finite-versus-asymptotic distinction matters and answers the narrow-constant-improvement objection. Broader influence remains unsupported.",
+      "accessibility": "E-F: the published bipartite Lemma 4.3 is a substantial resolved subcase, and the delivered supporting theorem supplies global linear and asymptotic footholds. Move 3 gives an explicit remaining certificate inequality. The unresolved scope is the irregular non-bipartite triangle-free class at finite positive deficit; the record does not certify a smallest unresolved vertex order.",
+      "attempt": "attempt-sharp-three-v1 delivers the applicable native contract, open root obligation, bounded execution inventory and accepted supporting result. The complete analytical proof independently supports coefficient fifteen, its quantitative asymptotic refinement and exact C5 sharpness. Moves 1 and 3 establish limitations of specified compositions, while the joint-slack estimate and original universal inequality remain unresolved. No root closure is claimed.",
+      "calibration": "value-sharp-three-v2, openness-sharp-three-v5 and attempt-sharp-three-v1 separate published results, the accepted supporting theorem, bounded search evidence and the unresolved conjecture. C5 establishes a universal lower coefficient, not asymptotic sharpness. Exploratory numerics and the source's small-graph table receive no proof credit. No human difficulty, completion time, observed community outcome or general method obstruction is asserted.",
+      "priority": "value-sharp-three-v2 compares the exact law with qualitative stability, existence of a finite coefficient, deletion-only bipartization, and the bipartite and regular restrictions. The forced sharp coefficient and removal of a structural hypothesis provide a mathematical payoff beyond an arbitrary improvement of fifteen. These comparisons support level 2, not a documented level-3 advantage over every credible alternative."
+    },
+    "status": "sufficient",
+    "work_items": []
+  },
+  "id": "review-result-sol-sharp-three-v3",
+  "dossier_id": null,
+  "assignment_id": "result-sol-sharp-three-v3"
+}

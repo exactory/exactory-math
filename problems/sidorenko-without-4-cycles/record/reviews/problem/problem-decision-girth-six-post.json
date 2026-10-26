@@ -1,0 +1,13 @@
+{
+ "id": "decision-girth-six-post",
+ "action": "post",
+ "review_ids": [
+  "problem-result-opus-2",
+  "problem-result-sonnet"
+ ],
+ "bar_review_ids": [
+  "problem-bar-opus",
+  "problem-bar-sonnet-3"
+ ],
+ "reason": "Both observed result reviews, problem-result-opus-2 and problem-result-sonnet (the Fable slot continued on route-claude-sonnet after the retirement of route-claude-fable), pass every assurance and meet the rubric thresholds on the current problem evidence. Of the nine material objections, both result reviews resolve obj-lean-formalization-undelivered; the focused adjudicator finds obj-small-graph-computations-absent and obj-counterexample-unverified not upheld, and finds the other six not binding on this problem, under the disposition the owner approved on 2026-10-21."
+}

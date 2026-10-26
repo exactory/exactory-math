@@ -1,0 +1,6 @@
+# Novelty and current uncertainty
+
+The exact root statement is new to this local exploration. This is not a certification that it is open. The bounded searches, decisive full readings and their depth are specified in problem-study.md. Their raw query responses are preserved in the associated common workspace. The established bipartite theorem has exactly the proposed coefficient. The established triangle-free theorem has qualitative edit stability and an explicit weaker power modulus. A statement that only asks for deletion to bipartiteness is already settled by Lemma 4.4 of arXiv:2609.20225v2 and is excluded as a new problem.
+
+Declared neighbours are the bipartite restriction, regular triangle-free restriction, existence of any universal linear coefficient, and the deletion-only inequality. The general linear modulus and coefficient-three statements are not established by the two fully read papers. A proposed regular-case proof and a five-cycle sharpness argument will be kept distinct from the root; their novelty and correctness still require review. The literature survey arXiv:2512.19395v1 and the two-eigenvalue paper arXiv:2104.12171v1 are additional comparators pending full reading. No supported_open finding is claimed yet, and none is required by this analytical admission. Full openness and value review remain required before posting.
+

@@ -1,0 +1,28 @@
+[    0.5s] n = 6, D = 3: expanding Q_n and D_n
+[  357.2s] Q_n: 4496388 monomials, D_n: 4496388 monomials
+[  363.1s] 4496388 degree-6 monomials in 167 orbits; main Gram 8436, multiplier Grams 666
+[  363.6s] main block: pair orbits
+[  405.9s]   1159 pair orbits; block diagonalisation
+[  522.7s]   main blocks: 16(25), 15(10), 14(90), 10(100), 9(25), 8(18), 7(1), 6(180), 6(81), 5(100), 5(20), 4(50), 3(160), 3(10), 3(1), 2(320), 2(288), 2(90), 2(81), 1(256), 1(200), 1(100), 1(100), 1(100), 1(32), 1(25)
+[  524.0s]   multiplier (aligned): 1426 pair orbits; blocks: 21(1), 17(4), 14(3), 13(12), 10(4), 10(1), 5(12), 5(5), 5(3), 4(2), 3(15), 3(8), 2(18), 2(12), 2(6), 2(5), 1(18), 1(18), 1(15), 1(10), 1(6), 1(3)
+[  524.2s]   multiplier (generic): 1851 pair orbits; blocks: 22(1), 21(6), 16(6), 12(1), 12(1), 12(1), 11(9), 5(9), 5(9), 5(4), 4(9), 3(12), 2(18), 2(6), 2(4), 1(18), 1(12), 1(9), 1(6), 1(4)
+[  524.2s] assembling 167 constraints (block coordinates and integer orbit counts)
+[  525.4s] main Gram 8436 x 8436
+[  525.4s] den = 29160000000000, gcd of the orbit values = 1
+[  527.3s] after dividing by the gcd: max |A| = 2.4789e+16
+[  614.7s] lambda_2 = 4.552920e+12, d = 539701313, delta = 2276460137976
+[  614.8s] integer Cholesky
+[  614.9s]   column 0, pivot 7265953
+[  620.4s]   column 1000, pivot 15208445
+[  629.7s]   column 2000, pivot 8588356
+[  641.5s]   column 3000, pivot 7926110
+[  653.5s]   column 4000, pivot 14048007
+[  665.0s]   column 5000, pivot 7314463
+[  674.9s]   column 6000, pivot 6758199
+[  682.2s]   column 7000, pivot 7114180
+[  686.0s]   column 8000, pivot 7843485
+[  686.5s] max |N| = 1.4110e+08
+[  686.5s] N N^T by FLINT multi-precision integer matrix multiplication
+[  940.5s] residual and diagonal dominance
+[  965.8s] diagonal dominance slack: min 1691794048955
+EXACT PSD PASS

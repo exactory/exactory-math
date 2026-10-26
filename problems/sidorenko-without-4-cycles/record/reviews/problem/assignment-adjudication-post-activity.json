@@ -1,0 +1,50 @@
+{
+ "correction_admissible": null,
+ "disposition": "upheld",
+ "evidence": [
+  {
+   "digest": "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e",
+   "id": "search-openness-statement",
+   "kind": "record",
+   "record_kind": "literature_search"
+  },
+  {
+   "digest": "711410e0a450465dcf1afacdd23990ba5dc4681636f8d000f16b077fb5a75d78",
+   "id": "assignment-openness-fable-2",
+   "kind": "record",
+   "record_kind": "problem_openness"
+  },
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/16e01aefc02504a3dadf6eb7af9e3b663a9d58c9b082390ee396bbff3af1560a",
+   "sha256": "16e01aefc02504a3dadf6eb7af9e3b663a9d58c9b082390ee396bbff3af1560a",
+   "size": 1001
+  },
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/6dbe77e72e637ed8854fff2ad55a1c7377bec3784fc8a552dd8534af8a118798",
+   "sha256": "6dbe77e72e637ed8854fff2ad55a1c7377bec3784fc8a552dd8534af8a118798",
+   "size": 3185
+  },
+  {
+   "media_type": "text/plain; charset=utf-8",
+   "path": "research/sources/objects/4660c27f1d4c1c71620d6063d31e860ddf243979fcc993a7d12946820fffa17f",
+   "sha256": "4660c27f1d4c1c71620d6063d31e860ddf243979fcc993a7d12946820fffa17f",
+   "size": 70261
+  },
+  {
+   "digest": "15ac681946593679867efa0ed4fd11968eb9e917f614c0909abc742a093d7f52",
+   "id": "reading-kps-2026",
+   "kind": "record",
+   "record_kind": "reading"
+  },
+  {
+   "digest": "a16c3a7427ab47d8894b78b5c0a85e6410e6bd7ca62a0d51793df9743ca5edf3",
+   "id": "assessment-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_assessment"
+  }
+ ],
+ "objection_id": "obj-post-counterexample-activity-unevidenced",
+ "reason": "This rules on the version stated in problem-result-opus-2 (material_version 0c029632). All three cited references were delivered.\n\nThe claim is that no held source evidences activity on the neighbouring conjectures after the 2026-09-23 counterexample, so B1 standing must rest on lines active before then. The delivered evidence confirms this.\n\n1. arXiv window. In search-openness-statement, the arXiv query abs:Sidorenko AND submittedDate 2026-09-23 to 2026-10-21 is recorded as complete. It returned three works: 2610.18944 (hypergraph Turan densities), 2610.15132 (list-colouring of cones over theta graphs) and 2610.11757 (Turan densities of augmentations). All three are dispositioned out of scope with stated reasons. None engages the counterexample or states an open problem in its light. The openness record and the search record's impact field say the same.\n\n2. Latest full text. The latest held full text in the line is Kiem, Parczyk and Spiegel v2, dated 21 September 2026. That is two days before the counterexample, and its delivered text does not mention it.\n\n3. MathOverflow. The only held engagement is MathOverflow question 515955. It asks whether the reported proof is correct and how the conjecture might be refined. It was closed the same day as not suitable for the site, with score -2 and no answer. Its delivered comments discuss only site policy. This is not a mathematical work, and it states no definite open problem, so it does not meet the resolution condition.\n\n4. Lean artifacts. The OpenAI Lean comparator and scope artifacts belong to the counterexample's own release. They are not a response to it and state no new open problem.\n\nThe resolution condition is therefore unmet, and the objection stands. The candidate complies with its consequence: its B1 note rests on activity from 2024 to 21 September 2026 and explicitly does not rely on the MathOverflow post. So upholding the objection does not by itself lower the B1 grade.\n\nCaveats on how far the evidence reaches:\n- The arXiv window query requires 'Sidorenko' in the abstract.\n- The OpenAlex queries returned only the top 20 results.\n- The comments refer to a MathOverflow big-list question (515849) on checking the OpenAI results, which was not delivered.\n\nThese gaps limit any claim that no such activity exists anywhere. They do not affect the narrower claim about held sources, which is what the objection asserts. No correction was requested."
+}

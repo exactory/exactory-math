@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "{\"generated\": {\"1,5\": 20, \"2,4\": 18, \"3,3\": 24}, \"cut_types\": 28, \"source_sha256\": \"a13ce6056b035641749e4cd4d21ee0f500318b67a2095bd215830b093efbee88\"}",
+    "{\"verified_pair\": \"1,5\", \"nodes\": 39, \"leaves\": 20, \"branches\": {\"direct\": 10, \"entropy\": 10}, \"depth\": 8, \"area\": \"9/400\", \"junction_probes\": 255}",
+    "{\"verified_pair\": \"2,4\", \"nodes\": 35, \"leaves\": 18, \"branches\": {\"direct\": 9, \"entropy\": 9}, \"depth\": 6, \"area\": \"9/400\", \"junction_probes\": 165}",
+    "{\"verified_pair\": \"3,3\", \"nodes\": 47, \"leaves\": 24, \"branches\": {\"direct\": 11, \"entropy\": 13}, \"depth\": 8, \"area\": \"9/400\", \"junction_probes\": 315}",
+    "{\"status\": \"pass\", \"cut_mask_count\": 6476, \"rejected_omissions\": 94}"
+  ]
+}

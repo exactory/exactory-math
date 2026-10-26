@@ -1,0 +1,14 @@
+{
+  "status": "evidence",
+  "theorem": "certOK56_true",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound",
+    "certOK56_true._native.native_decide.ax_1_1"
+  ],
+  "reason": "certOK56_true depends on certOK56_true._native.native_decide.ax_1_1: native evaluation, computational evidence rather than a kernel-checked certificate",
+  "output_head": [
+    "'certOK56_true' depends on axioms: [propext, Classical.choice, Quot.sound, certOK56_true._native.native_decide.ax_1_1]"
+  ]
+}

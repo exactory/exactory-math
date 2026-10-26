@@ -1,0 +1,31 @@
+{
+  "id": "attempt-sharp-three-v1",
+  "statement_id": "statement-sharp-three-v1",
+  "kind": "solver",
+  "solver": {
+    "native_attempt_digest": "5128dfd7effa3a9cc393cb8626978323e60c318e07a5cdc6c635d1b0968c6224",
+    "applicability": "The native contract is exactly the selected statement text, with a named scope quantifying over every finite simple triangle-free graph, no additional assumptions, arbitrary components and isolates, empty target parts and both edit operations. It therefore matches the proof and disproof criteria. This is a current bounded screen with three analytical root moves and one supporting-branch move. The supporting theorem has completed its local cash-out and independent acceptance. The root remains open and executable; no root closure or exhaustive search is asserted."
+  },
+  "literature": null,
+  "outcomes": {
+    "resolved": false,
+    "footholds": [
+      {
+        "claim": "For every finite simple triangle-free G with xi=e(G)-lambda(G)^2 and the exact stated edit distance, D(G)<=15xi; if lambda>0 then D(G)<=3xi+18sqrt(6)xi^(3/2)/lambda. Thus limsup D/xi<=3 along positive-deficit sequences with xi/m tending to zero. Also D(C5)=3 and xi(C5)=1, ruling out every universal coefficient below three. This accepted analytical theorem does not establish historical priority or asymptotic sharpness.",
+        "evidence": {
+          "kind": "acceptance",
+          "acceptance_id": "acceptance-000001"
+        }
+      }
+    ],
+    "unresolved": [
+      {
+        "description": "The universal coefficient-three inequality remains unresolved. The bounded attempt has not controlled the joint sign-cut and bipartite-edit slack. The current root can be resumed, and unaccepted calculations receive no proof or obstruction credit."
+      }
+    ],
+    "obstructions": []
+  },
+  "proportion": {
+    "extension_reason": null
+  }
+}

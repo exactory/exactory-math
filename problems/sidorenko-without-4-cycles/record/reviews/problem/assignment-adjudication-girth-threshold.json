@@ -1,0 +1,56 @@
+{
+ "correction_admissible": null,
+ "disposition": "upheld",
+ "evidence": [
+  {
+   "digest": "0b59f4d8c1fcbaeb2f7095b25c46bac620802cc3a200712d780702adb5122939",
+   "id": "attempt-girth-six-solver-1",
+   "kind": "record",
+   "record_kind": "problem_attempt"
+  },
+  {
+   "digest": "70176fb5b0fcde396852121e512c7b1a275e0af4487f81b8d7f0782cf9c29ba4",
+   "id": "834cdf10777b00395e65ac88388dd06a90739fac5732bef33a2d02445da35b06",
+   "kind": "record",
+   "record_kind": "native_attempt"
+  },
+  {
+   "digest": "a16c3a7427ab47d8894b78b5c0a85e6410e6bd7ca62a0d51793df9743ca5edf3",
+   "id": "assessment-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_assessment"
+  },
+  {
+   "digest": "b37f1c681a5817730963a0175395151224fba8f30c90933a9fb0e676eaca9cd2",
+   "id": "value-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_value"
+  },
+  {
+   "digest": "7339219d8012b31819267c0f4ae0582c30a076dfa2a2d6d321fc4f183ef14a56",
+   "id": "reading-openai-sidorenko-2026-located",
+   "kind": "record",
+   "record_kind": "reading"
+  },
+  {
+   "digest": "3e77a8ce00cf56947b68033e00e8506a64d572a6030921b900e7edcfa709b09a",
+   "id": "reading-ill-2024",
+   "kind": "record",
+   "record_kind": "reading"
+  },
+  {
+   "digest": "f9c03908ead9b00015f055935e44db2255ca087c3e257a99ad66feb35711e6bd",
+   "id": "search-openness-heawood",
+   "kind": "record",
+   "record_kind": "literature_search"
+  },
+  {
+   "media_type": "application/atom+xml",
+   "path": "research/sources/objects/f690444b553fcff698bedf16337b89f19dd4ea84e8faf4ef0ee955a132d7a2d2",
+   "sha256": "f690444b553fcff698bedf16337b89f19dd4ea84e8faf4ef0ee955a132d7a2d2",
+   "size": 808
+  }
+ ],
+ "objection_id": "obj-girth-six-threshold-support",
+ "reason": "The objection's claim is accurate on the delivered evidence, and neither branch of its resolution condition is met.\n\n(1) The barrier is conditional and narrow, as the objection says. The attempt record scopes the accepted obstruction to the kernels of the reported construction, at leading order as q tends to infinity. It is conditional on an analogue of the manuscript's rank-layer limit (Lemma 3.1), which the manuscript proves only for its own pattern H0. The attempt lists that analogue as 'not studied', and also says that no method was tried for the positive direction outside C_2. The obstruction's scope adds that its proof covers C_2 as well. So the barrier separates patterns with 4-cycles from girth-six patterns. It does not, by itself, favour the statement over Problem 1.5, except by marking where one construction stops working.\n\n(2) The first branch of the resolution condition is not met. No proof of the rank-layer analogue for any girth-six pattern is delivered.\n\n(3) The second branch is not met either. No girth-six case outside C_2 is decided in a way that bears on the threshold:\n- The arXiv query for Heawood with Sidorenko, homomorphism or norming is complete and returned 0 results. No captured work decides the Heawood graph or any incidence graph of a linear triple system.\n- I considered whether the delivered class results supply such a case. Im, Li and Liu Proposition 4.2 (uniform subdivisions of Sidorenko graphs) does give Sidorenko girth-six patterns outside C_2. For example, the 2-subdivision of K_{3,3} has degree-3 vertices on both sides and girth 12; this example is my own inference, not a statement of the record.\n- Such cases follow from t(H',W)=t(H,W^(l+1)) and the base graph's own Sidorenko property, which holds just as well for bases with 4-cycles. They neither use nor support the girth-six hypothesis, and the record does not offer them as its comparative argument.\n- Lovász's local theorem holds for every bipartite graph, so it does not single out girth six.\n\nThe only answer the record gives to the 'bare strengthening of Problem 1.5' objection is therefore the conditional, leading-order mechanism boundary, as the objection states.\n\nMissing decisive sources: a proof of the rank-layer limit for some girth-six pattern, or a decision of the Heawood graph or of another girth-six pattern outside C_2 that is not obtained from a Sidorenko base by uniform subdivision.\n\nScope of this finding: the objection says the priority answer is only moderate and that the comparative case is not independently established. It does not itself assert that priority falls below level 2. Both result reviews already withhold level 3 for this reason. I decide only that the objection stands; I give no further view on the problem."
+}

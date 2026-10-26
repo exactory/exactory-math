@@ -1,0 +1,42 @@
+{
+ "id": "candidate-knrs-counterexample",
+ "previous": null,
+ "statement": "Does the 35-vertex counterexample graph $H$ of openai/math family 161 satisfy the Kohayakawa-Nagle-Rodl-Schacht inequality, that is, does every $(\\rho,d)$-dense graph sequence contain at least $(1-o(1))d^{66}n^{35}$ homomorphic copies of $H$ for suitable $\\rho = \\rho(d)$?",
+ "source": {
+  "kind": "literature",
+  "reference": "Conlon, Kim, Lee and Lee (2018) state the KNRS conjecture and its link to subdivisions; the counterexample's host kernel is not shown to be locally dense.",
+  "evidence": [
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-ckll-2018",
+    "digest": "2a33ae2a7f8689256c12867cc5505d151bdb4f955135a07e85201dc93b83084e"
+   },
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-openai-sidorenko-2026",
+    "digest": "6c700b460bee4bff698967efd76353d7efc824aa78bbf686f6bb40e0b3f3ac48"
+   }
+  ]
+ },
+ "observation": "The KNRS conjecture restricts hosts to locally dense graphs and is implied by Sidorenko for bipartite patterns; the counterexample does not decide whether locally dense hosts can carry its deficit.",
+ "neighbours": [
+  "Is the KNRS conjecture true for every bipartite graph?",
+  "Can the counterexample's kernel be modified to be locally dense?"
+ ],
+ "potential": {
+  "significance": {
+   "B1": 1,
+   "B2": 2
+  },
+  "priority": 1,
+  "readiness": "fail"
+ },
+ "notes": "The KNRS literature (Bradac-Sudakov-Wigderson 2024, Chen-Lin-Ma 2024, Reiher 2014) is not read in full.",
+ "disposition": {
+  "status": "deferred",
+  "reason": "Readiness: the decisive KNRS literature is not read in full.",
+  "evidence_needed": "Full readings of the KNRS literature and an analysis of whether the counterexample's kernel is locally dense."
+ }
+}

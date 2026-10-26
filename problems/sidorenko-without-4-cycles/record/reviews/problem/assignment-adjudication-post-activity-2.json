@@ -1,0 +1,68 @@
+{
+ "correction_admissible": null,
+ "disposition": "not_binding",
+ "evidence": [
+  {
+   "digest": "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e",
+   "id": "search-openness-statement",
+   "kind": "record",
+   "record_kind": "literature_search"
+  },
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/16e01aefc02504a3dadf6eb7af9e3b663a9d58c9b082390ee396bbff3af1560a",
+   "sha256": "16e01aefc02504a3dadf6eb7af9e3b663a9d58c9b082390ee396bbff3af1560a",
+   "size": 1001
+  },
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/6dbe77e72e637ed8854fff2ad55a1c7377bec3784fc8a552dd8534af8a118798",
+   "sha256": "6dbe77e72e637ed8854fff2ad55a1c7377bec3784fc8a552dd8534af8a118798",
+   "size": 3185
+  },
+  {
+   "media_type": "text/plain; charset=utf-8",
+   "path": "research/sources/objects/4660c27f1d4c1c71620d6063d31e860ddf243979fcc993a7d12946820fffa17f",
+   "sha256": "4660c27f1d4c1c71620d6063d31e860ddf243979fcc993a7d12946820fffa17f",
+   "size": 70261
+  },
+  {
+   "media_type": "text/markdown",
+   "path": "research/sources/objects/a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+   "sha256": "a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+   "size": 946
+  },
+  {
+   "digest": "15ac681946593679867efa0ed4fd11968eb9e917f614c0909abc742a093d7f52",
+   "id": "reading-kps-2026",
+   "kind": "record",
+   "record_kind": "reading"
+  },
+  {
+   "digest": "711410e0a450465dcf1afacdd23990ba5dc4681636f8d000f16b077fb5a75d78",
+   "id": "assignment-openness-fable-2",
+   "kind": "record",
+   "record_kind": "problem_openness"
+  },
+  {
+   "digest": "fb0c54d62c9c76ebd8961110752ed2731c41f779f15f5ea2cbc52dc9365b9d6c",
+   "id": "statement-girth-six",
+   "kind": "record",
+   "record_kind": "problem_statement"
+  },
+  {
+   "digest": "b37f1c681a5817730963a0175395151224fba8f30c90933a9fb0e676eaca9cd2",
+   "id": "value-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_value"
+  },
+  {
+   "digest": "a16c3a7427ab47d8894b78b5c0a85e6410e6bd7ca62a0d51793df9743ca5edf3",
+   "id": "assessment-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_assessment"
+  }
+ ],
+ "objection_id": "obj-post-counterexample-activity-unevidenced",
+ "reason": "This rules on the version stated in problem-result-opus-2 (material_version 0c029632). The packet delivers all three references that version cites: search-openness-statement, artifact 16e01aef and assessment-girth-six-2. No correction was requested.\n\nThe claim holds. No held source shows activity on the neighbouring conjectures after 2026-09-23. Each candidate source fails for a stated reason:\n1. arXiv window. In search-openness-statement, the query abs:Sidorenko with submittedDate 2026-09-23 to 2026-10-21 is recorded as complete. It returned three works, each dispositioned out of scope with a reason:\n   - 2610.18944, on hypergraph Turán densities;\n   - 2610.15132, on list-colouring of cones over theta graphs;\n   - 2610.11757, on Turán densities of augmentations.\n   The record's impact field says no captured post-counterexample work concerns Sidorenko's conjecture for patterns.\n2. Latest full text. The latest held full text in the line is the Kiem-Parczyk-Spiegel v2 of 21 September 2026. Its delivered text still calls Sidorenko's conjecture and the forcing conjecture open and does not mention the counterexample.\n3. MathOverflow. The only held engagement is MathOverflow question 515955. It asks whether the reported proof is correct and how the conjecture might be refined. It was closed the same day as not suitable for the site, with score -2 and no answer, and its comments discuss only site policy. It is not a mathematical work and states no definite open problem.\n4. Lean files. The Lean scope note and comparator files belong to the counterexample's own release.\n\nThe resolution condition is therefore unmet.\n\nThe claim does not bind this problem, for three reasons:\n- **Statement and criteria.** The statement and its resolution criteria (statement-girth-six) are purely mathematical and say nothing about post-counterexample activity.\n- **Value paragraphs.** The value paragraphs (value-girth-six-2) use the counterexample manuscript itself, which the objection explicitly sets aside ('apart from the manuscript itself'). Their claim that the line is active rests only on works up to Kiem-Parczyk-Spiegel v2 of 21 September 2026.\n- **B1 grade.** The assessment's B1 note (assessment-girth-six-2) says explicitly that the grade rests on activity before the counterexample. It also says the MathOverflow post is held but not relied on.\n\nSo the consequence the objection prescribes, that B1 standing must rest on lines active before September 2026, is already met. It constrains nothing further. The earlier ruling on this same version was 'upheld', but it already noted this compliance. Under the current protocol, the correct disposition for a claim that holds without bearing on the problem's premises is not_binding. If a later revision made the value or the B1 grade depend on post-counterexample engagement, the objection would bind.\n\nThe evidence has limits:\n- The arXiv window query requires 'Sidorenko' in the abstract.\n- The OpenAlex queries returned only the top 20 results.\n- Semantic Scholar was unavailable.\n- The MathOverflow big-list question 515849 was not delivered.\n\nThese gaps limit any claim that no such activity exists anywhere. They do not affect the narrower claim about held sources."
+}

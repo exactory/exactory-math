@@ -1,0 +1,44 @@
+{
+ "id": "problem-attempt-4",
+ "kind": "solver",
+ "literature": null,
+ "outcomes": {
+  "footholds": [
+   {
+    "claim": "For n = 5 and the triple lambda = (4,3,2,1), mu = (3,2), nu = (5,4,3,2,1), the hive polytope (a three-dimensional rational polytope in R^6 with five integral vertices and one half-integral vertex) is GL_6(Z)-equidecomposable with a lattice polytope, by one cut along a lattice hyperplane through the half-integral vertex and one unimodular shear fixing it; the stretched polynomial 1 + 2t + (3/2)t^2 + (1/2)t^3 is the Ehrhart polynomial of that lattice polytope.",
+    "evidence": {
+     "acceptance_id": "acceptance-000001",
+     "kind": "acceptance"
+    }
+   }
+  ],
+  "obstructions": [],
+  "resolved": false,
+  "unresolved": [
+   {
+    "description": "The statement for every admissible pair other than the seed pair (obligation-000003) is unresolved; the attempt considered the question through the amplification lemmas it proved in its journal without independent review (integral translations, appending zero parts, products) and through a general cut-and-shear lemma, none of which reduces the statement to finitely many cases."
+   },
+   {
+    "description": "The polytope-level Horn-product statement (that a tight essential Horn inequality makes the hive polytope equidecomposable with the product of the two smaller hive polytopes) is stated and unproved; the published factorization theorem gives only the equality of stretched polynomials."
+   },
+   {
+    "description": "The four other size-15 five-part candidates of the exploratory scan, which the cut-and-shear lemma reaches in the exploratory computation, are not proved instances: their polytopes were not identified from the rhombus inequalities by hand."
+   },
+   {
+    "description": "Hive polytopes with a vertex of denominator three or more, which occur at larger sizes, are outside the mechanism found; the smallest such five-part instance is not identified by the record."
+   },
+   {
+    "description": "The direction (true or false) stays undecided; the condition list on a hypothetical counterexample (dimension at least 2, a non-integral vertex, and either a polynomial that no lattice polytope realizes or a realizable one with no finite rearrangement) leaves an infinite residual class."
+   }
+  ]
+ },
+ "proportion": {
+  "extension_reason": null
+ },
+ "recorded_revision": 549,
+ "solver": {
+  "applicability": "The contract claim of objective-000001 is the exact statement text of statement-4 (unchanged from statement-1 and statement-3; statement-4 changed only the wording of the resolution criteria and of the rank-restriction neighbour about the case of at most three parts) with a named scope (general quantified obligation): universal over every integer n >= 2 and every triple of partitions with at most n parts, |lambda| + |mu| = |nu| and c > 0; existential over the finite decomposition into relatively open rational simplices, the affine unimodular maps and the lattice polytope. No assumption was added. The resolution criteria of statement-3 (a proof by construction or existence; a disproof by one triple, through an invariant) match the contract's requested outcome 'decision' with the reviewed proof policy. The attempt's decomposition split the quantified pairs (n, lambda, mu, nu) into the seed pair (5, (4,3,2,1), (3,2), (5,4,3,2,1)) and all other pairs with a partition bridge; it ran under the normal limits (24 moves, 24 runs, 300 seconds, one worker) and used no computation runs.",
+  "native_attempt_digest": "1b503f5b18d94b8684c63a5c591de4bad877c04aaf794e6ac986307160e6aded"
+ },
+ "statement_id": "statement-4"
+}

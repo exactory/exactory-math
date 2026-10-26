@@ -1,0 +1,22 @@
+{
+ "id": "reading-lee-schuelke-2019",
+ "version_id": "arxiv:1910.08454v2",
+ "bundle_id": "bundle-1910.08454v2",
+ "inspections": [
+  {"anchor": "none of the partial results succeeded in determining whether the notorious", "end": "by proving that it is not weakly norming.", "note": "K_{5,5} minus C_10 (the Mobius ladder) remains open for Sidorenko; this paper shows it is not weakly norming."},
+  {"anchor": "ladder graph K5,5", "end": "is not weakly norming.", "note": "Theorem 1.3."},
+  {"anchor": "Theorem 1.4. For every k > 4,", "end": "is not weakly norming.", "note": "Twisted blow-ups of cycles C_k^bowtie are not weakly norming for k > 4."},
+  {"anchor": "it is still an open question whether every", "end": "is Sidorenko or not.", "note": "Whether every odd twisted blow-up C_{2k+1}^bowtie is Sidorenko is open."},
+  {"anchor": "Theorem 1.5. Let H be a graph. Then", "end": "strictly convex signed graphon parameter.", "note": "Weakly norming is equivalent to convexity of t_H."},
+  {"anchor": "recently proved that there", "end": "that is not weakly norming.", "note": "Kral et al.: an edge-transitive Sidorenko graph that is not weakly norming."}
+ ],
+ "notes": {
+  "problem": {"text": "Whether K_{5,5} minus C_10 and related twisted blow-ups of cycles are weakly norming; a convexity characterization of norming graphs.", "inspections": [0]},
+  "claims": {"text": "Theorem 1.3 and 1.4: C_k^bowtie, including K_{5,5} minus C_10 = C_5^bowtie and C_6 x K_2, is not weakly norming for k > 4; Theorem 1.5: weakly norming and norming are equivalent to convexity and strict convexity of t_H; K_{t,t} minus a perfect matching is not norming for t > 3.", "inspections": [1, 2, 4]},
+  "assumptions": {"text": "The polynomial P_{H,n} on step functions and its Hessian; Lemma 3.3's local structure of C_k^bowtie.", "inspections": [4]},
+  "methods": {"text": "Exhibit a 3 x 3 weighted host where a 2 x 2 Hessian block of P_{H,3} is not positive semidefinite.", "inspections": [2]},
+  "evidence": {"text": "Complete proofs.", "inspections": [1, 2]},
+  "limitations": {"text": "Non-norming does not decide Sidorenko; the Sidorenko property of C_{2k+1}^bowtie for k >= 2 remains open, as the paper states.", "inspections": [3]},
+  "relevance": {"text": "Records the notorious open case K_{5,5} minus C_10, which this record identifies as the vertex-triangle incidence graph of the five-vertex Mobius band triangulation; the odd twisted blow-ups are the Mobius band family, open while the even ones (annuli) are Sidorenko.", "inspections": [0, 3, 5]}
+ }
+}

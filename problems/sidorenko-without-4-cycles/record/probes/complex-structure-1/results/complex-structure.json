@@ -1,0 +1,1193 @@
+{
+ "H_connected": true,
+ "H_edges": 66,
+ "H_girth_is_6": false,
+ "H_part_preserving_automorphisms": 1,
+ "H_vertices": 35,
+ "bit_classes": [
+  {
+   "boundary_cycle_length": 13,
+   "boundary_is_hamiltonian": true,
+   "boundary_is_single_cycle": true,
+   "boundary_pairs": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     12
+    ]
+   ],
+   "dual_graph_is_tree": true,
+   "faces": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    13,
+    14,
+    16,
+    18,
+    19,
+    20
+   ],
+   "points_covered": 13,
+   "position": 1,
+   "size": 11,
+   "value": "0"
+  },
+  {
+   "boundary_cycle_length": 13,
+   "boundary_is_hamiltonian": true,
+   "boundary_is_single_cycle": true,
+   "boundary_pairs": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     9
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     9
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     10
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     12
+    ]
+   ],
+   "dual_graph_is_tree": true,
+   "faces": [
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    15,
+    17,
+    21
+   ],
+   "points_covered": 13,
+   "position": 1,
+   "size": 11,
+   "value": "1"
+  },
+  {
+   "boundary_cycle_length": 13,
+   "boundary_is_hamiltonian": true,
+   "boundary_is_single_cycle": true,
+   "boundary_pairs": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     12
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     12
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "dual_graph_is_tree": true,
+   "faces": [
+    0,
+    2,
+    4,
+    5,
+    6,
+    8,
+    9,
+    11,
+    12,
+    14,
+    18
+   ],
+   "points_covered": 13,
+   "position": 2,
+   "size": 11,
+   "value": "0"
+  },
+  {
+   "boundary_cycle_length": 13,
+   "boundary_is_hamiltonian": true,
+   "boundary_is_single_cycle": true,
+   "boundary_pairs": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     12
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     4,
+     8
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     12
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "dual_graph_is_tree": true,
+   "faces": [
+    1,
+    3,
+    7,
+    10,
+    13,
+    15,
+    16,
+    17,
+    19,
+    20,
+    21
+   ],
+   "points_covered": 13,
+   "position": 2,
+   "size": 11,
+   "value": "1"
+  },
+  {
+   "boundary_cycle_length": 13,
+   "boundary_is_hamiltonian": true,
+   "boundary_is_single_cycle": true,
+   "boundary_pairs": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     5,
+     11
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     9,
+     12
+    ]
+   ],
+   "dual_graph_is_tree": true,
+   "faces": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    7,
+    9,
+    14,
+    15,
+    16,
+    19
+   ],
+   "points_covered": 13,
+   "position": 3,
+   "size": 11,
+   "value": "0"
+  },
+  {
+   "boundary_cycle_length": 13,
+   "boundary_is_hamiltonian": true,
+   "boundary_is_single_cycle": true,
+   "boundary_pairs": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     10
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     5,
+     11
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     9,
+     12
+    ]
+   ],
+   "dual_graph_is_tree": true,
+   "faces": [
+    2,
+    4,
+    8,
+    10,
+    11,
+    12,
+    13,
+    17,
+    18,
+    20,
+    21
+   ],
+   "points_covered": 13,
+   "position": 3,
+   "size": 11,
+   "value": "1"
+  }
+ ],
+ "closed_surface": true,
+ "differ_equals_boundary": true,
+ "euler_characteristic": 2,
+ "every_pair_in_exactly_two_faces": true,
+ "every_pair_on_some_boundary_cycle": true,
+ "faces": 22,
+ "links": {
+  "0": {
+   "components": 1,
+   "link_degrees": [
+    2
+   ],
+   "link_vertices": 4
+  },
+  "1": {
+   "components": 1,
+   "link_degrees": [
+    2
+   ],
+   "link_vertices": 6
+  },
+  "2": {
+   "components": 1,
+   "link_degrees": [
+    2
+   ],
+   "link_vertices": 4
+  },
+  "3": {
+   "components": 1,
+   "link_degrees": [
+    2
+   ],
+   "link_vertices": 6
+  },
+  "4": {
+   "components": 1,
+   "link_degrees": [
+    2
+   ],
+   "link_vertices": 5
+  },
+  "5": {
+   "components": 1,
+   "link_degrees": [
+    2
+   ],
+   "link_vertices": 4
+  },
+  "6": {
+   "components": 1,
+   "link_degrees": [
+    2
+   ],
+   "link_vertices": 5
+  },
+  "7": {
+   "components": 1,
+   "link_degrees": [
+    2
+   ],
+   "link_vertices": 5
+  },
+  "8": {
+   "components": 1,
+   "link_degrees": [
+    2
+   ],
+   "link_vertices": 5
+  },
+  "9": {
+   "components": 1,
+   "link_degrees": [
+    2
+   ],
+   "link_vertices": 6
+  },
+  "10": {
+   "components": 1,
+   "link_degrees": [
+    2
+   ],
+   "link_vertices": 5
+  },
+  "11": {
+   "components": 1,
+   "link_degrees": [
+    2
+   ],
+   "link_vertices": 6
+  },
+  "12": {
+   "components": 1,
+   "link_degrees": [
+    2
+   ],
+   "link_vertices": 5
+  }
+ },
+ "opposite_column_mismatches": [],
+ "orientable": true,
+ "pairs": 33,
+ "pairs_detail": [
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    0,
+    1
+   ],
+   "on_boundary_of_position": [
+    2
+   ],
+   "pair": [
+    0,
+    1
+   ],
+   "positions_differing": [
+    2
+   ]
+  },
+  {
+   "a_e": 1.0,
+   "faces": [
+    2,
+    3
+   ],
+   "on_boundary_of_position": [
+    1,
+    2,
+    3
+   ],
+   "pair": [
+    0,
+    2
+   ],
+   "positions_differing": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    0,
+    2
+   ],
+   "on_boundary_of_position": [
+    3
+   ],
+   "pair": [
+    0,
+    3
+   ],
+   "positions_differing": [
+    3
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    1,
+    3
+   ],
+   "on_boundary_of_position": [
+    1
+   ],
+   "pair": [
+    0,
+    9
+   ],
+   "positions_differing": [
+    1
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    0,
+    4
+   ],
+   "on_boundary_of_position": [
+    3
+   ],
+   "pair": [
+    1,
+    3
+   ],
+   "positions_differing": [
+    3
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    5,
+    6
+   ],
+   "on_boundary_of_position": [
+    1
+   ],
+   "pair": [
+    1,
+    7
+   ],
+   "positions_differing": [
+    1
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    1,
+    7
+   ],
+   "on_boundary_of_position": [
+    1
+   ],
+   "pair": [
+    1,
+    9
+   ],
+   "positions_differing": [
+    1
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    4,
+    5
+   ],
+   "on_boundary_of_position": [
+    3
+   ],
+   "pair": [
+    1,
+    10
+   ],
+   "positions_differing": [
+    3
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    6,
+    7
+   ],
+   "on_boundary_of_position": [
+    2
+   ],
+   "pair": [
+    1,
+    12
+   ],
+   "positions_differing": [
+    2
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    2,
+    8
+   ],
+   "on_boundary_of_position": [
+    1
+   ],
+   "pair": [
+    2,
+    3
+   ],
+   "positions_differing": [
+    1
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    8,
+    9
+   ],
+   "on_boundary_of_position": [
+    3
+   ],
+   "pair": [
+    2,
+    4
+   ],
+   "positions_differing": [
+    3
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    3,
+    9
+   ],
+   "on_boundary_of_position": [
+    2
+   ],
+   "pair": [
+    2,
+    9
+   ],
+   "positions_differing": [
+    2
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    8,
+    10
+   ],
+   "on_boundary_of_position": [
+    2
+   ],
+   "pair": [
+    3,
+    4
+   ],
+   "positions_differing": [
+    2
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    4,
+    11
+   ],
+   "on_boundary_of_position": [
+    1
+   ],
+   "pair": [
+    3,
+    10
+   ],
+   "positions_differing": [
+    1
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    10,
+    11
+   ],
+   "on_boundary_of_position": [
+    2
+   ],
+   "pair": [
+    3,
+    11
+   ],
+   "positions_differing": [
+    2
+   ]
+  },
+  {
+   "a_e": 0.6666666666666666,
+   "faces": [
+    12,
+    13
+   ],
+   "on_boundary_of_position": [
+    1,
+    2
+   ],
+   "pair": [
+    4,
+    8
+   ],
+   "positions_differing": [
+    1,
+    2
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    9,
+    12
+   ],
+   "on_boundary_of_position": [
+    3
+   ],
+   "pair": [
+    4,
+    9
+   ],
+   "positions_differing": [
+    3
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    10,
+    13
+   ],
+   "on_boundary_of_position": [
+    1
+   ],
+   "pair": [
+    4,
+    11
+   ],
+   "positions_differing": [
+    1
+   ]
+  },
+  {
+   "a_e": 0.6666666666666666,
+   "faces": [
+    14,
+    15
+   ],
+   "on_boundary_of_position": [
+    1,
+    2
+   ],
+   "pair": [
+    5,
+    6
+   ],
+   "positions_differing": [
+    1,
+    2
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    14,
+    16
+   ],
+   "on_boundary_of_position": [
+    2
+   ],
+   "pair": [
+    5,
+    7
+   ],
+   "positions_differing": [
+    2
+   ]
+  },
+  {
+   "a_e": 0.6666666666666666,
+   "faces": [
+    16,
+    17
+   ],
+   "on_boundary_of_position": [
+    1,
+    3
+   ],
+   "pair": [
+    5,
+    10
+   ],
+   "positions_differing": [
+    1,
+    3
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    15,
+    17
+   ],
+   "on_boundary_of_position": [
+    3
+   ],
+   "pair": [
+    5,
+    11
+   ],
+   "positions_differing": [
+    3
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    14,
+    18
+   ],
+   "on_boundary_of_position": [
+    3
+   ],
+   "pair": [
+    6,
+    7
+   ],
+   "positions_differing": [
+    3
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    19,
+    20
+   ],
+   "on_boundary_of_position": [
+    3
+   ],
+   "pair": [
+    6,
+    8
+   ],
+   "positions_differing": [
+    3
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    15,
+    19
+   ],
+   "on_boundary_of_position": [
+    1
+   ],
+   "pair": [
+    6,
+    11
+   ],
+   "positions_differing": [
+    1
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    18,
+    20
+   ],
+   "on_boundary_of_position": [
+    2
+   ],
+   "pair": [
+    6,
+    12
+   ],
+   "positions_differing": [
+    2
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    5,
+    16
+   ],
+   "on_boundary_of_position": [
+    2
+   ],
+   "pair": [
+    7,
+    10
+   ],
+   "positions_differing": [
+    2
+   ]
+  },
+  {
+   "a_e": 0.6666666666666666,
+   "faces": [
+    6,
+    18
+   ],
+   "on_boundary_of_position": [
+    1,
+    3
+   ],
+   "pair": [
+    7,
+    12
+   ],
+   "positions_differing": [
+    1,
+    3
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    12,
+    21
+   ],
+   "on_boundary_of_position": [
+    2
+   ],
+   "pair": [
+    8,
+    9
+   ],
+   "positions_differing": [
+    2
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    13,
+    19
+   ],
+   "on_boundary_of_position": [
+    3
+   ],
+   "pair": [
+    8,
+    11
+   ],
+   "positions_differing": [
+    3
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    20,
+    21
+   ],
+   "on_boundary_of_position": [
+    1
+   ],
+   "pair": [
+    8,
+    12
+   ],
+   "positions_differing": [
+    1
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    7,
+    21
+   ],
+   "on_boundary_of_position": [
+    3
+   ],
+   "pair": [
+    9,
+    12
+   ],
+   "positions_differing": [
+    3
+   ]
+  },
+  {
+   "a_e": 0.3333333333333333,
+   "faces": [
+    11,
+    17
+   ],
+   "on_boundary_of_position": [
+    2
+   ],
+   "pair": [
+    10,
+    11
+   ],
+   "positions_differing": [
+    2
+   ]
+  }
+ ],
+ "pairs_with_a_e_above_one_third": [
+  [
+   0,
+   2
+  ],
+  [
+   4,
+   8
+  ],
+  [
+   5,
+   6
+  ],
+  [
+   5,
+   10
+  ],
+  [
+   7,
+   12
+  ]
+ ],
+ "point_degree_counts": {
+  "4": 3,
+  "5": 6,
+  "6": 4
+ },
+ "point_degrees": {
+  "0": 4,
+  "1": 6,
+  "2": 4,
+  "3": 6,
+  "4": 5,
+  "5": 4,
+  "6": 5,
+  "7": 5,
+  "8": 5,
+  "9": 6,
+  "10": 5,
+  "11": 6,
+  "12": 5
+ },
+ "point_graph_automorphisms": 1,
+ "point_graph_planar": true,
+ "points": 13
+}

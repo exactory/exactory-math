@@ -1,0 +1,38 @@
+{
+ "correction_admissible": null,
+ "disposition": "upheld",
+ "evidence": [
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+   "sha256": "0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+   "size": 13670
+  },
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/2d3ce04f40de12d67424f8597bf3ea9cbb6f262c9e6e58edbc5ab6f690de52ec",
+   "sha256": "2d3ce04f40de12d67424f8597bf3ea9cbb6f262c9e6e58edbc5ab6f690de52ec",
+   "size": 338
+  },
+  {
+   "media_type": "text/plain",
+   "path": "research/sources/objects/489688f5c4eb60c6dd8cfe0ef69663aaf11e795d6252e9626972764a50187de9",
+   "sha256": "489688f5c4eb60c6dd8cfe0ef69663aaf11e795d6252e9626972764a50187de9",
+   "size": 1764
+  },
+  {
+   "media_type": "text/markdown",
+   "path": "research/sources/objects/a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+   "sha256": "a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+   "size": 946
+  },
+  {
+   "media_type": "text/plain",
+   "path": "research/sources/objects/55939da0aa76a1fe10faeae5f402e8516e14d2bfc4c4f3e708a19f09f81489c9",
+   "sha256": "55939da0aa76a1fe10faeae5f402e8516e14d2bfc4c4f3e708a19f09f81489c9",
+   "size": 226
+  }
+ ],
+ "objection_id": "obj-lean-claim-unsupported",
+ "reason": "Decided on material version 338915b2 (problem-result-opus-2). The resolution condition has two parts, and only the first is met.\n\n(1) Formal statement: met, as the version itself concedes. The held comparator challenge (489688f5) states the following:\n- There is a finite simple host on Fin size, with at least one edge, such that homDensity H host < edgeDensity host ^ 66.\n- homCount counts all edge-preserving maps, including noninjective ones.\n- edgeDensity is 2e/m^2.\n- H is the incidence graph of 22 listed triples on 13 points. I checked the list: it gives 66 incidences and 33 point pairs, each lying in exactly two faces. This matches the manuscript's stated properties of its Table 1 complex.\n\nThe config (2d3ce04f) and the scope note (a1da28a9) tie this statement to theorem OAI.SidorenkoCounterexample.main. The scope note says the formalization covers Theorem 1.1 only; the forcing consequence is outside it. So the objection's literal wording, 'not supported by any held source', is partly superseded: held sources do show a formalization that targets the statement.\n\n(2) Axiom and sorry status: not shown.\n- The record (0288ac5d) bases sorry status only on a comment-stripped regular-expression search. Its own not_done field says it neither built the project nor ran the comparator, and that 'a textual search is not a kernel check: only a comparator run (or lake build with #print axioms) certifies the proof and its axioms.'\n- The 35 solution files are held only as URLs and hashes, so I cannot recheck even the textual audit.\n- The repository listing was truncated.\n- The permitted_axioms list (propext, Quot.sound, Classical.choice) in 2d3ce04f is a constraint the comparator would enforce if run. It is not an observed axiom set.\n- The only build log (55939da0) is the unauthenticated build of the separate girth-six statement file. It contains no #print axioms output and says nothing about the OAI solution module.\n- Without a build there is no evidence that the solution even compiles, so the absence of sorry in the source does not establish a sorry-free proof.\n\nThe version's fourth point, that the catalogue at that commit does not list the paper, rests on artifact 5a8a1642. Its body was withheld from me, so I did not verify that point, and this disposition does not rely on it.\n\nConclusion: the objection stands. The Lean formalization cannot serve as an established premise, and the counterexample remains a reported, unverified manuscript result. No correction was requested."
+}

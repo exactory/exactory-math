@@ -1,0 +1,36 @@
+{
+ "id": "candidate-subdivisions",
+ "previous": null,
+ "statement": "Is the 1-subdivision of every graph Sidorenko?",
+ "source": {
+  "kind": "literature",
+  "reference": "Conlon, Kim, Lee and Lee (2018), Problem 1.5.",
+  "evidence": [
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-ckll-2018",
+    "digest": "2a33ae2a7f8689256c12867cc5505d151bdb4f955135a07e85201dc93b83084e"
+   }
+  ]
+ },
+ "observation": "The 2026 counterexample is the incidence graph (1-subdivision) of a 3-uniform hypergraph. Its deficit kernel is regular, so attaching private degree-one vertices to the faces keeps the deficit; hence the k-uniform analogue fails for every k >= 3, while the graph case (k = 2) remains open.",
+ "neighbours": [
+  "Is every bipartite graph of girth at least six Sidorenko?",
+  "Odd subdivisions of KNRS graphs (Chen-Lin-Ma 2024)"
+ ],
+ "potential": {
+  "significance": {
+   "B1": 2,
+   "B2": 1
+  },
+  "priority": 1,
+  "readiness": "pass"
+ },
+ "notes": "A known open problem; posting it would restate it.",
+ "disposition": {
+  "status": "open",
+  "reason": "Compare with the other candidates of the slate.",
+  "evidence_needed": null
+ }
+}

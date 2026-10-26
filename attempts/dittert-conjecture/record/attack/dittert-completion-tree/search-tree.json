@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "objective": "For every integer n with 5 <= n <= 15 and every nonnegative real n by n matrix A with total entry sum n, prod(row sums)+prod(column sums)-per(A) <= 2-n!/n^n, with equality if and only if every entry is 1/n.",
+  "active_node": null,
+  "cpu_policy": {
+    "max_heavy_jobs": 1,
+    "threads": 1,
+    "nice": 15
+  },
+  "nodes": [
+    {
+      "id": "R",
+      "parent": null,
+      "status": "proved_attributed_assembly",
+      "dimensions": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "children": [
+        "R/base",
+        "R/ext",
+        "R/spectral",
+        "R/capacity",
+        "R/n15",
+        "R/interface",
+        "R/review"
+      ],
+      "evidence": [
+        "PROOF.md",
+        "study/final-evaluation.md"
+      ],
+      "novelty": "No new theorem claim"
+    },
+    {
+      "id": "R/base",
+      "parent": "R",
+      "status": "inherited_proved",
+      "dimensions": [
+        5,
+        6
+      ],
+      "evidence": "../dittert-conjecture-n5-to-n15/deterministic",
+      "children": [
+        "R/base/n6-exit"
+      ]
+    },
+    {
+      "id": "R/ext",
+      "parent": "R",
+      "status": "verified",
+      "strategy": "Audit public proof",
+      "children": [
+        "R/ext/n7",
+        "R/ext/n8n9",
+        "R/ext/n10n15"
+      ],
+      "source_commit": "894066bbaa715138c98bf3cb7c6fdb4f39a37701"
+    },
+    {
+      "id": "R/ext/n7",
+      "parent": "R/ext",
+      "status": "verified",
+      "dimensions": [
+        7
+      ],
+      "strategy": "Lu reconstruction and exact finite coverage",
+      "evidence": [
+        "study/audit-n7.md",
+        "deterministic/certified-special-case-check-3/result.json"
+      ],
+      "children": [
+        "R/ext/n7/localization",
+        "R/ext/n7/interior",
+        "R/ext/n7/trees"
+      ]
+    },
+    {
+      "id": "R/ext/n8n9",
+      "parent": "R/ext",
+      "status": "verified",
+      "dimensions": [
+        8,
+        9
+      ],
+      "strategy": "Support-cap and stationarity reductions",
+      "evidence": [
+        "study/audit-n8-n9.md",
+        "deterministic/certified-special-case-check-2/result.json"
+      ]
+    },
+    {
+      "id": "R/ext/n10n15",
+      "parent": "R/ext",
+      "status": "verified",
+      "dimensions": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "strategy": "Hall cuts and permanent floors",
+      "evidence": [
+        "study/audit-n10-n15.md",
+        "deterministic/certified-special-case-check-1/result.json"
+      ]
+    },
+    {
+      "id": "R/spectral",
+      "parent": "R",
+      "status": "not_needed",
+      "dimensions": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "strategy": "Joint large-cost/small-gap region",
+      "note": "Preserved as an alternative; its independent mathematical conjecture was not proved. The audited public-proof branch covers these dimensions."
+    },
+    {
+      "id": "R/capacity",
+      "parent": "R",
+      "status": "not_needed",
+      "dimensions": [
+        7
+      ],
+      "strategy": "Two-column capacity; partial minimization",
+      "note": "Preserved as an alternative; its independent mathematical conjecture was not proved. The audited public-proof branch covers these dimensions."
+    },
+    {
+      "id": "R/n15",
+      "parent": "R",
+      "status": "not_needed",
+      "dimensions": [
+        15
+      ],
+      "strategy": "Sharper Kafidov dilation",
+      "note": "Preserved as an alternative; its independent mathematical conjecture was not proved. The audited public-proof branch covers these dimensions."
+    },
+    {
+      "id": "R/ext/n7/localization",
+      "parent": "R/ext/n7",
+      "status": "proved",
+      "strategy": "Prove all subset deviations below 7/47 before dividing by the Hall factor",
+      "evidence": "study/audit-n7.md"
+    },
+    {
+      "id": "R/ext/n7/interior",
+      "parent": "R/ext/n7",
+      "status": "proved",
+      "strategy": "Justify averaging limits by continuity and finite strict-local backtracking",
+      "evidence": "study/audit-n7.md"
+    },
+    {
+      "id": "R/ext/n7/trees",
+      "parent": "R/ext/n7",
+      "status": "verified",
+      "strategy": "Exhaustive alternative Bernstein trees on three closed squares",
+      "node_counts": [
+        39,
+        35,
+        47
+      ],
+      "evidence": "deterministic/certified-special-case-check-3/result.json"
+    },
+    {
+      "id": "R/interface",
+      "parent": "R",
+      "status": "verified",
+      "strategy": "Kernel-check the scalar quadratic exclusion only",
+      "evidence": "deterministic/certified-special-case-check-4"
+    },
+    {
+      "id": "R/review",
+      "parent": "R",
+      "status": "passed",
+      "strategy": "Independent review of the complete assembly; no new theorem novelty claim",
+      "evidence": "study/final-evaluation.md"
+    },
+    {
+      "id": "R/base/n6-exit",
+      "parent": "R/base",
+      "status": "repaired_and_tested",
+      "evidence": [
+        "study/inherited-n6-exact-psd.log",
+        "deterministic/certified-special-case-check-5/result.json"
+      ],
+      "note": "Preserved original proof evidence and fixed failure reporting; no large matrix rerun."
+    }
+  ]
+}

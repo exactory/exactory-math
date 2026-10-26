@@ -1,0 +1,13 @@
+name = "hall-finite"
+version = "0.1.0"
+defaultTargets = ["Finite"]
+moreLeanArgs = ["-j", "1", "-M", "2048"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.33.1"
+
+[[lean_lib]]
+name = "Finite"
+roots = ["Definitions", "Finite"]

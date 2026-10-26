@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "theorem": "Dittert.core_entropy",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "reason": null,
+  "output_head": [
+    "EXACTORY_TYPE_BEGIN",
+    "Dittert.core_entropy : Dittert.CoreEntropy",
+    "EXACTORY_TYPE_END",
+    "'Dittert.core_entropy' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'exactory_correspondence' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ]
+}

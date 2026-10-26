@@ -1,0 +1,89 @@
+{
+ "id": "reading-kll-2016",
+ "version_id": "arxiv:1310.4383v3",
+ "bundle_id": "bundle-1310.4383v3",
+ "inspections": [
+  {
+   "anchor": "On the other hand, the simplest graph not known",
+   "end": "a 3-regular graph on 10 vertices.",
+   "note": "The simplest open case named in 2014: K_{5,5} minus C_10."
+  },
+  {
+   "anchor": "Theorem 1.1. If a bipartite graph H is tree-arrangeable, then H has Sidorenko’s",
+   "end": "property.",
+   "note": "Theorem 1.1: tree-arrangeable bipartite graphs are Sidorenko."
+  },
+  {
+   "anchor": "Theorem 1.2. If T is a tree and H is a bipartite graph having Sidorenko’s property,",
+   "end": "also has Sidorenko’s property.",
+   "note": "Theorem 1.2: T box H is Sidorenko for a tree T and Sidorenko H."
+  },
+  {
+   "anchor": "Lemma 3.3. A bipartite graph H has Sidorenko’s property if and only if for all",
+   "end": "tH (G) ≥ tK2 (G)|E(H)| .",
+   "note": "Lemma 3.3: hosts of maximum degree at most twice the average degree suffice."
+  },
+  {
+   "anchor": "Lemma 3.4. Let H be a bipartite graph. If there exists a constant c depending only",
+   "end": "then H has Sidorenko’s property.",
+   "note": "Lemma 3.4: the tensor power trick (proof omitted; Sidorenko's Remark 2)."
+  },
+  {
+   "anchor": "Proof of Lemma 3.3.",
+   "end": "By Lemma 3.4, this concludes the proof.",
+   "note": "The proof of Lemma 3.3 by splitting high-degree vertices."
+  }
+ ],
+ "notes": {
+  "problem": {
+   "text": "New classes of bipartite graphs with Sidorenko's property.",
+   "inspections": [
+    1,
+    2
+   ]
+  },
+  "claims": {
+   "text": "Theorem 1.1: tree-arrangeable bipartite graphs are Sidorenko. Theorem 1.2: the Cartesian product of a tree with a Sidorenko graph is Sidorenko, so grids are Sidorenko. Lemma 3.3: Sidorenko's property needs to be checked only on hosts whose maximum degree is at most twice the average degree.",
+   "inspections": [
+    1,
+    2,
+    3
+   ]
+  },
+  "assumptions": {
+   "text": "The tensor power trick (Lemma 3.4), whose proof is omitted with a reference to Sidorenko's Remark 2.",
+   "inspections": [
+    4
+   ]
+  },
+  "methods": {
+   "text": "Normalizations by conditional expectations and Jensen's inequality for tree-arrangeable graphs; homomorphisms of T box H as homomorphisms of H into an auxiliary graph; vertex splitting for Lemma 3.3.",
+   "inspections": [
+    1,
+    5
+   ]
+  },
+  "evidence": {
+   "text": "Complete proofs except Lemma 3.4, which is standard.",
+   "inspections": [
+    4,
+    5
+   ]
+  },
+  "limitations": {
+   "text": "The classes are defined by tree-like neighbourhood structure or by products with trees; the authors name K_{5,5} minus C_10 as the simplest open case.",
+   "inspections": [
+    0,
+    1
+   ]
+  },
+  "relevance": {
+   "text": "No result of this paper decides the statement. Lemma 3.3, with its proof by vertex splitting, is the reduction to hosts of bounded maximum degree that Conlon, Kim, Lee and Lee state as their Lemma 3.3 (with a constant factor) and attribute to Fox; this record's proof that adding or removing a vertex of degree one does not change the Sidorenko property rests on it, together with their Lemma 3.4. Theorem 1.2 gives no graph of girth at least six with a cycle: a Cartesian product of two graphs that each have an edge contains a 4-cycle.",
+   "inspections": [
+    3,
+    5,
+    2
+   ]
+  }
+ }
+}

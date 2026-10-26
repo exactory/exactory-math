@@ -1,0 +1,46 @@
+(i) Lemma A chain pointwise
+   min q / prod a^(1-v) = 1.000000012986   min prod a^(1-v) / (K prod x) = 1.000000000000   [both >= 1]
+(ii) Taylor bound K(v) >= g(n) exp(||v-1/n||^2/2)
+   min K / (g e^(d/2)) = 1.000000008596   [>= 1]
+   phi''(t) = -1/(t - 1)
+(iii) symbolic identities
+   n=3: q_(n-1) formula ok: True;  coeff of x1..x(n-1) == per(B): True
+   n=4: q_(n-1) formula ok: True;  coeff of x1..x(n-1) == per(B): True
+   n=4, m=2: q_(n-2) = prod a_s * P_V(1/a): True
+(iv) Lemma A_m pieces pointwise, m = 2, 3
+   m=2: identity q = prod a * P_V(1/a) ok; min prod a^(1-w) / (K(w) prod x) = 1.000000000000  [>= 1]
+   m=3: identity q = prod a * P_V(1/a) ok; min prod a^(1-w) / (K(w) prod x) = 1.000000000000  [>= 1]
+(v) application: ||E||^2 <= 2 n K (exp form) vs (e^K - 1)/c, c = 1/(2n)
+c = 0.25
+
+  n   K upper bound  lambda_2 >=  log(m_n/gamma_n)   closes   margin  |alpha+beta| <=
+  5  no fixed point            -      2.952799e-02       no
+  6    3.123664e-02     0.643744      1.903358e-02       no     0.61x           0.4689
+  7    8.844527e-03     0.811493      1.329629e-02      yes     1.50x           0.2170
+  8    2.972563e-03     0.890876      9.815669e-03      yes     3.30x           0.1183
+  9    1.063452e-03     0.934761      7.544537e-03      yes     7.09x           0.0685
+ 10    3.919308e-04     0.960402      5.980356e-03      yes    15.26x           0.0408
+ 11    1.466514e-04     0.975779      4.857157e-03      yes    33.12x           0.0247
+ 12    5.529886e-05     0.985127      4.023349e-03      yes    72.76x           0.0150
+ 13    2.092853e-05     0.990850      3.387345e-03      yes   161.85x           0.0092
+ 14    7.931753e-06     0.994367      2.891146e-03      yes   364.50x           0.0057
+ 15    3.006471e-06     0.996532      2.496563e-03      yes   830.40x           0.0035
+ 16    1.138940e-06     0.997866      2.177616e-03      yes  1911.97x           0.0021
+ 17    4.310671e-07     0.998687      1.916132e-03      yes  4445.09x           0.0013
+ 18    1.629736e-07     0.999193      1.699086e-03      yes 10425.53x           0.0008
+ 19    6.154529e-08     0.999504      1.516948e-03      yes 24647.66x           0.0005
+ 20    2.321570e-08     0.999695      1.362610e-03      yes 58693.49x           0.0003
+
+A row that closes needs K below log(m_n/gamma_n), and needs |alpha+beta| below 1 for
+condition (N).  n = 5 and n = 6 are already proved by exact sum-of-squares certificates.
+  n  K (exp form)   margin   K ((e^K-1)/c)   margin  |alpha+beta|
+  6                   none                     none           nan
+  7    1.2251e-02    1.09x      1.2292e-02    1.08x        0.3005
+  8    3.4635e-03    2.83x      3.4646e-03    2.83x        0.1378
+  9    1.1622e-03    6.49x      1.1622e-03    6.49x        0.0748
+ 10    4.1410e-04   14.44x      4.1410e-04   14.44x        0.0431
+ 11    1.5188e-04   31.98x      1.5188e-04   31.98x        0.0255
+ 12    5.6560e-05   71.13x      5.6560e-05   71.13x        0.0154
+ 13    2.1236e-05  159.51x      2.1236e-05  159.51x        0.0093
+ 14    8.0070e-06  361.08x      8.0070e-06  361.08x        0.0057
+ 15    3.0249e-06  825.35x      3.0249e-06  825.35x        0.0035

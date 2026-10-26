@@ -1,0 +1,20 @@
+{
+ "id": "reading-sidorenko-2020",
+ "version_id": "arxiv:2003.13598v2",
+ "bundle_id": "bundle-2003.13598v2",
+ "inspections": [
+  {"anchor": "All known examples of norming and weakly norming graphs are edge-", "end": "In this note, we provide the positive", "note": "Context: edge-transitive need not be weakly norming (Kral et al.); the converse question."},
+  {"anchor": "Theorem 1. Every weakly norming graph is edge-transitive.", "note": "Main theorem."},
+  {"anchor": "If a connected bipartite graph G", "end": "degrees.", "note": "Hatami's necessary condition used: equal degrees within each part."},
+  {"anchor": "Lemma 6. If a graph G with edges", "end": "Proof. We say that", "note": "Key lemma: deleting any edge gives the same density, hence isomorphic edge-deleted graphs."}
+ ],
+ "notes": {
+  "problem": {"text": "Conlon and Lee's question whether every weakly norming graph is edge-transitive.", "inspections": [0]},
+  "claims": {"text": "Theorem 1: every weakly norming graph is edge-transitive.", "inspections": [1]},
+  "assumptions": {"text": "Hatami's biregularity theorem, Lovasz's Holder characterization, and the fact that homomorphism densities determine a graph up to isomorphism.", "inspections": [2, 3]},
+  "methods": {"text": "A first-order perturbation argument shows that all edge-deleted subgraphs have equal densities and are therefore isomorphic; the isomorphisms are upgraded to automorphisms.", "inspections": [3]},
+  "evidence": {"text": "Complete proof.", "inspections": [1, 3]},
+  "limitations": {"text": "Edge-transitivity is necessary, not sufficient; the Sidorenko property of edge-transitive non-norming graphs is not addressed.", "inspections": [0]},
+  "relevance": {"text": "Fixes the hierarchy weakly norming implies edge-transitive implies biregular, which the symmetric candidates of this exploration (edge-transitive or biregular graphs) sit on.", "inspections": [0, 1]}
+ }
+}

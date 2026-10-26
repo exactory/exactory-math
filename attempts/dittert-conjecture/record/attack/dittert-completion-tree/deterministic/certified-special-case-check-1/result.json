@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "common two-zero face family: n=6..10 certified",
+    "smallest L_n-gamma_n: 0.000004001936",
+    "staircase floor: permutation identity and (1,1) minimum certified",
+    "common subset-deficit lemma: n>=8 constants certified",
+    "quadratic remainder: phi decreasing on every localisation interval",
+    "sharp low-dimensional formula over 51 Hall cuts, n=8..10",
+    "  rows closed: 49; rows left open: 2 (n=8 and n=9 marginal)",
+    "  dimensions whose worst row is closed outright: 1 of 3",
+    "smallest closed margin: 0.000000594477",
+    "smallest proper-cut margin: 0.000003785838",
+    "Bernoulli exclusion theorem: every Hall cut for n>=11 certified",
+    "  n=11 marginal endpoint: 0.000000059933",
+    "  n=17 proper envelope gap: 0.000051764007",
+    "crude Bernoulli constant would leave 5 rows open (3 of them the old n=8 p=1 certificates)",
+    "residual deficit shortfall: n=8 factor 2.186, n=9 factor 1.404",
+    "residual marginal rows: n=8,9 closed by the sharper deficit bounds",
+    "smallest support Bernstein coefficient: 0.000004306351",
+    "n=6 Hall type (1,1,4) exact-deficit margin: 0.000514994567",
+    "UNIFIED REDUCTIONS CERTIFIED",
+    "{"
+  ]
+}

@@ -1,0 +1,2 @@
+Lemma E2: max relative error of the closed form = 4.56e-15
+Lemma E3: max (floor - true quadratic form) = 0.00e+00   [must be <= 0];  V >= e^-osc Var_m held in all samples

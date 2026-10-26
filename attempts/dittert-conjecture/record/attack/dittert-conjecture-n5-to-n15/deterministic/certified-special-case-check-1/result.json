@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "[   0.2s] orbits",
+    "[   2.7s] symmetry and M 1 = 0 hold exactly; common scale L has 12 digits",
+    "[   2.7s] expanding the certificate side over all degree-6 monomials",
+    "[   8.8s] expansion done",
+    "[   8.8s] expanding Q and D",
+    "[  48.2s] comparing coefficients",
+    "[  50.7s] identity: holds exactly",
+    "[ 779.2s] aligned: deflated 324 x 324 positive definite (Bareiss over Z): True",
+    "[1493.7s] generic: deflated 324 x 324 positive definite (Bareiss over Z): True",
+    "[1501.4s] main: deflated 2924 x 2924, floating Cholesky of A - alpha I succeeded with alpha = 5.868e-05, rigorous error bound 5.333e-07: positive definite",
+    "CHECK PASS"
+  ]
+}

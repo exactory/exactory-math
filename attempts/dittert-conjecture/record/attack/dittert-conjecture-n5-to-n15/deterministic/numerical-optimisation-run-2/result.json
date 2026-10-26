@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "min block eigenvalue -1.34e-05",
+    "lambda = 40.115602; max |certificate - (Q - lambda D)| = 3.514e-07 over 200 points, max |Q| = 4.251e+03, relative 8.27e-11",
+    "CHECK PASS"
+  ]
+}

@@ -1,0 +1,2 @@
+'DittertScalar.positive_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DittertScalar.exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]

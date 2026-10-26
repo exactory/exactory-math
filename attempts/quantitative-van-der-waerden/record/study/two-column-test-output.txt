@@ -1,0 +1,7 @@
+  n  cases  V1 two cols   V2 col+row  V3 three cols       where V1 worst
+  4    629     1.000000     0.969265       0.916386     case 0, cols 0,1
+  5    673     1.000000     0.979736       1.000000     case 0, cols 0,1
+  6    700     1.000000     0.985802       1.000000     case 0, cols 0,1
+  7    298     1.000000     0.989542       1.000000     case 0, cols 0,1
+
+A value below 1 refutes that form; 1.000000 means an equality case was hit.

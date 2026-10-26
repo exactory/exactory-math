@@ -1,0 +1,211 @@
+{
+  "limitations": [
+    "Openness is supported within the searches dated 2026-10-21, not certified exhaustively; imported search responses retain their recorded origin-verification limitations.",
+    "The Wang\u2013Lou full article remains unavailable and unread. Its delivered preview supports only the stated theorem-level scope screening, not conclusions about every hidden lemma.",
+    "Inspection covers the complete supplied textual extractions, not omitted original layouts or independent reproduction of computational tables reported within the papers.",
+    "The original Lin\u2013Ning\u2013Wu article and works merely appearing in bibliographies receive no full-reading credit; the relevant two-eigenvalue comparison uses the supplied Nikiforov text.",
+    "The supporting theorem has no established historical-priority claim, and its asymptotic upper coefficient is not accompanied by an asymptotic matching lower bound.",
+    "The exact universal coefficient-three inequality remains unresolved, and the record establishes neither a smallest unresolved graph order nor a limitation of spectral methods generally."
+  ],
+  "objections": [],
+  "stage": "result",
+  "support": null,
+  "value": {
+    "assurances": [
+      {
+        "evidence": [
+          {
+            "id": "statement-sharp-three-v1",
+            "kind": "record",
+            "record_kind": "problem_statement"
+          }
+        ],
+        "kind": "problem_statement",
+        "reason": "statement-sharp-three-v1 defines the adjacency spectral radius, finite graph class, and symmetric-difference distance to one complete bipartite graph plus isolates. Empty parts, disconnected graphs and the empty graph are covered. Its proof and certified-counterexample criteria are unambiguous.",
+        "status": "passed"
+      },
+      {
+        "evidence": [
+          {
+            "id": "openness-sharp-three-v5",
+            "kind": "record",
+            "record_kind": "problem_openness"
+          },
+          {
+            "id": "openness-search-regular-v1",
+            "kind": "record",
+            "record_kind": "literature_search"
+          },
+          {
+            "media_type": "text/plain",
+            "path": "research/sources/objects/77014f0938289774270f71666f0422ad953c13d0b8385b14f2246286e7e1f395",
+            "sha256": "77014f0938289774270f71666f0422ad953c13d0b8385b14f2246286e7e1f395",
+            "size": 10536
+          }
+        ],
+        "kind": "problem_openness",
+        "reason": "openness-sharp-three-v5 records bounded searches dated 2026-10-21 for the exact statement and every declared neighbour. The complete comparator texts do not settle the universal inequality. The bipartite and deletion-only neighbours follow from Li\u2013Liu\u2013Ning; the finite-constant neighbour follows from the delivered analytical proof; the regular neighbour follows from the explicit calculation in openness-search-regular-v1. The Wang\u2013Lou preview supplies its principal containment theorem and supports screening that suspected settling hit out of scope: triangle-free graphs may contain K2,t. This does not constitute reading its unavailable full article.",
+        "status": "passed"
+      },
+      {
+        "evidence": [
+          {
+            "id": "value-sharp-three-v2",
+            "kind": "record",
+            "record_kind": "problem_value"
+          },
+          {
+            "media_type": "text/plain",
+            "path": "research/sources/objects/6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+            "sha256": "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+            "size": 7245
+          },
+          {
+            "media_type": "text/plain; charset=utf-8",
+            "path": "research/sources/objects/4248a09a8f86b93d57782211420cb4c2dbfcac8f8be42451be5b98d9559bca16",
+            "sha256": "4248a09a8f86b93d57782211420cb4c2dbfcac8f8be42451be5b98d9559bca16",
+            "size": 124537
+          }
+        ],
+        "kind": "problem_value",
+        "reason": "value-sharp-three-v2's established premises are supported by the supplied theorems and analytical proof. Its proposed gain is appropriately narrow: determine the optimal universal coefficient if affirmative, or refute transfer of coefficient three from the bipartite setting if negative. Neither qualitative stability nor the asymptotic upper bound decides this exact finite law. No unsupported downstream implication is needed for the level-2 explanatory case.",
+        "status": "passed"
+      },
+      {
+        "evidence": [
+          {
+            "media_type": "text/plain; charset=utf-8",
+            "path": "research/sources/objects/4248a09a8f86b93d57782211420cb4c2dbfcac8f8be42451be5b98d9559bca16",
+            "sha256": "4248a09a8f86b93d57782211420cb4c2dbfcac8f8be42451be5b98d9559bca16",
+            "size": 124537
+          },
+          {
+            "media_type": "text/plain; charset=utf-8",
+            "path": "research/sources/objects/557644d76112c65d5333dbedc7decbebc2b997f7ca1cd078773edb9a576f4b3b",
+            "sha256": "557644d76112c65d5333dbedc7decbebc2b997f7ca1cd078773edb9a576f4b3b",
+            "size": 147435
+          },
+          {
+            "media_type": "text/plain; charset=utf-8",
+            "path": "research/sources/objects/96fdc11e8822b8b03a37610f81ce058aaec707e25e0531e9b7ef371664b6318b",
+            "sha256": "96fdc11e8822b8b03a37610f81ce058aaec707e25e0531e9b7ef371664b6318b",
+            "size": 128944
+          },
+          {
+            "media_type": "text/plain; charset=utf-8",
+            "path": "research/sources/objects/afbaeafe3bb0ca25965c6ebd659463635984fd12a1be1c0a6b97476356a7dfb1",
+            "sha256": "afbaeafe3bb0ca25965c6ebd659463635984fd12a1be1c0a6b97476356a7dfb1",
+            "size": 73968
+          },
+          {
+            "media_type": "text/plain; charset=utf-8",
+            "path": "research/sources/objects/4e3f56271c65607522c082b22d5e76015b84bb75a829e336c220c9accd7a1c28",
+            "sha256": "4e3f56271c65607522c082b22d5e76015b84bb75a829e336c220c9accd7a1c28",
+            "size": 190456
+          },
+          {
+            "media_type": "text/plain; charset=utf-8",
+            "path": "research/sources/objects/a9fc9110259e34589b60da1319a99035e49473f72236bd17f2478f25b3dba828",
+            "sha256": "a9fc9110259e34589b60da1319a99035e49473f72236bd17f2478f25b3dba828",
+            "size": 31819
+          }
+        ],
+        "kind": "problem_citations",
+        "reason": "The six cited works have complete delivered textual extractions and corresponding full-reading records. Their use is supported: qualitative triangle-free editing, the bipartite coefficient-three lemma, exact-extremal switching, the survey's historical context, the weighted/entropy alternative, and the two-largest-eigenvalues comparison are distinguished correctly. Nikiforov supplies an alternative proof of the Lin\u2013Ning\u2013Wu inequality, not a full reading of their original paper. The entropy appendix explicitly quotes rather than newly proves the r=2 case. Bibliographic references within these works receive no independent reading credit.",
+        "status": "passed"
+      },
+      {
+        "evidence": [
+          {
+            "id": "attempt-sharp-three-v1",
+            "kind": "record",
+            "record_kind": "problem_attempt"
+          }
+        ],
+        "kind": "stop",
+        "reason": "Nothing in the delivered record requires a stop. attempt-sharp-three-v1 leaves the root obligation open and executable; its supporting-branch acceptance is not root closure.",
+        "status": "not_assessed"
+      }
+    ],
+    "bar_ids": [
+      "bar-astra-v2",
+      "bar-sol-v2"
+    ],
+    "consequence": "The question meets the posting thresholds as a supported-open problem; this assessment does not establish the proposed inequality.",
+    "evidence": [
+      {
+        "id": "statement-sharp-three-v1",
+        "kind": "record",
+        "record_kind": "problem_statement"
+      },
+      {
+        "id": "openness-sharp-three-v5",
+        "kind": "record",
+        "record_kind": "problem_openness"
+      },
+      {
+        "id": "value-sharp-three-v2",
+        "kind": "record",
+        "record_kind": "problem_value"
+      },
+      {
+        "id": "attempt-sharp-three-v1",
+        "kind": "record",
+        "record_kind": "problem_attempt"
+      },
+      {
+        "media_type": "text/plain",
+        "path": "research/sources/objects/6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+        "sha256": "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+        "size": 7245
+      },
+      {
+        "media_type": "text/plain; charset=utf-8",
+        "path": "research/sources/objects/4248a09a8f86b93d57782211420cb4c2dbfcac8f8be42451be5b98d9559bca16",
+        "sha256": "4248a09a8f86b93d57782211420cb4c2dbfcac8f8be42451be5b98d9559bca16",
+        "size": 124537
+      }
+    ],
+    "method_adequacy": "not_assessed",
+    "objection_findings": [],
+    "objective_adequacy": "not_assessed",
+    "reason": "The exact statement, dated formulation-specific searches, six complete comparator texts, and inspectable supporting proof satisfy admission. The contribution is a precise extension of Li\u2013Liu\u2013Ning's bipartite editing inequality to all triangle-free graphs. The established universal coefficient fifteen, asymptotic upper coefficient three, and exact five-cycle lower-bound witness support a bounded significance case: deciding whether odd cycles require an additional uniform coefficient. This answers the mere-constant-improvement objection sufficiently for level 2, but establishes neither consequential downstream applications nor level-3 influence. All four declared neighbours have affirmative resolutions in the delivered evidence, including the regular case's explicit neighbourhood calculation. Their settledness is not itself the reason for priority. No prior material objections are listed in the delivered bars or current material-objection list.",
+    "rubric": {
+      "accessibility": "E-F",
+      "admission": {
+        "A1": "pass",
+        "A2": "pass",
+        "A3": "pass",
+        "A4": "pass",
+        "A5": "pass",
+        "A6": "pass"
+      },
+      "attempt": "pass",
+      "calibration": "pass",
+      "priority": 2,
+      "significance": {
+        "B1": 2,
+        "B2": 2
+      }
+    },
+    "rubric_evidence": {
+      "A1": "statement-sharp-three-v1 precisely quantifies over all finite simple triangle-free graphs and defines both the target family and edit operations. A universal proof or a rigorously certified finite counterexample resolves it. No formal statement is supplied or required.",
+      "A2": "openness-sharp-three-v5 and its formulation-specific literature_search records provide dated, explicitly bounded coverage. The six complete comparator texts and Wang\u2013Lou's delivered principal-theorem preview support the recorded distinctions. All four declared neighbours are settled affirmatively in the supplied evidence; none settles the exact unrestricted statement. Supported openness is not exhaustive absence or historical-priority certification.",
+      "A3": "Li\u2013Liu\u2013Ning, arXiv:2609.20225v2, Lemma 4.3 uses exactly this deficit and complete-bipartite edit target under bipartiteness. value-sharp-three-v2 identifies removal of that hypothesis without changing coefficient three as the contribution. The supporting proof 'Linear and asymptotic spectral editing bounds' establishes coefficient fifteen and the asymptotic refinement, not the proposed exact extension. No equivalence to another unresolved conjecture is claimed.",
+      "A4": "statement-sharp-three-v1 and value-sharp-three-v2 explain the spectral deficit, arbitrary target part sizes, isolates, and the distinction between complete-bipartite editing and deletion to an arbitrary bipartite graph. The statement is understandable to an appropriate graph-theory researcher.",
+      "A5": "The delivered Moves 1\u20133 examine cut deletion followed by editing, spectral perturbation, reuse of the Perron vector, the least-eigenvector sign cut, and the joint slack identity. Move 1 shows that the separate bounds give four on C5 rather than the desired three; Move 3 verifies that retaining the actual P5 editing slack repairs that example but supplies no general estimate. The complete color-critical and entropy readings delimit their alternative routes. These answer the examined direct-corollary objections, not what all routine methods can or cannot do.",
+      "A6": "reading-spectral-book-full-v1, reading-edge-spectral-full-v1, reading-color-critical-full-v1, reading-edge-survey-full-v1, reading-entropy-bridge-full-v1 and reading-two-eigenvalues-full-v1 are accompanied by complete inspectable texts. Their relevant mathematics and the standalone supporting proof can be assessed. Wang\u2013Lou's unavailable full article is not credited as read; its supplied theorem and stated article scope suffice for the narrower relevance screening. No identified decisive source remains missing for this bounded assessment.",
+      "B1": "value-sharp-three-v2 is anchored in actual recent edge-spectral stability results: arXiv:2508.15271v2 gives qualitative triangle-free editing, and arXiv:2609.20225v2 gives linear coefficient-three bipartite editing. The exact shared functional and hypothesis removal fix the question's place in this active line. The supporting proof isolates a remaining finite-deficit sharp-constant question. This supports level 2, not a demonstrated consequential obstacle warranting level 3.",
+      "B2": "The complete supporting proof establishes 3 <= C_opt <= 15 through D(C5)=3, deficit one, and the universal upper bound. Together with the published bipartite lemma, this carries the explanatory distinction: an affirmative answer determines C_opt=3 despite odd cycles; a negative answer shows that coefficient three does not transfer uniformly. value-sharp-three-v2 explicitly answers the mere-constant-improvement objection with this forced value and hypothesis comparison. No broader organizing change or downstream theorem is established, so level 2 applies.",
+      "accessibility": "E-F: Li\u2013Liu\u2013Ning Lemma 4.3, the regular-case neighbourhood calculation, and the delivered global linear and asymptotic bounds provide conventional footholds. Move 3 supplies an explicit remaining slack expression. The residual class is irregular non-bipartite triangle-free graphs at positive finite deficit. No smallest unresolved vertex order is certified by the record, and no exhaustive small-order conclusion is inferred.",
+      "attempt": "attempt-sharp-three-v1 delivers the exact native contract, applicability note, open root obligation, four analytical moves within the normal limits, supporting acceptance-000001 and a finished supporting-node receipt. The delivered proof independently substantiates the accepted coefficient-fifteen theorem, quantitative asymptotic bound and exact C5 witness. Moves 1\u20133 document the failure of specific compositions and the unresolved joint-slack estimate. These are substantive bounded attacks; neither root completion nor an accepted general obstruction is claimed.",
+      "calibration": "value-sharp-three-v2, openness-sharp-three-v5 and attempt-sharp-three-v1 distinguish published theorems, the accepted supporting theorem, the unresolved proposed answer and judgments of significance. The proof explicitly separates the universal C5 lower bound from asymptotic sharpness. Exploratory numerical probes receive no proof or value credit; no formal completion is claimed or required. The unresolved slack calculation is not called a method obstruction, and neither human difficulty nor completion time is asserted.",
+      "priority": "value-sharp-three-v2 compares exact finite editing with qualitative stability, the vanishing-relative-deficit upper bound, an arbitrary finite coefficient, and deletion-only bipartization. openness-search-regular-v1 additionally settles the regular restriction by an explicit calculation. The chosen target tests a specific coefficient-transfer law that these alternatives do not decide, rather than merely seeking any improvement of fifteen. This supports level 2; settled neighbours alone do not establish level-3 superiority."
+    },
+    "status": "sufficient",
+    "work_items": []
+  },
+  "id": "review-result-astra-sharp-three-v4",
+  "dossier_id": null,
+  "assignment_id": "result-astra-sharp-three-v4"
+}

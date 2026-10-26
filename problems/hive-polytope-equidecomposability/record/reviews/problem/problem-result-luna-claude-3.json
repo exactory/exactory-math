@@ -1,0 +1,296 @@
+{
+ "assignment_id": "assignment-result-luna-refresh-2",
+ "digest": "da8ba184c855099c3ea1138da833d0a56c79479974e1ce5b63030d5640bbe6fe",
+ "dossier_digest": null,
+ "dossier_id": null,
+ "id": "problem-result-luna-claude-3",
+ "independence_at_recording": "verified_for_route",
+ "output_digest": "c742cd9f30620ab9bbf644dd86f2aa4cb109ab39ee12edbe2ff6dc07b8a3f92c",
+ "packet_digest": "d2bb805737e31ac67b4c6c43433316b9204c4948975de7ec903fb8deab77ff2f",
+ "payload": {
+  "assignment_id": "assignment-result-luna-refresh-2",
+  "dossier_id": null,
+  "id": "problem-result-luna-claude-3",
+  "limitations": [
+   "The independent approval of the openness finding that was delivered is for statement-3. The finding for statement-4 (assignment-openness-claude-2) carries its own searches, but an independent approval record for it was not delivered.",
+   "Openness coverage is arXiv-only; no MathSciNet, zbMATH or journal-database search is recorded.",
+   "The KTT 2004/2009 originals and Derksen–Weyman were not read. The record argues they are not decisive; this assessment accepts that argument without reading them.",
+   "The current status of the numerator conjecture, on which part of the influence case rests, is not established by the record.",
+   "The Ehrhart form carries the same numerator consequence as the statement, so the added value of the single-lattice-polytope form is explanatory only. This is why B2 stays at level 2 and priority is at the threshold.",
+   "Ferudun's and Ghodsi's computational claims, and the attempt's exploratory scans, were not independently re-run or certified.",
+   "The attempt is thin (one seed instance, no admitted computation), so the evidence that the statement is true is limited."
+  ],
+  "objections": [],
+  "stage": "result",
+  "support": null,
+  "value": {
+   "assurances": [
+    {
+     "evidence": [
+      {
+       "id": "statement-4",
+       "kind": "record",
+       "record_kind": "problem_statement"
+      },
+      {
+       "id": "reading-buch-2000-3",
+       "kind": "record",
+       "record_kind": "reading"
+      }
+     ],
+     "kind": "problem_statement",
+     "reason": "statement-4 and its criteria are exact. The hive polytope is defined by border labels and rhombus inequalities. The decomposition uses relatively open rational simplices and affine unimodular maps with integral translation. The target is a convex lattice polytope. The criteria separate proof, disproof and class-restricted results, and the n≤3 and n=4 remarks are consistent with Buch.",
+     "status": "passed"
+    },
+    {
+     "evidence": [
+      {
+       "id": "assignment-openness-claude-2",
+       "kind": "record",
+       "record_kind": "problem_openness"
+      },
+      {
+       "id": "assignment-openness-astra-5",
+       "kind": "record",
+       "record_kind": "problem_openness"
+      },
+      {
+       "id": "reading-haase-mcallister-2008-3",
+       "kind": "record",
+       "record_kind": "reading"
+      },
+      {
+       "id": "reading-ehrhart-equivalent-3-polytopes-2018",
+       "kind": "record",
+       "record_kind": "reading"
+      }
+     ],
+     "kind": "problem_openness",
+     "reason": "assignment-openness-claude-2 covers the exact statement and each declared neighbour (Ehrhart form, Haase–McAllister form, rank restriction) with dated complete queries, and records that no source settles any of them. Every decisive work is read in full. Coverage is arXiv-only. The delivered independent approval (assignment-openness-astra-5) is for statement-3, whose text and searches are the same except for rewording of one neighbour and the criteria.",
+     "status": "passed"
+    },
+    {
+     "evidence": [
+      {
+       "id": "problem-value-10",
+       "kind": "record",
+       "record_kind": "problem_value"
+      },
+      {
+       "id": "reading-bohnert-2024-3",
+       "kind": "record",
+       "record_kind": "reading"
+      },
+      {
+       "id": "reading-rassart-2004-3",
+       "kind": "record",
+       "record_kind": "reading"
+      },
+      {
+       "id": "reading-thawinrak-2022",
+       "kind": "record",
+       "record_kind": "reading"
+      }
+     ],
+     "kind": "problem_value",
+     "reason": "The motivation (three non-polyhedral proofs of period collapse; Haase–McAllister's conjecture; Example 2.4 and Bohnert showing lattice realizability is family-specific) and the current-state claims match the readings. Ferudun and Ghodsi are presented as reported, not re-run. The case reaches level 2 on the explanatory ground and does not claim a Kronecker or plethysm connection.",
+     "status": "passed"
+    },
+    {
+     "evidence": [
+      {
+       "id": "reading-ktt-2006-4",
+       "kind": "record",
+       "record_kind": "reading"
+      },
+      {
+       "id": "reading-bohnert-2024-3",
+       "kind": "record",
+       "record_kind": "reading"
+      },
+      {
+       "id": "reading-fernandes-2018-3",
+       "kind": "record",
+       "record_kind": "reading"
+      },
+      {
+       "id": "reading-ahz-2022-3",
+       "kind": "record",
+       "record_kind": "reading"
+      }
+     ],
+     "kind": "problem_citations",
+     "reason": "All fourteen cited works have complete full readings (AHZ, Alexandersson–Alhajjar, Bohnert, Buch, De Loera–McAllister, Erbe–Haase–Santos, Fernandes et al., Ferudun, Ghodsi, Haase–McAllister, KTT 2006, Rassart, Thawinrak, Turner–Wu). Their uses match the passages, with one minor imprecision: Bohnert's b=2i+7 family includes the lattice-realized pair (1,9), which the value text glosses over. The KTT 2004/2009 originals and Derksen–Weyman were not read, were disclosed, and are not decisive.",
+     "status": "passed"
+    },
+    {
+     "evidence": [
+      {
+       "id": "problem-attempt-4",
+       "kind": "record",
+       "record_kind": "problem_attempt"
+      }
+     ],
+     "kind": "stop",
+     "reason": "Nothing in the record requires a stop. The attempt used 5 of 24 moves with no obstruction claimed, and no source or contradiction forces termination.",
+     "status": "passed"
+    }
+   ],
+   "bar_ids": [
+    "problem-bar-astra",
+    "problem-bar-luna"
+   ],
+   "consequence": "The statement is exact and was found open on dated arXiv coverage. It sharpens the hive case of the Haase–McAllister conjecture and would imply the numerator conjecture of King–Tollu–Toumazet. It meets the posting thresholds: all six admission items pass, max(B1,B2)=2 with E-F accessibility, priority 2, and attempt and calibration pass. Significance rests on explanatory and conditional grounds, and priority is the weakest grade.",
+   "evidence": [
+    {
+     "id": "statement-4",
+     "kind": "record",
+     "record_kind": "problem_statement"
+    },
+    {
+     "id": "assignment-openness-claude-2",
+     "kind": "record",
+     "record_kind": "problem_openness"
+    },
+    {
+     "id": "problem-attempt-4",
+     "kind": "record",
+     "record_kind": "problem_attempt"
+    },
+    {
+     "id": "problem-value-10",
+     "kind": "record",
+     "record_kind": "problem_value"
+    },
+    {
+     "id": "reading-haase-mcallister-2008-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "id": "reading-turner-wu-2014-3",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "id": "reading-ktt-2006-4",
+     "kind": "record",
+     "record_kind": "reading"
+    },
+    {
+     "id": "reading-ferudun-2026-3",
+     "kind": "record",
+     "record_kind": "reading"
+    }
+   ],
+   "method_adequacy": "not_assessed",
+   "objection_findings": [
+    {
+     "evidence": [
+      {
+       "id": "problem-bar-astra",
+       "kind": "record",
+       "record_kind": "value_review"
+      },
+      {
+       "id": "problem-value-10",
+       "kind": "record",
+       "record_kind": "problem_value"
+      },
+      {
+       "id": "reading-ghodsi-2026-3",
+       "kind": "record",
+       "record_kind": "reading"
+      }
+     ],
+     "id": "bar-current-frontier-evidence",
+     "reason": "The candidate uses Ferudun's five-part and Ghodsi's seven-part size-thirty results only as reported context, says explicitly that it did not re-run or check their certificates, and neither its significance nor its openness depends on them. The certificates remain undelivered, but that limitation does not affect this candidate.",
+     "status": "resolved"
+    },
+    {
+     "evidence": [
+      {
+       "id": "problem-bar-astra",
+       "kind": "record",
+       "record_kind": "value_review"
+      },
+      {
+       "id": "reading-ferudun-2026-3",
+       "kind": "record",
+       "record_kind": "reading"
+      }
+     ],
+     "id": "bar-effectivity-realizability",
+     "reason": "The candidate does not use the hive effectivity statement (HTE) as an equivalent of coefficient positivity. Ferudun's reading is cited for the period-one dilation and the frontier only.",
+     "status": "resolved"
+    },
+    {
+     "evidence": [
+      {
+       "id": "problem-bar-astra",
+       "kind": "record",
+       "record_kind": "value_review"
+      },
+      {
+       "id": "problem-value-10",
+       "kind": "record",
+       "record_kind": "problem_value"
+      },
+      {
+       "id": "reading-alexandersson-alhajjar-2018-3",
+       "kind": "record",
+       "record_kind": "reading"
+      }
+     ],
+     "id": "bar-neighbour-comparison-gap",
+     "reason": "The candidate takes the bar's alternative resolution condition: it delimits its comparison to the LR/Ehrhart scope, names its neighbours, and claims no Kronecker, plethysm, fixed-weight or Demazure connection. The Gelfand–Tsetlin sibling is stated as unresolved, with no transfer claimed.",
+     "status": "resolved"
+    }
+   ],
+   "objective_adequacy": "not_assessed",
+   "reason": "Scope: the statement asks that every hive polytope be GL_D(Z)-equidecomposable with a single convex lattice polytope. A1 pass: statement-4 fixes the polytope, group, pieces and target, and the criteria name proof and disproof forms; the seed hive (n=5, D=6) and Buch's integrality remark for n≤4 are consistent with D=C(n-1,2). A2 pass: assignment-openness-claude-2 gives supported_open with dated complete arXiv coverage of the exact statement and three neighbours, and the decisive works are read in full (Haase–McAllister, Erbe–Haase–Santos, Turner–Wu, Buch, Rassart, Thawinrak, Ferudun, Ghodsi). A3 pass: the relation to Haase–McAllister Conjecture 3.2 and to the numerator conjecture is stated and distinguished from what stays open. Significance: B1=2 and B2=2, both resting on the explanatory ground. Priority 2, with the Ehrhart-form objection answered only explanatorily. Attempt passes: one seed instance proved, with unresolved items listed and no obstruction claimed. Calibration passes: reported results are kept separate from proved ones. Prior bar objections: all three are resolved for this candidate by delimitation, because it uses Ferudun and Ghodsi only as reported context, does not rely on the effectivity formulation, and confines comparison to the LR/Ehrhart scope.",
+   "rubric": {
+    "accessibility": "E-F",
+    "admission": {
+     "A1": "pass",
+     "A2": "pass",
+     "A3": "pass",
+     "A4": "pass",
+     "A5": "pass",
+     "A6": "pass"
+    },
+    "attempt": "pass",
+    "calibration": "pass",
+    "priority": 2,
+    "significance": {
+     "B1": 2,
+     "B2": 2
+    }
+   },
+   "rubric_evidence": {
+    "A1": "statement-4 defines the hive polytope in R^D with D=C(n-1,2) and fixes the pieces, the group with integral translations, and the convex lattice target. Integral translations make the lattice-point equality for all dilates tq follow. The criteria separate a disproof by a non-realizable polynomial or an equidecomposability invariant from class-restricted results. No formal statement is supplied. Checked against the Buch and Haase–McAllister readings (record statement-4, reading-buch-2000-3, reading-haase-mcallister-2008-3).",
+    "A2": "assignment-openness-claude-2 is supported_open with dated, complete queries for the exact statement and the three neighbours, and records the status of each. The decisive works (Haase–McAllister, Erbe–Haase–Santos, Turner–Wu, Buch, Rassart, Thawinrak, Ferudun, Ghodsi) are read in full. Coverage is arXiv-only and is disclosed. The delivered independent approval is for the identical-text predecessor statement-3 (assignment-openness-astra-5).",
+    "A3": "The statement strengthens the hive case of Haase–McAllister Conjecture 3.2 from a union of integral open simplices to one convex lattice polytope, which follows from the definitions and the full readings. It implies the Ehrhart form, and through Stanley's nonnegativity the numerator conjecture of KTT (restated in KTT 2006). The original is named, and what stays open is the statement itself from four parts on. The converse for hives is unknown, and the numerator conjecture's current status is not established by the record (reading-haase-mcallister-2008-3, reading-ktt-2006-4, reading-turner-wu-2014-3).",
+    "A4": "A specialist in Ehrhart theory or the hive model can read the statement directly; the hive polytope is defined in it and the neighbours are spelled out (statement-4, reading-buch-2000-3).",
+    "A5": "The record lists the routine routes: Q=H, which fails from five parts; dilation by the denominator, which changes the polynomial; Scott's inequality in dimension 2; weak equidecomposability with rational translations; amplification lemmas; and the Horn factorization, which is a polynomial identity. It answers the 'special case of a known conjecture' objection and records the superlattice orbit invariant of Erbe–Haase–Santos as a disproof route. It certifies nothing about what routine methods cannot do (problem-attempt-4, reading-ehrhart-equivalent-3-polytopes-2018, reading-turner-wu-2014-3).",
+    "A6": "Every source deciding the standing of the statement or its declared neighbours was read in full. The KTT 2004/2009 originals and Derksen–Weyman were not read; they are disclosed, and every premise drawn from them is bound to full readings of works that restate it (KTT 2006, Rassart, Ferudun, Ghodsi). The claim's standing is stateable: open from five parts on, with the seed instance proved (reading-ktt-2006-4, reading-haase-mcallister-2008-3, reading-ferudun-2026-3).",
+    "B1": "Level 2. The line (period collapse, GL(Z)-scissors congruence, KTT positivity) is active in 2018–2026 (Fernandes, AHZ, Bohnert, Ferudun, Ghodsi). The place is fixed by a logical connection: the statement implies the hive case of Haase–McAllister's Conjecture 3.2 and, through Stanley's nonnegativity, the numerator conjecture. The strongest objection (the Ehrhart form might already suffice) is answered in general only by the Turner–Wu separation of the two notions; for hives the converse stays unknown, and the record says so. The statement does not bear on monomial-coefficient positivity, the line the bar centres on (reading-ferudun-2026-3, reading-ahz-2022-3, reading-turner-wu-2014-3, reading-ktt-2006-4).",
+    "B2": "Level 2 by the explanation criterion. A positive resolution would give the first polyhedral mechanism for the period collapse of hive polytopes, which has three non-polyhedral proofs (Derksen–Weyman via DLM and Rassart, Rassart, Thawinrak), and a route to the numerator conjecture. A negative one would give a representation-theoretic family whose collapse is not a rearrangement into one lattice polytope. The premises are read, and Example 2.4 and Bohnert show lattice realizability is family-specific. The record itself shows no consequence requiring the single-polytope form beyond what the Ehrhart form supplies, so level 3 is not reached (reading-haase-mcallister-2008-3, reading-bohnert-2024-3, reading-rassart-2004-3, reading-thawinrak-2022).",
+    "accessibility": "E-F: a reviewed hand proof of the seed instance by one cut and one shear, invariance lemmas, and named smallest unresolved cases (the four-part class resting on Buch's unproved integrality statement, the first five-part vertex of denominator three) (problem-attempt-4, reading-buch-2000-3).",
+    "attempt": "A bounded solver attempt on the exact statement used 5 of 24 moves and no computation runs. It proved the seed instance, accepted after independent review, listed the unreviewed lemmas and the unresolved items (four-part class, other size-15 candidates, denominator-three vertices, direction undecided), and claimed no obstruction. The node state shows the attempt still running, but the outcomes record serves as the inventory (problem-attempt-4).",
+    "calibration": "Established results (the seed instance, the literature as read) are separated from unreviewed lemmas, the unadmitted exploratory scan (which supports no grade) and conjectures. Ferudun and Ghodsi are labelled 'reported, not re-run'. The numerator conjecture's status is stated as unestablished, the converse Ehrhart-to-geometric direction is stated as unknown, and no community outcome or difficulty is claimed. The unresolved complement is not called an obstruction (problem-attempt-4, reading-ferudun-2026-3, reading-ehrhart-equivalent-3-polytopes-2018).",
+    "priority": "Level 2. The neighbours (Ehrhart form, Haase–McAllister form for hives, Gelfand–Tsetlin sibling, numerator conjecture, rank restrictions) are compared on payoff within the LR/Ehrhart scope. The strongest objection, that the statement is a special case of a known conjecture, is answered because the sharp form is not delivered by the general conjecture (Example 2.4). The objection that the Ehrhart form is a weaker and better-posed neighbour with the same numerator consequence is answered only explanatorily, which level 2 permits. No payoff comparison with monomial-positivity targets is made (reading-turner-wu-2014-3, reading-haase-mcallister-2008-3, reading-ktt-2006-4)."
+   },
+   "status": "sufficient",
+   "work_items": []
+  }
+ },
+ "prompt_hash": "dbe0052d524fce3b04fd975777f3c19d163e5e13bb6e56fc50943d547782fc93",
+ "recorded_revision": 570,
+ "reviewer_id": "claude-sonnet-5-5-high",
+ "subject": {
+  "kind": "problem",
+  "statement_id": "statement-4"
+ },
+ "support": null
+}

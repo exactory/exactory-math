@@ -1,0 +1,33 @@
+[    6.7s] main: pair orbits and block diagonalisation
+[   18.7s] count matrices in orbit coordinates
+[   18.8s] build done
+[   18.8s] SDP with lambda = 32, maximising the margin
+[   58.2s] status optimal, margin t = 3.433e-01
+[   95.1s]   aligned: denominator 1000000: scaled denominator 2000000, deflated 324 x 324 PD = True
+[  136.8s]   generic: denominator 1000000: scaled denominator 2000000, deflated 324 x 324 PD = True
+[  137.7s] main: 668 equations, 667 independent
+[  143.8s]   main: denominator 1000000: scaled denominator has 8 digits; checking PSD via isotypic projectors
+[  160.2s]     irrep pair (5,) (4, 1): dim 8, multiplicity 15, block 120: PD = True
+[  166.1s]     irrep pair (5,) (3, 2): dim 10, multiplicity 8, block 80: PD = True
+[  171.3s]     irrep pair (5,) (3, 1, 1): dim 12, multiplicity 5, block 60: PD = True
+[  178.2s]     irrep pair (5,) (2, 2, 1): dim 10, multiplicity 1, block 10: PD = True
+[  184.2s]     irrep diag+ (5,) (5,): dim 1, multiplicity 7, block 7 (deflated): PD = True
+[  189.6s]     irrep diag- (5,) (5,): dim 1, multiplicity 3, block 3: PD = True
+[  959.8s]     irrep pair (4, 1) (3, 2): dim 40, multiplicity 14, block 560: PD = True
+[ 1378.9s]     irrep pair (4, 1) (3, 1, 1): dim 48, multiplicity 10, block 480: PD = True
+[ 1387.3s]     irrep pair (4, 1) (2, 2, 1): dim 40, multiplicity 3, block 120: PD = True
+[ 1427.7s]     irrep diag+ (4, 1) (4, 1): dim 16, multiplicity 16, block 256: PD = True
+[ 1436.6s]     irrep diag- (4, 1) (4, 1): dim 16, multiplicity 9, block 144: PD = True
+[ 1607.0s]     irrep pair (3, 2) (3, 1, 1): dim 60, multiplicity 6, block 360: PD = True
+[ 1615.1s]     irrep pair (3, 2) (2, 2, 1): dim 50, multiplicity 2, block 100: PD = True
+[ 1627.5s]     irrep diag+ (3, 2) (3, 2): dim 25, multiplicity 6, block 150: PD = True
+[ 1634.3s]     irrep diag- (3, 2) (3, 2): dim 25, multiplicity 2, block 50: PD = True
+[ 1643.9s]     irrep pair (3, 1, 1) (2, 2, 1): dim 60, multiplicity 2, block 120: PD = True
+[ 1649.9s]     irrep pair (3, 1, 1) (2, 1, 1, 1): dim 48, multiplicity 1, block 48: PD = True
+[ 1666.0s]     irrep diag+ (3, 1, 1) (3, 1, 1): dim 36, multiplicity 5, block 180: PD = True
+[ 1672.8s]     irrep diag- (3, 1, 1) (3, 1, 1): dim 36, multiplicity 1, block 36: PD = True
+[ 1676.7s]     irrep diag+ (2, 2, 1) (2, 2, 1): dim 25, multiplicity 1, block 25: PD = True
+[ 1681.5s]     irrep diag+ (2, 1, 1, 1) (2, 1, 1, 1): dim 16, multiplicity 1, block 16: PD = True
+[ 1681.6s]   main block positive semidefinite exactly (denominator 1000000)
+[ 1681.7s] saved certificate5.json
+exit 0

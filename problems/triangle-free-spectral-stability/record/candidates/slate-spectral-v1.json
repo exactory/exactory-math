@@ -1,0 +1,25 @@
+{
+  "id": "slate-spectral-v1",
+  "selected": [
+    "candidate-sharp-three"
+  ],
+  "deferred": [
+    {
+      "candidate_id": "candidate-universal-linear",
+      "evidence_needed": "Reconsider if the sharp coefficient fails, or if an independent review identifies a reason to pose linearity separately. Establish a linear theorem or an obstruction to every fixed constant; the current work does not claim either."
+    }
+  ],
+  "rejected": [
+    {
+      "candidate_id": "candidate-linear-bipartite-deletion",
+      "reason": "Already follows from fully read Lemma 4.4 of arXiv:2609.20225v2 at booksize zero, taking a maximum-spectral component and deleting all other component edges."
+    }
+  ],
+  "bar_review_ids": [
+    "bar-astra-v2",
+    "bar-sol-v2"
+  ],
+  "review_ids": [],
+  "comparison": "The sharp-three formulation asks for a quantitative change from the published qualitative triangle-free stability modulus to a uniform linear deficit-distance law, with the same coefficient as the proved bipartite theorem. The universal-linear alternative isolates the order of dependence and is meaningful, but presently has the same evidence and fewer structural distinctions: it would not decide whether allowing odd cycles changes the bipartite coefficient. The strongest objection is that removing bipartiteness could be an automatic corollary of a near-bipartite reduction. The fully read proofs expose the missing step: a cut can be obtained by deleting at most the spectral deficit, but the subsequent Weyl/Frobenius estimate loses its square root, so that specific composition does not produce a uniform linear law. This is a comparison of those displayed inequalities, not an impossibility assertion about the methods. The simple regular subcase offers a separate analytical foothold requiring native review. Small probes are exploratory only. The third candidate merely asks for the already proved deletion bound, which has a different target from complete-bipartite editing and contributes no new question. Select the sharp question for a normal bounded exact-statement attempt, while current openness and final significance remain to be independently assessed.",
+  "reason": ""
+}

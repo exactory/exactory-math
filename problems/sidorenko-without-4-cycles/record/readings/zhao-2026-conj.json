@@ -1,0 +1,85 @@
+{
+ "id": "reading-zhao-2026-conj",
+ "version_id": "arxiv:2606.15368v1",
+ "bundle_id": "bundle-2606.15368v1",
+ "inspections": [
+  {
+   "anchor": "Proposition 1.2 (Szegedy’s reduction, Cayley form).",
+   "end": "In particular, H is Sidorenko.",
+   "note": "Szegedy's reduction to bipartite Cayley hosts on symmetric groups with connection sets T1T2."
+  },
+  {
+   "anchor": "Theorem 1.3. Let H = (X ⊔ Y, EH ) be a bipartite graph.",
+   "end": "In particular, H is Sidorenko.",
+   "note": "Theorem 1.3: comparison with conjugacy-class averages implies strong Sidorenko."
+  },
+  {
+   "anchor": "Theorem 1.4 (1-subdivisions on conjugacy-averaged Cayley kernels).",
+   "end": "(Eg∈Γ a(g))2e(H0 ) .",
+   "note": "Theorem 1.4: 1-subdivisions satisfy the inequality on conjugacy-averaged Cayley kernels of arbitrary real functions."
+  },
+  {
+   "anchor": "Since every even subdivision is the 1-subdivision of another graph, Theorem 1.4 im-",
+   "end": "an arbitrary real-valued class function.",
+   "note": "Extension to even subdivisions and comparison with the abelian result."
+  },
+  {
+   "anchor": "Proposition 3.1. Let Γ be a finite group, let L, M ≤ Γ be subgroups, and set",
+   "end": "tCay (H; Γ, a) ≥ tCay (K2 ; Γ, a)e(H) .",
+   "note": "Proposition 3.1: every bipartite graph satisfies the inequality on conjugacy-averaged product-set kernels."
+  }
+ ],
+ "notes": {
+  "problem": {
+   "text": "Sidorenko-type inequalities on Cayley-type bipartite kernels of finite groups and their conjugacy-class averages.",
+   "inspections": [
+    0,
+    1
+   ]
+  },
+  "claims": {
+   "text": "Proposition 3.1: every bipartite graph satisfies the inequality on the conjugacy-class average of the indicator of a product of two subgroups. Theorem 1.3: if the density of H on every Cayley-type host is at least its density on the conjugacy-class average, then H is strong Sidorenko. Theorem 1.4: every 1-subdivision, hence every even subdivision, satisfies the inequality on conjugacy-averaged Cayley kernels of arbitrary real functions on finite groups.",
+   "inspections": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  "assumptions": {
+   "text": "Szegedy's reduction in its Cayley form (Proposition 1.2); representation theory of finite groups.",
+   "inspections": [
+    0
+   ]
+  },
+  "methods": {
+   "text": "Fourier expansion over irreducible unitary representations; class functions have scalar Fourier coefficients; averages over vertices give commuting orthogonal projections, so each term is a trace of a product of two projections.",
+   "inspections": [
+    2,
+    4
+   ]
+  },
+  "evidence": {
+   "text": "Complete proofs.",
+   "inspections": [
+    2,
+    4
+   ]
+  },
+  "limitations": {
+   "text": "The positive results hold on conjugacy-averaged kernels only; the comparison hypothesis of Theorem 1.3 is not proved for any class of graphs beyond these.",
+   "inspections": [
+    1,
+    2
+   ]
+  },
+  "relevance": {
+   "text": "No result of this paper decides the statement or a declared neighbour. For the 1-subdivision neighbours, Theorem 1.4 extends the abelian result to class-function Cayley kernels on all finite groups; it does not cover general hosts, which by Proposition 1.2 would need arbitrary Cayley kernels.",
+   "inspections": [
+    0,
+    2,
+    3
+   ]
+  }
+ }
+}

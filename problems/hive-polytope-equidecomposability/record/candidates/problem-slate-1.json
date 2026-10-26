@@ -1,0 +1,51 @@
+{
+ "bar_review_ids": [
+  "problem-bar-astra",
+  "problem-bar-luna"
+ ],
+ "candidate_ids": [
+  "candidate-ehrhart-form",
+  "candidate-hive-equidecomposable",
+  "candidate-hm-form-hives",
+  "candidate-ktt-numerator-positivity",
+  "candidate-linear-coefficient-all-ranks",
+  "candidate-per-facet-inequality",
+  "candidate-scalar-product-weights"
+ ],
+ "comparison": "Payoff: the selected candidate (hive polytopes are GL_D(Z)-equidecomposable with lattice polytopes) is the only one whose resolution changes two active lines at once, the polyhedral explanation of period collapse (Haase-McAllister's conjecture, whose motivating open case it is) and Littlewood-Richardson positivity (it implies the numerator conjecture through Stanley's inequality); its evidence is structural (period collapse is a theorem; the census and the seed construction test necessary and sufficient conditions) rather than a numerical pattern. The Ehrhart form and the Haase-McAllister form are its declared neighbours and are covered by it; the numerator conjecture is a known conjecture. Tests that distinguish: the seed instance (an explicit construction, now proved), the h*-inequalities on the census, the first vertex of denominator three. Failure signals: a hive polynomial violating a lattice-polytope inequality (refutes the selected candidate and the Ehrhart form), or a hive with a realizable polynomial and no finite rearrangement (refutes the selected candidate only). Resource demand: hand constructions and laptop computations. The three rank-five candidates (linear coefficient, per-facet inequality, scalar-product weights) rest on a rank that Ferudun 2026 settled; the per-facet inequality keeps a precise content at rank six and above and is deferred until rank-six evidence exists; the other two are rejected as a weakening and a method boundary at a settled case.",
+ "deferred": [
+  {
+   "candidate_id": "candidate-per-facet-inequality",
+   "evidence_needed": "Exact rank-six tests of the per-facet inequality on a census of cells, and a comparison with the certificate shape of Ferudun's (HTE) at rank six; without them the candidate's evidence is confined to rank five, which Ferudun 2026 settled."
+  }
+ ],
+ "id": "problem-slate-1",
+ "reason": "The selected candidate reaches potential level 3 on both grounds with readiness pass; every other candidate is either covered by it, a restatement of a known conjecture, or confined to a settled rank.",
+ "recorded_revision": 365,
+ "rejected": [
+  {
+   "candidate_id": "candidate-ehrhart-form",
+   "reason": "The declared weaker form of the selected candidate; posting it separately would split one question into two, and a disproof of it is already one of the selected statement's disproof routes."
+  },
+  {
+   "candidate_id": "candidate-hm-form-hives",
+   "reason": "A restatement, in a special case, of Conjecture 3.2 of Haase-McAllister 2008; the selected candidate is strictly sharper and carries the consequence (the numerator conjecture) that this form lacks."
+  },
+  {
+   "candidate_id": "candidate-linear-coefficient-all-ranks",
+   "reason": "A bare weakening of the known King-Tollu-Toumazet monomial-positivity conjecture whose only route in the record (the rank-five reductions) was overtaken by Ferudun's certificate."
+  },
+  {
+   "candidate_id": "candidate-scalar-product-weights",
+   "reason": "A parameter variant at a settled rank: its positive answer is already a theorem by another method, and its negative answer delimits one construction among the affine space of valid local formulas."
+  },
+  {
+   "candidate_id": "candidate-ktt-numerator-positivity",
+   "reason": "A restatement of the known 2004 conjecture of King, Tollu and Toumazet; recorded so that the slate shows the conjecture the selected candidate would explain."
+  }
+ ],
+ "review_ids": [],
+ "selected": [
+  "candidate-hive-equidecomposable"
+ ]
+}

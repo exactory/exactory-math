@@ -1,0 +1,42 @@
+{
+ "id": "candidate-sidorenko-forcing",
+ "previous": null,
+ "statement": "Is every Sidorenko bipartite graph that contains a cycle forcing?",
+ "source": {
+  "kind": "literature",
+  "reference": "The 2026 counterexample refutes the forcing conjecture only through the failure of the Sidorenko inequality (its Corollary 1.3, interpolation between kernels); Conlon, Fox and Sudakov note that forcing is stronger than Sidorenko.",
+  "evidence": [
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-openai-sidorenko-2026",
+    "digest": "6c700b460bee4bff698967efd76353d7efc824aa78bbf686f6bb40e0b3f3ac48"
+   },
+   {
+    "kind": "record",
+    "record_kind": "reading",
+    "id": "reading-cfs-2010",
+    "digest": "ea507e532959c582affe4ce2d9b27e3a973ffa2c9e852c30744987f084cfcce2"
+   }
+  ]
+ },
+ "observation": "Every known refutation of forcing for a graph with a cycle passes through a failure of Sidorenko; the corrected statement asks whether the Sidorenko property with a cycle already forces quasirandomness.",
+ "neighbours": [
+  "Is the forcing conjecture true for every weakly norming graph with a cycle? (known)",
+  "Is every edge-transitive bipartite graph with a cycle forcing?"
+ ],
+ "potential": {
+  "significance": {
+   "B1": 2,
+   "B2": 1
+  },
+  "priority": 1,
+  "readiness": "fail"
+ },
+ "notes": "The forcing literature (Skokan-Thoma 2004, Li-Szegedy 2011, Kiem-Parczyk-Spiegel 2024) is not read in full by this record.",
+ "disposition": {
+  "status": "deferred",
+  "reason": "Readiness: the decisive forcing literature is not read in full.",
+  "evidence_needed": "Full readings of Skokan-Thoma 2004, Li-Szegedy 2011 and Kiem-Parczyk-Spiegel 2024, and a search for Sidorenko graphs with a cycle that are not forcing."
+ }
+}

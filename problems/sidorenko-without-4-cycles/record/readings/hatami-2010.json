@@ -1,0 +1,22 @@
+{
+ "id": "reading-hatami-2010",
+ "version_id": "arxiv:0806.0047v1",
+ "bundle_id": "bundle-0806.0047v1",
+ "inspections": [
+  {"anchor": "Theorem 2.8 A graph H is H", "end": "is always a norm.", "note": "Norming properties are equivalent to Holder-type inequalities."},
+  {"anchor": "Theorem 2.9 We have the following:", "end": "for every integer k > 0.", "note": "Positive results: products, complete bipartite graphs, hypercubes."},
+  {"anchor": "Theorem 2.10 If G is weakly H", "end": "then deg(u) = deg(v).", "note": "Necessary conditions: subgraph density condition and equal degrees within each part."},
+  {"anchor": "Szegedy [private communication] pointed out", "end": "we can say much more.", "note": "Weakly norming implies Sidorenko."},
+  {"anchor": "Is there any edge transitive bipartite graph that is not weakly H", "note": "Open question: an edge-transitive bipartite graph that is not weakly norming (later answered by Kral et al.)."},
+  {"anchor": "Consider the graph H that is obtained by removing the edges of a Hamiltonian cycle from K5,5", "end": "conjecture for this graph.", "note": "K_{5,5} minus a Hamiltonian cycle: the smallest graph for which Sidorenko's conjecture is open."}
+ ],
+ "notes": {
+  "problem": {"text": "Lovasz's question which graphs H make h_H(.)^{1/m} a norm, and its application to Sidorenko's conjecture.", "inspections": [0]},
+  "claims": {"text": "Theorem 2.8: norming is equivalent to a Holder inequality; Theorem 2.9: complete bipartite graphs and hypercubes are weakly norming, closure under bi-products; Theorem 2.10: a weakly norming graph has equal degrees on each part and a subgraph density condition; weakly norming graphs satisfy Sidorenko and stronger subgraph inequalities (Theorem 2.14).", "inspections": [0, 1, 2, 3]},
+  "assumptions": {"text": "Bipartite graphs with a fixed bipartition; functions on products of probability spaces; the tensor power trick.", "inspections": [0]},
+  "methods": {"text": "Holder-type inequalities and tensor powers; induction on the hypercube dimension through Cauchy-Schwarz reductions.", "inspections": [1]},
+  "evidence": {"text": "Complete proofs.", "inspections": [1, 2]},
+  "limitations": {"text": "Norming requires biregularity, so it cannot reach graphs with unequal degrees in a part; the paper leaves open whether every edge-transitive bipartite graph is weakly norming and whether K_{5,5} minus a Hamiltonian cycle is weakly norming.", "inspections": [2, 4, 5]},
+  "relevance": {"text": "The biregularity condition of Theorem 2.10 is the boundary of the norming method, and K_{5,5} minus a Hamiltonian cycle is recorded as the smallest open case of Sidorenko's conjecture; both enter the candidate comparison of this exploration.", "inspections": [2, 5]}
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "id": "reading-lovasz-2011",
+ "version_id": "arxiv:1004.3026v1",
+ "bundle_id": "bundle-1004.3026v1",
+ "inspections": [
+  {
+   "anchor": "Sidorenko proved his conjecture in a number special cases: for trees F , and",
+   "end": "for cubes.",
+   "note": "The positive cases known in 2010: trees, one colour class of at most 4 nodes, cubes."
+  },
+  {
+   "anchor": "The goal of this paper is to prove that this holds locally",
+   "end": "sufficiently close to 1.",
+   "note": "The aim: the constant function minimizes t(F,W) locally."
+  },
+  {
+   "anchor": "Lemma 2.5 If F ≤ G, then F sub ≤ Gsub .",
+   "end": "= t(Gsub , U ).",
+   "note": "Lemma 2.5: density inequalities for signed graphons pass to 1-subdivisions, by t(F^sub, U) = t(F, U o U^T)."
+  },
+  {
+   "anchor": "Lemma 2.22 Let F be a bipartite graph with all degrees at least 2, with girth",
+   "end": "Then F ≤ C2r C4 .",
+   "note": "Lemma 2.22: for a bipartite graph of girth 2r with minimum degree two, not a cycle or complete bipartite, the signed density is bounded by C_{2r} C_4^{1/4}."
+  },
+  {
+   "anchor": "Theorem 3.1 Let F = (V, E) be a simple bigraph.",
+   "end": "Then t(F, W ) ≥ 1.",
+   "note": "Theorem 3.1: local Sidorenko for every bipartite graph in a cut-norm neighbourhood of the constant function, with 0 <= W <= 2."
+  },
+  {
+   "anchor": "Theorem 3.3 Let F = (V, E) be a simple bigraph.",
+   "end": "Then t(F, W ) ≥ 1.",
+   "note": "Theorem 3.3: local Sidorenko in the L-infinity ball of radius 1/(4m)."
+  },
+  {
+   "anchor": "Theorem 3.4 Let F = (V, E) be a simple bigraph with m edges",
+   "end": "Then t(F, W ) ≥ 1 − ε.",
+   "note": "Theorem 3.4: an approximate version without the bound W <= 2, under a density bound on large sets."
+  }
+ ],
+ "notes": {
+  "problem": {
+   "text": "Whether the constant function minimizes t(F,W) among nonnegative W with integral one, locally near the constant function, and inequalities between densities of signed graphons.",
+   "inspections": [
+    1
+   ]
+  },
+  "claims": {
+   "text": "Theorem 3.1: for every bipartite graph F with m edges, t(F,W) >= 1 whenever the integral of W is 1, 0 <= W <= 2 and the cut norm of W - 1 is at most 2^{-8m}. Theorem 3.2: the same with the Schatten-norm condition t(C_4, W - 1) <= 2^{-4m} (the statement prints t(C4, W); the sentence before it introduces t(C4, U)^{1/4} with U = W - 1). Theorem 3.3: the same in the L-infinity ball of radius 1/(4m). Theorem 3.4: t(F,W) >= 1 - epsilon without W <= 2, under a bound on densities of large sets. Lemma 2.22 bounds signed densities through the girth.",
+   "inspections": [
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "assumptions": {
+   "text": "Bounded measurable functions on the unit square; the analysis works with the signed function U = W - 1.",
+   "inspections": [
+    1
+   ]
+  },
+  "methods": {
+   "text": "Expansion of t(F, 1 + U) over spanning subgraphs; generalized Cauchy-Schwarz inequalities for signed graphons (Lemmas 2.3 to 2.6); hanging path systems; the girth lemma 2.22, whose proof treats separately the 1-subdivision of K_{3,3} through Lemma 2.5.",
+   "inspections": [
+    2,
+    3
+   ]
+  },
+  "evidence": {
+   "text": "Complete proofs.",
+   "inspections": [
+    3,
+    4
+   ]
+  },
+  "limitations": {
+   "text": "Only a neighbourhood of the constant function: small cut norm with W bounded by twice its mean, or small L-infinity norm. Removing the bound W <= 2 is open in the paper, which offers only the approximate Theorem 3.4.",
+   "inspections": [
+    4,
+    5,
+    6
+   ]
+  },
+  "relevance": {
+   "text": "The local results hold for every bipartite graph, so for every graph of girth at least six; they do not decide the statement. They give a necessary condition for a counterexample to the statement: the host W, scaled to mean one, has cut distance more than 2^{-8m} from the constant function or exceeds 2 on a set of positive measure, and has L-infinity distance more than 1/(4m) from it. In this paper the girth determines the order of the leading cycle term in the expansion (Lemma 2.22); it is not a hypothesis of the local theorem.",
+   "inspections": [
+    3,
+    4,
+    5
+   ]
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "disposition": {
+  "evidence_needed": null,
+  "reason": "Redundant with the selected candidate, of which it is the declared weaker form; posting it separately would split one question into two.",
+  "status": "rejected"
+ },
+ "id": "candidate-ehrhart-form",
+ "neighbours": [
+  "The geometric form (candidate-hive-equidecomposable).",
+  "The h*-positivity conjecture of King-Tollu-Toumazet."
+ ],
+ "notes": "A weaker form of the selected candidate; it is declared there as a neighbour, and a disproof of it is one of the stated disproof routes of the selected statement.",
+ "observation": "The census tests necessary conditions for this weaker statement, not for the geometric one; Turner-Wu show that for polygons Ehrhart equivalence and finite equidecomposability differ, so the two forms are distinct questions.",
+ "potential": {
+  "priority": 1,
+  "readiness": "pass",
+  "significance": {
+   "B1": 2,
+   "B2": 2
+  }
+ },
+ "previous": null,
+ "recorded_revision": 244,
+ "source": {
+  "evidence": [
+   {
+    "digest": "0b26a9ecf0e28d73a0eddafd7913626ab2e9d2faf602d638c7b0b9fd05a615fb",
+    "id": "hstar-inequalities-1",
+    "kind": "record",
+    "record_kind": "probe"
+   },
+   {
+    "digest": "9021e71c0fe1a8af6afd10ba75779b9a1f2f560144f165968ffc6d39a37064ad",
+    "id": "dim2-hives-1",
+    "kind": "record",
+    "record_kind": "probe"
+   },
+   {
+    "digest": "aae21c2354cdedad834a228e381555897b487a7ca68f25aa309e73f6a9454edc",
+    "id": "reading-haase-mcallister-2008-3",
+    "kind": "record",
+    "record_kind": "reading"
+   }
+  ],
+  "kind": "own_record",
+  "reference": "The same census as candidate-hive-equidecomposable; the Ehrhart form is what the census tests directly."
+ },
+ "statement": "For every triple of partitions with $c^{\\nu}_{\\lambda\\mu}>0$ there is a lattice polytope $Q$ whose Ehrhart polynomial is $c^{t\\nu}_{t\\lambda,t\\mu}$."
+}

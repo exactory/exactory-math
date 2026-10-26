@@ -1,0 +1,394 @@
+{
+ "id": "assessment-girth-six-2",
+ "statement_id": "statement-girth-six",
+ "grades": {
+  "admission": {
+   "A1": "pass",
+   "A2": "pass",
+   "A3": "pass",
+   "A4": "pass",
+   "A5": "pass",
+   "A6": "pass"
+  },
+  "significance": {
+   "B1": 2,
+   "B2": 2
+  },
+  "priority": 2,
+  "attempt": "pass",
+  "accessibility": "E-F",
+  "calibration": "pass"
+ },
+ "items": {
+  "A1": {
+   "evidence": [
+    {
+     "kind": "record",
+     "record_kind": "problem_statement",
+     "id": "statement-girth-six",
+     "digest": "fb0c54d62c9c76ebd8961110752ed2731c41f779f15f5ea2cbc52dc9365b9d6c"
+    },
+    {
+     "path": "research/sources/objects/e671e6006c246e3b27905244363f261642b69887ff49e29b84e26228dcbe4aa7",
+     "sha256": "e671e6006c246e3b27905244363f261642b69887ff49e29b84e26228dcbe4aa7",
+     "size": 1504,
+     "media_type": "text/plain"
+    },
+    {
+     "path": "research/sources/objects/55939da0aa76a1fe10faeae5f402e8516e14d2bfc4c4f3e708a19f09f81489c9",
+     "sha256": "55939da0aa76a1fe10faeae5f402e8516e14d2bfc4c4f3e708a19f09f81489c9",
+     "size": 226,
+     "media_type": "text/plain"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-kll-2016",
+     "digest": "4a9d28ee9106d9e5b1cf5276768bfb76ea7e0485ac9fab54f726187b62bca2e8"
+    }
+   ],
+   "note": "The statement and the resolution criteria are exact. A proof establishes the inequality for every finite bipartite graph with an edge and no 4-cycle and every graphon; a disproof exhibits one such pattern with a violating graphon or finite simple host. The supplied Lean statement is the finite-host form: all edge-preserving maps are counted, including noninjective ones, the edge density of a host on m vertices is 2e(G)/m^2, and the hypotheses are 2-colourability, a nonempty edge set and no closed walk that is a cycle of length four. The finite-host form is equivalent to the graphon form for each pattern (Kim, Lee and Lee call (1.2) an equivalent discrete form of (1.1); step graphons in one direction, cut-distance approximation and the counting lemma in the other). The Lean file builds with Lean 4.33.1 and Mathlib v4.33.1 (build log, exit 0); it is a statement without a proof."
+  },
+  "A2": {
+   "evidence": [
+    {
+     "kind": "record",
+     "record_kind": "problem_openness",
+     "id": "assignment-openness-fable-2",
+     "digest": "711410e0a450465dcf1afacdd23990ba5dc4681636f8d000f16b077fb5a75d78"
+    },
+    {
+     "kind": "record",
+     "record_kind": "literature_search",
+     "id": "search-openness-statement",
+     "digest": "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e"
+    },
+    {
+     "kind": "record",
+     "record_kind": "literature_search",
+     "id": "search-openness-one-subdivision",
+     "digest": "c80796acee29996e963794fc815cf6a10aa7cc1209afd750756343d7904ac697"
+    }
+   ],
+   "note": "The current openness finding is supported_open for the exact statement and its eight declared neighbours (observed review on route-claude-fable), with nine bound searches, dated coverage and seventeen full readings; no settling work exists in the captured literature. Recorded gaps: Semantic Scholar was unavailable (HTTP 429 on every attempt), and Fox and Wei 2017 was not read in full (a local theorem, which cannot settle the statement)."
+  },
+  "A3": {
+   "evidence": [
+    {
+     "kind": "record",
+     "record_kind": "problem_attempt",
+     "id": "attempt-girth-six-solver-1",
+     "digest": "0b59f4d8c1fcbaeb2f7095b25c46bac620802cc3a200712d780702adb5122939"
+    },
+    {
+     "kind": "record",
+     "record_kind": "native_attempt",
+     "id": "834cdf10777b00395e65ac88388dd06a90739fac5732bef33a2d02445da35b06",
+     "digest": "70176fb5b0fcde396852121e512c7b1a275e0af4487f81b8d7f0782cf9c29ba4"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-ckll-2018",
+     "digest": "2a33ae2a7f8689256c12867cc5505d151bdb4f955135a07e85201dc93b83084e"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-openai-sidorenko-2026-located",
+     "digest": "7339219d8012b31819267c0f4ae0582c30a076dfa2a2d6d321fc4f183ef14a56"
+    }
+   ],
+   "note": "The statement contains Problem 1.5 of Conlon, Kim, Lee and Lee exactly on the class C_2 of girth-six patterns with a bipartition whose one side has maximum degree at most two: the equivalence is proved by the attempt (acceptance-000001), with the original problem named. Beyond Problem 1.5 it adds the girth-six patterns outside C_2, such as incidence graphs of linear triple systems and the Heawood graph, and its girth threshold is the exact boundary of the reported counterexample's mechanism: the attempt proves that the mechanism gives no leading-order deficit without 4-cycles, conditional on the rank-layer limit for the pattern (acceptance-000002). What remains unresolved: Problem 1.5 itself, the patterns outside C_2, and lower-order effects of the reported construction."
+  },
+  "A4": {
+   "evidence": [
+    {
+     "kind": "record",
+     "record_kind": "problem_statement",
+     "id": "statement-girth-six",
+     "digest": "fb0c54d62c9c76ebd8961110752ed2731c41f779f15f5ea2cbc52dc9365b9d6c"
+    }
+   ],
+   "note": "The statement uses standard notions (bipartite graph, cycle of length four, graphon, homomorphism density) and states the finite-host equivalent in its criteria; a researcher in extremal graph theory reads it without new definitions."
+  },
+  "A5": {
+   "evidence": [
+    {
+     "kind": "record",
+     "record_kind": "problem_attempt",
+     "id": "attempt-girth-six-solver-1",
+     "digest": "0b59f4d8c1fcbaeb2f7095b25c46bac620802cc3a200712d780702adb5122939"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-ckll-2018",
+     "digest": "2a33ae2a7f8689256c12867cc5505d151bdb4f955135a07e85201dc93b83084e"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-conlon-lee-2021",
+     "digest": "14bcfa100f3e35e36dbe09b75b5086877f0cc1dc8a39e401a0212b51e03627eb"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-hatami-2010",
+     "digest": "70879ffecaaa7d788cb17f5d1e8793fff4edd88947c31fdba96a9f11a9eed7ee"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-lee-schuelke-2019",
+     "digest": "2be85e87032b4ace253045c3b43ad830ff091c1774f07ceb93223aff35e4c884"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-lovasz-2011",
+     "digest": "e8aa3ea91b069d9bab75f4d4ad5d7bfc48c2b75b03701ec5450328b9961d3407"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-openai-sidorenko-2026-located",
+     "digest": "7339219d8012b31819267c0f4ae0582c30a076dfa2a2d6d321fc4f183ef14a56"
+    }
+   ],
+   "note": "Routine routes considered, and why each does not settle the statement: the class theorems (1-subdivisions of cliques, of Sidorenko, KNRS or regular-KNRS base graphs; uniform and odd subdivisions; subdivisions of polytope graphs) cover classes only; the norming method needs biregularity, and the smallest named open case is not weakly norming; the one-side-regular criterion of Conlon and Lee 2021 misses the Heawood graph; local Sidorenko holds near the constant graphon only; the bounded-degree and pendant-vertex reductions reduce C_2 to Problem 1.5 and stop there; the transfer of the reported construction gives no leading-order deficit on girth-six patterns. The objection that the statement is a mere strengthening of Problem 1.5 is answered under priority. The record certifies nothing about what routine methods cannot do."
+  },
+  "A6": {
+   "evidence": [
+    {
+     "kind": "record",
+     "record_kind": "problem_openness",
+     "id": "assignment-openness-fable-2",
+     "digest": "711410e0a450465dcf1afacdd23990ba5dc4681636f8d000f16b077fb5a75d78"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-openai-sidorenko-2026-located",
+     "digest": "7339219d8012b31819267c0f4ae0582c30a076dfa2a2d6d321fc4f183ef14a56"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-ckll-2018",
+     "digest": "2a33ae2a7f8689256c12867cc5505d151bdb4f955135a07e85201dc93b83084e"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-kps-2026",
+     "digest": "15ac681946593679867efa0ed4fd11968eb9e917f614c0909abc742a093d7f52"
+    }
+   ],
+   "note": "Every decisive source was read in full, including the reported counterexample, Conlon, Kim, Lee and Lee 2018, and the state of the subdivision question on 21 September 2026 (Kiem, Parczyk and Spiegel). The counterexample manuscript is read in full but not verified: its Lemma 3.1 is taken as reported, and every claim of the record that depends on it says so. Its Lean formalization was not built by this record; the held comparator statement and scope note show that it covers Theorem 1.1 only (A6 and calibration)."
+  },
+  "B1": {
+   "evidence": [
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-ill-2024",
+     "digest": "3e77a8ce00cf56947b68033e00e8506a64d572a6030921b900e7edcfa709b09a"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-clm-2024",
+     "digest": "875e58e41b01dff76657e6c9bd6584962814bcd284176aee57c79d2528a68f02"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-zhao-2025-even",
+     "digest": "ab83f883a903b570015caa9ce2e8358b1e0feac36b441825dea480000093cbca"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-zhao-2026-conj",
+     "digest": "f31bd1e895ae1b37941287c0e68dee57975c31c5cae5c85f728544c3e3b651c2"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-zhao-2026-corr",
+     "digest": "11fd32235cebe4ca72e97629683dd33f5eaafbd0a07ddb7c21ada13cd591ef10"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-zhao-2026-lp",
+     "digest": "99c68d3bde018801e613fcffd8d18fb7d163fd7cb550bf690fef5533e7ea02b6"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-kps-2026",
+     "digest": "15ac681946593679867efa0ed4fd11968eb9e917f614c0909abc742a093d7f52"
+    },
+    {
+     "kind": "record",
+     "record_kind": "problem_attempt",
+     "id": "attempt-girth-six-solver-1",
+     "digest": "0b59f4d8c1fcbaeb2f7095b25c46bac620802cc3a200712d780702adb5122939"
+    },
+    {
+     "path": "research/sources/objects/16e01aefc02504a3dadf6eb7af9e3b663a9d58c9b082390ee396bbff3af1560a",
+     "sha256": "16e01aefc02504a3dadf6eb7af9e3b663a9d58c9b082390ee396bbff3af1560a",
+     "size": 1001,
+     "media_type": "application/json"
+    },
+    {
+     "path": "research/sources/objects/6dbe77e72e637ed8854fff2ad55a1c7377bec3784fc8a552dd8534af8a118798",
+     "sha256": "6dbe77e72e637ed8854fff2ad55a1c7377bec3784fc8a552dd8534af8a118798",
+     "size": 3185,
+     "media_type": "application/json"
+    }
+   ],
+   "note": "The line on subdivisions and Problem 1.5 is active from 2024 to September 2026: seven works read in full (Im, Li and Liu; Chen, Lin and Ma; Zhao 2025 and three works of 2026; Kiem, Parczyk and Spiegel, revised 21 September 2026). The statement's place in that line is fixed by a reduction, the accepted equivalence with Problem 1.5 on C_2. The grade rests on this activity before the counterexample. The only captured engagement after it is MathOverflow question 515955 (12 October 2026), which asked whether the reported proof is correct and how to refine the conjecture; it was closed the same day as not suitable for the site, with score -2 and no answer. It is held as an artifact and not relied upon."
+  },
+  "B2": {
+   "evidence": [
+    {
+     "kind": "record",
+     "record_kind": "problem_attempt",
+     "id": "attempt-girth-six-solver-1",
+     "digest": "0b59f4d8c1fcbaeb2f7095b25c46bac620802cc3a200712d780702adb5122939"
+    },
+    {
+     "kind": "record",
+     "record_kind": "native_attempt",
+     "id": "834cdf10777b00395e65ac88388dd06a90739fac5732bef33a2d02445da35b06",
+     "digest": "70176fb5b0fcde396852121e512c7b1a275e0af4487f81b8d7f0782cf9c29ba4"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-openai-sidorenko-2026-located",
+     "digest": "7339219d8012b31819267c0f4ae0582c30a076dfa2a2d6d321fc4f183ef14a56"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-ckll-2018",
+     "digest": "2a33ae2a7f8689256c12867cc5505d151bdb4f955135a07e85201dc93b83084e"
+    }
+   ],
+   "note": "Either answer changes what is known. A proof settles Problem 1.5 of Conlon, Kim, Lee and Lee and gives a forbidden-subgraph condition sufficient for Sidorenko's inequality. A counterexample inside C_2 answers Problem 1.5 negatively; one outside C_2 shows a failure without 4-cycles, beyond the reported mechanism, which the accepted barrier shows is blind to girth six at leading order. The parts that depend on the reported counterexample are stated as conditional on it."
+  },
+  "priority": {
+   "evidence": [
+    {
+     "kind": "record",
+     "record_kind": "problem_statement",
+     "id": "statement-girth-six",
+     "digest": "fb0c54d62c9c76ebd8961110752ed2731c41f779f15f5ea2cbc52dc9365b9d6c"
+    },
+    {
+     "kind": "record",
+     "record_kind": "problem_openness",
+     "id": "assignment-openness-fable-2",
+     "digest": "711410e0a450465dcf1afacdd23990ba5dc4681636f8d000f16b077fb5a75d78"
+    },
+    {
+     "kind": "record",
+     "record_kind": "problem_attempt",
+     "id": "attempt-girth-six-solver-1",
+     "digest": "0b59f4d8c1fcbaeb2f7095b25c46bac620802cc3a200712d780702adb5122939"
+    }
+   ],
+   "note": "Compared with the declared neighbours by payoff: Problem 1.5 (implied by the statement; the statement adds the patterns outside C_2); the large-girth threshold (weaker; girth six is the boundary that the barrier identifies); the 1-subdivision of the reported pattern (one instance); incidence graphs of linear hypergraphs and the Heawood graph (instances outside C_2); forcing for girth-six patterns (another property); biregular girth-six patterns (a subclass); Conjecture 4.1 of Im, Li and Liu (overlapping, about subdivisions of Sidorenko graphs). The strongest case against the question: it is a bare strengthening of Problem 1.5. Answer: its girth threshold is the documented boundary of the only reported disproof mechanism (accepted barrier, conditional on the rank-layer limit), and it covers the natural girth-six analogues of the reported pattern, which Problem 1.5 does not."
+  },
+  "attempt": {
+   "evidence": [
+    {
+     "kind": "record",
+     "record_kind": "problem_attempt",
+     "id": "attempt-girth-six-solver-1",
+     "digest": "0b59f4d8c1fcbaeb2f7095b25c46bac620802cc3a200712d780702adb5122939"
+    },
+    {
+     "kind": "record",
+     "record_kind": "native_attempt",
+     "id": "834cdf10777b00395e65ac88388dd06a90739fac5732bef33a2d02445da35b06",
+     "digest": "70176fb5b0fcde396852121e512c7b1a275e0af4487f81b8d7f0782cf9c29ba4"
+    }
+   ],
+   "note": "A bounded math-solver attempt on the exact statement: two nodes under a case-split route, two moves of 24, no runs, one worker. It proved a reduction (foothold: the statement on C_2 is equivalent to Problem 1.5) and a strategy obstruction (the reported construction gives no leading-order deficit on girth-six patterns, conditional on the rank-layer limit for the pattern), each accepted after an observed independent review; it states what stayed unresolved (Problem 1.5, the positive direction outside C_2, the rank-layer limit for girth-six patterns and lower-order effects)."
+  },
+  "accessibility": {
+   "evidence": [
+    {
+     "kind": "record",
+     "record_kind": "problem_attempt",
+     "id": "attempt-girth-six-solver-1",
+     "digest": "0b59f4d8c1fcbaeb2f7095b25c46bac620802cc3a200712d780702adb5122939"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-ckll-2018",
+     "digest": "2a33ae2a7f8689256c12867cc5505d151bdb4f955135a07e85201dc93b83084e"
+    },
+    {
+     "kind": "record",
+     "record_kind": "reading",
+     "id": "reading-conlon-lee-2021",
+     "digest": "14bcfa100f3e35e36dbe09b75b5086877f0cc1dc8a39e401a0212b51e03627eb"
+    }
+   ],
+   "note": "E-F. Footholds: the accepted reduction of C_2 to Problem 1.5, the known class results, and the accepted barrier for the reported mechanism. A natural first unresolved case outside C_2 is the Heawood graph, which the one-side-regular criterion of Conlon and Lee 2021 does not cover and which no captured work decides; the record does not claim that it is the smallest unresolved case."
+  },
+  "calibration": {
+   "evidence": [
+    {
+     "kind": "record",
+     "record_kind": "problem_value",
+     "id": "value-girth-six-2",
+     "digest": "b37f1c681a5817730963a0175395151224fba8f30c90933a9fb0e676eaca9cd2"
+    },
+    {
+     "path": "research/sources/objects/489688f5c4eb60c6dd8cfe0ef69663aaf11e795d6252e9626972764a50187de9",
+     "sha256": "489688f5c4eb60c6dd8cfe0ef69663aaf11e795d6252e9626972764a50187de9",
+     "size": 1764,
+     "media_type": "text/plain"
+    },
+    {
+     "path": "research/sources/objects/2d3ce04f40de12d67424f8597bf3ea9cbb6f262c9e6e58edbc5ab6f690de52ec",
+     "sha256": "2d3ce04f40de12d67424f8597bf3ea9cbb6f262c9e6e58edbc5ab6f690de52ec",
+     "size": 338,
+     "media_type": "application/json"
+    },
+    {
+     "path": "research/sources/objects/a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+     "sha256": "a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+     "size": 946,
+     "media_type": "text/markdown"
+    },
+    {
+     "path": "research/sources/objects/0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+     "sha256": "0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+     "size": 13670,
+     "media_type": "application/json"
+    },
+    {
+     "path": "research/sources/objects/5a8a164259591208886cd018416e61552665265ec9e20cff636f9d51117c2278",
+     "sha256": "5a8a164259591208886cd018416e61552665265ec9e20cff636f9d51117c2278",
+     "size": 79482,
+     "media_type": "text/plain"
+    }
+   ],
+   "note": "Established results (the two accepted results and the cited theorems) are kept apart from the reported counterexample (unrefereed; Lemma 3.1 unchecked), from conditional statements (the barrier under the rank-layer limit) and from judgments (significance, priority). No computation is cited and no claim about small-graph computations or the size of a smallest counterexample is made. The Lean formalization of the counterexample is described only as far as the held artifacts show: the comparator statement concerns Theorem 1.1 (the graph form, all homomorphisms, the existence of a nonempty finite host with a strict deficit for the 66-edge pattern); the scope note puts the forcing consequence outside it; the comparator permits the axioms propext, Quot.sound and Classical.choice; a textual search of the 35 solution files found no sorry, admit, axiom or native_decide; the formalization catalogue at that commit does not list the paper; and this record did not build or run the Lean development."
+  }
+ },
+ "primary": {
+  "ground": "B1",
+  "criterion": "V7"
+ }
+}

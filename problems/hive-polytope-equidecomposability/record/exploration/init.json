@@ -1,0 +1,8 @@
+{
+  "slug": "stretched-lr-positivity",
+  "area": "math.CO",
+  "field": "Positivity of coefficients in algebraic combinatorics, centred on the stretched Littlewood-Richardson polynomials $P_{\\lambda\\mu\\nu}(t) = c^{t\\lambda}_{t\\mu,\\,t\\nu}$ (polynomial in $t$ by Rassart; conjectured by King, Tollu and Toumazet in 2004 to have nonnegative coefficients) and their Ehrhart-theoretic structure through hive polytopes, with neighbouring positivity questions for Kronecker and plethysm coefficients. The question explored: which precise open statement about these coefficients would a specialist most want resolved, given the known rank reductions, the local Ehrhart formulas and the computed evidence.",
+  "authors": [
+    "Ryosuke Shiroshita"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+ "disposition": {
+  "evidence_needed": "Exact rank-six tests of the per-facet inequality on a census of cells, and a comparison with the certificate shape of Ferudun's (HTE) at rank six.",
+  "reason": "Not ready: the evidence is confined to a rank that is now settled.",
+  "status": "deferred"
+ },
+ "id": "candidate-per-facet-inequality",
+ "neighbours": [
+  "(HTE) of Ferudun 2026.",
+  "The linear coefficient at all ranks."
+ ],
+ "notes": "A precise local inequality; its value depends on whether it holds at rank six and above, which no computation in the record tests.",
+ "observation": "Its consequence at rank five is now a theorem by another route (Ferudun's certificate); at rank six nothing is computed; Ferudun's (HTE) is the general effectivity statement of which this is one local ansatz.",
+ "potential": {
+  "priority": 1,
+  "readiness": "fail",
+  "significance": {
+   "B1": 1,
+   "B2": 1
+  }
+ },
+ "previous": null,
+ "recorded_revision": 247,
+ "source": {
+  "evidence": [
+   {
+    "digest": "3b3ddf996d37bc51489d886b756ae54239573863c1008e7623fb256b4c8370a7",
+    "id": "reading-ferudun-2026-3",
+    "kind": "record",
+    "record_kind": "reading"
+   }
+  ],
+  "kind": "own_record",
+  "reference": "Attack ktt-positivity-length-five, moves 9 to 13 (2026-09-05): the per-facet form of the discharging inequality, proved to imply the linear coefficient's nonnegativity, holding in 252,573 exact tests at rank five."
+ },
+ "statement": "For every hive polytope $H$ of any rank and every facet $F$ of $H$, with $w$ the Berline-Vergne weight (standard scalar product) of the transverse cone of an edge, $\\ell$ its lattice length and $c(e)$ the number of facets containing the edge $e$: $\\sum_{e\\subset F} w(e)\\,\\ell(e)/c(e)\\ge 0$."
+}

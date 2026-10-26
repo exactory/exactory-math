@@ -1,0 +1,15 @@
+{
+  "source_sha256": "aa8fdb21969cb13f0124e4c5bec5c016f39e49d8aea09692f347c6271a21e010",
+  "low_dimension_cut_rows": 51,
+  "high_dimension_cut_rows": 187,
+  "support_certificates": [
+    "n8z1",
+    "n8z2",
+    "n8z3",
+    "n8z4",
+    "n8z5",
+    "n8z6",
+    "n9z7"
+  ]
+}
+PINNED SOURCE COVERAGE CERTIFIED

@@ -1,0 +1,95 @@
+{
+ "id": "reading-zhao-2026-lp",
+ "version_id": "arxiv:2606.30010v1",
+ "bundle_id": "bundle-2606.30010v1",
+ "inspections": [
+  {
+   "anchor": "Only restricted families of graphs are presently known to be KNRS.",
+   "end": "connected to copositive and positive-semidefinite kernels [1].",
+   "note": "Known KNRS families (2026)."
+  },
+  {
+   "anchor": "Theorem 1.2. Let F be a graph with",
+   "end": "t(F, W ◦q ) ≥ ρqe(F ) .",
+   "note": "Theorem 1.2: an L^q form of KNRS for every graph, with the Hadamard power W^{oq}."
+  },
+  {
+   "anchor": "Proposition 1.4 (Relations between the notions).",
+   "end": "KNRS =⇒ regular-KNRS =⇒ 1-subdivision is Sidorenko,",
+   "note": "Proposition 1.4: Sidorenko implies KNRS implies regular-KNRS; Sidorenko-good implies regular-KNRS; regular-KNRS implies that the 1-subdivision is Sidorenko."
+  },
+  {
+   "anchor": "Theorem 1.5 (Uniform theta-subdivisions).",
+   "end": "be an arbitrary rooted theta pattern.",
+   "note": "Theorem 1.5: uniform theta-subdivisions of Sidorenko-good graphs are Sidorenko-good, and of KNRS graphs are regular-KNRS."
+  },
+  {
+   "anchor": "Theorem 1.6 (Non-uniform Sidorenko-good theta-subdivisions).",
+   "end": "used in the replacement of ij;",
+   "note": "Theorem 1.6: a non-uniform theta-subdivision theorem under the divisibility conditions of Im, Li and Liu."
+  },
+  {
+   "anchor": "Corollary 1.7. For any graph H, there is a multigraph H ′ such that H ∪ H ′ is KNRS.",
+   "note": "Corollary 1.7."
+  },
+  {
+   "anchor": "For (4), by the standard regular reduction for Sidorenko’s conjecture, it is enough to",
+   "end": "[6, Lemma 2.2]. Given such a W , define",
+   "note": "The proof of Proposition 1.4(4) through the regular reduction and the square kernel W o W."
+  }
+ ],
+ "notes": {
+  "problem": {
+   "text": "Relaxations of the KNRS conjecture and their consequences for subdivisions.",
+   "inspections": [
+    0,
+    1
+   ]
+  },
+  "claims": {
+   "text": "Theorem 1.2 and 1.3: for every graph F, t(F, W^{oq}) >= rho^{q e(F)} for every rho-locally dense graphon W when q >= binom(n,2)/e(F), with W^{oq} the Hadamard power. Proposition 1.4: regular-KNRS implies that the 1-subdivision is Sidorenko; KNRS and Sidorenko-good each imply regular-KNRS. Theorems 1.5 and 1.6: theta-subdivision results. Corollary 1.7: every graph becomes KNRS after adding a disjoint multigraph.",
+   "inspections": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  "assumptions": {
+   "text": "Graphon forms of KNRS and regular-KNRS; Sidorenko-good means the inequality on doubly nonnegative kernels; the regular reduction (Im, Li and Liu, Lemma 2.2).",
+   "inspections": [
+    2,
+    6
+   ]
+  },
+  "methods": {
+   "text": "Hölder uniformization over vertex relabellings; positive semidefiniteness of operator powers and of Hadamard products.",
+   "inspections": [
+    1,
+    6
+   ]
+  },
+  "evidence": {
+   "text": "Complete proofs, including Appendix A for Proposition 1.4.",
+   "inspections": [
+    2,
+    6
+   ]
+  },
+  "limitations": {
+   "text": "The L^q statement is a relaxation, not the KNRS conjecture; regular-KNRS and Sidorenko-goodness are known only for restricted families.",
+   "inspections": [
+    0,
+    1
+   ]
+  },
+  "relevance": {
+   "text": "No result of this paper decides the statement or a declared neighbour. For the 1-subdivision neighbour it sharpens the known sufficient condition: the 1-subdivision of G is Sidorenko when G is regular-KNRS, in particular when G is KNRS or Sidorenko-good. For the neighbour on S(H0), this gives: S(H0) is Sidorenko if the reported counterexample H0 is regular-KNRS, in particular if H0 satisfies Sidorenko's inequality on every doubly nonnegative kernel; the paper does not treat H0.",
+   "inspections": [
+    2,
+    6
+   ]
+  }
+ }
+}

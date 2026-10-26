@@ -1,0 +1,56 @@
+{
+ "correction_admissible": null,
+ "disposition": "not_upheld",
+ "evidence": [
+  {
+   "digest": "b37f1c681a5817730963a0175395151224fba8f30c90933a9fb0e676eaca9cd2",
+   "id": "value-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_value"
+  },
+  {
+   "digest": "a16c3a7427ab47d8894b78b5c0a85e6410e6bd7ca62a0d51793df9743ca5edf3",
+   "id": "assessment-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_assessment"
+  },
+  {
+   "digest": "711410e0a450465dcf1afacdd23990ba5dc4681636f8d000f16b077fb5a75d78",
+   "id": "assignment-openness-fable-2",
+   "kind": "record",
+   "record_kind": "problem_openness"
+  },
+  {
+   "digest": "7339219d8012b31819267c0f4ae0582c30a076dfa2a2d6d321fc4f183ef14a56",
+   "id": "reading-openai-sidorenko-2026-located",
+   "kind": "record",
+   "record_kind": "reading"
+  },
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+   "sha256": "0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+   "size": 13670
+  },
+  {
+   "media_type": "text/markdown",
+   "path": "research/sources/objects/a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+   "sha256": "a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+   "size": 946
+  },
+  {
+   "media_type": "text/plain",
+   "path": "research/sources/objects/489688f5c4eb60c6dd8cfe0ef69663aaf11e795d6252e9626972764a50187de9",
+   "sha256": "489688f5c4eb60c6dd8cfe0ef69663aaf11e795d6252e9626972764a50187de9",
+   "size": 1764
+  },
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/16e01aefc02504a3dadf6eb7af9e3b663a9d58c9b082390ee396bbff3af1560a",
+   "sha256": "16e01aefc02504a3dadf6eb7af9e3b663a9d58c9b082390ee396bbff3af1560a",
+   "size": 1001
+  }
+ ],
+ "objection_id": "obj-counterexample-unverified",
+ "reason": "Version decided: the one stated by problem-result-sonnet (material_version f519a9a5…).\n\nThe objection's factual premise holds. No independent check of Theorem 1.1, Lemma 3.1 or Lemma 3.6 is delivered:\n- No refereed version is delivered.\n- No formal verification is delivered. The held Lean audit record says the project was not built and the comparator was not run, and that a textual search is not a kernel check. The scope note covers Theorem 1.1 only.\n- No explicit finite host with computed densities is delivered. Lemma 3.6 is existence-only.\n- The only post-report engagement is MathOverflow question 515955. It asks whether the proof is correct and was closed with no answer.\nThe first branch of the resolution condition is therefore not met.\n\nThe resolution condition is disjunctive. Its second branch is \"a statement under review that explicitly conditions its premises on the manuscript\", and the delivered problem evidence meets it:\n- value-girth-six-2 says the manuscript is unrefereed and that Lemma 3.1 has not been checked independently. It says the question does not depend on the report and is open whether or not the report is correct. It names which part of the motivation depends on the report, and marks the barrier as conditional on a rank-layer limit analogue.\n- assessment-girth-six-2 says, under A6, B2 and calibration, that every claim depending on the manuscript says so. It keeps the reported counterexample apart from established results.\n- The openness record states that its verdict holds either way. If H0 is not a counterexample, the statement is a subcase of the previously open conjecture. If it is, H0 has 4-cycles. The held comparator statement confirms the 4-cycles independently of the proof's correctness: faces {0,1,3} and {0,1,9} share the pair {0,1}.\n\nThe graded significance does not rest on the report being correct. B1 rests on activity in the Problem 1.5 line before September 2026. B2 and priority rest on the accepted C_2 equivalence with Problem 1.5, which does not use the manuscript. The only manuscript-dependent element, the barrier, is labelled conditional.\n\nThe stating reviewer itself records that \"the dependence is explicit\". Keeping the objection open on that basis contradicts its own resolution condition. Lemma 3.6 is not named separately in the value record, but the condition asks for conditioning on the manuscript, and the record conditions on the report as a whole.\n\nThe objection therefore does not stand as a material problem against this statement. The correctness of the counterexample remains undecided; this disposition does not settle it. That unverifiedness stays a limitation the record already carries. No correction was requested."
+}

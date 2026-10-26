@@ -1,0 +1,5 @@
+EXACTORY_TYPE_BEGIN
+Dittert.core_entropy : Dittert.CoreEntropy
+EXACTORY_TYPE_END
+'Dittert.core_entropy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'exactory_correspondence' depends on axioms: [propext, Classical.choice, Quot.sound]

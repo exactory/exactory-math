@@ -1,0 +1,8 @@
+{
+  "slug": "sidorenko-after-counterexample",
+  "area": "math.CO",
+  "field": "Homomorphism density inequalities for bipartite graphs after the reported 2026 counterexample to Sidorenko's conjecture (openai/math family 161, manuscript dated 2026-09-23: a connected bipartite graph with 35 vertices and 66 edges whose density falls below the edge-density bound in some host graph; its Lean formalization covers the Sidorenko statement), together with the neighbouring forcing, local Sidorenko and Kohayakawa-Nagle-Rodl-Schacht conjectures and the known positive classes. The question explored: which precise open statement about where the Sidorenko property holds, or about what replaces it, would a specialist in this line most want resolved, given the counterexample, the positive results and computations on small graphs.",
+  "authors": [
+    "Ryosuke Shiroshita"
+  ]
+}

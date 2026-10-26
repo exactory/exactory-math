@@ -1,0 +1,118 @@
+[
+ {
+  "k": 5,
+  "pairs": 10,
+  "pairs_in_two_faces": 5,
+  "pairs_in_one_face": 5,
+  "boundary_components": 1,
+  "boundary_component_sizes": [
+   5
+  ],
+  "euler_characteristic": 0,
+  "orientable": false,
+  "incidence_isomorphic_to_twisted_blowup": true,
+  "incidence_vertices": 10,
+  "incidence_edges": 15,
+  "incidence_has_4_cycles": true,
+  "k5_complement_in_K55_is_10_cycle": true
+ },
+ {
+  "k": 6,
+  "pairs": 12,
+  "pairs_in_two_faces": 6,
+  "pairs_in_one_face": 6,
+  "boundary_components": 2,
+  "boundary_component_sizes": [
+   3,
+   3
+  ],
+  "euler_characteristic": 0,
+  "orientable": true,
+  "incidence_isomorphic_to_twisted_blowup": true,
+  "incidence_vertices": 12,
+  "incidence_edges": 18,
+  "incidence_has_4_cycles": true
+ },
+ {
+  "k": 7,
+  "pairs": 14,
+  "pairs_in_two_faces": 7,
+  "pairs_in_one_face": 7,
+  "boundary_components": 1,
+  "boundary_component_sizes": [
+   7
+  ],
+  "euler_characteristic": 0,
+  "orientable": false,
+  "incidence_isomorphic_to_twisted_blowup": true,
+  "incidence_vertices": 14,
+  "incidence_edges": 21,
+  "incidence_has_4_cycles": true
+ },
+ {
+  "k": 8,
+  "pairs": 16,
+  "pairs_in_two_faces": 8,
+  "pairs_in_one_face": 8,
+  "boundary_components": 2,
+  "boundary_component_sizes": [
+   4,
+   4
+  ],
+  "euler_characteristic": 0,
+  "orientable": true,
+  "incidence_isomorphic_to_twisted_blowup": true,
+  "incidence_vertices": 16,
+  "incidence_edges": 24,
+  "incidence_has_4_cycles": true
+ },
+ {
+  "k": 9,
+  "pairs": 18,
+  "pairs_in_two_faces": 9,
+  "pairs_in_one_face": 9,
+  "boundary_components": 1,
+  "boundary_component_sizes": [
+   9
+  ],
+  "euler_characteristic": 0,
+  "orientable": false,
+  "incidence_isomorphic_to_twisted_blowup": true,
+  "incidence_vertices": 18,
+  "incidence_edges": 27,
+  "incidence_has_4_cycles": true
+ },
+ {
+  "k": 10,
+  "pairs": 20,
+  "pairs_in_two_faces": 10,
+  "pairs_in_one_face": 10,
+  "boundary_components": 2,
+  "boundary_component_sizes": [
+   5,
+   5
+  ],
+  "euler_characteristic": 0,
+  "orientable": true,
+  "incidence_isomorphic_to_twisted_blowup": true,
+  "incidence_vertices": 20,
+  "incidence_edges": 30,
+  "incidence_has_4_cycles": true
+ },
+ {
+  "k": 11,
+  "pairs": 22,
+  "pairs_in_two_faces": 11,
+  "pairs_in_one_face": 11,
+  "boundary_components": 1,
+  "boundary_component_sizes": [
+   11
+  ],
+  "euler_characteristic": 0,
+  "orientable": false,
+  "incidence_isomorphic_to_twisted_blowup": true,
+  "incidence_vertices": 22,
+  "incidence_edges": 33,
+  "incidence_has_4_cycles": true
+ }
+]

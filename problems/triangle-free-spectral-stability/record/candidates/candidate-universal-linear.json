@@ -1,0 +1,26 @@
+{
+  "id": "candidate-universal-linear",
+  "previous": null,
+  "statement": "For a finite simple triangle-free graph $G$, let $m=e(G)$, let $\\lambda(G)$ be its adjacency spectral radius, and let $D(G)=\\min_{A\\cap B=\\varnothing}|E(G)\\mathbin{\\triangle}E(K_{A,B})|$, where $A,B\\subseteq V(G)$ and vertices outside $A\\cup B$ are isolated in the target; empty parts are allowed. Does an absolute constant $C<\\infty$ exist such that $D(G)\\le C(m-\\lambda(G)^2)$ for every such $G$?",
+  "source": {
+    "kind": "literature",
+    "reference": "Full readings reading-spectral-book-full-v1 (arXiv:2609.20225v2, Lemmas 4.3-4.4 and Theorem 1.9) and reading-edge-spectral-full-v1 (arXiv:2508.15271v2, Theorem 4.1).",
+    "evidence": []
+  },
+  "observation": "This asks whether qualitative edge-spectral stability admits any uniform linear modulus, independently of the sharp coefficient. The same two full readings supply the established comparison. It has a broader possible positive answer but does not distinguish the coefficient suggested by the bipartite theorem and five-cycle.",
+  "neighbours": [],
+  "potential": {
+    "significance": {
+      "B1": 2,
+      "B2": 1
+    },
+    "priority": 2,
+    "readiness": "pass"
+  },
+  "notes": "Exploration does not establish openness or proof credit. The exact statement must receive a bounded native attempt and current literature review.",
+  "disposition": {
+    "status": "open",
+    "reason": "Compare sharpness, mathematical payoff, routine routes and current evidence.",
+    "evidence_needed": null
+  }
+}

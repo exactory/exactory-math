@@ -1,0 +1,62 @@
+{
+ "correction_admissible": null,
+ "disposition": "not_binding",
+ "evidence": [
+  {
+   "media_type": "text/plain",
+   "path": "research/sources/objects/489688f5c4eb60c6dd8cfe0ef69663aaf11e795d6252e9626972764a50187de9",
+   "sha256": "489688f5c4eb60c6dd8cfe0ef69663aaf11e795d6252e9626972764a50187de9",
+   "size": 1764
+  },
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/2d3ce04f40de12d67424f8597bf3ea9cbb6f262c9e6e58edbc5ab6f690de52ec",
+   "sha256": "2d3ce04f40de12d67424f8597bf3ea9cbb6f262c9e6e58edbc5ab6f690de52ec",
+   "size": 338
+  },
+  {
+   "media_type": "text/markdown",
+   "path": "research/sources/objects/a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+   "sha256": "a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+   "size": 946
+  },
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+   "sha256": "0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+   "size": 13670
+  },
+  {
+   "media_type": "text/plain",
+   "path": "research/sources/objects/55939da0aa76a1fe10faeae5f402e8516e14d2bfc4c4f3e708a19f09f81489c9",
+   "sha256": "55939da0aa76a1fe10faeae5f402e8516e14d2bfc4c4f3e708a19f09f81489c9",
+   "size": 226
+  },
+  {
+   "media_type": "text/plain",
+   "path": "research/sources/objects/e671e6006c246e3b27905244363f261642b69887ff49e29b84e26228dcbe4aa7",
+   "sha256": "e671e6006c246e3b27905244363f261642b69887ff49e29b84e26228dcbe4aa7",
+   "size": 1504
+  },
+  {
+   "digest": "fb0c54d62c9c76ebd8961110752ed2731c41f779f15f5ea2cbc52dc9365b9d6c",
+   "id": "statement-girth-six",
+   "kind": "record",
+   "record_kind": "problem_statement"
+  },
+  {
+   "digest": "b37f1c681a5817730963a0175395151224fba8f30c90933a9fb0e676eaca9cd2",
+   "id": "value-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_value"
+  },
+  {
+   "digest": "a16c3a7427ab47d8894b78b5c0a85e6410e6bd7ca62a0d51793df9743ca5edf3",
+   "id": "assessment-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_assessment"
+  }
+ ],
+ "objection_id": "obj-lean-claim-unsupported",
+ "reason": "Decided on material version 338915b2 (problem-result-opus-2). The evidence is the same as in the earlier turn. This refresh was triggered by a protocol change, so I applied the not_binding test explicitly.\n\n1. Does the claim hold? Yes, in its operative sense, though its literal wording is now partly superseded.\n\n(a) The statement half of the resolution condition is met.\n- The comparator challenge (489688f5) states theorem main: there is a finite simple host on Fin size with an edge and homDensity H host < edgeDensity host ^ 66.\n- homCount counts all edge-preserving maps, including noninjective ones, and edgeDensity is 2e/m^2.\n- H is the incidence graph of 22 listed triples on 13 points. I rechecked the list: 66 incidences, 33 point pairs each lying in exactly two faces, and point degrees 4, 5 and 6 occurring 3, 6 and 4 times. This matches the manuscript.\n- The config (2d3ce04f) and the scope note (a1da28a9) bind this statement to OAI.SidorenkoCounterexample.main and limit its coverage to Theorem 1.1.\n- So 'not supported by any held source' no longer holds for coverage at the level of the statement.\n\n(b) The axiom and sorry half is not met.\n- The audit record (0288ac5d) bases sorry status only on a comment-stripped textual search. Its not_done field says no build and no comparator run were done, and that a textual search is not a kernel check.\n- The 35 solution files are held only as URLs and hashes.\n- permitted_axioms is a constraint the comparator would enforce if run. It is not an observed axiom set.\n- The only build log (55939da0) builds the separate girth-six statement file. It contains no #print axioms output.\n- The body of 5a8a1642 was withheld, and I do not rely on it.\n- The formalization therefore cannot serve as an established premise. The claim holds.\n\n2. Does it bind the problem? No.\n\n(a) statement-girth-six. The statement and its resolution criteria are self-contained. Its Lean file (e671e600) cites the comparator only for density conventions and restates homCount, homDensity and edgeDensity in full. Nothing depends on the comparator proof.\n\n(b) value-girth-six-2. No motivation or current-state paragraph mentions or uses the Lean formalization.\n- Dependence on the manuscript is stated explicitly: it 'has not been refereed', and its Lemma 3.1 'has not been checked independently'.\n- The record says 'The question posed here does not depend on that report: it is open whether or not the report is correct.'\n- The barrier is stated to hold 'whether or not the manuscript's estimates are correct'.\n\n(c) Openness. H0 lies outside the class because its pairs lie in two faces, which gives 4-cycles. This is a finite property of Table 1, verified directly above, not a formal-proof premise.\n\n(d) assessment-girth-six-2. The A6 and calibration notes describe the formalization only as far as the held artifacts show, and say that this record did not build or run it.\n\n3. Conclusion: not_binding. The field-level consequence still stands: the refutation is a reported manuscript result, not a formally verified one, for any statement that leans on it. No correction was requested."
+}

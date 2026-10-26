@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "theorem": "Dittert.reduction",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "reason": null,
+  "output_head": [
+    "EXACTORY_TYPE_BEGIN",
+    "Dittert.reduction : Dittert.Reduction",
+    "EXACTORY_TYPE_END",
+    "'Dittert.reduction' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'exactory_correspondence' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ]
+}

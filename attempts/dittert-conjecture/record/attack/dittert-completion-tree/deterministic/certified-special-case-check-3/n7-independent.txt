@@ -1,0 +1,29 @@
+{
+  "bridges": {
+    "1,5": {
+      "depth": 8,
+      "direct_leaves": 10,
+      "entropy_leaves": 10,
+      "nodes": 39
+    },
+    "2,4": {
+      "depth": 6,
+      "direct_leaves": 9,
+      "entropy_leaves": 9,
+      "nodes": 35
+    },
+    "3,3": {
+      "depth": 8,
+      "direct_leaves": 11,
+      "entropy_leaves": 13,
+      "nodes": 47
+    }
+  },
+  "scalars": {
+    "large_minimum": "155130361249919329/1328763571296000000",
+    "mixed_configurations": 6,
+    "mixed_distinct_margins": 5,
+    "ordinary_cases": 6
+  }
+}
+INDEPENDENT N=7 SCALARS AND ALL BRIDGES CERTIFIED

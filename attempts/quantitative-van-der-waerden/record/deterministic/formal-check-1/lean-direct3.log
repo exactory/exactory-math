@@ -1,0 +1,98 @@
+QvdW3b.lean:21:6: error: linarith failed to find a contradiction
+case inl.inl.inl
+x y z : ℝ
+hx : 0 ≤ x
+hy : 0 ≤ y
+hz : 0 ≤ z
+h1 : y ≤ x
+h2 : z ≤ y
+h3 : z ≤ x
+a✝ : x * (x - y) * (x - z) + y * (y - x) * (y - z) + z * (z - x) * (z - y) < 0
+⊢ False
+failed
+QvdW3b.lean:21:6: error: linarith failed to find a contradiction
+case inl.inl.inr
+x y z : ℝ
+hx : 0 ≤ x
+hy : 0 ≤ y
+hz : 0 ≤ z
+h1 : y ≤ x
+h2 : z ≤ y
+h3 : x ≤ z
+a✝ : x * (x - y) * (x - z) + y * (y - x) * (y - z) + z * (z - x) * (z - y) < 0
+⊢ False
+failed
+QvdW3b.lean:21:6: error: linarith failed to find a contradiction
+case inl.inr.inl
+x y z : ℝ
+hx : 0 ≤ x
+hy : 0 ≤ y
+hz : 0 ≤ z
+h1 : y ≤ x
+h2 : y ≤ z
+h3 : z ≤ x
+a✝ : x * (x - y) * (x - z) + y * (y - x) * (y - z) + z * (z - x) * (z - y) < 0
+⊢ False
+failed
+QvdW3b.lean:21:6: error: linarith failed to find a contradiction
+case inl.inr.inr
+x y z : ℝ
+hx : 0 ≤ x
+hy : 0 ≤ y
+hz : 0 ≤ z
+h1 : y ≤ x
+h2 : y ≤ z
+h3 : x ≤ z
+a✝ : x * (x - y) * (x - z) + y * (y - x) * (y - z) + z * (z - x) * (z - y) < 0
+⊢ False
+failed
+QvdW3b.lean:21:6: error: linarith failed to find a contradiction
+case inr.inl.inl
+x y z : ℝ
+hx : 0 ≤ x
+hy : 0 ≤ y
+hz : 0 ≤ z
+h1 : x ≤ y
+h2 : z ≤ y
+h3 : z ≤ x
+a✝ : x * (x - y) * (x - z) + y * (y - x) * (y - z) + z * (z - x) * (z - y) < 0
+⊢ False
+failed
+QvdW3b.lean:21:6: error: linarith failed to find a contradiction
+case inr.inl.inr
+x y z : ℝ
+hx : 0 ≤ x
+hy : 0 ≤ y
+hz : 0 ≤ z
+h1 : x ≤ y
+h2 : z ≤ y
+h3 : x ≤ z
+a✝ : x * (x - y) * (x - z) + y * (y - x) * (y - z) + z * (z - x) * (z - y) < 0
+⊢ False
+failed
+QvdW3b.lean:21:6: error: linarith failed to find a contradiction
+case inr.inr.inl
+x y z : ℝ
+hx : 0 ≤ x
+hy : 0 ≤ y
+hz : 0 ≤ z
+h1 : x ≤ y
+h2 : y ≤ z
+h3 : z ≤ x
+a✝ : x * (x - y) * (x - z) + y * (y - x) * (y - z) + z * (z - x) * (z - y) < 0
+⊢ False
+failed
+QvdW3b.lean:21:6: error: linarith failed to find a contradiction
+case inr.inr.inr
+x y z : ℝ
+hx : 0 ≤ x
+hy : 0 ≤ y
+hz : 0 ≤ z
+h1 : x ≤ y
+h2 : y ≤ z
+h3 : x ≤ z
+a✝ : x * (x - y) * (x - z) + y * (y - x) * (y - z) + z * (z - x) * (z - y) < 0
+⊢ False
+failed
+'qvdw_three' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+exit 1

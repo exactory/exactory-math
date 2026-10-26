@@ -1,0 +1,62 @@
+{
+ "correction_admissible": null,
+ "disposition": "upheld",
+ "evidence": [
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+   "sha256": "0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+   "size": 13670
+  },
+  {
+   "media_type": "text/markdown",
+   "path": "research/sources/objects/a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+   "sha256": "a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+   "size": 946
+  },
+  {
+   "media_type": "text/plain",
+   "path": "research/sources/objects/489688f5c4eb60c6dd8cfe0ef69663aaf11e795d6252e9626972764a50187de9",
+   "sha256": "489688f5c4eb60c6dd8cfe0ef69663aaf11e795d6252e9626972764a50187de9",
+   "size": 1764
+  },
+  {
+   "media_type": "text/plain",
+   "path": "research/sources/objects/55939da0aa76a1fe10faeae5f402e8516e14d2bfc4c4f3e708a19f09f81489c9",
+   "sha256": "55939da0aa76a1fe10faeae5f402e8516e14d2bfc4c4f3e708a19f09f81489c9",
+   "size": 226
+  },
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/16e01aefc02504a3dadf6eb7af9e3b663a9d58c9b082390ee396bbff3af1560a",
+   "sha256": "16e01aefc02504a3dadf6eb7af9e3b663a9d58c9b082390ee396bbff3af1560a",
+   "size": 1001
+  },
+  {
+   "media_type": "application/json",
+   "path": "research/sources/objects/6dbe77e72e637ed8854fff2ad55a1c7377bec3784fc8a552dd8534af8a118798",
+   "sha256": "6dbe77e72e637ed8854fff2ad55a1c7377bec3784fc8a552dd8534af8a118798",
+   "size": 3185
+  },
+  {
+   "digest": "b37f1c681a5817730963a0175395151224fba8f30c90933a9fb0e676eaca9cd2",
+   "id": "value-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_value"
+  },
+  {
+   "digest": "7339219d8012b31819267c0f4ae0582c30a076dfa2a2d6d321fc4f183ef14a56",
+   "id": "reading-openai-sidorenko-2026-located",
+   "kind": "record",
+   "record_kind": "reading"
+  },
+  {
+   "digest": "e3367e30340b8054ec13a0f287b5b7765e6f5fb1c94700254ac5c7cb62d7f1c9",
+   "id": "problem-bar-opus",
+   "kind": "record",
+   "record_kind": "value_review"
+  }
+ ],
+ "objection_id": "obj-counterexample-unverified@problem-bar-opus",
+ "reason": "I decide the version stated by problem-result-opus-2 (material_version 674df76a…). Every reference it cites was delivered: the audit record 0288ac5d, the scope note a1da28a9 and the record value-girth-six-2.\n\nThe objection is correct on the evidence. Both bars treat Sidorenko's conjecture and the forcing conjecture as refuted only through the OpenAI manuscript of 2026-09-23. The opus bar states its standard holds 'conditionally on the reported counterexample … not independently verified'. The resolution condition asks for an independent verification of Theorem 1.1 and Corollary 1.3, as a checked formal proof record or a published or refereed confirmation. Nothing in the original pair's evidence or in the current evidence meets it.\n\n(1) The comparator challenge 489688f5 states the theorem with `sorry` as the target. Its formal content matches Theorem 1.1 in graph form: all homomorphisms are counted, edge density is 2e/m^2, the pattern is the Table 1 incidence graph, and the host is existential.\n\n(2) The audit record 0288ac5d is a comment-stripped textual token search only. It says it 'did not build the Lean project or run the comparator' and that 'a textual search is not a kernel check'. No #print axioms output or comparator run is delivered.\n\n(3) The scope note a1da28a9 says the forcing consequence is 'outside this statement'. So even a successful kernel check of the delivered development would leave Corollary 1.3 unverified.\n\n(4) The build log 55939da0 (exit 0) is bound by the record's own A1 note to the girth-six statement file, which is a statement without a proof. It is not identified with the counterexample development and certifies nothing about it.\n\n(5) The elided artifact 5a8a1642 is not identified as a proof check. The record's calibration note says the record 'did not build or run the Lean development'.\n\n(6) The only engagement after the counterexample is MathOverflow 515955. It asks whether the proof is correct, was closed the same day with score -2 and no answer, and its comments are about site policy. It is not a confirmation.\n\n(7) The complete arXiv window from 2026-09-23 to 2026-10-21 holds no response, refereed version or independent check.\n\nThe manuscript itself is read in full but unverified. Its key Lemma 3.1 (Sections 4–7, with D > 1641 used in Proposition 7.7) and its existence-only host stand as reported. The objection therefore continues. Any grade that credits a statement for being opened up by the refutation must carry this dependence explicitly. This decision does not reach whether the dependence blocks any particular candidate. No correction was requested."
+}

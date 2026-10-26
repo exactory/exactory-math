@@ -1,0 +1,5 @@
+# Novelty study
+
+The dated bounded searches, their coverage and the six completed full readings are set out in problem.md. The exact coefficient-fifteen and displayed asymptotic claims were not found in those sources. This is a limited comparison, not certification of priority. The bipartite coefficient-three theorem is an external dependency and is not claimed as new. The five-cycle calculation is a sharpness witness, not a novelty claim. The proposed proof combines that recent bipartite theorem with elementary real spectral theory and trace(A^3)=0. Its value here is the exact uniform consequence and the remaining finite-coefficient gap.
+
+The root coefficient-three statement remains unresolved. This standalone claim is weaker and does not install a root decomposition, root coverage, a conditional bridge or a new resource account. The account is inherited without renewal. The regular special case is not part of this theorem and is left for a distinct branch if needed. Further proof or literature defects must be recorded, not hidden by weakening the statement after admission.

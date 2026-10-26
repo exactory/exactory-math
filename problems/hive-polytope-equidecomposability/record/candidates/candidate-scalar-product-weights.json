@@ -1,0 +1,37 @@
+{
+ "disposition": {
+  "evidence_needed": null,
+  "reason": "A parameter variant at a settled case: the consequence of a positive answer is already a theorem by another method, and a negative answer delimits one construction among the affine space of valid local formulas.",
+  "status": "rejected"
+ },
+ "id": "candidate-scalar-product-weights",
+ "neighbours": [
+  "(HTE) at rank five.",
+  "Ferroni's negative Berline-Vergne weights for generalized permutohedra."
+ ],
+ "notes": "A method boundary at a settled rank.",
+ "observation": "A finite but semialgebraic question whose answer (measured: probably no) would delimit the Berline-Vergne route at rank five; rank five itself is settled by Ferudun's global certificate.",
+ "potential": {
+  "priority": 0,
+  "readiness": "pass",
+  "significance": {
+   "B1": 1,
+   "B2": 1
+  }
+ },
+ "previous": null,
+ "recorded_revision": 248,
+ "source": {
+  "evidence": [
+   {
+    "digest": "3b3ddf996d37bc51489d886b756ae54239573863c1008e7623fb256b4c8370a7",
+    "id": "reading-ferudun-2026-3",
+    "kind": "record",
+    "record_kind": "reading"
+   }
+  ],
+  "kind": "own_record",
+  "reference": "Attack ktt-positivity-length-five, moves 15 and 16: under the standard form 21 of 5,142 classes are negative; under the best of ten forms tried, 5 remain negative."
+ },
+ "statement": "Does there exist a positive-definite rational quadratic form on $\\mathbb{R}^6$ such that the Berline-Vergne local formula built with it is nonnegative on every transverse cone of a face of a full-dimensional five-part hive polytope?"
+}

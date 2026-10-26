@@ -1,0 +1,376 @@
+{
+ "limitations": [
+  "The bar is conditional on the unverified counterexample manuscript. If it were withdrawn or found incorrect, the forcing and Sidorenko conjectures would revert to open, and the level descriptions would need revision.",
+  "Several decisive comparators were available only as abstracts, so their precise theorem statements and hypotheses could not be checked: Chen-Lin-Ma, the L^p-KNRS paper, Zhao's conjugacy reduction, the spectral and tensor-amplification papers, and the abelian Cayley even-subdivision paper.",
+  "These sources were not held and are not used: Fox-Wei on quantitative local Sidorenko, Szegedy 1504.00858, Dolezal et al. on step Sidorenko versus weakly norming, and Im-Li-Liu.",
+  "The bar does not determine whether the counterexample graph is KNRS, or whether its host kernel lies in any host class with proved positive results. These are open as far as the held sources show.",
+  "The inventory contains off-field entries (physics, signal processing, operator theory, and a different Sidorenko conjecture on Z/nZ), which were excluded.",
+  "Inventory metadata and reading-status fields were not treated as evidence of content or correctness."
+ ],
+ "objections": [
+  {
+   "claim": "Every part of the bar that treats Sidorenko's conjecture and the forcing conjecture as refuted rests on a single unreviewed manuscript.",
+   "evidence": [
+    {
+     "kind": "source",
+     "link": {
+      "artifact": {
+       "media_type": "text/plain; charset=utf-8",
+       "path": "research/sources/objects/3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+       "sha256": "3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+       "size": 196723
+      },
+      "locator": {
+       "end": 192429,
+       "kind": "span",
+       "sha256": "3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+       "start": 0
+      },
+      "source_id": "acq:73841bd22e0eaa010c3ed3cab4b7e89322aeeb63557509b3fe671a286bd7262c",
+      "version_id": "url:https://github.com/openai/math/blob/main/preprints/A-counterexample-to-Sidorenkos-conjecture-September-23-2026/paper.pdf"
+     }
+    }
+   ],
+   "id": "obj-counterexample-unverified",
+   "reason": "The manuscript gives a long argument: rank-layer limits, Lagrangian orbit counts, and a singular-tail bound needing D > 1641. I have not verified it, and no independent review, response or verification appears among the held sources. Delivery does not certify correctness. A later grade that credits a statement for being opened up by the refutation must therefore carry this dependence explicitly.",
+   "resolution_condition": "Deliver an independent verification of Theorem 1.1 and Corollary 1.3, either a checked formal proof record or a published or refereed confirmation."
+  },
+  {
+   "claim": "The field description says a Lean formalization covers the Sidorenko statement, and this is not supported by any held source.",
+   "evidence": [
+    {
+     "kind": "source",
+     "link": {
+      "artifact": {
+       "media_type": "text/plain; charset=utf-8",
+       "path": "research/sources/objects/3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+       "sha256": "3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+       "size": 196723
+      },
+      "locator": {
+       "end": 192429,
+       "kind": "span",
+       "sha256": "3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+       "start": 0
+      },
+      "source_id": "acq:73841bd22e0eaa010c3ed3cab4b7e89322aeeb63557509b3fe671a286bd7262c",
+      "version_id": "url:https://github.com/openai/math/blob/main/preprints/A-counterexample-to-Sidorenkos-conjecture-September-23-2026/paper.pdf"
+     }
+    }
+   ],
+   "id": "obj-lean-claim-unsupported",
+   "reason": "The inventory query 'Lean' returned no rows. The delivered manuscript text does not describe a formalization. The claim cannot serve as an established premise.",
+   "resolution_condition": "Deliver the formalization artifact or record, showing that its formal statement matches t(H,G) < p(G)^66 for the stated H, and its axiom and sorry status."
+  },
+  {
+   "claim": "No held source supplies the computations on small graphs that the field description invokes. Any claim about small-graph evidence or the minimal counterexample size therefore lacks support.",
+   "evidence": [
+    {
+     "media_type": "text/plain; charset=utf-8",
+     "path": "research/sources/objects/767184c725c84646e5d7402960633a95ef889c0ed9b479dd127bb03d427f755d",
+     "sha256": "767184c725c84646e5d7402960633a95ef889c0ed9b479dd127bb03d427f755d",
+     "size": 948
+    },
+    {
+     "kind": "source",
+     "link": {
+      "artifact": {
+       "media_type": "text/plain; charset=utf-8",
+       "path": "research/sources/objects/0fc6cc7e787229489aee55209ef5b90c6cb0cd6b6839ebb78f1f7063946e11d6",
+       "sha256": "0fc6cc7e787229489aee55209ef5b90c6cb0cd6b6839ebb78f1f7063946e11d6",
+       "size": 70324
+      },
+      "locator": {
+       "end": 68177,
+       "kind": "span",
+       "sha256": "0fc6cc7e787229489aee55209ef5b90c6cb0cd6b6839ebb78f1f7063946e11d6",
+       "start": 0
+      },
+      "source_id": "acq:209f20d65e9115db49b8f72027e9102350bc5bc395c42c1a95992e45df5405a2",
+      "version_id": "arxiv:0806.0047v1"
+     }
+    }
+   ],
+   "id": "obj-small-graph-computations-missing",
+   "reason": "The only computational-flavoured sources delivered are the sum-of-squares obstruction abstract and Hatami's identification of K5,5 minus C10 as the smallest open case. Neither enumerates small bipartite graphs or reports numerical density searches.",
+   "resolution_condition": "Deliver a source reporting the small-graph computations: which bipartite graphs up to a stated size are certified Sidorenko or open, with method and admitted code or data."
+  },
+  {
+   "claim": "Activity on the neighbouring conjectures since the counterexample cannot be evidenced from held sources. B1 standing must rest on lines active before September 2026.",
+   "evidence": [
+    {
+     "media_type": "text/plain; charset=utf-8",
+     "path": "research/sources/objects/4660c27f1d4c1c71620d6063d31e860ddf243979fcc993a7d12946820fffa17f",
+     "sha256": "4660c27f1d4c1c71620d6063d31e860ddf243979fcc993a7d12946820fffa17f",
+     "size": 70261
+    },
+    {
+     "kind": "source",
+     "link": {
+      "artifact": {
+       "media_type": "text/plain; charset=utf-8",
+       "path": "research/sources/objects/3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+       "sha256": "3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+       "size": 196723
+      },
+      "locator": {
+       "end": 192429,
+       "kind": "span",
+       "sha256": "3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+       "start": 0
+      },
+      "source_id": "acq:73841bd22e0eaa010c3ed3cab4b7e89322aeeb63557509b3fe671a286bd7262c",
+      "version_id": "url:https://github.com/openai/math/blob/main/preprints/A-counterexample-to-Sidorenkos-conjecture-September-23-2026/paper.pdf"
+     }
+    }
+   ],
+   "id": "obj-post-counterexample-activity-unevidenced",
+   "reason": "Apart from the manuscript itself, the latest delivered full text is the September 2026 v2 of Kiem-Parczyk-Spiegel, which does not mention the counterexample. No response, follow-up or reformulation of the forcing, KNRS or subdivision programmes in light of the refutation is held.",
+   "resolution_condition": "Deliver post-2026-09-23 works that engage the counterexample, or that state open problems in its light."
+  }
+ ],
+ "stage": "bar",
+ "support": null,
+ "value": {
+  "assurances": [],
+  "bar_ids": [],
+  "consequence": "A bar is fixed. It holds conditionally on the reported counterexample, which is claimed in the delivered manuscript and has not been independently verified. The field question is now which structural or quantitative statement replaces bipartiteness as the dividing line for density inequalities. A later problem statement reaches level 2 only if three things hold. (a) It is tied by a proved reduction or implication to a named open line: classification of Sidorenko graphs, CKLL Problem 1.5 on subdivisions, KNRS with its proved subdivision implications, replacements for the forcing conjecture, the Sidorenko exponent and blow-up gap, the weakly norming characterisation, or host-class reductions. (b) It says what the 2026 counterexample does and does not settle for that statement. (c) It answers the strongest objection that applies: equivalent reformulation, parameter increment, a single-graph verification, or settled by the counterexample. A statement reaches level 3 only if it also shows that resolution removes a named obstacle or changes the organising explanation. It must also show why the following do not already give that gain: the counterexample's corollaries, local Sidorenko, approximate Sidorenko, the blow-up theorem, and the existing reductions.",
+  "evidence": [
+   {
+    "kind": "source",
+    "link": {
+     "artifact": {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+      "sha256": "3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+      "size": 196723
+     },
+     "locator": {
+      "end": 192429,
+      "kind": "span",
+      "sha256": "3530e151fe7dd587af079b46e79fc213bc31f238ee71f5b6dde86a99a0471a77",
+      "start": 0
+     },
+     "source_id": "acq:73841bd22e0eaa010c3ed3cab4b7e89322aeeb63557509b3fe671a286bd7262c",
+     "version_id": "url:https://github.com/openai/math/blob/main/preprints/A-counterexample-to-Sidorenkos-conjecture-September-23-2026/paper.pdf"
+    }
+   },
+   {
+    "kind": "source",
+    "link": {
+     "artifact": {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/0fc6cc7e787229489aee55209ef5b90c6cb0cd6b6839ebb78f1f7063946e11d6",
+      "sha256": "0fc6cc7e787229489aee55209ef5b90c6cb0cd6b6839ebb78f1f7063946e11d6",
+      "size": 70324
+     },
+     "locator": {
+      "end": 68177,
+      "kind": "span",
+      "sha256": "0fc6cc7e787229489aee55209ef5b90c6cb0cd6b6839ebb78f1f7063946e11d6",
+      "start": 0
+     },
+     "source_id": "acq:209f20d65e9115db49b8f72027e9102350bc5bc395c42c1a95992e45df5405a2",
+     "version_id": "arxiv:0806.0047v1"
+    }
+   },
+   {
+    "kind": "source",
+    "link": {
+     "artifact": {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/46e048d50a36cb3c4b7cc4b86ae2f37277d9dfc8e370cc0a3cf3363f72201b9b",
+      "sha256": "46e048d50a36cb3c4b7cc4b86ae2f37277d9dfc8e370cc0a3cf3363f72201b9b",
+      "size": 43713
+     },
+     "locator": {
+      "end": 43104,
+      "kind": "span",
+      "sha256": "46e048d50a36cb3c4b7cc4b86ae2f37277d9dfc8e370cc0a3cf3363f72201b9b",
+      "start": 0
+     },
+     "source_id": "acq:b1d3b291945b0390bf83edca15e3ab86e6d06600d67e45fae981b808bcf1f5ac",
+     "version_id": "arxiv:1004.4236v2"
+    }
+   },
+   {
+    "kind": "source",
+    "link": {
+     "artifact": {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/a662797f1d7d3feeda3132ed8be556abf792dc04afaeabb5ff84db02c0fe091b",
+      "sha256": "a662797f1d7d3feeda3132ed8be556abf792dc04afaeabb5ff84db02c0fe091b",
+      "size": 59749
+     },
+     "locator": {
+      "end": 58930,
+      "kind": "span",
+      "sha256": "a662797f1d7d3feeda3132ed8be556abf792dc04afaeabb5ff84db02c0fe091b",
+      "start": 0
+     },
+     "source_id": "acq:4f113d8544f1d455365bc74030f87e736d91bc6f42ec124c291c5624f65b70bd",
+     "version_id": "arxiv:1510.06533v2"
+    }
+   },
+   {
+    "kind": "source",
+    "link": {
+     "artifact": {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/f9db0ba6aed97fc72c2e61ad00527fcf4ef66da9304f4ff158908aa4ce6e9c5e",
+      "sha256": "f9db0ba6aed97fc72c2e61ad00527fcf4ef66da9304f4ff158908aa4ce6e9c5e",
+      "size": 54482
+     },
+     "locator": {
+      "end": 53042,
+      "kind": "span",
+      "sha256": "f9db0ba6aed97fc72c2e61ad00527fcf4ef66da9304f4ff158908aa4ce6e9c5e",
+      "start": 0
+     },
+     "source_id": "acq:6d928440ae5c797a90387846ab7bda1443ace4d6d5cdb99998f28abfc80890bf",
+     "version_id": "arxiv:1809.01259v3"
+    }
+   },
+   {
+    "kind": "source",
+    "link": {
+     "artifact": {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/a7c3f6de8512faf0a96400946f2b229bcedc4e82ce5ef9aab26baf8eca004d1b",
+      "sha256": "a7c3f6de8512faf0a96400946f2b229bcedc4e82ce5ef9aab26baf8eca004d1b",
+      "size": 70233
+     },
+     "locator": {
+      "end": 68705,
+      "kind": "span",
+      "sha256": "a7c3f6de8512faf0a96400946f2b229bcedc4e82ce5ef9aab26baf8eca004d1b",
+      "start": 0
+     },
+     "source_id": "acq:80949e4452001d5474665edb2b90491f39b7c113c383c25322ca40c5ccfa9e54",
+     "version_id": "arxiv:1802.05007v4"
+    }
+   },
+   {
+    "kind": "source",
+    "link": {
+     "artifact": {
+      "media_type": "text/plain; charset=utf-8",
+      "path": "research/sources/objects/187d5e61727bee8c64b9a451430ec164816f686a05165236ae987f7de5b9a5a3",
+      "sha256": "187d5e61727bee8c64b9a451430ec164816f686a05165236ae987f7de5b9a5a3",
+      "size": 10094
+     },
+     "locator": {
+      "end": 9919,
+      "kind": "span",
+      "sha256": "187d5e61727bee8c64b9a451430ec164816f686a05165236ae987f7de5b9a5a3",
+      "start": 0
+     },
+     "source_id": "acq:ca13c0a57d0a4930300b7d1620f627705c984a07aa595983356bf76a73838bd7",
+     "version_id": "arxiv:2003.13598v2"
+    }
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/c2e8eb15a7e6ce8b7008dd2f7ae0ca95a5e83583133d436e718456b1d3ded188",
+    "sha256": "c2e8eb15a7e6ce8b7008dd2f7ae0ca95a5e83583133d436e718456b1d3ded188",
+    "size": 54498
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/fb503c6b05d61ac5a473107c9932629822a29bdb2d4361193dd04deaab78ba8b",
+    "sha256": "fb503c6b05d61ac5a473107c9932629822a29bdb2d4361193dd04deaab78ba8b",
+    "size": 95192
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/4660c27f1d4c1c71620d6063d31e860ddf243979fcc993a7d12946820fffa17f",
+    "sha256": "4660c27f1d4c1c71620d6063d31e860ddf243979fcc993a7d12946820fffa17f",
+    "size": 70261
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/0536bc09f005b00a463ea4cd3aea894ec5186b233b16fa7d875f4e25f88a037c",
+    "sha256": "0536bc09f005b00a463ea4cd3aea894ec5186b233b16fa7d875f4e25f88a037c",
+    "size": 73089
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/2e5e6eeb8529c9b3cabe00e78c1f595654af26ac6ff6b1c08c9a54dee248acb4",
+    "sha256": "2e5e6eeb8529c9b3cabe00e78c1f595654af26ac6ff6b1c08c9a54dee248acb4",
+    "size": 1097
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/5aeaa6ee36f75290dc83836207395c77472f626a43c02d1fede979c16e1282bb",
+    "sha256": "5aeaa6ee36f75290dc83836207395c77472f626a43c02d1fede979c16e1282bb",
+    "size": 1320
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/767184c725c84646e5d7402960633a95ef889c0ed9b479dd127bb03d427f755d",
+    "sha256": "767184c725c84646e5d7402960633a95ef889c0ed9b479dd127bb03d427f755d",
+    "size": 948
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/7e632d8485bbde639006da4751846510e05506af064b920312b2dc935ff8f0fc",
+    "sha256": "7e632d8485bbde639006da4751846510e05506af064b920312b2dc935ff8f0fc",
+    "size": 968
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/1be62d11d529064e5bf88a7a7ad5965c44f0bc1c2e6d4152b5ce187d111ce169",
+    "sha256": "1be62d11d529064e5bf88a7a7ad5965c44f0bc1c2e6d4152b5ce187d111ce169",
+    "size": 920
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/f0705972694e608feb069b4cbfb29c7e271fd97470c9191b70a450f34c3adfab",
+    "sha256": "f0705972694e608feb069b4cbfb29c7e271fd97470c9191b70a450f34c3adfab",
+    "size": 1528
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/72a2a86dc36a94f67a7fe4343fcf2c9a01fb86276dc13280c654cb243d163dfc",
+    "sha256": "72a2a86dc36a94f67a7fe4343fcf2c9a01fb86276dc13280c654cb243d163dfc",
+    "size": 1586
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/01e30ac6dfa6a777652ca3189e6da200bf737417416005659173d6bb07b1c5d6",
+    "sha256": "01e30ac6dfa6a777652ca3189e6da200bf737417416005659173d6bb07b1c5d6",
+    "size": 988
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/7be0e82b2820683e9ff67e4209d813162c812fa8ceaa4dbf2daf4370b760e43d",
+    "sha256": "7be0e82b2820683e9ff67e4209d813162c812fa8ceaa4dbf2daf4370b760e43d",
+    "size": 1484
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/1166cfea9102a7b6648bbfeffba631811353cf77a81c686ab49f4502b27fd86c",
+    "sha256": "1166cfea9102a7b6648bbfeffba631811353cf77a81c686ab49f4502b27fd86c",
+    "size": 1204
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/603897f47507039c43e11153906c532a768450da2fdaf3b257814c58a3b423f9",
+    "sha256": "603897f47507039c43e11153906c532a768450da2fdaf3b257814c58a3b423f9",
+    "size": 816
+   },
+   {
+    "media_type": "text/plain; charset=utf-8",
+    "path": "research/sources/objects/c696a1676bb83af8254eb0f09262bad25ef39243bd71dd2388991e1d48737e68",
+    "sha256": "c696a1676bb83af8254eb0f09262bad25ef39243bd71dd2388991e1d48737e68",
+    "size": 701
+   }
+  ],
+  "method_adequacy": "not_assessed",
+  "objection_findings": [],
+  "objective_adequacy": "not_assessed",
+  "reason": "FIRST: THE FIELD AND ITS ACTIVE LINES.\n\nThe field is extremal inequalities between homomorphism densities t(H,W) of bipartite H and the edge density, in graph and graphon form. It covers the Sidorenko property and its neighbours: forcing, local Sidorenko, KNRS, weakly norming, domination and step-Sidorenko.\n\nWhat the delivered manuscript (OpenAI, dated 2026-09-23) claims:\n- The incidence graph H of a 13-point, 22-triple system in which every point pair lies in exactly two triples violates t(H,G) >= p(G)^66 for some finite simple G. H has 35 vertices and 66 edges, point degrees 4, 5, 6 and face degree 3.\n- The proof constructs rank-layer kernels on symmetric matrices over F_q (with D fixed and even, then q tending to infinity). It uses signed overlap moments forced by the double cover, type pinning by colour refinement, dilution and a crossed-product symmetrisation. The singular contribution is bounded using D > 1641.\n- Corollaries: tensor powers make t/p^66 arbitrarily small; the injective Erdos-Simonovits benchmark fails at a positive density; H is not p-forcing at one p.\n- The manuscript places H outside the known positive classes. It has no vertex complete to the other side. It is not biregular, so it is not weakly norming. It fails the Conlon-Lee and Coregliano degree-count criteria. Its minimum degree is 3, so it is not an even-path substitution. The result is compatible with Lovasz's local theorem.\n\nI treat this as a claimed, unverified result. The delivered text does not mention any Lean formalization.\n\nActive lines and the works that show them:\n(a) Positive classes by decomposition and entropy: CKLL 1510.06533 (strongly tree-decomposable graphs, subdivisions of KNRS graphs, H box C2k, Problem 1.5), Kim-Lee-Lee 1310.4383, Szegedy 1406.6738, Li-Szegedy 1107.1153, Coregliano-Razborov 2108.06599 (reflective tree decompositions, biregular reduction) and Coregliano 2205.14703.\n(b) Norming and domination: Hatami 0806.0047 (weakly norming implies Sidorenko; necessary biregularity and density conditions), Conlon-Lee 1611.05784, Kral et al. 1802.05007 (step Sidorenko; toroidal grids not weakly norming), Sidorenko 2003.13598 (weakly norming implies edge-transitive), Lee-Schulke 1910.08454 (K5,5 minus C10 not weakly norming), Conlon-Lee 2303.01997 and 2608.02526 (2026, strongly dominating non-seminorming families).\n(c) Blow-ups and the L^p form: Conlon-Lee 1809.01259 (H_A^p is Sidorenko for p = |A|! and every bipartite H; divisibility criterion).\n(d) KNRS and locally dense graphs: Bradac-Sudakov-Wigderson 2406.12418 (gluing, KNRS-forcing, regular-KNRS, the PSD versus copositive dichotomy), Chen-Lin-Ma 2407.10861 (KNRS implies the (2k-1)-subdivision is Sidorenko) and 2606.30010 (2026, L^p-KNRS and theta-subdivisions).\n(e) Forcing: Conlon-Fox-Sudakov 1004.4236 (forcing conjecture; forcing implies Sidorenko) and Kiem-Parczyk-Spiegel 2412.12904 v2, September 2026 (adjunctions; forcing families preserved under blow-ups, subdivisions and box and strong products).\n(f) Host reductions and equivalent forms: 2108.06599 (biregular hosts), Zhao 2606.15368 (conditional conjugacy-averaging reduction), 2606.23018, 2507.15723 (even subdivisions on abelian Cayley hosts), 2605.26614 (spectral equivalence) and 2607.02260 (tensor amplification; relative forcing equals regular-forcing).\n(g) Local Sidorenko: Lovasz 1004.3026 proves it for every bipartite H, with radius 2^{-8m} in cut norm when 0 <= W <= 2, or 1/(4m) in sup norm. It is a theorem, not an open conjecture.\n(h) Hypergraph exponents: 2509.08680.\nOff-field and not used: 1901.00440 (a different Sidorenko conjecture on Z/nZ) and the physics entries.\n\nSECOND: THE NEAREST PROBLEMS AND WHAT RESOLUTION WOULD GIVE.\n\nP1. Delimit or characterise the Sidorenko graphs now that bipartiteness is claimed insufficient. Resolution would replace the false organising explanation. A sharp partial version asks whether the counterexample's double-cover parity mechanism is necessary for failure within a named class.\n\nP2. Small open cases. K5,5 minus C10 is the smallest open case (Hatami, citing Sidorenko 1993). It is not weakly norming and has no sum-of-squares certificate (1812.08820). The minimum size of a non-Sidorenko graph is unknown, between the open small cases and the claimed 35 vertices and 66 edges. Resolution would locate the threshold and show whether small-graph evidence was informative.\n\nP3. Subdivisions: CKLL Problem 1.5. Only conditional (KNRS) and host-restricted (abelian Cayley) versions are known. The counterexample, with minimum degree 3, does not decide it. Resolution would give an unconditional broad class or an obstruction of a new kind, since subdivisions contain degree-2 vertices.\n\nP4. The KNRS conjecture. It is open in general. For bipartite H, Sidorenko implies KNRS. No delivered source says whether the counterexample H is KNRS, because local density of its host is not established. A full resolution would make CKLL Theorem 3.1 and Chen-Lin-Ma unconditional, so that all odd subdivisions would be Sidorenko. It would also decide whether KNRS and regular-KNRS are equivalent (BSW).\n\nP5. What replaces the forcing conjecture. One candidate is that every Sidorenko graph containing a cycle is forcing. Forcing is known for weakly norming graphs with a cycle, for graphs with vertices complete to the other side (CFS, Li-Szegedy) and for the KPS families. Resolution would give a stability theory for the Sidorenko class.\n\nP6. Quantitative replacements:\n- The Sidorenko exponent of the counterexample H. Amplification forces it above 66, and the CFS width bound caps it at e + w.\n- The least p for which H_A^p is Sidorenko, between 2 and |A|!.\n- The sharp radius of local Sidorenko.\nResolution would turn the qualitative failure into a measured gap.\n\nP7. The weakly norming characterisation (the Conlon-Lee cut-involution conjecture). The counterexample leaves it untouched.\n\nP8. Host-class reductions (Cayley and conjugacy averaging, biregular, spectral, doubly nonnegative). The counterexample kernel is built from additive differences X_i - Y_j with type labels. Whether it lies in a host class with positive results must be checked before a reduction is credited.\n\nTHIRD: WHAT COUNTS AS A SUBSTANTIAL ADVANCE.\nAny one of the following, if proved:\n- A criterion that decides the Sidorenko or forcing property on a named class containing both known positive examples and graphs of the counterexample type.\n- A new failure mechanism that yields non-Sidorenko graphs of a qualitatively different kind (biregular, edge-transitive, with degree-2 vertices, or small), or a proof that a mechanism is the only one in a class.\n- An unconditional proof of a currently conditional implication: KNRS for a class, Problem 1.5, or Zhao's averaging hypothesis.\n- A decision of K5,5 minus C10 or of the minimal counterexample size, by a method that transfers.\n- Matching bounds for the exponent, blow-up or locality gaps.\nEach of these changes what specialists try next: which classes to attack, which methods are delimited, and which reductions survive.\n\nFOURTH: THE SPECIALIST MEANING OF LEVELS 2 AND 3.\n\nB1 (standing), level 2. The statement sits in one of lines (a) to (h), and its place there is fixed by a proved connection. Examples: KNRS for F implies odd subdivisions of F are Sidorenko; forcing implies Sidorenko; weakly norming implies Sidorenko and domination; the biregular, spectral and tensor equivalences; the blow-up theorem. The premises carry evidence. Results claimed only in the counterexample manuscript are flagged as such. The account explains why the counterexample and the known positive theorems leave the need unmet, and states the remaining uncertainty. Shared vocabulary such as locally dense or norming is not a connection.\n\nB1, level 3. Level 2, plus a demonstrated or compelling argument that resolution removes a named obstacle in the line. Examples: turning the KNRS-conditional subdivision theorems into unconditional ones; deciding whether degree-count or divisibility methods can be extended past the counterexample; settling whether the forcing programme survives on the Sidorenko class. The account must also say why approximate Sidorenko (CFS), local Sidorenko (Lovasz), H_A^{|A|!} (Conlon-Lee) and the counterexample's own corollaries do not already give the gain.\n\nB2 (influence), level 2. A carrying criterion is met concretely. Examples: named conditional results that become unconditional (CKLL Theorem 3.1, Chen-Lin-Ma, Zhao's reduction); the mechanism of failure distinguished from the alternatives (parity and double cover versus degree irregularity versus non-norming); the stated gap with its current bounds (exponent between 66 and 66 + w, blow-up power between 2 and |A|!, locality radius 2^{-8m} versus the distance of the counterexample kernel); a delimited limitation of a named method (entropy and tree decomposition, Holder trick, graph norms, sum of squares, PSD methods); or implications stated under each answer. The argued part says why that change matters.\n\nB2, level 3. Level 2, plus an argued change in the organising explanation, either a new dividing line replacing bipartiteness or a link between several of the methods above. The account explains why nearby known results do not provide it.\n\nComparative priority, level 2. Credible neighbours are compared by mathematical payoff. They include:\n- general versus subdivision versus edge-transitive versus biregular classes;\n- K5,5 minus C10 versus other small open cases;\n- forcing versus Sidorenko;\n- KNRS versus regular-KNRS;\n- symmetric versus bipartite hosts;\n- the counterexample at other densities p;\n- other designs with two-fold pair cover.\nThe strongest relevant objection is answered: an equivalent restatement via the spectral, biregular, Cayley or L^p forms; a parameter increment of the rank-layer construction; a single-graph result that settles nothing else; or a neighbour that is the better question.\n\nComparative priority, level 3. A concrete advantage of the chosen formulation is supported by documented distinctions. Examples: it contains degree-2 vertices that the counterexample lacks; it falls in a class where a known reduction is proved; it is minimal where minimality is shown. Settledness or equivalence of a neighbour does not by itself establish superiority.\n\nFIFTH: WHAT MAKES A QUESTION UNINTERESTING HERE.\n- Restating a known problem or equivalent form, such as Sidorenko in its spectral, biregular, Cayley or L^p blow-up form, or CKLL Problem 1.5 verbatim, without a new target.\n- Verifying one more graph by an existing decomposition, or rerunning the rank-layer construction on another two-fold pair-cover design with no new mechanism.\n- Asking about the counterexample at a further density p without saying what that would change.\n- A classification conjecture resting only on small-graph computations. No such computational data is held, and the absence of a sum-of-squares certificate is not evidence of failure.\n- A programme to understand Sidorenko graphs with no definite resolution condition.\nAbsence of footholds and absence of downstream theorems are not disqualifying on their own, under the rules stated in the template.\n\nMISSING DECISIVE SOURCES:\n- The Lean formalization record, or any independent verification of the counterexample.\n- Responses to the counterexample after 2026-09-23.\n- Small-graph computational studies.\n- Fox-Wei on quantitative local Sidorenko.\n- Szegedy 1504.00858 (the Cayley reduction).\n- Dolezal et al. on step Sidorenko equivalent to weakly norming.\n- Im-Li-Liu on subdivisions and theta substitutions.\n- Full texts of 2407.10861 and 2606.30010.",
+  "status": "sufficient",
+  "work_items": []
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "id": "slate-1",
+ "selected": ["candidate-girth-six", "candidate-biregular"],
+ "deferred": [
+  {"candidate_id": "candidate-sidorenko-forcing",
+   "evidence_needed": "Full readings of the forcing literature (Skokan and Thoma 2004, Li and Szegedy 2011, Kiem, Parczyk and Spiegel arXiv:2412.12904) and a search for Sidorenko bipartite graphs with a cycle that are not forcing."},
+  {"candidate_id": "candidate-knrs-counterexample",
+   "evidence_needed": "Full readings of the KNRS literature (Bradac, Sudakov and Wigderson arXiv:2406.12418, Chen, Lin and Ma arXiv:2407.10861, Reiher 2014) and an analysis of whether the counterexample's kernel can be made locally dense."}
+ ],
+ "rejected": [
+  {"candidate_id": "candidate-edge-transitive",
+   "reason": "A sub-question of candidate-biregular: every edge-transitive bipartite graph is biregular, and the colour-refinement boundary that motivates it is the biregular one. It becomes a declared neighbour of the biregular statement."},
+  {"candidate_id": "candidate-subdivisions",
+   "reason": "A restatement of Conlon, Kim, Lee and Lee (2018), Problem 1.5. Every 1-subdivision of a graph has girth at least six, so the girth-six statement contains it, and it becomes a declared neighbour of that statement."},
+  {"candidate_id": "candidate-small-spheres",
+   "reason": "It varies the triple system of the reported construction without a new mechanism, which both bars name as uninteresting; the threshold 13 rests on one computation without a structural explanation."}
+ ],
+ "bar_review_ids": ["problem-bar-fable", "problem-bar-opus"],
+ "review_ids": [],
+ "comparison": "Both bars place the field after the reported counterexample at the boundary of its mechanism. The Opus bar names, as a sharp version of the characterisation problem, whether the double-cover parity mechanism is necessary for failure within a named class; both bars name biregular and symmetric patterns, where the colour-refinement pinning of the manuscript (Proposition 2.1(4), Lemma 3.4) cannot apply, and graphs with degree-2 vertices (Conlon, Kim, Lee and Lee, Problem 1.5). The two selected candidates each remove one ingredient of the construction. candidate-girth-six asks about bipartite graphs without 4-cycles. There no point pair lies in two faces, so, as this record reads Equation (3.4), the construction's only correction term is absent. The class contains every 1-subdivision of a graph and every incidence graph of a linear hypergraph, and its smallest concrete test is the 1-subdivision of the counterexample (101 vertices, girth 8), whose density is t(H, W composed with W). candidate-biregular asks about biregular bipartite graphs. There colour refinement never becomes discrete, so the pinning step cannot apply, and every weakly norming graph lies in this class (Hatami); its smallest open case, K_{5,5} minus C_{10}, is named by Hatami and by Conlon and Lee. For both, either answer is informative: a proof gives a structural sufficient condition that the reported construction cannot violate, and a counterexample needs a mechanism other than the reported one. The failure signals differ: for girth-six, a deficit produced by 6-cycles (three faces meeting pairwise in distinct points); for biregular, a symmetric replacement for the type-pinning step. The resource demand is similar: both rest on decisive readings that the record holds (the manuscript, Conlon, Kim, Lee and Lee, Conlon and Lee 2017 and 2021, Hatami, Lee and Schulke) and on bounded attempts. candidate-edge-transitive is contained in candidate-biregular, candidate-subdivisions in candidate-girth-six, and candidate-small-spheres adds no mechanism. candidate-sidorenko-forcing and candidate-knrs-counterexample wait for decisive readings that the record has not done.",
+ "reason": "Both selected candidates meet both bars at potential level 2 with readiness pass and remove different ingredients of the reported construction. They are formulated and taken to the post in turn, candidate-girth-six first."
+}

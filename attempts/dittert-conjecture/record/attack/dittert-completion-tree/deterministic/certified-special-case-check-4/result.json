@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "'DittertScalar.positive_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'DittertScalar.exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'DittertScalar.positive_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'DittertScalar.exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ]
+}

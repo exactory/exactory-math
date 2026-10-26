@@ -1,0 +1,9 @@
+# Consolidation of the standalone analytical proof
+
+The closing move checked the complete admitted claim. The exposition is proof.md; it is a proof candidate until independent acceptance.
+
+The apparently special step is the least-eigenvector sign cut. Its role is now stated directly as a Rayleigh comparison, lambda(F)>=mu, valid for any nonempty simple graph. No numerical vector or numerical spectrum is needed. The uniform constant is obtained from the exact identity (2-r)^2-r^3=(1-r)(r^2+4), followed by 5(2-r)^2-(r^2+4)=4(r-1)(r-4)>=0. The norm comparison for the asymptotic remainder is proved explicitly. The C5 minimum is justified by all six possible positive part-size pairs, so the upper-bound witness is not mistaken for a minimum certificate.
+
+The strongest general intermediate assertion proved by this argument is D(G)<=3(e(G)-mu(G)^2) for every nonempty finite simple graph, where -mu(G) is its least adjacency eigenvalue. Triangle-freeness enters only through Nosal's inequality and the trace-cube identity when converting this bound into a largest-eigenvalue deficit. This observation is an explanation of the displayed proof, not a separately accepted theorem or a claim of novelty.
+
+The earlier positive-Perron deletion argument does not provide a second proof: its sufficient inequality fails on C5, as preserved in the predecessor's weight-02.md. No independent second route is claimed. The resulting proof has no computational dependency. It is a concise consequence of the cited bipartite lemma and elementary spectral inequalities, retained as a supporting theorem for the problem record. It is not presented as a separate major paper or as a historically novel result. The exact finite coefficient-three question and the historical status of the supporting estimate remain separate obligations.

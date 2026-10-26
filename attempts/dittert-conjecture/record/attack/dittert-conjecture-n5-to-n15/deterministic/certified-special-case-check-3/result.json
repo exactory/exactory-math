@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "n= 4: flint not positive, mpmath not positive (|K| = 0.1672), recorded not positive: agree",
+    "n= 5: flint not positive, mpmath not positive (|K| = 0.049685), recorded not positive: agree",
+    "n= 6: flint not positive, mpmath not positive (|K| = 0.013272), recorded not positive: agree",
+    "n= 7: flint not positive, mpmath not positive (|K| = 0.0032366), recorded not positive: agree",
+    "n= 8: flint not positive, mpmath not positive (|K| = 0.00073205), recorded not positive: agree",
+    "n= 9: flint not positive, mpmath not positive (|K| = 0.00015538), recorded not positive: agree",
+    "n=10: flint not positive, mpmath not positive (|K| = 3.1152e-5), recorded not positive: agree",
+    "n=11: flint not positive, mpmath not positive (|K| = 5.8964e-6), recorded not positive: agree",
+    "n=12: flint not positive, mpmath not positive (|K| = 1.0404e-6), recorded not positive: agree",
+    "n=13: flint not positive, mpmath not positive (|K| = 1.6399e-7), recorded not positive: agree",
+    "n=14: flint not positive, mpmath not positive (|K| = 1.9754e-8), recorded not positive: agree",
+    "n=15: flint not positive, mpmath not positive (|K| = 9.7392e-11), recorded not positive: agree",
+    "n=16: flint positive, mpmath positive (|K| = 1.1495e-9), recorded positive: agree",
+    "n=17: flint positive, mpmath positive (|K| = 5.9672e-10), recorded positive: agree",
+    "CHECK PASS"
+  ]
+}

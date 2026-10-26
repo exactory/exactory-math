@@ -1,0 +1,113 @@
+{
+ "id": "reading-clm-2024",
+ "version_id": "arxiv:2407.10861v2",
+ "bundle_id": "bundle-2407.10861v2",
+ "inspections": [
+  {
+   "anchor": "The smallest open case of\nSidorenko’s conjecture is K5,5",
+   "end": "a 3-regular bipartite graph on 10 vertices.",
+   "note": "The authors name K_{5,5} minus a 10-cycle as the smallest open case of Sidorenko's conjecture (2024)."
+  },
+  {
+   "anchor": "We say a graph H is KNRS if H satisfies Conjecture 1.2.",
+   "end": "complete multipartite graphs or odd cycles in a tree-like way [10].",
+   "note": "Few non-bipartite graphs are known to be KNRS; the known examples are listed."
+  },
+  {
+   "anchor": "In an earlier but related result, Conlon, Kim, Lee and Lee [2] showed that",
+   "end": "then the 1-subdivision of H is Sidorenko.",
+   "note": "The CKLL link from KNRS to 1-subdivisions."
+  },
+  {
+   "anchor": "Theorem 1.4. Let k ≥ 1 be integers. If a graph H is KNRS, the following statements hold:",
+   "end": "the 2k-subdivision H (2k) is weakly-KNRS.",
+   "note": "Theorem 1.4: KNRS base graphs give Sidorenko odd subdivisions and weakly-KNRS even subdivisions."
+  },
+  {
+   "anchor": "Theorem 1.5. Let k ≥ 1 be integers. If a graph H is KNRS and regular, then its 2k-subdivision",
+   "end": "is also KNRS.",
+   "note": "Theorem 1.5: even subdivisions of regular KNRS graphs are KNRS."
+  },
+  {
+   "anchor": "Corollary 1.6. If a graph H is KNRS and regular, then all balanced subdivisions of H are",
+   "end": "all balanced subdivisions of cliques are KNRS.",
+   "note": "Corollary 1.6: balanced subdivisions of cliques are KNRS."
+  },
+  {
+   "anchor": "Lemma 2.2 ([5], Theorem 8.2). Let H be a bipartite graph.",
+   "end": "every d-regular graphon W .",
+   "note": "The regular-graphon reduction, cited from Coregliano and Razborov."
+  },
+  {
+   "anchor": "Lemma 3.1. Let W be a graphon and H (s) be the s-subdivision of a graph H.",
+   "end": "t(H (s) , W ) = t(H, Ws+1 ).",
+   "note": "Lemma 3.1: the density of the s-subdivision in W is the density of H in the path kernel W_{s+1}."
+  },
+  {
+   "anchor": "Despite our suspicion that all H (2k) are in",
+   "end": "see Proposition 5.1 in [1]).",
+   "note": "The authors cannot prove that even subdivisions of KNRS graphs are KNRS in general; the tensor power trick fails for KNRS."
+  },
+  {
+   "anchor": "One intriguing question arises: Is it",
+   "end": "all weakly-KNRS graphs are KNRS graphs?",
+   "note": "Open question: are weakly-KNRS graphs KNRS?"
+  }
+ ],
+ "notes": {
+  "problem": {
+   "text": "The KNRS conjecture for subdivisions of graphs, and its consequences for Sidorenko's conjecture.",
+   "inspections": [
+    3,
+    4
+   ]
+  },
+  "claims": {
+   "text": "Theorem 1.4: if H is KNRS, then every odd subdivision H^(2k-1) is Sidorenko and every even subdivision H^(2k) is weakly-KNRS. Theorem 1.5: if H is KNRS and regular, then H^(2k) is KNRS. Corollary 1.6: balanced subdivisions of regular KNRS graphs, in particular of cliques, are KNRS.",
+   "inspections": [
+    3,
+    4,
+    5
+   ]
+  },
+  "assumptions": {
+   "text": "The host may be taken d-regular (Lemma 2.2, from Coregliano and Razborov, Theorem 8.2); the KNRS property is used in its graphon form for d-locally dense graphons (Lemma 2.3, from Bradač, Sudakov and Wigderson), with the weighted Reiher inequality (Lemmas 2.8 and 2.9).",
+   "inspections": [
+    6,
+    1
+   ]
+  },
+  "methods": {
+   "text": "t(H^(s), W) = t(H, W_{s+1}) for the path kernel W_{s+1} (Lemma 3.1); for a d-regular W the even path kernel W_{2k} is d^{2k}-locally dense by Cauchy-Schwarz, and the KNRS property of H finishes Theorem 1.4(a); restrictions to closed sets and a normalized kernel give Theorems 1.4(b) and 1.5.",
+   "inspections": [
+    3,
+    7
+   ]
+  },
+  "evidence": {
+   "text": "Complete proofs, with an appendix for the restriction lemma.",
+   "inspections": [
+    3,
+    4,
+    7
+   ]
+  },
+  "limitations": {
+   "text": "Every result needs the base graph to be KNRS, and few non-bipartite graphs are known to be KNRS. The authors cannot show that even subdivisions of KNRS graphs are KNRS without regularity, and they ask whether weakly-KNRS graphs are KNRS.",
+   "inspections": [
+    1,
+    8,
+    9
+   ]
+  },
+  "relevance": {
+   "text": "No result of this paper decides the girth-six statement. Theorem 1.4(a) gives special cases of the statement: an odd subdivision H^(2k-1) of a KNRS graph H has girth at least 6k, so it is a Sidorenko graph of girth at least six. For the 1-subdivision of an arbitrary graph (Conlon, Kim, Lee and Lee, Problem 1.5, a declared neighbour) the route of Conlon, Kim, Lee and Lee and of this paper needs the base graph to be KNRS, and the KNRS property is open for most non-bipartite graphs. The paper names K_{5,5} minus a 10-cycle as the smallest open case of Sidorenko's conjecture; that graph is cubic, bipartite and has 10 vertices, so it has a 4-cycle (the smallest cubic graph of girth six, the Heawood graph, has 14 vertices) and is outside the class of the statement.",
+   "inspections": [
+    0,
+    2,
+    3,
+    1
+   ]
+  }
+ }
+}

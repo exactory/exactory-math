@@ -1,0 +1,21 @@
+{
+ "id": "reading-conlon-lee-2021",
+ "version_id": "arxiv:1809.01259v3",
+ "bundle_id": "bundle-1809.01259v3",
+ "inspections": [
+  {"anchor": "himself showed that the conjecture holds for some simple classes of bipartite graph,", "end": "on one side.", "note": "Sidorenko's early results, as cited here: complete bipartite graphs, even cycles, trees, and graphs with at most four vertices on one side."},
+  {"anchor": "Theorem 1.1. Let H be a bipartite graph with bipartition A", "end": "conjecture holds for H.", "note": "Divisibility criterion on the degree counts of one part."},
+  {"anchor": "1.2. Let H be a bipartite graph with partition A", "end": "conjecture holds for H.", "note": "One part r-regular with |B| >= binom(|A|, r) implies Sidorenko."},
+  {"anchor": "Corollary 1.3. For every bipartite graph H with bipartition A", "end": "always suffices.", "note": "Every bipartite graph has a one-sided blow-up that is Sidorenko."},
+  {"anchor": "the simplest graph for which Sidorenko", "end": "is not known", "note": "K_{5,5} minus C_10 described as the simplest graph for which the conjecture is not known."}
+ ],
+ "notes": {
+  "problem": {"text": "Sidorenko's conjecture beyond graphs built recursively from trees and norming graphs.", "inspections": [1]},
+  "claims": {"text": "Theorem 1.1: if binom(|A|, r) binom(r, k) divides the number of degree-k vertices of B for each k, then H is Sidorenko; Theorem 1.2: if B is r-regular and |B| >= binom(|A|, r), then H is Sidorenko; Corollary 1.3: every bipartite graph has a one-sided blow-up (p = |A|! suffices) that is Sidorenko; the square of K_{5,5} minus C_10 is Sidorenko.", "inspections": [1, 2, 3, 4]},
+  "assumptions": {"text": "Weakly norming reflection hypergraphs (Conlon-Lee 2017) and the Conlon-Fox-Sudakov theorem.", "inspections": [3]},
+  "methods": {"text": "The Holder trick averaging over relabellings of A, reducing to downset and incidence graphs that are weakly norming.", "inspections": [1, 2]},
+  "evidence": {"text": "Complete proofs; an earlier version's error was corrected, giving the divisibility condition.", "inspections": [1]},
+  "limitations": {"text": "The degree-count conditions require many vertices of each degree; graphs with few vertices on the regular side, such as the 2026 counterexample (22 faces against binom(13, 3) = 286) or the Heawood graph (7 against binom(7, 3) = 35), are not covered.", "inspections": [1, 2]},
+  "relevance": {"text": "The one-side-regular criterion is the closest positive theorem to incidence graphs of 3-uniform hypergraphs; it marks what the girth-six and sphere candidates must go beyond, and K_{5,5} minus C_10 is again named as the simplest open case.", "inspections": [2, 4]}
+ }
+}

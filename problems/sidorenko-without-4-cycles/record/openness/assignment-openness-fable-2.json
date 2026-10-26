@@ -1,0 +1,358 @@
+{
+ "claim_digest": "844e273b2504fe59fb4ca4411ab617a2cdc179b0d4316ce9f7981c1ad6b86c17",
+ "decision": "approve",
+ "findings": {
+  "assumptions": "The openness claim rests on (i) the nine literature searches captured on 2026-10-21 (arXiv API and OpenAlex) for the exact statement and the eight declared neighbours, (ii) complete full-text readings of the seventeen works marked relevant, and (iii) the record's description of the reported September 2026 counterexample H0 (35 vertices, 66 edges; by the neighbour statement its 1-subdivision has 101 vertices, 132 edges and girth 8, and by the Conlon-Lee reading note it is the vertex-face incidence graph of a 13-vertex triangulated sphere, 22 faces). That description is internally consistent (Euler: 2V-4 = 22 faces; 13+22 = 35; 3*22 = 66; girth(S(H0)) = 8 implies girth(H0) = 4) and a vertex-face incidence graph of a triangulation contains 4-cycles, so H0 lies outside the class; the counterexample manuscript itself is not in evidence, but the openness verdict does not depend on it: if it does not exist the statement is a subcase of the previously open Sidorenko conjecture, and if it exists as described it has 4-cycles. The equivalence between the graphon form and the finite-host form is the standard graph-limit fact and is asserted in the resolution criteria, not proved in evidence; it is not needed for openness.",
+  "dependencies": "All items of the supplied openness minimum are delivered in native.evidence: the nine literature_search records (8f546a52..., c80796ac..., 62d8f6f6..., ce5b8b6a..., e55a09fe..., f9c03908..., 3080d83e..., 5fb73773..., 94add890...) each with captured_at 2026-10-21T22:37Z and per-query coverage; the seventeen reading records (fulltext, status complete) matching exactly the seventeen works dispositioned relevant across the searches (Lovasz 1004.3026; Chen-Lin-Ma 2407.10861; Kiem-Parczyk-Spiegel 2412.12904v2; CKLL 1510.06533; Zhao 2606.30010, 2606.15368, 2507.15723, 2606.23018; Coregliano-Razborov 2108.06599; Im-Li-Liu 2408.03491; Hatami 0806.0047; Kim-Lee-Lee 1310.4383; Conlon-Lee 1809.01259 and 1611.05784; Conlon-Fox-Sudakov 1004.4236; Kral-Martins-Pach-Wrochna 1802.05007; Lee-Schuelke 1910.08454); every duplicate hit is bound by duplicate_resolutions to one of these fully read canonical works. Five full-text bodies (CFS, KLL, KMPW, Conlon-Lee 2021, Lee-Schuelke) were elided on this text route by the route limit, but their reading records with notes and inspected excerpts were delivered in full and none of these works is decisive for the statement. Out-of-scope dispositions resting on abstracts or secondary citations (Fox-Wei 2017 local theorem, Lee's 2017 thesis, Bradac-Sudakov-Wigderson, Reiher's survey) concern local or class results that cannot settle a universal statement over all girth-six bipartite graphs and give no counterexample; this is a judgement I checked against their stated content and accept.",
+  "openness": {
+   "coverage": "All searches captured 2026-10-21 (22:37 UTC), providers arXiv API (export.arxiv.org) and OpenAlex, requested k=50 per query, with per-query complete-versus-top-k status recorded in each search record. Exact statement (search 8f546a52, 13 queries): arXiv abs:Sidorenko AND girth/C4-free/4-cycle (complete, 2); abs:Sidorenko AND subdivision* (complete, 7); abs:Sidorenko submitted 2026-09-23 to 2026-10-21 (complete, 3); abs:Sidorenko AND large/high girth (complete, 0); ti:Sidorenko 2020-2026 (complete, 28); 1-subdivision AND Sidorenko/KNRS/locally dense (complete, 3); abs:Sidorenko AND counterexample/disprove (complete, 9); abs:Sidorenko AND girth/subdivision/C4-free (complete, 8); abs:Sidorenko 2025-2026 (top-20 of 31); ti:Sidorenko 2000-2019 (complete, 18); OpenAlex 'Sidorenko girth' (top-20 of 125); OpenAlex 'Sidorenko conjecture counterexample' (top-20 of 125); OpenAlex cites:W2745261365 (complete, 14). Neighbour 1-subdivision (c80796ac, 6 queries): the arXiv girth, subdivision, ti:2020-2026, 1-subdivision and girth/subdivision queries all complete; OpenAlex 'Sidorenko subdivision' top-20 of 291. Neighbour S(H0) (62d8f6f6, 9 queries): arXiv girth, subdivision, post-2026-09-23, ti:2020-2026, 1-subdivision, counterexample, ti:2000-2019 all complete; OpenAlex 'Sidorenko subdivision' top-20 of 291 and 'Sidorenko conjecture counterexample' top-20 of 125. Neighbour large girth g (ce5b8b6a, 5 queries): arXiv girth, large girth (0 hits), ti:2020-2026, girth/subdivision complete; OpenAlex 'Sidorenko girth' top-20 of 125. Neighbour linear incidence graphs (e55a09fe, 5 queries): arXiv girth, incidence/linear hypergraph/projective plane, edge-transitive/biregular/incidence/triangulation complete; arXiv weakly norming top-20 of 25; OpenAlex 'Sidorenko incidence graph' top-20 of 507. Neighbour Heawood (f9c03908, 2 queries): arXiv Heawood AND Sidorenko/homomorphism/norming complete (0); OpenAlex 'Heawood graph homomorphism' top-20 of 169. Neighbour forcing (3080d83e, 5 queries): arXiv forcing/quasirandom/girth complete (0), ti:Sidorenko 2000-2019 complete, OpenAlex cites:W2745261365 complete; arXiv forcing conjecture/locally dense top-20 of 23; OpenAlex 'forcing conjecture quasirandom girth' top-20 of 24. Neighbour biregular (5fb73773, 7 queries): arXiv girth, subdivision, ti:2020-2026, biregular/semiregular, edge-transitive/incidence/triangulation complete and OpenAlex 'Sidorenko biregular' complete (17); arXiv weakly norming top-20 of 25. Neighbour subdivisions of Sidorenko graphs (94add890, 5 queries): arXiv girth, subdivision, ti:2020-2026, 1-subdivision complete; OpenAlex 'Sidorenko subdivision' top-20 of 291. The incomplete pages are all generic keyword searches on OpenAlex or broad norming queries; the targeted arXiv title and abstract queries covering Sidorenko, girth, subdivisions, counterexamples and the window after the reported counterexample are complete. Depth: every relevant hit read at complete full text (17 reading records, each spanning the entire extracted text and the bibliography); duplicates resolved to those readings; out-of-scope hits dispositioned with reasons.",
+   "evidence": [
+    "fb0c54d62c9c76ebd8961110752ed2731c41f779f15f5ea2cbc52dc9365b9d6c",
+    "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e",
+    "c80796acee29996e963794fc815cf6a10aa7cc1209afd750756343d7904ac697",
+    "62d8f6f660a499716782a22d245ad518453755857dace80323dee408c9d9505a",
+    "ce5b8b6a9c2f3128c0c9f11eee456618d1e3ab112abdf1b5eaac732dd98f2be2",
+    "e55a09fe96082f618ddd51204e21598b2e6bad78e0ea2cb30c18d4bc857bdac2",
+    "f9c03908ead9b00015f055935e44db2255ca087c3e257a99ad66feb35711e6bd",
+    "3080d83ed1b0178e3f585f028898fc733a24c75ea42c44cdff7727851b4460bc",
+    "5fb73773b410548ed3419cc019ce0564cd47de2df008a0cccf154e0e97cb9032",
+    "94add89065289a66f640067c70004ec37c0455f5ba64fad5b7a63ca376438c5c",
+    "11fd32235cebe4ca72e97629683dd33f5eaafbd0a07ddb7c21ada13cd591ef10",
+    "14bcfa100f3e35e36dbe09b75b5086877f0cc1dc8a39e401a0212b51e03627eb",
+    "15ac681946593679867efa0ed4fd11968eb9e917f614c0909abc742a093d7f52",
+    "2a33ae2a7f8689256c12867cc5505d151bdb4f955135a07e85201dc93b83084e",
+    "2be85e87032b4ace253045c3b43ad830ff091c1774f07ceb93223aff35e4c884",
+    "33237ae93d80dd8387d62f9bc18d5298d851e65aabf1ca76f0e398ddb5e8d452",
+    "393fbc19c92757a2dbe2a9e5cc944484606ce6287ca9014543c79b966a9a9df9",
+    "3e77a8ce00cf56947b68033e00e8506a64d572a6030921b900e7edcfa709b09a",
+    "4a9d28ee9106d9e5b1cf5276768bfb76ea7e0485ac9fab54f726187b62bca2e8",
+    "70879ffecaaa7d788cb17f5d1e8793fff4edd88947c31fdba96a9f11a9eed7ee",
+    "875e58e41b01dff76657e6c9bd6584962814bcd284176aee57c79d2528a68f02",
+    "99c68d3bde018801e613fcffd8d18fb7d163fd7cb550bf690fef5533e7ea02b6",
+    "ab83f883a903b570015caa9ce2e8358b1e0feac36b441825dea480000093cbca",
+    "ad653d22cb72657b1bb34adb831c9d0e4249272022c22000ccb874e4d61a6e6a",
+    "e8aa3ea91b069d9bab75f4d4ad5d7bfc48c2b75b03701ec5450328b9961d3407",
+    "ea507e532959c582affe4ce2d9b27e3a973ffa2c9e852c30744987f084cfcce2",
+    "f31bd1e895ae1b37941287c0e68dee57975c31c5cae5c85f728544c3e3b651c2"
+   ],
+   "minimum": {
+    "duplicate_resolutions": [
+     {
+      "canonical_work_id": "arxiv:1004.3026v1",
+      "search_digest": "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e",
+      "work_id": "openalex:W1579509228"
+     },
+     {
+      "canonical_work_id": "arxiv:1004.3026v1",
+      "search_digest": "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e",
+      "work_id": "openalex:W1769242330"
+     },
+     {
+      "canonical_work_id": "arxiv:1004.4236v2",
+      "search_digest": "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e",
+      "work_id": "openalex:W2126244044"
+     },
+     {
+      "canonical_work_id": "arxiv:1809.01259v3",
+      "search_digest": "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e",
+      "work_id": "openalex:W3141567130"
+     },
+     {
+      "canonical_work_id": "arxiv:1004.4236v2",
+      "search_digest": "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e",
+      "work_id": "openalex:W2953204957"
+     },
+     {
+      "canonical_work_id": "arxiv:2407.10861v2",
+      "search_digest": "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e",
+      "work_id": "openalex:W4400720094"
+     },
+     {
+      "canonical_work_id": "arxiv:1802.05007v4",
+      "search_digest": "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e",
+      "work_id": "openalex:W2785809762"
+     },
+     {
+      "canonical_work_id": "arxiv:2507.15723v1",
+      "search_digest": "c80796acee29996e963794fc815cf6a10aa7cc1209afd750756343d7904ac697",
+      "work_id": "openalex:W4417438148"
+     },
+     {
+      "canonical_work_id": "arxiv:2606.23018v1",
+      "search_digest": "c80796acee29996e963794fc815cf6a10aa7cc1209afd750756343d7904ac697",
+      "work_id": "openalex:W7165666396"
+     },
+     {
+      "canonical_work_id": "arxiv:1004.3026v1",
+      "search_digest": "c80796acee29996e963794fc815cf6a10aa7cc1209afd750756343d7904ac697",
+      "work_id": "openalex:W1579509228"
+     },
+     {
+      "canonical_work_id": "arxiv:1004.3026v1",
+      "search_digest": "c80796acee29996e963794fc815cf6a10aa7cc1209afd750756343d7904ac697",
+      "work_id": "openalex:W1769242330"
+     },
+     {
+      "canonical_work_id": "arxiv:2408.03491v2",
+      "search_digest": "c80796acee29996e963794fc815cf6a10aa7cc1209afd750756343d7904ac697",
+      "work_id": "openalex:W4417182444"
+     },
+     {
+      "canonical_work_id": "arxiv:2407.10861v2",
+      "search_digest": "c80796acee29996e963794fc815cf6a10aa7cc1209afd750756343d7904ac697",
+      "work_id": "openalex:W4400720094"
+     },
+     {
+      "canonical_work_id": "arxiv:2606.15368v1",
+      "search_digest": "c80796acee29996e963794fc815cf6a10aa7cc1209afd750756343d7904ac697",
+      "work_id": "openalex:W7164914038"
+     },
+     {
+      "canonical_work_id": "arxiv:2606.30010v1",
+      "search_digest": "c80796acee29996e963794fc815cf6a10aa7cc1209afd750756343d7904ac697",
+      "work_id": "openalex:W7166747043"
+     },
+     {
+      "canonical_work_id": "arxiv:2412.12904v2",
+      "search_digest": "c80796acee29996e963794fc815cf6a10aa7cc1209afd750756343d7904ac697",
+      "work_id": "openalex:W4405562478"
+     },
+     {
+      "canonical_work_id": "arxiv:2507.15723v1",
+      "search_digest": "62d8f6f660a499716782a22d245ad518453755857dace80323dee408c9d9505a",
+      "work_id": "openalex:W4417438148"
+     },
+     {
+      "canonical_work_id": "arxiv:2606.23018v1",
+      "search_digest": "62d8f6f660a499716782a22d245ad518453755857dace80323dee408c9d9505a",
+      "work_id": "openalex:W7165666396"
+     },
+     {
+      "canonical_work_id": "arxiv:1004.3026v1",
+      "search_digest": "62d8f6f660a499716782a22d245ad518453755857dace80323dee408c9d9505a",
+      "work_id": "openalex:W1579509228"
+     },
+     {
+      "canonical_work_id": "arxiv:1004.3026v1",
+      "search_digest": "62d8f6f660a499716782a22d245ad518453755857dace80323dee408c9d9505a",
+      "work_id": "openalex:W1769242330"
+     },
+     {
+      "canonical_work_id": "arxiv:2408.03491v2",
+      "search_digest": "62d8f6f660a499716782a22d245ad518453755857dace80323dee408c9d9505a",
+      "work_id": "openalex:W4417182444"
+     },
+     {
+      "canonical_work_id": "arxiv:2407.10861v2",
+      "search_digest": "62d8f6f660a499716782a22d245ad518453755857dace80323dee408c9d9505a",
+      "work_id": "openalex:W4400720094"
+     },
+     {
+      "canonical_work_id": "arxiv:2606.15368v1",
+      "search_digest": "62d8f6f660a499716782a22d245ad518453755857dace80323dee408c9d9505a",
+      "work_id": "openalex:W7164914038"
+     },
+     {
+      "canonical_work_id": "arxiv:2606.30010v1",
+      "search_digest": "62d8f6f660a499716782a22d245ad518453755857dace80323dee408c9d9505a",
+      "work_id": "openalex:W7166747043"
+     },
+     {
+      "canonical_work_id": "arxiv:2412.12904v2",
+      "search_digest": "62d8f6f660a499716782a22d245ad518453755857dace80323dee408c9d9505a",
+      "work_id": "openalex:W4405562478"
+     },
+     {
+      "canonical_work_id": "arxiv:1004.4236v2",
+      "search_digest": "62d8f6f660a499716782a22d245ad518453755857dace80323dee408c9d9505a",
+      "work_id": "openalex:W2126244044"
+     },
+     {
+      "canonical_work_id": "arxiv:1809.01259v3",
+      "search_digest": "62d8f6f660a499716782a22d245ad518453755857dace80323dee408c9d9505a",
+      "work_id": "openalex:W3141567130"
+     },
+     {
+      "canonical_work_id": "arxiv:1004.4236v2",
+      "search_digest": "62d8f6f660a499716782a22d245ad518453755857dace80323dee408c9d9505a",
+      "work_id": "openalex:W2953204957"
+     },
+     {
+      "canonical_work_id": "arxiv:1004.3026v1",
+      "search_digest": "ce5b8b6a9c2f3128c0c9f11eee456618d1e3ab112abdf1b5eaac732dd98f2be2",
+      "work_id": "openalex:W1579509228"
+     },
+     {
+      "canonical_work_id": "arxiv:1004.3026v1",
+      "search_digest": "ce5b8b6a9c2f3128c0c9f11eee456618d1e3ab112abdf1b5eaac732dd98f2be2",
+      "work_id": "openalex:W1769242330"
+     },
+     {
+      "canonical_work_id": "arxiv:1004.3026v1",
+      "search_digest": "e55a09fe96082f618ddd51204e21598b2e6bad78e0ea2cb30c18d4bc857bdac2",
+      "work_id": "openalex:W1579509228"
+     },
+     {
+      "canonical_work_id": "arxiv:1004.3026v1",
+      "search_digest": "e55a09fe96082f618ddd51204e21598b2e6bad78e0ea2cb30c18d4bc857bdac2",
+      "work_id": "openalex:W1769242330"
+     },
+     {
+      "canonical_work_id": "arxiv:1611.05784v2",
+      "search_digest": "e55a09fe96082f618ddd51204e21598b2e6bad78e0ea2cb30c18d4bc857bdac2",
+      "work_id": "openalex:W2549918895"
+     },
+     {
+      "canonical_work_id": "arxiv:1802.05007v4",
+      "search_digest": "3080d83ed1b0178e3f585f028898fc733a24c75ea42c44cdff7727851b4460bc",
+      "work_id": "openalex:W2785809762"
+     },
+     {
+      "canonical_work_id": "arxiv:2408.03491v2",
+      "search_digest": "5fb73773b410548ed3419cc019ce0564cd47de2df008a0cccf154e0e97cb9032",
+      "work_id": "openalex:W4417182444"
+     },
+     {
+      "canonical_work_id": "arxiv:2407.10861v2",
+      "search_digest": "5fb73773b410548ed3419cc019ce0564cd47de2df008a0cccf154e0e97cb9032",
+      "work_id": "openalex:W4400720094"
+     },
+     {
+      "canonical_work_id": "arxiv:1611.05784v2",
+      "search_digest": "5fb73773b410548ed3419cc019ce0564cd47de2df008a0cccf154e0e97cb9032",
+      "work_id": "openalex:W2549918895"
+     },
+     {
+      "canonical_work_id": "arxiv:2507.15723v1",
+      "search_digest": "94add89065289a66f640067c70004ec37c0455f5ba64fad5b7a63ca376438c5c",
+      "work_id": "openalex:W4417438148"
+     },
+     {
+      "canonical_work_id": "arxiv:2606.23018v1",
+      "search_digest": "94add89065289a66f640067c70004ec37c0455f5ba64fad5b7a63ca376438c5c",
+      "work_id": "openalex:W7165666396"
+     },
+     {
+      "canonical_work_id": "arxiv:1004.3026v1",
+      "search_digest": "94add89065289a66f640067c70004ec37c0455f5ba64fad5b7a63ca376438c5c",
+      "work_id": "openalex:W1579509228"
+     },
+     {
+      "canonical_work_id": "arxiv:1004.3026v1",
+      "search_digest": "94add89065289a66f640067c70004ec37c0455f5ba64fad5b7a63ca376438c5c",
+      "work_id": "openalex:W1769242330"
+     },
+     {
+      "canonical_work_id": "arxiv:2408.03491v2",
+      "search_digest": "94add89065289a66f640067c70004ec37c0455f5ba64fad5b7a63ca376438c5c",
+      "work_id": "openalex:W4417182444"
+     },
+     {
+      "canonical_work_id": "arxiv:2407.10861v2",
+      "search_digest": "94add89065289a66f640067c70004ec37c0455f5ba64fad5b7a63ca376438c5c",
+      "work_id": "openalex:W4400720094"
+     },
+     {
+      "canonical_work_id": "arxiv:2606.15368v1",
+      "search_digest": "94add89065289a66f640067c70004ec37c0455f5ba64fad5b7a63ca376438c5c",
+      "work_id": "openalex:W7164914038"
+     },
+     {
+      "canonical_work_id": "arxiv:2606.30010v1",
+      "search_digest": "94add89065289a66f640067c70004ec37c0455f5ba64fad5b7a63ca376438c5c",
+      "work_id": "openalex:W7166747043"
+     },
+     {
+      "canonical_work_id": "arxiv:2412.12904v2",
+      "search_digest": "94add89065289a66f640067c70004ec37c0455f5ba64fad5b7a63ca376438c5c",
+      "work_id": "openalex:W4405562478"
+     }
+    ],
+    "neighbours": [
+     "Is the 1-subdivision of every graph Sidorenko? (Conlon, Kim, Lee and Lee 2018, Problem 1.5; every 1-subdivision of a graph has girth at least six.)",
+     "Is the 1-subdivision $S(H_0)$ of the reported 35-vertex counterexample $H_0$ Sidorenko? It has 101 vertices, 132 edges and girth 8, and $t(S(H_0),W)=t(H_0,W\\circ W)$.",
+     "Is there an integer $g$ such that every bipartite graph of girth at least $g$ is Sidorenko?",
+     "Is the vertex-edge incidence graph of every linear $k$-uniform hypergraph ($k\\ge 3$) Sidorenko?",
+     "Is the Heawood graph, the incidence graph of the Fano plane, Sidorenko?",
+     "Is every bipartite graph of girth at least six that contains a cycle forcing?",
+     "Is every biregular bipartite graph of girth at least six Sidorenko?",
+     "Is every bipartite graph obtained by subdividing the edges of a Sidorenko graph Sidorenko? (Im, Li and Liu 2024, Conjecture 4.1; they prove it for uniform subdivisions.)"
+    ],
+    "reading_digests": [
+     "11fd32235cebe4ca72e97629683dd33f5eaafbd0a07ddb7c21ada13cd591ef10",
+     "14bcfa100f3e35e36dbe09b75b5086877f0cc1dc8a39e401a0212b51e03627eb",
+     "15ac681946593679867efa0ed4fd11968eb9e917f614c0909abc742a093d7f52",
+     "2a33ae2a7f8689256c12867cc5505d151bdb4f955135a07e85201dc93b83084e",
+     "2be85e87032b4ace253045c3b43ad830ff091c1774f07ceb93223aff35e4c884",
+     "33237ae93d80dd8387d62f9bc18d5298d851e65aabf1ca76f0e398ddb5e8d452",
+     "393fbc19c92757a2dbe2a9e5cc944484606ce6287ca9014543c79b966a9a9df9",
+     "3e77a8ce00cf56947b68033e00e8506a64d572a6030921b900e7edcfa709b09a",
+     "4a9d28ee9106d9e5b1cf5276768bfb76ea7e0485ac9fab54f726187b62bca2e8",
+     "70879ffecaaa7d788cb17f5d1e8793fff4edd88947c31fdba96a9f11a9eed7ee",
+     "875e58e41b01dff76657e6c9bd6584962814bcd284176aee57c79d2528a68f02",
+     "99c68d3bde018801e613fcffd8d18fb7d163fd7cb550bf690fef5533e7ea02b6",
+     "ab83f883a903b570015caa9ce2e8358b1e0feac36b441825dea480000093cbca",
+     "ad653d22cb72657b1bb34adb831c9d0e4249272022c22000ccb874e4d61a6e6a",
+     "e8aa3ea91b069d9bab75f4d4ad5d7bfc48c2b75b03701ec5450328b9961d3407",
+     "ea507e532959c582affe4ce2d9b27e3a973ffa2c9e852c30744987f084cfcce2",
+     "f31bd1e895ae1b37941287c0e68dee57975c31c5cae5c85f728544c3e3b651c2"
+    ],
+    "schema_version": 1,
+    "searches": [
+     {
+      "formulation": "Let $H$ be a finite bipartite graph with at least one edge and no cycle of length four, that is, a bipartite graph of girth at least six. Is it true that $$t(H,W)\\ge t(K_2,W)^{e(H)}$$ for every graphon $W$, where $t(F,W)=\\int_{[0,1]^{V(F)}}\\prod_{uv\\in E(F)}W(x_u,x_v)\\,dx$ is the homomorphism density?",
+      "search_digest": "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e"
+     },
+     {
+      "formulation": "Is the 1-subdivision of every graph Sidorenko? (Conlon, Kim, Lee and Lee 2018, Problem 1.5; every 1-subdivision of a graph has girth at least six.)",
+      "search_digest": "c80796acee29996e963794fc815cf6a10aa7cc1209afd750756343d7904ac697"
+     },
+     {
+      "formulation": "Is the 1-subdivision $S(H_0)$ of the reported 35-vertex counterexample $H_0$ Sidorenko? It has 101 vertices, 132 edges and girth 8, and $t(S(H_0),W)=t(H_0,W\\circ W)$.",
+      "search_digest": "62d8f6f660a499716782a22d245ad518453755857dace80323dee408c9d9505a"
+     },
+     {
+      "formulation": "Is there an integer $g$ such that every bipartite graph of girth at least $g$ is Sidorenko?",
+      "search_digest": "ce5b8b6a9c2f3128c0c9f11eee456618d1e3ab112abdf1b5eaac732dd98f2be2"
+     },
+     {
+      "formulation": "Is the vertex-edge incidence graph of every linear $k$-uniform hypergraph ($k\\ge 3$) Sidorenko?",
+      "search_digest": "e55a09fe96082f618ddd51204e21598b2e6bad78e0ea2cb30c18d4bc857bdac2"
+     },
+     {
+      "formulation": "Is the Heawood graph, the incidence graph of the Fano plane, Sidorenko?",
+      "search_digest": "f9c03908ead9b00015f055935e44db2255ca087c3e257a99ad66feb35711e6bd"
+     },
+     {
+      "formulation": "Is every bipartite graph of girth at least six that contains a cycle forcing?",
+      "search_digest": "3080d83ed1b0178e3f585f028898fc733a24c75ea42c44cdff7727851b4460bc"
+     },
+     {
+      "formulation": "Is every biregular bipartite graph of girth at least six Sidorenko?",
+      "search_digest": "5fb73773b410548ed3419cc019ce0564cd47de2df008a0cccf154e0e97cb9032"
+     },
+     {
+      "formulation": "Is every bipartite graph obtained by subdividing the edges of a Sidorenko graph Sidorenko? (Im, Li and Liu 2024, Conjecture 4.1; they prove it for uniform subdivisions.)",
+      "search_digest": "94add89065289a66f640067c70004ec37c0455f5ba64fad5b7a63ca376438c5c"
+     }
+    ],
+    "settling_work_id": null,
+    "statement": "Let $H$ be a finite bipartite graph with at least one edge and no cycle of length four, that is, a bipartite graph of girth at least six. Is it true that $$t(H,W)\\ge t(K_2,W)^{e(H)}$$ for every graphon $W$, where $t(F,W)=\\int_{[0,1]^{V(F)}}\\prod_{uv\\in E(F)}W(x_u,x_v)\\,dx$ is the homomorphism density?"
+   },
+   "outcome": "supported_open",
+   "reason": "No captured work states or settles the statement. The positive results among the fully read works cover only strict subclasses of the girth-six bipartite graphs: trees, even cycles and the C6-based patterns; 1-subdivisions of KNRS graphs and of Sidorenko graphs (CKLL 2018, Theorem 1.3 and 3.1), odd subdivisions of KNRS graphs (Chen-Lin-Ma 2024), 1-subdivisions of regular-KNRS and Sidorenko-good graphs (Zhao 2026, Proposition 1.4), uniform subdivisions of Sidorenko graphs and even theta replacements under a divisibility condition (Im-Li-Liu 2024), 1-subdivisions of cliques and incidence graphs of regular polytopes (Conlon-Lee 2017), and 1-subdivisions on restricted Cayley hosts (Zhao 2025, 2026). The 1-subdivision of an arbitrary graph, a subcase of the statement, is stated as an open problem outside the reach of current methods by CKLL (Problem 1.5), stated open for general hosts by Zhao (July 2025), and left unsettled in the September 2026 revision of Kiem-Parczyk-Spiegel, which also records the forcing conjecture as open; Im-Li-Liu's Conjecture 4.1 is left open. The local theorems (Lovasz 2010; Fox-Wei 2017 as cited) hold for every bipartite graph and only constrain a counterexample. No counterexample of girth at least six is captured: the reported 35-vertex counterexample H0, as described in the record, is the vertex-face incidence graph of a 13-vertex triangulated sphere and so contains 4-cycles (its 1-subdivision has girth 8, so H0 has girth 4), placing it outside the class; the named smallest open cases K_{5,5} minus C_10 and twisted blow-ups have 4-cycles; the complete arXiv window from 2026-09-23 to 2026-10-21 returned no work on Sidorenko for patterns, and the complete arXiv query on Sidorenko with large girth returned nothing. Every neighbour search likewise found only class results or restricted-host results and no settling work. Hence the statement is open on the evidence; settling_work_id is null and no decisive source is missing or unavailable.",
+   "searched_at": "2026-10-21",
+   "statement_digest": "844e273b2504fe59fb4ca4411ab617a2cdc179b0d4316ce9f7981c1ad6b86c17"
+  },
+  "policy": "This is a problem-creation result with no proof claim; no proof policy, finite computation obligation or verifier execution applies at this milestone, and execution_provenance is empty. The evidence consists of literature search records, reading records and source texts, treated here as evidence rather than instructions. No source was treated as proof by authority: the openness finding is drawn from what the fully read works prove and state as open, cross-checked against the independent arXiv queries with complete coverage. Approval of this milestone does not cancel any requested formal verification of the Lean statement or other deliverables.",
+  "scope": "The approval covers only the openness milestone of this problem statement: the outcome supported_open for the exact statement bound by statement_digest and for its eight declared neighbours as searched. It does not certify the Lean formalisation (no Lean build or execution_provenance is supplied), does not certify the correctness of the reported counterexample H0, and makes no claim about neighbours beyond what the bound searches show (each neighbour is also recorded as open in the captured sources; the Heawood search found nothing on its Sidorenko status).",
+  "statement": "The subject is the problem-creation candidate 'statement-girth-six' (recorded revision 188, area math.CO): for every finite bipartite graph H with at least one edge and no 4-cycle (equivalently, bipartite of girth at least six, forests included), is t(H,W) >= t(K_2,W)^{e(H)} for every graphon W, with t the homomorphism density. The resolution criteria give the equivalent finite-host form t(H,G) >= (2e(G)/v(G)^2)^{e(H)} counting all (not necessarily injective) homomorphisms, and the Lean text states exactly that finite-host form (H.Colorable 2, nonempty edge set, no cycle of length 4, every host G on Fin m with m > 0). The claim assessed here is that this statement is open: neither proved for the whole class nor refuted by a girth-at-least-six counterexample in the literature."
+ },
+ "reviewer": {
+  "actor_id": "claude-fable-5-1-openness",
+  "attestation_id": "review-assignment:assignment-openness-fable-2",
+  "source": "host"
+ },
+ "schema_version": 2,
+ "subject_digest": "fb0c54d62c9c76ebd8961110752ed2731c41f779f15f5ea2cbc52dc9365b9d6c"
+}

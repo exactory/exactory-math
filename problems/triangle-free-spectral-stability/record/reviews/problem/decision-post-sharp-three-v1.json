@@ -1,0 +1,13 @@
+{
+  "id": "decision-post-sharp-three-v1",
+  "action": "post",
+  "review_ids": [
+    "review-result-astra-sharp-three-v4",
+    "review-result-sol-sharp-three-v2"
+  ],
+  "bar_review_ids": [
+    "bar-astra-v2",
+    "bar-sol-v2"
+  ],
+  "reason": "Both observed independent result assessments pass every admission item, assign B1 = B2 = 2 and priority 2, and pass the attempt and calibration requirements with E-F accessibility. Neither reports a material objection or pending source request. The exact coefficient-three inequality remains unresolved within the dated bounded searches. The published bipartite editing theorem, the independently reviewed universal coefficient-fifteen and asymptotic upper bounds, and the exact five-cycle lower-bound witness support the stated finite sharp-constant question. Publication makes no claim of an exhaustive openness certificate, historical priority for the supporting theorem, asymptotic lower-bound sharpness, a general method obstruction, or a proof of the original inequality."
+}

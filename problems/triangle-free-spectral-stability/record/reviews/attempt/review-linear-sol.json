@@ -1,0 +1,28 @@
+{
+  "claim_digest": "92e774ba3ff8b72e53d73362f5ca9bf89dec58612d3c973897537949be9873f0",
+  "decision": "approve",
+  "findings": {
+    "assumptions": "No additional assumptions are introduced. The argument uses finite real symmetric spectral theory, triangle-freeness, Nosal's inequality and the explicitly supplied external bipartite editing theorem. The proof must distinguish graphs with an edge from edgeless graphs before dividing by m or lambda.",
+    "equivalence": "The standalone theorem is weaker than the root claim, not equivalent to it. Neither coefficient fifteen nor the vanishing-relative-deficit estimate establishes D<=3xi at arbitrary positive deficit. C5 excludes smaller universal coefficients but does not establish sufficiency of three.",
+    "mathematical_substance": "The supplied calculation gives a concrete, checkable analytical chain: a least-eigenvector sign cut has spectral radius at least mu; the supplied bipartite editing lemma yields D<=3(m-mu^2); trace-cube and squared-spectrum estimates yield the proposed coefficient fifteen and asymptotic remainder. The separate C5 argument bounds the minimum edit cost from both directions. This supports admission for independent proof review, not result acceptance.",
+    "necessity": "This standalone foothold is not asserted to be necessary for root resolution and creates no root-covering decomposition.",
+    "novelty": "The supplied primary texts establish the bipartite coefficient-three comparison and qualitative triangle-free stability, but do not state the complete proposed theorem. Historical novelty and openness remain uncertified: narrative search summaries and claims of six completed readings do not establish access to all corresponding search records and fulltexts.",
+    "renewal_basis": "No renewal is requested. Admission inherits the original shared resource account and its 24-move, 24-run and single-worker limits; the branch does not receive an additional allowance.",
+    "root_connection": "The proposed bounds concern exactly the root edit functional and spectral deficit. They provide weaker quantitative consequences while explicitly preserving the unresolved universal coefficient-three obligation.",
+    "scope": "The exact standalone claim includes disconnected graphs, isolates, empty target parts, edgeless graphs and the positive-deficit sequence assertion. No finite computation is proposed or needed.",
+    "significance": "If verified, a uniform linear bound and an explicit asymptotic coefficient-three estimate materially sharpen the quantitative information supplied for this exact functional. Their significance here is bounded mathematical progress, not a demonstrated priority claim."
+  },
+  "reviewer": {
+    "actor_id": "reviewer-sol-native",
+    "attestation_id": "review-assignment:native-admission-linear-sol",
+    "source": "host"
+  },
+  "schema_version": 1,
+  "subject_digest": "4e1b5b30b44b5c6009dc5a04863a8083690151f81b8a7094a64d4b28933b45dd",
+  "unresolved_objections": [
+    {
+      "blocking": false,
+      "description": "Novelty remains unresolved. Raw shared search records and complete texts for the claimed survey, color-critical and entropy-bridge readings are not delivered as such in this packet. Those assertions receive no full-reading credit; stronger novelty or openness findings require the bound records and complete decisive sources."
+    }
+  ]
+}

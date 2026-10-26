@@ -1,0 +1,37 @@
+{
+ "disposition": {
+  "evidence_needed": null,
+  "reason": "A restatement of a known conjecture in a special case; the selected candidate is strictly sharper and carries the consequence this one lacks.",
+  "status": "rejected"
+ },
+ "id": "candidate-hm-form-hives",
+ "neighbours": [
+  "The selected candidate.",
+  "Haase-McAllister's Conjecture 3.2 in general."
+ ],
+ "notes": "Kept as a neighbour of the selected candidate so that the openness finding covers it.",
+ "observation": "This is the exact special case of a stated conjecture; it does not imply nonnegativity of the generating-function numerator and it is implied by the selected candidate.",
+ "potential": {
+  "priority": 1,
+  "readiness": "pass",
+  "significance": {
+   "B1": 2,
+   "B2": 1
+  }
+ },
+ "previous": null,
+ "recorded_revision": 245,
+ "source": {
+  "evidence": [
+   {
+    "digest": "aae21c2354cdedad834a228e381555897b487a7ca68f25aa309e73f6a9454edc",
+    "id": "reading-haase-mcallister-2008-3",
+    "kind": "record",
+    "record_kind": "reading"
+   }
+  ],
+  "kind": "literature",
+  "reference": "Haase-McAllister 2008, Conjecture 3.2, restricted to the family they name as motivation."
+ },
+ "statement": "For every triple with $c^{\\nu}_{\\lambda\\mu}>0$, the hive polytope $H(\\lambda,\\mu,\\nu)$ is $\\mathrm{GL}_D(\\mathbb{Z})$-equidecomposable with a disjoint union of integral open simplices."
+}

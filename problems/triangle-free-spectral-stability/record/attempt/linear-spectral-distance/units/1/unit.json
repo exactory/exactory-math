@@ -1,0 +1,10 @@
+{
+  "statement": "For every finite simple triangle-free graph G, let m=e(G), let lambda be its adjacency spectral radius (zero for an empty vertex set), let xi=m-lambda^2, and let D(G) be the minimum of |E(G) symmetric-difference E(K_{A,B})| over disjoint vertex subsets A,B, allowing empty parts and leaving all other vertices isolated. Then D(G)<=15xi. If lambda>0, then D(G)<=3xi+18sqrt(6)xi^(3/2)/lambda. Consequently, for every sequence of such graphs with xi>0 and xi/m tending to zero, limsup D(G)/xi<=3. Moreover D(C5)=3 and e(C5)-lambda(C5)^2=1, so no universal coefficient smaller than 3 can bound D(G)/xi.",
+  "form": "full-proof",
+  "evidence": "proof.md",
+  "novelty": "See study/problem.md, novelty.md and units/1/novelty.md for the dated bounded exact-quantity searches, actual source gaps and full-reading comparisons. Historical priority remains unclaimed.",
+  "moves": [
+    1
+  ],
+  "costs": []
+}

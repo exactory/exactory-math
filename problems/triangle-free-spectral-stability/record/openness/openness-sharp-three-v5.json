@@ -1,0 +1,1129 @@
+{
+ "assignment_id": "openness-sharp-three-v5",
+ "coverage": "The exact statement and each of the four declared neighbours have separately bound common literature_search records, all dated 2026-10-21, sharing seven arXiv-style math.CO queries through the recorded mcp provider. Each requested at most 30 results, with unspecified ordering and explicitly bounded, not exhaustive, coverage: (1) triangle-free AND spectral AND stability, 3 returned and inspected; (2) Nosal OR spectral AND bipartite AND distance, 10; (3) edge-spectral OR Nosal AND stability, 14; (4) triangle-free AND edit OR spectral AND complete bipartite AND stability, 11; (5) spectral AND edit distance/edge edits/edge-edit, 2; (6) triangle-free AND linear stability/spectral deficit/least eigenvalue, 2; (7) regular AND triangle-free AND stability, 0. Screening was at bibliographic or abstract level, followed by bound complete fulltext readings of all six retained relevant works. Exact-statement follow-ups on 2026-10-21 include a DOI-filtered Crossref query for 'A spectral stability result regarding the complete bipartite graph K2,t', complete for its single returned record, and 'triangle free spectral complete bipartite edit linear asymptotic stability', with only the first 10 results inspected, not complete coverage. The historical unfiltered response contained nine articles and one grant; the later journal-article-filtered response retained the nine articles and screened one additional item. Its reported 1,876,994 matches were not exhaustively retrieved. The auxiliary date-ordered arXiv query for triangle-free spectral linear stability/asymptotic/edit terms requested at most 20 and returned zero. The zbMATH HTTP 404 and the narratively reported Semantic Scholar rate limit provide no reliable negative coverage.",
+ "evidence": [
+  "878c7871ba69d9132b9ed1723b012ec1a7c6fea218fbf16a8ee6053dcd24fb5a",
+  "67199bda65823bf19334d056256c2aeec55a0e4228a05e9e2de7dd27d335fe64",
+  "69ed2549c1f90390922110886c269a20ec40689b9d60e7d5beba53a73cd314fb",
+  "02c59058e8c47e2f09beaa53544fa74867c15df56014ec067898469fc3949677",
+  "4ce973ebd54bb68bb0e2a7282ceb62ff52e7d4860e1ed0b56199da99148e3c18",
+  "5b8f3e5a7802125b636ae365feb294026c1e99bf3ec7e599e6cde33b75b328ca",
+  "fd3c548e7e7b023521369beff9b2936496e7f4e0f686c26f156c07ec9ed5f156",
+  "8a81ee8b6fab310f6163edf209b8b21f2c4cf4fd85b24c4b0f214dde078eded5",
+  "adac16fa9066c1636f9da55b437e07626b470e0ca3d9d2254f0bbdcea396cf65",
+  "a948460524f923d4d8bc473e2f2845e91ff2a920066075b0063188baf4f82d70",
+  "ea2fc8cf21e07ce8c64f805b78b2153ef7a347b017baaac7f81fa8dc5f27a22f",
+  "12a65595256d3f855c60b96c87199dc305ccdbfe0a43f62180b39f4c6b8fe763",
+  "551f97c316b605c52dfe0498ac51810a13a29a3dab8154060d290f35ab002c2b",
+  "6ae4c5e53116ddb1f7e8e459fc4423f3475d3ba87a3452a46fb1a9aedfa0be96",
+  "7bca0c2748c9d52b6ba0697fb2dadd47e6738eb94165164efbd46b8b0392760b",
+  "7d781ff72f32ec4c5d30d9844625fc02c5f5402933b5eff5e687258acc4ce412",
+  "8cf8e84ca5dd60ac0154f9852c17f6028fbab2160bc7a8cd069a1c09ac2db19d",
+  "c2d3620df39c3b39792713677a58b2a9713469c134c486028175db307e1e7291",
+  "e06d56eace20e7e20b25d7b599a4822a2e70eff88f8f172c2a37a348f7b8d78f",
+  "557644d76112c65d5333dbedc7decbebc2b997f7ca1cd078773edb9a576f4b3b",
+  "96fdc11e8822b8b03a37610f81ce058aaec707e25e0531e9b7ef371664b6318b",
+  "afbaeafe3bb0ca25965c6ebd659463635984fd12a1be1c0a6b97476356a7dfb1",
+  "4e3f56271c65607522c082b22d5e76015b84bb75a829e336c220c9accd7a1c28",
+  "77014f0938289774270f71666f0422ad953c13d0b8385b14f2246286e7e1f395",
+  "c71d8568704cc78108177f2fded1d7f5e5ba140783209ada7996b2cf8c61d997",
+  "571653c3925a511862ad99af13cda152d1eb04eceab1c64838915ad950241aac",
+  "c5c4baa10292a9c9dfcdac3ba2b5c15b75fc7012ae914a15cd0e8c9d6254c354",
+  "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af"
+ ],
+ "id": "openness-sharp-three-v5",
+ "minimum": {
+  "duplicate_resolutions": [],
+  "neighbours": [
+   "The same inequality $D(G)\\le3(e(G)-\\lambda(G)^2)$ restricted to finite simple bipartite graphs.",
+   "The same inequality $D(G)\\le3(e(G)-\\lambda(G)^2)$ restricted to finite simple regular triangle-free graphs.",
+   "There exists an absolute constant $C<\\infty$ such that $D(G)\\le C(e(G)-\\lambda(G)^2)$ for every finite simple triangle-free graph $G$.",
+   "Every finite simple triangle-free graph $G$ can be made bipartite by deleting at most $e(G)-\\lambda(G)^2$ edges."
+  ],
+  "reading_digests": [
+   "12a65595256d3f855c60b96c87199dc305ccdbfe0a43f62180b39f4c6b8fe763",
+   "551f97c316b605c52dfe0498ac51810a13a29a3dab8154060d290f35ab002c2b",
+   "6ae4c5e53116ddb1f7e8e459fc4423f3475d3ba87a3452a46fb1a9aedfa0be96",
+   "7bca0c2748c9d52b6ba0697fb2dadd47e6738eb94165164efbd46b8b0392760b",
+   "7d781ff72f32ec4c5d30d9844625fc02c5f5402933b5eff5e687258acc4ce412",
+   "8cf8e84ca5dd60ac0154f9852c17f6028fbab2160bc7a8cd069a1c09ac2db19d",
+   "c2d3620df39c3b39792713677a58b2a9713469c134c486028175db307e1e7291",
+   "e06d56eace20e7e20b25d7b599a4822a2e70eff88f8f172c2a37a348f7b8d78f"
+  ],
+  "schema_version": 1,
+  "searches": [
+   {
+    "formulation": "The same inequality $D(G)\\le3(e(G)-\\lambda(G)^2)$ restricted to finite simple bipartite graphs.",
+    "search_digest": "fd3c548e7e7b023521369beff9b2936496e7f4e0f686c26f156c07ec9ed5f156"
+   },
+   {
+    "formulation": "Every finite simple triangle-free graph $G$ can be made bipartite by deleting at most $e(G)-\\lambda(G)^2$ edges.",
+    "search_digest": "8a81ee8b6fab310f6163edf209b8b21f2c4cf4fd85b24c4b0f214dde078eded5"
+   },
+   {
+    "formulation": "For every finite simple triangle-free graph $G$, put $m=e(G)$ and let $\\lambda(G)$ denote its adjacency spectral radius (with $\\lambda(G)=0$ when $G$ has no vertices). Define $D(G)=\\min_{A,B\\subseteq V(G),\\ A\\cap B=\\varnothing}|E(G)\\mathbin{\\triangle}E(K_{A,B})|$, where $K_{A,B}$ has all edges between $A$ and $B$ and no other edges on $V(G)$; empty parts are permitted. Then $D(G)\\le 3\\bigl(m-\\lambda(G)^2\\bigr)$.",
+    "search_digest": "69ed2549c1f90390922110886c269a20ec40689b9d60e7d5beba53a73cd314fb"
+   },
+   {
+    "formulation": "For every finite simple triangle-free graph $G$, put $m=e(G)$ and let $\\lambda(G)$ denote its adjacency spectral radius (with $\\lambda(G)=0$ when $G$ has no vertices). Define $D(G)=\\min_{A,B\\subseteq V(G),\\ A\\cap B=\\varnothing}|E(G)\\mathbin{\\triangle}E(K_{A,B})|$, where $K_{A,B}$ has all edges between $A$ and $B$ and no other edges on $V(G)$; empty parts are permitted. Then $D(G)\\le 3\\bigl(m-\\lambda(G)^2\\bigr)$.",
+    "search_digest": "02c59058e8c47e2f09beaa53544fa74867c15df56014ec067898469fc3949677"
+   },
+   {
+    "formulation": "For every finite simple triangle-free graph $G$, put $m=e(G)$ and let $\\lambda(G)$ denote its adjacency spectral radius (with $\\lambda(G)=0$ when $G$ has no vertices). Define $D(G)=\\min_{A,B\\subseteq V(G),\\ A\\cap B=\\varnothing}|E(G)\\mathbin{\\triangle}E(K_{A,B})|$, where $K_{A,B}$ has all edges between $A$ and $B$ and no other edges on $V(G)$; empty parts are permitted. Then $D(G)\\le 3\\bigl(m-\\lambda(G)^2\\bigr)$.",
+    "search_digest": "4ce973ebd54bb68bb0e2a7282ceb62ff52e7d4860e1ed0b56199da99148e3c18"
+   },
+   {
+    "formulation": "There exists an absolute constant $C<\\infty$ such that $D(G)\\le C(e(G)-\\lambda(G)^2)$ for every finite simple triangle-free graph $G$.",
+    "search_digest": "adac16fa9066c1636f9da55b437e07626b470e0ca3d9d2254f0bbdcea396cf65"
+   },
+   {
+    "formulation": "There exists an absolute constant $C<\\infty$ such that $D(G)\\le C(e(G)-\\lambda(G)^2)$ for every finite simple triangle-free graph $G$.",
+    "search_digest": "a948460524f923d4d8bc473e2f2845e91ff2a920066075b0063188baf4f82d70"
+   },
+   {
+    "formulation": "The same inequality $D(G)\\le3(e(G)-\\lambda(G)^2)$ restricted to finite simple regular triangle-free graphs.",
+    "search_digest": "ea2fc8cf21e07ce8c64f805b78b2153ef7a347b017baaac7f81fa8dc5f27a22f"
+   },
+   {
+    "formulation": "For every finite simple triangle-free graph $G$, put $m=e(G)$ and let $\\lambda(G)$ denote its adjacency spectral radius (with $\\lambda(G)=0$ when $G$ has no vertices). Define $D(G)=\\min_{A,B\\subseteq V(G),\\ A\\cap B=\\varnothing}|E(G)\\mathbin{\\triangle}E(K_{A,B})|$, where $K_{A,B}$ has all edges between $A$ and $B$ and no other edges on $V(G)$; empty parts are permitted. Then $D(G)\\le 3\\bigl(m-\\lambda(G)^2\\bigr)$.",
+    "search_digest": "5b8f3e5a7802125b636ae365feb294026c1e99bf3ec7e599e6cde33b75b328ca"
+   }
+  ],
+  "settling_work_id": null,
+  "statement": "For every finite simple triangle-free graph $G$, put $m=e(G)$ and let $\\lambda(G)$ denote its adjacency spectral radius (with $\\lambda(G)=0$ when $G$ has no vertices). Define $D(G)=\\min_{A,B\\subseteq V(G),\\ A\\cap B=\\varnothing}|E(G)\\mathbin{\\triangle}E(K_{A,B})|$, where $K_{A,B}$ has all edges between $A$ and $B$ and no other edges on $V(G)$; empty parts are permitted. Then $D(G)\\le 3\\bigl(m-\\lambda(G)^2\\bigr)$."
+ },
+ "native_reviews": [
+  {
+   "assignment_digest": "b14d5134b9d166c2db364e5af6c5bab8112b881e91961c5e08c2f2b4d63815f1",
+   "assignment_id": "native-proof-linear-v1",
+   "attempt_digest": "040064f32b415df55a1cf0ef2a09127e7bd68b3fbfc972fc57c8a4ad90f665fe",
+   "attempt_id": "attempt-sharp-three-v1",
+   "checkpoint": {
+    "claim": {
+     "assumption_ids": [],
+     "proof_policy": "reviewed",
+     "quantifiers": "Every finite simple undirected triangle-free graph, and every sequence with positive deficit and vanishing relative deficit; the five-cycle is one explicitly specified example.",
+     "scope": {
+      "kind": "named",
+      "name": "uniform linear and asymptotic triangle-free edit bounds with a lower-bound witness"
+     },
+     "statement": "For every finite simple triangle-free graph G, let m=e(G), let lambda be its adjacency spectral radius (zero for an empty vertex set), let xi=m-lambda^2, and let D(G) be the minimum of |E(G) symmetric-difference E(K_{A,B})| over disjoint vertex subsets A,B, allowing empty parts and leaving all other vertices isolated. Then D(G)<=15xi. If lambda>0, then D(G)<=3xi+18sqrt(6)xi^(3/2)/lambda. Consequently, for every sequence of such graphs with xi>0 and xi/m tending to zero, limsup D(G)/xi<=3. Moreover D(C5)=3 and e(C5)-lambda(C5)^2=1, so no universal coefficient smaller than 3 can bound D(G)/xi."
+    },
+    "evidence_digests": [
+     "5d5ec5d4755d4c556ddd3ec76816b0d8a5ad9ee03c8f06aa222df26d5dcb3281"
+    ],
+    "id": "checkpoint-000003",
+    "kind": "proof",
+    "milestone_id": "linear-theorem",
+    "next_hypothesis": "After independent acceptance, return to the original coefficient-three question and examine the combined sign-cut and bipartite-rounding slack.",
+    "origin": {
+     "journal_prefix_digest": "5ea42e997a79e450ff44a8567aa34487e0941372855439a1d60d0ab66c8d17b0",
+     "kind": "journal_move",
+     "move": 1,
+     "node_id": "node-000002"
+    },
+    "remaining_obligation_ids": [
+     "obligation-000001"
+    ],
+    "schema_version": 1,
+    "verification_status": "pending",
+    "what_changed": "The complete admitted standalone theorem has an analytical proof with boundary cases, exact trace inequalities and exact C5 minimum, and a checked local draft/unit. This checkpoint requests independent acceptance and makes no priority claim."
+   },
+   "claim_digest": "92e774ba3ff8b72e53d73362f5ca9bf89dec58612d3c973897537949be9873f0",
+   "native_attempt_digest": "5128dfd7effa3a9cc393cb8626978323e60c318e07a5cdc6c635d1b0968c6224",
+   "native_packet_digest": "8d32600183ad1a6b2f2f026fcd488eb5630d05ff326e522625a33bccaf0f59cc",
+   "output_digest": "ff50f7e5f477532784ec1cf107000691c479f5b0263d1de76b618ee78e4276f8",
+   "required_evidence_digests": [
+    "4c9a5add71281f6c04c27d955d9064a474f031a71c1c9b7dc0212a282fcec780",
+    "571653c3925a511862ad99af13cda152d1eb04eceab1c64838915ad950241aac",
+    "5974cc16e2d845c4fcbc0b36954fea40a6f1f27ec5d0228db21cf1c3ec668e20",
+    "5d5ec5d4755d4c556ddd3ec76816b0d8a5ad9ee03c8f06aa222df26d5dcb3281",
+    "5ea42e997a79e450ff44a8567aa34487e0941372855439a1d60d0ab66c8d17b0",
+    "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af",
+    "67199bda65823bf19334d056256c2aeec55a0e4228a05e9e2de7dd27d335fe64",
+    "6ee7353bc16e4c85e3f75275a5d157f340e55ff2e1030dfc5eef1b22a28e6174",
+    "7b482bf72aa5daa552a0eb79efa860378d9c79069629597902a50a9e90ff5ce6",
+    "7bee3a92649dbb09d82b7c0bcb9e977ad182142931e66723c173558bed01def4",
+    "878c7871ba69d9132b9ed1723b012ec1a7c6fea218fbf16a8ee6053dcd24fb5a",
+    "b13fc7bc93f4c27edca7ac5ca5551c6289156e803b3f0e2e73061ae6fb30df98",
+    "c5cc9440197a6bdd186b694b88c1e9db33dfbe5cce10157cf231d024551effdf",
+    "c6bc555db74c6c13e9a1dc8e22767bb05766dd2aafae6f39241d049a0ae04dee",
+    "c72d865a3625ff66d041478bb9a0960d90d8f9b0990ee3ec0d2cf47114de3ca1",
+    "fe65575096907cd45d64985e40ece8114908bdb5dfc3e8c84e9a3c2584f6a2d1"
+   ],
+   "review": {
+    "claim_digest": "92e774ba3ff8b72e53d73362f5ca9bf89dec58612d3c973897537949be9873f0",
+    "decision": "approve",
+    "findings": {
+     "assumptions": "The argument uses precisely finite simple undirected triangle-free graphs and ordinary real spectral theory. Triangle-freeness supplies trace(A^3)=0 and xi>=0. Empty graphs, zero spectral radius, zero deficit, disconnected graphs, isolated vertices and zero eigenvector coordinates are handled. The quantitative bound requires lambda>0; the sequence assertion requires positive deficit and vanishing relative deficit.",
+     "dependencies": "The essential external input is Li–Liu–Ning, arXiv:2609.20225v2, Lemma 4.3. Its complete supplied text and proof support the exact edit functional used here: Cauchy–Binet bounds the squared-minor sum by m times the spectral deficit, and the edge-target averaging counts yield coefficient three. The supplied paper also provides the Perron-weighted identity establishing Nosal's inequality, with extension through a spectral-radius component. Although the manifest's external_dependencies list is empty, the argument is not dependency-free; this approval explicitly includes the supplied lemma and does not certify omitted comparator texts.",
+     "openness": {
+      "coverage": "On 2026-10-21, the recorded arXiv query combined triangle-free, spectral and linear stability/asymptotic/edit terms within math.CO, date-ordered with maximum 20, and returned zero results. Crossref searched 'triangle free spectral complete bipartite edit linear asymptotic stability' and delivered the first 10 bibliographic matches, not complete coverage. zbMATH attempted the same terms on page zero with maximum 10 and returned HTTP 404; this supplies no reliable exhaustive negative coverage. Earlier queries are summarized narratively, but their raw records and formulation-by-formulation coverage are not delivered. Exact-statement and declared-neighbour common literature_search bindings are absent.",
+      "evidence": [
+       "67199bda65823bf19334d056256c2aeec55a0e4228a05e9e2de7dd27d335fe64",
+       "7bee3a92649dbb09d82b7c0bcb9e977ad182142931e66723c173558bed01def4",
+       "878c7871ba69d9132b9ed1723b012ec1a7c6fea218fbf16a8ee6053dcd24fb5a",
+       "6ee7353bc16e4c85e3f75275a5d157f340e55ff2e1030dfc5eef1b22a28e6174",
+       "7b482bf72aa5daa552a0eb79efa860378d9c79069629597902a50a9e90ff5ce6",
+       "b13fc7bc93f4c27edca7ac5ca5551c6289156e803b3f0e2e73061ae6fb30df98",
+       "571653c3925a511862ad99af13cda152d1eb04eceab1c64838915ad950241aac",
+       "4c9a5add71281f6c04c27d955d9064a474f031a71c1c9b7dc0212a282fcec780",
+       "5974cc16e2d845c4fcbc0b36954fea40a6f1f27ec5d0228db21cf1c3ec668e20"
+      ],
+      "outcome": "unresolved",
+      "reason": "These bounded searches cannot establish supported openness or an already-solved outcome. The study claims six complete comparator readings, but its delivered source section contains only two complete texts; the other claimed readings receive no credit here. Wang–Lou's potentially relevant stability paper lacks a complete supplied reading, and the publisher material invoked to distinguish its scope is not delivered. No supplied settling source establishes the exact conjunction of claims. Missing structured search/reading bindings and unresolved source coverage prevent a resolved historical finding. The checkpoint makes no openness claim, so this gap does not prevent approval of its independently checked proof.",
+      "searched_at": "2026-10-21",
+      "statement_digest": "92e774ba3ff8b72e53d73362f5ca9bf89dec58612d3c973897537949be9873f0"
+     },
+     "policy": "The reviewed proof policy is satisfied by the displayed analytical argument and supplied decisive dependency. The C5 case analysis is exhaustive analytical counting, not an uncertified computational experiment. No formal verification is required by this contract, and none is claimed. Approval grants no resource renewal, certifies no omitted execution history and leaves the original objective and its remaining deliverables pending.",
+     "scope": "Approval concerns checkpoint-000003 and its standalone supporting theorem only. It does not establish the original universal coefficient-three inequality, close obligation-000001, establish historical priority or certify asymptotic optimality. The C5 witness bounds a universal coefficient from below but does not establish sharpness in the vanishing-relative-deficit regime. This subject is a proof checkpoint, not root closure.",
+     "statement": "The supplied analytical proof establishes the complete checkpoint claim. The least-eigenvector sign cut gives lambda(F)>=mu and D(G)<=3(m-mu^2)-2b. The trace-cube bound and displayed polynomial identities imply m-mu^2<=5xi. Removing the two extreme eigenvalues then gives lambda^2-mu^2<=(6xi)^(3/2)/lambda, proving the quantitative refinement and its limsup consequence. The six positive part-size cases exhaust the C5 targets and establish D(C5)=3, not merely an upper bound."
+    },
+    "reviewer": {
+     "actor_id": "reviewer-astra-native",
+     "attestation_id": "review-assignment:native-proof-linear-v1",
+     "source": "host"
+    },
+    "schema_version": 2,
+    "subject_digest": "a6687749890af457646a1f001b22ee4368695bd3dd9af19e16e1e1b4ada13596"
+   },
+   "review_attempt_id": "attempt-native-proof-linear-v1",
+   "status": "observed_approving_review"
+  }
+ ],
+ "openness_delivery": {
+  "alternate_body_digests": [
+   "02bd61d9c35673b28ea0a30ab1916169b4defd04c379b691ec55db71e101b534",
+   "11f6deed3e8134b7f2ff6de88ba83f0a25ac9550c09f9a825bb3d25b6db54949",
+   "9f606a550dce8936a990bee0822bcc54745b3b6a0b6e01b2a4ef3783f465c97c",
+   "b214fead648548bb9d2495a90ee06d7b569b862ed3208e64fe69cc32eea49999"
+  ],
+  "contained_sources": [
+   {
+    "byte_end": 127996,
+    "byte_start": 3459,
+    "container_sha256": "878c7871ba69d9132b9ed1723b012ec1a7c6fea218fbf16a8ee6053dcd24fb5a",
+    "sha256": "4248a09a8f86b93d57782211420cb4c2dbfcac8f8be42451be5b98d9559bca16"
+   },
+   {
+    "byte_end": 159917,
+    "byte_start": 128098,
+    "container_sha256": "878c7871ba69d9132b9ed1723b012ec1a7c6fea218fbf16a8ee6053dcd24fb5a",
+    "sha256": "a9fc9110259e34589b60da1319a99035e49473f72236bd17f2478f25b3dba828"
+   }
+  ],
+  "protected_source_digests": [
+   "005f7ccd997c34fe3a52a3ddd3bc7fb8a88e44e8d745a03886d00960d687909d",
+   "1828066f49ccdabe11a728bfc4894178e7c8dad833bde825198faff8746c2197",
+   "3b1ef986f5c3c5aa83291063daaee6860a877e995ac165306efb9e2ecd3a5c95",
+   "4248a09a8f86b93d57782211420cb4c2dbfcac8f8be42451be5b98d9559bca16",
+   "4e3f56271c65607522c082b22d5e76015b84bb75a829e336c220c9accd7a1c28",
+   "557644d76112c65d5333dbedc7decbebc2b997f7ca1cd078773edb9a576f4b3b",
+   "77014f0938289774270f71666f0422ad953c13d0b8385b14f2246286e7e1f395",
+   "96fdc11e8822b8b03a37610f81ce058aaec707e25e0531e9b7ef371664b6318b",
+   "a9fc9110259e34589b60da1319a99035e49473f72236bd17f2478f25b3dba828",
+   "afbaeafe3bb0ca25965c6ebd659463635984fd12a1be1c0a6b97476356a7dfb1",
+   "c5c4baa10292a9c9dfcdac3ba2b5c15b75fc7012ae914a15cd0e8c9d6254c354",
+   "c71d8568704cc78108177f2fded1d7f5e5ba140783209ada7996b2cf8c61d997",
+   "e69565b7f19da34ee3d47ce5d98b2754949423ebecd71e6e0fdd5b211cbf8abd",
+   "ee227d0f029942ebc174e51a6e000a7b25bbd716544ef9c6aaa21e89e624a979",
+   "ef8a45a6648729bf30e8c02f0e20399bf020b4db85455c21aa4b3531ba52b090",
+   "fa907b8c7dfd841a47bfb680a369435d937f467a2550768a44eb799ad45e5522"
+  ],
+  "schema_version": 1,
+  "sources": [
+   {
+    "capture_digest": "a0ebb3798877cbc2562415ce8169e652f2ffd4b962c601bdb0f9a8f599e83ff0",
+    "representations": [
+     {
+      "capture_method": "http",
+      "captured_at": "2026-10-21T18:25:29.411852+00:00",
+      "extraction_descriptor": {
+       "location": "research/sources/objects/a9fc9110259e34589b60da1319a99035e49473f72236bd17f2478f25b3dba828",
+       "media_type": "text/plain; charset=utf-8",
+       "sha256": "a9fc9110259e34589b60da1319a99035e49473f72236bd17f2478f25b3dba828",
+       "size": 31819
+      },
+      "main_representation": true,
+      "observed_identifier": "arxiv:2104.12171v1",
+      "origin_verified": true,
+      "original_descriptor": {
+       "location": "research/sources/objects/e69565b7f19da34ee3d47ce5d98b2754949423ebecd71e6e0fdd5b211cbf8abd",
+       "media_type": "application/pdf",
+       "sha256": "e69565b7f19da34ee3d47ce5d98b2754949423ebecd71e6e0fdd5b211cbf8abd",
+       "size": 184216
+      },
+      "source_id": "acq:326f142d6635e1b2d3d75982177e6369d9026daddd62aaf70168681841b31fec",
+      "source_scope_pending": [],
+      "version_id": "arxiv:2104.12171v1"
+     }
+    ],
+    "selected_original_sha256": "e69565b7f19da34ee3d47ce5d98b2754949423ebecd71e6e0fdd5b211cbf8abd",
+    "selected_source_id": "acq:326f142d6635e1b2d3d75982177e6369d9026daddd62aaf70168681841b31fec",
+    "selected_text_sha256": "a9fc9110259e34589b60da1319a99035e49473f72236bd17f2478f25b3dba828",
+    "version_id": "arxiv:2104.12171v1"
+   },
+   {
+    "capture_digest": "acc32536afe140d37a25abfe7b6bfb8dc85dcca904bf74ea953a77ac7ec367b9",
+    "representations": [
+     {
+      "capture_method": "http",
+      "captured_at": "2026-10-21T17:39:40.765486+00:00",
+      "extraction_descriptor": {
+       "location": "research/sources/objects/b214fead648548bb9d2495a90ee06d7b569b862ed3208e64fe69cc32eea49999",
+       "media_type": "text/plain; charset=utf-8",
+       "sha256": "b214fead648548bb9d2495a90ee06d7b569b862ed3208e64fe69cc32eea49999",
+       "size": 141704
+      },
+      "main_representation": true,
+      "observed_identifier": "arxiv:2508.15271v2",
+      "origin_verified": true,
+      "original_descriptor": {
+       "location": "research/sources/objects/9f606a550dce8936a990bee0822bcc54745b3b6a0b6e01b2a4ef3783f465c97c",
+       "media_type": "text/html",
+       "sha256": "9f606a550dce8936a990bee0822bcc54745b3b6a0b6e01b2a4ef3783f465c97c",
+       "size": 1150046
+      },
+      "source_id": "acq:b9c6857f10efe7a6a9d8c8ff413c21457a8d1387c73eb6184ffba8ec2fb8f627",
+      "source_scope_pending": [
+       {
+        "code": "visual_document_style_unsupported",
+        "element_start": 358,
+        "href": "/static/browse/0.3.4/css/arxiv-html-papers-20260823.css"
+       },
+       {
+        "code": "visual_document_style_unsupported",
+        "element_start": 2618,
+        "href": "https://use.typekit.net/utz6mli.css"
+       },
+       {
+        "code": "visual_document_style_unsupported",
+        "element_start": 2715,
+        "href": "/static/base/1.0.1/css/arxiv-header-footer.css?v=20260929"
+       },
+       {
+        "code": "visual_document_style_unsupported",
+        "element_start": 2821
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_markup_ambiguous"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "visual_asset_missing",
+        "url": "https://arxiv.org/static/base/1.0.1/images/arxiv-logo-primary-light.svg"
+       },
+       {
+        "code": "visual_asset_missing",
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png"
+       },
+       {
+        "code": "visual_asset_missing",
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png"
+       },
+       {
+        "code": "visual_asset_missing",
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png"
+       },
+       {
+        "code": "visual_asset_missing",
+        "url": "https://arxiv.org/static/base/1.0.1/images/icons/smileybones-small.svg"
+       }
+      ],
+      "version_id": "arxiv:2508.15271v2"
+     },
+     {
+      "capture_method": "http",
+      "captured_at": "2026-10-21T17:57:27.929133+00:00",
+      "extraction_descriptor": {
+       "location": "research/sources/objects/557644d76112c65d5333dbedc7decbebc2b997f7ca1cd078773edb9a576f4b3b",
+       "media_type": "text/plain; charset=utf-8",
+       "sha256": "557644d76112c65d5333dbedc7decbebc2b997f7ca1cd078773edb9a576f4b3b",
+       "size": 147435
+      },
+      "main_representation": true,
+      "observed_identifier": "arxiv:2508.15271v2",
+      "origin_verified": true,
+      "original_descriptor": {
+       "location": "research/sources/objects/fa907b8c7dfd841a47bfb680a369435d937f467a2550768a44eb799ad45e5522",
+       "media_type": "application/pdf",
+       "sha256": "fa907b8c7dfd841a47bfb680a369435d937f467a2550768a44eb799ad45e5522",
+       "size": 528190
+      },
+      "source_id": "acq:6150c6a950182fc04593be012ba9d404cbe94179c35341eecd23e92f0e019247",
+      "source_scope_pending": [],
+      "version_id": "arxiv:2508.15271v2"
+     }
+    ],
+    "selected_original_sha256": "fa907b8c7dfd841a47bfb680a369435d937f467a2550768a44eb799ad45e5522",
+    "selected_source_id": "acq:6150c6a950182fc04593be012ba9d404cbe94179c35341eecd23e92f0e019247",
+    "selected_text_sha256": "557644d76112c65d5333dbedc7decbebc2b997f7ca1cd078773edb9a576f4b3b",
+    "version_id": "arxiv:2508.15271v2"
+   },
+   {
+    "capture_digest": "df085268f0e3f849fcbeacb54b7f4e60b000f3a16c3a57392f3fd33aa6ce20bf",
+    "representations": [
+     {
+      "capture_method": "http",
+      "captured_at": "2026-10-21T18:46:48.944289+00:00",
+      "extraction_descriptor": {
+       "location": "research/sources/objects/96fdc11e8822b8b03a37610f81ce058aaec707e25e0531e9b7ef371664b6318b",
+       "media_type": "text/plain; charset=utf-8",
+       "sha256": "96fdc11e8822b8b03a37610f81ce058aaec707e25e0531e9b7ef371664b6318b",
+       "size": 128944
+      },
+      "main_representation": true,
+      "observed_identifier": "arxiv:2511.15431v3",
+      "origin_verified": true,
+      "original_descriptor": {
+       "location": "research/sources/objects/ef8a45a6648729bf30e8c02f0e20399bf020b4db85455c21aa4b3531ba52b090",
+       "media_type": "application/pdf",
+       "sha256": "ef8a45a6648729bf30e8c02f0e20399bf020b4db85455c21aa4b3531ba52b090",
+       "size": 488809
+      },
+      "source_id": "acq:0976df2c5b48006b8d1c34d08ac544b7f69fce58417e4d73dbe5f1a1a72a4f12",
+      "source_scope_pending": [],
+      "version_id": "arxiv:2511.15431v3"
+     }
+    ],
+    "selected_original_sha256": "ef8a45a6648729bf30e8c02f0e20399bf020b4db85455c21aa4b3531ba52b090",
+    "selected_source_id": "acq:0976df2c5b48006b8d1c34d08ac544b7f69fce58417e4d73dbe5f1a1a72a4f12",
+    "selected_text_sha256": "96fdc11e8822b8b03a37610f81ce058aaec707e25e0531e9b7ef371664b6318b",
+    "version_id": "arxiv:2511.15431v3"
+   },
+   {
+    "capture_digest": "6637b2ca4075dabec00623bf5303cc99b93311e6c1f2f2730d1e44816eedf916",
+    "representations": [
+     {
+      "capture_method": "http",
+      "captured_at": "2026-10-21T18:24:40.329068+00:00",
+      "extraction_descriptor": {
+       "location": "research/sources/objects/afbaeafe3bb0ca25965c6ebd659463635984fd12a1be1c0a6b97476356a7dfb1",
+       "media_type": "text/plain; charset=utf-8",
+       "sha256": "afbaeafe3bb0ca25965c6ebd659463635984fd12a1be1c0a6b97476356a7dfb1",
+       "size": 73968
+      },
+      "main_representation": true,
+      "observed_identifier": "arxiv:2512.19395v1",
+      "origin_verified": true,
+      "original_descriptor": {
+       "location": "research/sources/objects/1828066f49ccdabe11a728bfc4894178e7c8dad833bde825198faff8746c2197",
+       "media_type": "application/pdf",
+       "sha256": "1828066f49ccdabe11a728bfc4894178e7c8dad833bde825198faff8746c2197",
+       "size": 432646
+      },
+      "source_id": "acq:4e18c6913c339003baa5328d094a3e6eda2e178542cb105207387835568df961",
+      "source_scope_pending": [],
+      "version_id": "arxiv:2512.19395v1"
+     }
+    ],
+    "selected_original_sha256": "1828066f49ccdabe11a728bfc4894178e7c8dad833bde825198faff8746c2197",
+    "selected_source_id": "acq:4e18c6913c339003baa5328d094a3e6eda2e178542cb105207387835568df961",
+    "selected_text_sha256": "afbaeafe3bb0ca25965c6ebd659463635984fd12a1be1c0a6b97476356a7dfb1",
+    "version_id": "arxiv:2512.19395v1"
+   },
+   {
+    "capture_digest": "a6ee3066889147fa5f23a61ddb49ef059fb576d5a0728cfeb59ad3603c28bd18",
+    "representations": [
+     {
+      "capture_method": "http",
+      "captured_at": "2026-10-21T18:47:47.506785+00:00",
+      "extraction_descriptor": {
+       "location": "research/sources/objects/4e3f56271c65607522c082b22d5e76015b84bb75a829e336c220c9accd7a1c28",
+       "media_type": "text/plain; charset=utf-8",
+       "sha256": "4e3f56271c65607522c082b22d5e76015b84bb75a829e336c220c9accd7a1c28",
+       "size": 190456
+      },
+      "main_representation": true,
+      "observed_identifier": "arxiv:2608.24388v2",
+      "origin_verified": true,
+      "original_descriptor": {
+       "location": "research/sources/objects/ee227d0f029942ebc174e51a6e000a7b25bbd716544ef9c6aaa21e89e624a979",
+       "media_type": "application/pdf",
+       "sha256": "ee227d0f029942ebc174e51a6e000a7b25bbd716544ef9c6aaa21e89e624a979",
+       "size": 950920
+      },
+      "source_id": "acq:8ebb8307aec33c9333ba9800dfab17197627de3ad149626cd72b531308fc0836",
+      "source_scope_pending": [],
+      "version_id": "arxiv:2608.24388v2"
+     }
+    ],
+    "selected_original_sha256": "ee227d0f029942ebc174e51a6e000a7b25bbd716544ef9c6aaa21e89e624a979",
+    "selected_source_id": "acq:8ebb8307aec33c9333ba9800dfab17197627de3ad149626cd72b531308fc0836",
+    "selected_text_sha256": "4e3f56271c65607522c082b22d5e76015b84bb75a829e336c220c9accd7a1c28",
+    "version_id": "arxiv:2608.24388v2"
+   },
+   {
+    "capture_digest": "1365b2337b3f0ccd08509d5e5b41938634b258d9d6081866a80876ba8baad64e",
+    "representations": [
+     {
+      "capture_method": "http",
+      "captured_at": "2026-10-21T17:39:45.283045+00:00",
+      "extraction_descriptor": {
+       "location": "research/sources/objects/11f6deed3e8134b7f2ff6de88ba83f0a25ac9550c09f9a825bb3d25b6db54949",
+       "media_type": "text/plain; charset=utf-8",
+       "sha256": "11f6deed3e8134b7f2ff6de88ba83f0a25ac9550c09f9a825bb3d25b6db54949",
+       "size": 128702
+      },
+      "main_representation": true,
+      "observed_identifier": "arxiv:2609.20225v2",
+      "origin_verified": true,
+      "original_descriptor": {
+       "location": "research/sources/objects/02bd61d9c35673b28ea0a30ab1916169b4defd04c379b691ec55db71e101b534",
+       "media_type": "text/html",
+       "sha256": "02bd61d9c35673b28ea0a30ab1916169b4defd04c379b691ec55db71e101b534",
+       "size": 1152384
+      },
+      "source_id": "acq:bc15ac89119e1ca23b82419870e1a6d2da1c2634574b9927b1287e74e38e4622",
+      "source_scope_pending": [
+       {
+        "code": "visual_document_style_unsupported",
+        "element_start": 350,
+        "href": "/static/browse/0.3.4/css/arxiv-html-papers-20260823.css"
+       },
+       {
+        "code": "visual_document_style_unsupported",
+        "element_start": 2610,
+        "href": "https://use.typekit.net/utz6mli.css"
+       },
+       {
+        "code": "visual_document_style_unsupported",
+        "element_start": 2707,
+        "href": "/static/base/1.0.1/css/arxiv-header-footer.css?v=20260929"
+       },
+       {
+        "code": "visual_document_style_unsupported",
+        "element_start": 2813
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_markup_ambiguous"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "embedded_visual_dependency_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "dynamic_visual_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "visual_style_unsupported"
+       },
+       {
+        "code": "visual_asset_missing",
+        "url": "https://arxiv.org/static/base/1.0.1/images/arxiv-logo-primary-light.svg"
+       },
+       {
+        "code": "visual_asset_missing",
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/schmidt-sciences.png"
+       },
+       {
+        "code": "visual_asset_missing",
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation-international.png"
+       },
+       {
+        "code": "visual_asset_missing",
+        "url": "https://arxiv.org/static/base/1.0.1/images/funders/simons-foundation.png"
+       },
+       {
+        "code": "visual_asset_missing",
+        "url": "https://arxiv.org/static/base/1.0.1/images/icons/smileybones-small.svg"
+       }
+      ],
+      "version_id": "arxiv:2609.20225v2"
+     },
+     {
+      "capture_method": "http",
+      "captured_at": "2026-10-21T17:57:24.954555+00:00",
+      "extraction_descriptor": {
+       "location": "research/sources/objects/4248a09a8f86b93d57782211420cb4c2dbfcac8f8be42451be5b98d9559bca16",
+       "media_type": "text/plain; charset=utf-8",
+       "sha256": "4248a09a8f86b93d57782211420cb4c2dbfcac8f8be42451be5b98d9559bca16",
+       "size": 124537
+      },
+      "main_representation": true,
+      "observed_identifier": "arxiv:2609.20225v2",
+      "origin_verified": true,
+      "original_descriptor": {
+       "location": "research/sources/objects/3b1ef986f5c3c5aa83291063daaee6860a877e995ac165306efb9e2ecd3a5c95",
+       "media_type": "application/pdf",
+       "sha256": "3b1ef986f5c3c5aa83291063daaee6860a877e995ac165306efb9e2ecd3a5c95",
+       "size": 512008
+      },
+      "source_id": "acq:4ee32ddb4a298ef169e94c8b4d8666911d287ea09d226a739f9b17e51b0adcf2",
+      "source_scope_pending": [],
+      "version_id": "arxiv:2609.20225v2"
+     }
+    ],
+    "selected_original_sha256": "3b1ef986f5c3c5aa83291063daaee6860a877e995ac165306efb9e2ecd3a5c95",
+    "selected_source_id": "acq:4ee32ddb4a298ef169e94c8b4d8666911d287ea09d226a739f9b17e51b0adcf2",
+    "selected_text_sha256": "4248a09a8f86b93d57782211420cb4c2dbfcac8f8be42451be5b98d9559bca16",
+    "version_id": "arxiv:2609.20225v2"
+   }
+  ]
+ },
+ "outcome": "supported_open",
+ "reason": "The complete comparator texts do not settle the exact universal editing inequality. In particular, the bipartite coefficient-three lemma cannot simply be applied after deleting edges without controlling the resulting spectral loss; the supplied general argument instead proves coefficient fifteen and a vanishing-relative-deficit refinement. The regular and deletion-only neighbours likewise do not cover arbitrary irregular triangle-free graphs. The earlier uncertain Wang–Lou hit remains bound in the historical search and is explicitly resolved in later bound searches: its captured principal theorem concludes containment of K2,t or a large star under additional size and parameter conditions. Triangle-free graphs may contain K2,t, so this disjunction does not supply the required edit bound. The preview's introduction, theorem and concluding scope support screening that suspected settling hit out of scope without claiming a full reading or certifying hidden lemmas. The rejected Crossref row is visibly a grant, resolving that parser issue rather than hiding an unread paper. Consequently no identified decisive source remains outstanding for this bounded assessment. Supported openness here is a literature-supported research status, not exhaustive proof of absence, historical-priority certification or proof of the inequality.",
+ "recorded_revision": 247,
+ "review": {
+  "claim_digest": "a9b61e210eb87ded802d92dc6221ac7104efedcc318adc0c596bbeab86892023",
+  "decision": "approve",
+  "findings": {
+   "assumptions": "The statement concerns every finite simple undirected triangle-free graph, including disconnected graphs, isolated vertices and the empty graph. The spectral radius is that of the adjacency matrix. The target is one complete bipartite graph on disjoint vertex subsets, allowing empty parts and isolating all other vertices; both additions and deletions count. No regularity, balance, connectivity or small-deficit hypothesis may be added.",
+   "dependencies": "The six decisive comparator texts are supplied completely in their selected exact-version extractions, including the two contained in artifact 878c7871ba69d9132b9ed1723b012ec1a7c6fea218fbf16a8ee6053dcd24fb5a. Their statements and arguments distinguish qualitative stability, bipartite linear editing, spectral extremizers and weighted or walk-count results from the exact question. The two-eigenvalue source arXiv:2104.12171v1 is Nikiforov's alternative proof of the Lin–Ning–Wu theorem; it is not a complete reading of the original Lin–Ning–Wu article. No reading credit is granted to merely cited works, omitted original layouts or the unavailable Wang–Lou full article. The delivered Wang–Lou preview nevertheless supports the narrower out-of-scope screening resolution.",
+   "openness": {
+    "coverage": "The exact statement and each of the four declared neighbours have separately bound common literature_search records, all dated 2026-10-21, sharing seven arXiv-style math.CO queries through the recorded mcp provider. Each requested at most 30 results, with unspecified ordering and explicitly bounded, not exhaustive, coverage: (1) triangle-free AND spectral AND stability, 3 returned and inspected; (2) Nosal OR spectral AND bipartite AND distance, 10; (3) edge-spectral OR Nosal AND stability, 14; (4) triangle-free AND edit OR spectral AND complete bipartite AND stability, 11; (5) spectral AND edit distance/edge edits/edge-edit, 2; (6) triangle-free AND linear stability/spectral deficit/least eigenvalue, 2; (7) regular AND triangle-free AND stability, 0. Screening was at bibliographic or abstract level, followed by bound complete fulltext readings of all six retained relevant works. Exact-statement follow-ups on 2026-10-21 include a DOI-filtered Crossref query for 'A spectral stability result regarding the complete bipartite graph K2,t', complete for its single returned record, and 'triangle free spectral complete bipartite edit linear asymptotic stability', with only the first 10 results inspected, not complete coverage. The historical unfiltered response contained nine articles and one grant; the later journal-article-filtered response retained the nine articles and screened one additional item. Its reported 1,876,994 matches were not exhaustively retrieved. The auxiliary date-ordered arXiv query for triangle-free spectral linear stability/asymptotic/edit terms requested at most 20 and returned zero. The zbMATH HTTP 404 and the narratively reported Semantic Scholar rate limit provide no reliable negative coverage.",
+    "evidence": [
+     "878c7871ba69d9132b9ed1723b012ec1a7c6fea218fbf16a8ee6053dcd24fb5a",
+     "67199bda65823bf19334d056256c2aeec55a0e4228a05e9e2de7dd27d335fe64",
+     "69ed2549c1f90390922110886c269a20ec40689b9d60e7d5beba53a73cd314fb",
+     "02c59058e8c47e2f09beaa53544fa74867c15df56014ec067898469fc3949677",
+     "4ce973ebd54bb68bb0e2a7282ceb62ff52e7d4860e1ed0b56199da99148e3c18",
+     "5b8f3e5a7802125b636ae365feb294026c1e99bf3ec7e599e6cde33b75b328ca",
+     "fd3c548e7e7b023521369beff9b2936496e7f4e0f686c26f156c07ec9ed5f156",
+     "8a81ee8b6fab310f6163edf209b8b21f2c4cf4fd85b24c4b0f214dde078eded5",
+     "adac16fa9066c1636f9da55b437e07626b470e0ca3d9d2254f0bbdcea396cf65",
+     "a948460524f923d4d8bc473e2f2845e91ff2a920066075b0063188baf4f82d70",
+     "ea2fc8cf21e07ce8c64f805b78b2153ef7a347b017baaac7f81fa8dc5f27a22f",
+     "12a65595256d3f855c60b96c87199dc305ccdbfe0a43f62180b39f4c6b8fe763",
+     "551f97c316b605c52dfe0498ac51810a13a29a3dab8154060d290f35ab002c2b",
+     "6ae4c5e53116ddb1f7e8e459fc4423f3475d3ba87a3452a46fb1a9aedfa0be96",
+     "7bca0c2748c9d52b6ba0697fb2dadd47e6738eb94165164efbd46b8b0392760b",
+     "7d781ff72f32ec4c5d30d9844625fc02c5f5402933b5eff5e687258acc4ce412",
+     "8cf8e84ca5dd60ac0154f9852c17f6028fbab2160bc7a8cd069a1c09ac2db19d",
+     "c2d3620df39c3b39792713677a58b2a9713469c134c486028175db307e1e7291",
+     "e06d56eace20e7e20b25d7b599a4822a2e70eff88f8f172c2a37a348f7b8d78f",
+     "557644d76112c65d5333dbedc7decbebc2b997f7ca1cd078773edb9a576f4b3b",
+     "96fdc11e8822b8b03a37610f81ce058aaec707e25e0531e9b7ef371664b6318b",
+     "afbaeafe3bb0ca25965c6ebd659463635984fd12a1be1c0a6b97476356a7dfb1",
+     "4e3f56271c65607522c082b22d5e76015b84bb75a829e336c220c9accd7a1c28",
+     "77014f0938289774270f71666f0422ad953c13d0b8385b14f2246286e7e1f395",
+     "c71d8568704cc78108177f2fded1d7f5e5ba140783209ada7996b2cf8c61d997",
+     "571653c3925a511862ad99af13cda152d1eb04eceab1c64838915ad950241aac",
+     "c5c4baa10292a9c9dfcdac3ba2b5c15b75fc7012ae914a15cd0e8c9d6254c354",
+     "6129105ba8003c4ab93e256fa2cb61305ffdcd5f53ab72f82430ec6bf7bf50af"
+    ],
+    "minimum": {
+     "duplicate_resolutions": [],
+     "neighbours": [
+      "The same inequality $D(G)\\le3(e(G)-\\lambda(G)^2)$ restricted to finite simple bipartite graphs.",
+      "The same inequality $D(G)\\le3(e(G)-\\lambda(G)^2)$ restricted to finite simple regular triangle-free graphs.",
+      "There exists an absolute constant $C<\\infty$ such that $D(G)\\le C(e(G)-\\lambda(G)^2)$ for every finite simple triangle-free graph $G$.",
+      "Every finite simple triangle-free graph $G$ can be made bipartite by deleting at most $e(G)-\\lambda(G)^2$ edges."
+     ],
+     "reading_digests": [
+      "12a65595256d3f855c60b96c87199dc305ccdbfe0a43f62180b39f4c6b8fe763",
+      "551f97c316b605c52dfe0498ac51810a13a29a3dab8154060d290f35ab002c2b",
+      "6ae4c5e53116ddb1f7e8e459fc4423f3475d3ba87a3452a46fb1a9aedfa0be96",
+      "7bca0c2748c9d52b6ba0697fb2dadd47e6738eb94165164efbd46b8b0392760b",
+      "7d781ff72f32ec4c5d30d9844625fc02c5f5402933b5eff5e687258acc4ce412",
+      "8cf8e84ca5dd60ac0154f9852c17f6028fbab2160bc7a8cd069a1c09ac2db19d",
+      "c2d3620df39c3b39792713677a58b2a9713469c134c486028175db307e1e7291",
+      "e06d56eace20e7e20b25d7b599a4822a2e70eff88f8f172c2a37a348f7b8d78f"
+     ],
+     "schema_version": 1,
+     "searches": [
+      {
+       "formulation": "The same inequality $D(G)\\le3(e(G)-\\lambda(G)^2)$ restricted to finite simple bipartite graphs.",
+       "search_digest": "fd3c548e7e7b023521369beff9b2936496e7f4e0f686c26f156c07ec9ed5f156"
+      },
+      {
+       "formulation": "Every finite simple triangle-free graph $G$ can be made bipartite by deleting at most $e(G)-\\lambda(G)^2$ edges.",
+       "search_digest": "8a81ee8b6fab310f6163edf209b8b21f2c4cf4fd85b24c4b0f214dde078eded5"
+      },
+      {
+       "formulation": "For every finite simple triangle-free graph $G$, put $m=e(G)$ and let $\\lambda(G)$ denote its adjacency spectral radius (with $\\lambda(G)=0$ when $G$ has no vertices). Define $D(G)=\\min_{A,B\\subseteq V(G),\\ A\\cap B=\\varnothing}|E(G)\\mathbin{\\triangle}E(K_{A,B})|$, where $K_{A,B}$ has all edges between $A$ and $B$ and no other edges on $V(G)$; empty parts are permitted. Then $D(G)\\le 3\\bigl(m-\\lambda(G)^2\\bigr)$.",
+       "search_digest": "69ed2549c1f90390922110886c269a20ec40689b9d60e7d5beba53a73cd314fb"
+      },
+      {
+       "formulation": "For every finite simple triangle-free graph $G$, put $m=e(G)$ and let $\\lambda(G)$ denote its adjacency spectral radius (with $\\lambda(G)=0$ when $G$ has no vertices). Define $D(G)=\\min_{A,B\\subseteq V(G),\\ A\\cap B=\\varnothing}|E(G)\\mathbin{\\triangle}E(K_{A,B})|$, where $K_{A,B}$ has all edges between $A$ and $B$ and no other edges on $V(G)$; empty parts are permitted. Then $D(G)\\le 3\\bigl(m-\\lambda(G)^2\\bigr)$.",
+       "search_digest": "02c59058e8c47e2f09beaa53544fa74867c15df56014ec067898469fc3949677"
+      },
+      {
+       "formulation": "For every finite simple triangle-free graph $G$, put $m=e(G)$ and let $\\lambda(G)$ denote its adjacency spectral radius (with $\\lambda(G)=0$ when $G$ has no vertices). Define $D(G)=\\min_{A,B\\subseteq V(G),\\ A\\cap B=\\varnothing}|E(G)\\mathbin{\\triangle}E(K_{A,B})|$, where $K_{A,B}$ has all edges between $A$ and $B$ and no other edges on $V(G)$; empty parts are permitted. Then $D(G)\\le 3\\bigl(m-\\lambda(G)^2\\bigr)$.",
+       "search_digest": "4ce973ebd54bb68bb0e2a7282ceb62ff52e7d4860e1ed0b56199da99148e3c18"
+      },
+      {
+       "formulation": "There exists an absolute constant $C<\\infty$ such that $D(G)\\le C(e(G)-\\lambda(G)^2)$ for every finite simple triangle-free graph $G$.",
+       "search_digest": "adac16fa9066c1636f9da55b437e07626b470e0ca3d9d2254f0bbdcea396cf65"
+      },
+      {
+       "formulation": "There exists an absolute constant $C<\\infty$ such that $D(G)\\le C(e(G)-\\lambda(G)^2)$ for every finite simple triangle-free graph $G$.",
+       "search_digest": "a948460524f923d4d8bc473e2f2845e91ff2a920066075b0063188baf4f82d70"
+      },
+      {
+       "formulation": "The same inequality $D(G)\\le3(e(G)-\\lambda(G)^2)$ restricted to finite simple regular triangle-free graphs.",
+       "search_digest": "ea2fc8cf21e07ce8c64f805b78b2153ef7a347b017baaac7f81fa8dc5f27a22f"
+      },
+      {
+       "formulation": "For every finite simple triangle-free graph $G$, put $m=e(G)$ and let $\\lambda(G)$ denote its adjacency spectral radius (with $\\lambda(G)=0$ when $G$ has no vertices). Define $D(G)=\\min_{A,B\\subseteq V(G),\\ A\\cap B=\\varnothing}|E(G)\\mathbin{\\triangle}E(K_{A,B})|$, where $K_{A,B}$ has all edges between $A$ and $B$ and no other edges on $V(G)$; empty parts are permitted. Then $D(G)\\le 3\\bigl(m-\\lambda(G)^2\\bigr)$.",
+       "search_digest": "5b8f3e5a7802125b636ae365feb294026c1e99bf3ec7e599e6cde33b75b328ca"
+      }
+     ],
+     "settling_work_id": null,
+     "statement": "For every finite simple triangle-free graph $G$, put $m=e(G)$ and let $\\lambda(G)$ denote its adjacency spectral radius (with $\\lambda(G)=0$ when $G$ has no vertices). Define $D(G)=\\min_{A,B\\subseteq V(G),\\ A\\cap B=\\varnothing}|E(G)\\mathbin{\\triangle}E(K_{A,B})|$, where $K_{A,B}$ has all edges between $A$ and $B$ and no other edges on $V(G)$; empty parts are permitted. Then $D(G)\\le 3\\bigl(m-\\lambda(G)^2\\bigr)$."
+    },
+    "outcome": "supported_open",
+    "reason": "The complete comparator texts do not settle the exact universal editing inequality. In particular, the bipartite coefficient-three lemma cannot simply be applied after deleting edges without controlling the resulting spectral loss; the supplied general argument instead proves coefficient fifteen and a vanishing-relative-deficit refinement. The regular and deletion-only neighbours likewise do not cover arbitrary irregular triangle-free graphs. The earlier uncertain Wang–Lou hit remains bound in the historical search and is explicitly resolved in later bound searches: its captured principal theorem concludes containment of K2,t or a large star under additional size and parameter conditions. Triangle-free graphs may contain K2,t, so this disjunction does not supply the required edit bound. The preview's introduction, theorem and concluding scope support screening that suspected settling hit out of scope without claiming a full reading or certifying hidden lemmas. The rejected Crossref row is visibly a grant, resolving that parser issue rather than hiding an unread paper. Consequently no identified decisive source remains outstanding for this bounded assessment. Supported openness here is a literature-supported research status, not exhaustive proof of absence, historical-priority certification or proof of the inequality.",
+    "searched_at": "2026-10-21",
+    "statement_digest": "a9b61e210eb87ded802d92dc6221ac7104efedcc318adc0c596bbeab86892023"
+   },
+   "policy": "This is an openness review of the problem statement under problem creation, not a StrategyAssessment, proof checkpoint or root-closure approval. The earlier approving proof review is continuity evidence, not proof by authority; the supplied supporting argument and its decisive bipartite dependency substantiate the distinction between the resolved finite-constant neighbour and the unresolved exact objective. Approval waives no original proof policy, finite-certification requirement, acceptance deliverable or resource restriction, and grants no budget renewal.",
+   "scope": "The exact finite coefficient-three question is distinct from all four declared neighbours. The bipartite restriction follows from the supplied Lemma 4.3. The deletion-only neighbour follows from Lemma 4.4 at booksize zero, with the stated component reduction. The regular restriction follows from the supplied neighbourhood calculation, whose cost is 3(nd/2-d^2). The delivered analytical proof establishes a finite universal constant of fifteen and the asymptotic upper coefficient three, but neither implies the exact finite coefficient-three bound. C5 establishes the universal lower coefficient three, not asymptotic optimality.",
+   "statement": "The supplied evidence supports the exact coefficient-three statement as an open research question within the recorded literature coverage. This approves its openness assessment, not the asserted inequality. No delivered proof or counterexample settles the universal statement."
+  },
+  "reviewer": {
+   "actor_id": "reviewer-astra-openness",
+   "attestation_id": "review-assignment:openness-sharp-three-v5",
+   "source": "host"
+  },
+  "schema_version": 2,
+  "subject_digest": "082c918661bdb491c7a232ccf06a6cac971e9578244bf5a97de1d3321afd1c97"
+ },
+ "searched_at": "2026-10-21",
+ "source_evidence": [
+  {
+   "delivered_artifact": {
+    "media_type": "text/plain",
+    "path": "research/sources/objects/77014f0938289774270f71666f0422ad953c13d0b8385b14f2246286e7e1f395",
+    "sha256": "77014f0938289774270f71666f0422ad953c13d0b8385b14f2246286e7e1f395",
+    "size": 10536
+   },
+   "limitation": "This evidence supplies only the captured response or its explicitly selected span. It does not establish complete article access or fulltext reading. The source record retains the acquisition method and its actual origin verification status.",
+   "locator": {
+    "end": 10510,
+    "excerpt": "A spectral stability result regarding the complete bipartite graph K2,t - ScienceDirect (https://www.sciencedirect.com/science/article/abs/pii/S0012365X25005229)\nciteturn28search0 [wordlim: 200] Cr",
+    "kind": "span",
+    "sha256": "77014f0938289774270f71666f0422ad953c13d0b8385b14f2246286e7e1f395",
+    "start": 0
+   },
+   "reading_credit": false,
+   "reason": "Primary publisher preview: header, abstract, introduction, full Theorem 1.5, section outline, proof-opening snippet and concluding scope statement. This exact span is partial source evidence for screening; it is not a complete article reading.",
+   "scope": "exact_captured_response_span",
+   "source_digest": "c71d8568704cc78108177f2fded1d7f5e5ba140783209ada7996b2cf8c61d997",
+   "source_id": "acq:35e37b0a85b6ab28f7b3c9793af10f0da95e3a06f7c141e20a6e25daa7366deb",
+   "source_record": {
+    "media_type": "application/json",
+    "path": "research/sources/objects/c71d8568704cc78108177f2fded1d7f5e5ba140783209ada7996b2cf8c61d997",
+    "sha256": "c71d8568704cc78108177f2fded1d7f5e5ba140783209ada7996b2cf8c61d997",
+    "size": 839
+   }
+  },
+  {
+   "delivered_artifact": {
+    "media_type": "text/plain",
+    "path": "research/sources/objects/c5c4baa10292a9c9dfcdac3ba2b5c15b75fc7012ae914a15cd0e8c9d6254c354",
+    "sha256": "c5c4baa10292a9c9dfcdac3ba2b5c15b75fc7012ae914a15cd0e8c9d6254c354",
+    "size": 1017
+   },
+   "limitation": "This evidence supplies only the captured response or its explicitly selected span. It does not establish complete article access or fulltext reading. The source record retains the acquisition method and its actual origin verification status.",
+   "locator": {
+    "end": 26785,
+    "excerpt": "{\"indexed\":{\"date-parts\":[[2026,9,7]],\"date-time\":\"2026-09-07T13:15:07Z\",\"timestamp\":1788786907320,\"version\":\"build-2803163510\"},\"publisher\":\"Dutch Research Council (NWO)\",\"award-start\":{\"date-parts\":",
+    "kind": "span",
+    "sha256": "c5c4baa10292a9c9dfcdac3ba2b5c15b75fc7012ae914a15cd0e8c9d6254c354",
+    "start": 25768
+   },
+   "reading_credit": false,
+   "reason": "Exact original Crossref row 3, rejected by the paper parser for missing article title. Its type is grant and the project title is Asymptotic triangle-free structure (3Free). This supports the explicit nonpaper resolution; it supplies no paper reading credit.",
+   "scope": "exact_captured_response_span",
+   "source_digest": "005f7ccd997c34fe3a52a3ddd3bc7fb8a88e44e8d745a03886d00960d687909d",
+   "source_id": "acq:76ab3ff5e903cfab9e8cb3fc09950315ffc4f2bf11157076d53bd69efc117918",
+   "source_record": {
+    "media_type": "application/json",
+    "path": "research/sources/objects/005f7ccd997c34fe3a52a3ddd3bc7fb8a88e44e8d745a03886d00960d687909d",
+    "sha256": "005f7ccd997c34fe3a52a3ddd3bc7fb8a88e44e8d745a03886d00960d687909d",
+    "size": 926
+   }
+  }
+ ],
+ "statement_digest": "a9b61e210eb87ded802d92dc6221ac7104efedcc318adc0c596bbeab86892023",
+ "statement_id": "statement-sharp-three-v1"
+}

@@ -1,0 +1,89 @@
+{
+ "id": "reading-zhao-2025-even",
+ "version_id": "arxiv:2507.15723v1",
+ "bundle_id": "bundle-2507.15723v1",
+ "inspections": [
+  {
+   "anchor": "Proposition 1.2. To prove Sidorenko’s Conjecture, it is enough to show that for every",
+   "end": "t(H, Cay(G, S)) ≥ t(K2 , Cay(G, S))e(H) .",
+   "note": "Szegedy's reduction to Cayley hosts over finite groups."
+  },
+  {
+   "anchor": "While these works establish the Sidorenko property for standard subdivisions under",
+   "end": "under general host graphs.",
+   "note": "The author states that the 1-subdivision question is open for general hosts (2025)."
+  },
+  {
+   "anchor": "Theorem 1.4 (Main result).",
+   "end": "t(H, Cay(G, S)) ≥ t(K2 , Cay(G, S))e(H) .",
+   "note": "Theorem 1.4: every even subdivision of an arbitrary graph satisfies the inequality in Cayley graphs over finite abelian groups."
+  },
+  {
+   "anchor": "Proposition 2.3. Let G be a finite abelian group and S be a symmetric subset of G, and",
+   "end": "f (x1 ) · · · f (xk ).",
+   "note": "Proposition 2.3: the density as an average over the kernel of the circuit matrix."
+  },
+  {
+   "anchor": "Note that H is the standard subdivision of H1",
+   "end": "t(H, Cay(G, S)) ≥ t(K2 , Cay(G, S))e(H) .",
+   "note": "Reduction of even subdivisions to 1-subdivisions, and Proposition 3.1."
+  },
+  {
+   "anchor": "In other words, any abelian Cayley graph that nearly minimises the homomorphism",
+   "end": "edge density p = |S|/|G|.",
+   "note": "Near-minimizers among abelian Cayley hosts are spectrally quasirandom."
+  }
+ ],
+ "notes": {
+  "problem": {
+   "text": "Sidorenko's inequality for even subdivisions of arbitrary graphs on Cayley hosts over finite abelian groups.",
+   "inspections": [
+    2
+   ]
+  },
+  "claims": {
+   "text": "Theorem 1.4: if each edge of an arbitrary graph is replaced by a path of even length, the resulting graph satisfies t(H, Cay(G,S)) >= t(K2, Cay(G,S))^{e(H)} for every finite abelian group G and symmetric S. Near-minimizing abelian Cayley hosts are spectrally quasirandom.",
+   "inspections": [
+    2,
+    4,
+    5
+   ]
+  },
+  "assumptions": {
+   "text": "The host is a Cayley graph over a finite abelian group; Szegedy's reduction (Proposition 1.2) needs Cayley hosts over all finite groups, so the abelian case is a restriction.",
+   "inspections": [
+    0,
+    2
+   ]
+  },
+  "methods": {
+   "text": "The density is an average over the kernel of the circuit matrix (Proposition 2.3); Fourier expansion over the dual group; for a 1-subdivision the two Fourier coefficients on each subdivided edge are complex conjugates, so every term is nonnegative.",
+   "inspections": [
+    3,
+    4
+   ]
+  },
+  "evidence": {
+   "text": "Complete proofs.",
+   "inspections": [
+    3,
+    4
+   ]
+  },
+  "limitations": {
+   "text": "Only abelian Cayley hosts. The author states that the 1-subdivision question remains open for general hosts.",
+   "inspections": [
+    1,
+    2
+   ]
+  },
+  "relevance": {
+   "text": "No result of this paper decides the statement or a declared neighbour. For the neighbours on 1-subdivisions (Conlon, Kim, Lee and Lee, Problem 1.5) and on the 1-subdivision S(H0) of the reported counterexample, it proves the inequality on Cayley hosts over finite abelian groups only, and it confirms that the general 1-subdivision question was open in July 2025. This record's inference, not a statement of the paper: the kernel of the reported counterexample is a difference kernel on an abelian group of matrices but also depends on type labels with their own activation laws, so it is not a Cayley host and Theorem 1.4 does not apply to it as stated.",
+   "inspections": [
+    1,
+    2,
+    4
+   ]
+  }
+ }
+}

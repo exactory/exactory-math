@@ -1,0 +1,19 @@
+Output of seed_check.py on 2026-10-20 (exploratory, no native credit; interpreter of the
+dim2-hives-1 probe, PyNormaliz). H is the smallest non-lattice five-part hive polytope in
+the coordinates of its affine hull after the integral translation by (8, 11, 12, 12, 14, 14):
+H = conv{0, e1, e3, e1+e3, (1,1,1), (1/2,-1/2,1/2)}; Q = conv{0, (1,0,1), (1,1,1), (1,0,0), (0,-1,1)};
+U(x, y, z) = (x, y + x - z, z).
+
+H: (1, [[Fraction(1, 1), Fraction(2, 1), Fraction(3, 2), Fraction(1, 2)]], 3)
+Q: (1, [[Fraction(1, 1), Fraction(2, 1), Fraction(3, 2), Fraction(1, 2)]], 3)
+t 1 L_H 5 L_Q 5 pieces consistent True
+t 2 L_H 15 L_Q 15 pieces consistent True
+t 3 L_H 34 L_Q 34 pieces consistent True
+t 4 L_H 65 L_Q 65 pieces consistent True
+t 5 L_H 111 L_Q 111 pieces consistent True
+t 6 L_H 175 L_Q 175 pieces consistent True
+
+The first two lines are (period, coefficients low to high, dimension) of the Ehrhart
+quasi-polynomials computed by Normaliz. "pieces consistent" means: every lattice point of tQ
+with x >= z lies in tH, and every lattice point of tQ with x < z is the image under U of a
+lattice point of tH with x < z.

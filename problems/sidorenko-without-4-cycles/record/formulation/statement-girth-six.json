@@ -1,0 +1,22 @@
+{
+ "id": "statement-girth-six",
+ "candidate_id": "candidate-girth-six",
+ "title": "Sidorenko's inequality for bipartite graphs without 4-cycles",
+ "area": "math.CO",
+ "statement": "Let $H$ be a finite bipartite graph with at least one edge and no cycle of length four, that is, a bipartite graph of girth at least six. Is it true that $$t(H,W)\\ge t(K_2,W)^{e(H)}$$ for every graphon $W$, where $t(F,W)=\\int_{[0,1]^{V(F)}}\\prod_{uv\\in E(F)}W(x_u,x_v)\\,dx$ is the homomorphism density?",
+ "resolution_criteria": "A positive resolution proves $t(H,W)\\ge t(K_2,W)^{e(H)}$ for every finite bipartite graph $H$ of girth at least six with at least one edge and every graphon $W$; equivalently, $t(H,G)\\ge \\bigl(2e(G)/v(G)^2\\bigr)^{e(H)}$ for every finite simple graph $G$, where $t(H,G)$ counts all homomorphisms $H\\to G$, including noninjective ones, divided by $v(G)^{v(H)}$. A negative resolution exhibits one bipartite graph $H$ of girth at least six and a graphon $W$, or a finite simple graph $G$, with $t(H,W)<t(K_2,W)^{e(H)}$, together with a complete proof of the strict inequality.",
+ "neighbours": [
+  "Is the 1-subdivision of every graph Sidorenko? (Conlon, Kim, Lee and Lee 2018, Problem 1.5; every 1-subdivision of a graph has girth at least six.)",
+  "Is the 1-subdivision $S(H_0)$ of the reported 35-vertex counterexample $H_0$ Sidorenko? It has 101 vertices, 132 edges and girth 8, and $t(S(H_0),W)=t(H_0,W\\circ W)$.",
+  "Is there an integer $g$ such that every bipartite graph of girth at least $g$ is Sidorenko?",
+  "Is the vertex-edge incidence graph of every linear $k$-uniform hypergraph ($k\\ge 3$) Sidorenko?",
+  "Is the Heawood graph, the incidence graph of the Fano plane, Sidorenko?",
+  "Is every bipartite graph of girth at least six that contains a cycle forcing?",
+  "Is every biregular bipartite graph of girth at least six Sidorenko?",
+  "Is every bipartite graph obtained by subdividing the edges of a Sidorenko graph Sidorenko? (Im, Li and Liu 2024, Conjecture 4.1; they prove it for uniform subdivisions.)"
+ ],
+ "formal_statement": {
+  "language": "Lean",
+  "text": "import Mathlib\n\n/-! # Sidorenko's inequality for bipartite patterns without 4-cycles\n\nThe densities follow the comparator statement of the reported counterexample (openai/math,\n`lean/ComparatorChallenges/SidorenkoCounterexample.lean` at commit\n1581d4cbdd69a0faf34b2089614fe2a814316a6a): homomorphism density counts all edge-preserving maps,\nincluding noninjective maps, and the edge density of a host on `m` vertices is `2 e(G) / m ^ 2`.\nFinite hosts suffice: the finite-host inequality for every host is equivalent to the graphon form.\n-/\n\nnamespace SidorenkoGirthSix\n\nnoncomputable def homCount {V W : Type*} (F : SimpleGraph V) (G : SimpleGraph W) : ℕ :=\n  Nat.card {hom : V → W // ∀ left right, F.Adj left right → G.Adj (hom left) (hom right)}\n\nnoncomputable def homDensity {V W : Type*} (F : SimpleGraph V) (G : SimpleGraph W) : ℝ :=\n  (homCount F G : ℝ) / (Nat.card W : ℝ) ^ Nat.card V\n\nnoncomputable def edgeDensity {W : Type*} (G : SimpleGraph W) : ℝ :=\n  2 * (Nat.card G.edgeSet : ℝ) / (Nat.card W : ℝ) ^ 2\n\n/-- Every finite bipartite pattern with an edge and without a cycle of length four satisfies\nSidorenko's inequality in every finite simple host. -/\ndef Statement : Prop :=\n  ∀ (n : ℕ) (H : SimpleGraph (Fin n)), H.Colorable 2 → H.edgeSet.Nonempty →\n    (∀ (v : Fin n) (p : H.Walk v v), p.IsCycle → p.length ≠ 4) →\n    ∀ (m : ℕ) (G : SimpleGraph (Fin m)), 0 < m →\n      edgeDensity G ^ Nat.card H.edgeSet ≤ homDensity H G\n\nend SidorenkoGirthSix\n"
+ }
+}

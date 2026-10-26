@@ -1,0 +1,340 @@
+{
+ "assignment_id": "assignment-openness-astra-5",
+ "coverage": [
+  {
+   "date": "2026-10-20",
+   "depth": "All returned results inspected and dispositioned; relevant works read in complete fulltext.",
+   "formulation": "Exact statement",
+   "queries": [
+    {
+     "coverage": "complete",
+     "inspected_count": 0,
+     "query": "all:\"hive polytope\" AND (all:\"scissors congruence\" OR all:equidecomposable OR all:\"period collapse\")",
+     "requested_k": 20
+    },
+    {
+     "coverage": "complete",
+     "inspected_count": 1,
+     "query": "all:\"Littlewood-Richardson\" AND (all:\"period collapse\" OR all:\"quasi-period\" OR all:\"scissors congruence\" OR all:equidecomposable)",
+     "requested_k": 20
+    },
+    {
+     "coverage": "complete",
+     "inspected_count": 17,
+     "query": "all:\"hive polytope\" OR all:\"hive polytopes\" OR all:\"hive model\"",
+     "requested_k": 20
+    }
+   ],
+   "source": "arXiv API"
+  },
+  {
+   "date": "2026-10-20",
+   "depth": "All returned results inspected and dispositioned; relevant works read in complete fulltext.",
+   "formulation": "Ehrhart form",
+   "queries": [
+    {
+     "coverage": "complete",
+     "inspected_count": 1,
+     "query": "all:\"rational polytope\" AND all:\"Ehrhart polynomial\" AND (all:\"lattice polytope\" OR all:\"integral polytope\") AND (all:\"quasi-period\" OR all:\"period\")",
+     "requested_k": 20
+    },
+    {
+     "coverage": "complete",
+     "inspected_count": 4,
+     "query": "all:\"Ehrhart\" AND all:\"Littlewood-Richardson\"",
+     "requested_k": 20
+    }
+   ],
+   "source": "arXiv API"
+  },
+  {
+   "date": "2026-10-21",
+   "depth": "All returned results inspected and dispositioned; relevant works read in complete fulltext.",
+   "formulation": "Haase-McAllister form",
+   "queries": [
+    {
+     "coverage": "complete",
+     "inspected_count": 2,
+     "query": "all:\"scissors congruence\" AND all:Ehrhart",
+     "requested_k": 20
+    },
+    {
+     "coverage": "complete",
+     "inspected_count": 13,
+     "query": "all:\"period collapse\" AND all:Ehrhart",
+     "requested_k": 20
+    },
+    {
+     "coverage": "complete",
+     "inspected_count": 10,
+     "query": "all:\"Ehrhart equivalent\" OR all:\"Ehrhart-equivalent\" OR all:\"Ehrhart equivalence\"",
+     "requested_k": 20
+    }
+   ],
+   "source": "arXiv API"
+  },
+  {
+   "date": "2026-10-21",
+   "depth": "All returned results inspected and dispositioned; relevant works read in complete fulltext.",
+   "formulation": "Rank restriction",
+   "queries": [
+    {
+     "coverage": "complete",
+     "inspected_count": 2,
+     "query": "all:hives AND all:saturation AND (all:integral OR all:vertices OR all:corners)",
+     "requested_k": 20
+    },
+    {
+     "coverage": "complete",
+     "inspected_count": 12,
+     "query": "all:\"Littlewood-Richardson\" AND (all:polynomiality OR all:\"polynomial in\") AND (all:stretched OR all:dilation OR all:hive)",
+     "requested_k": 20
+    }
+   ],
+   "source": "arXiv API"
+  }
+ ],
+ "evidence": [
+  "cf3f0db9725b4b419be188e7c55630beb04ece65e9c26bb26da78bc73afb85b4",
+  "6687629213c430267ac9ac0f37597829b3ffdca55356408baf696965c66ec884",
+  "cbe3bce13d6fc4ee1cc9d3478a9fa56213c7857d5fb7420b9a72c1fd57fc28f9",
+  "41526bad391f5a94d8313911cc7283c8ce4a1108f86364b532ca74beb618b595",
+  "a7f297318fa4619c5a4a2caf99362bb45b44cf6bef83ab3a65565d2135fb7b52",
+  "2e5ae0b7cbae580c3a1baeb49c6479e1470705823e9fa4aa5b88c1505f3e0b17",
+  "35f875777a59e3aca9b4e8562d99302f42627843061c95726b0cbbfa122ee025",
+  "3b3ddf996d37bc51489d886b756ae54239573863c1008e7623fb256b4c8370a7",
+  "425b5b33a98ebc1fb55651cde86506de4e11a5f470564c076373d3870b739cfe",
+  "aae21c2354cdedad834a228e381555897b487a7ca68f25aa309e73f6a9454edc",
+  "ddf1f9dbd258b69a234c7b027f319a42b49999beaa9084b70b8cf9ca0b915aa5",
+  "f85945fdf911c0cd40691280fbd9045385a5377618261d3c6b1811abe014b675",
+  "b31acbf626225079de0954b0c5785a36f8ae2aed6a9b8835003f5986b61de302",
+  "8d04f6e201a4e6d000e79b5a13f053a8838342e5e6234266c7eb876fa3cbb404",
+  "c9b7ac15a9e1802119c983124e5005f32e51d001034b7708919cf09f2b2f9d80",
+  "dada67a60cc5b369e41a3724ee4942c664bcb3db53e53257d01b60620a17f261",
+  "84c1d8bef86a67eaedf946caaae5b9346e7d1fbd6714d29a04de14deefa8a771",
+  "9a4b9a68a3cf123ac5de3ac6b03715468b34baaf4028b4444abc78d2831bc9c2",
+  "195385e840b0ab4fe9b6ba3cd0f318e38194653dac700c8b3160f34b8d4d54ab"
+ ],
+ "id": "assignment-openness-astra-5",
+ "minimum": {
+  "duplicate_resolutions": [],
+  "neighbours": [
+   "Ehrhart form (weaker): for every admissible triple there is a lattice polytope $Q$ with $\\#(tQ\\cap\\mathbb{Z}^{\\dim Q})=c^{t\\nu}_{t\\lambda,t\\mu}$ for all $t\\ge 1$.",
+   "Haase-McAllister form (weaker): $H(\\lambda,\\mu,\\nu)$ is $\\mathrm{GL}_{D}(\\mathbb{Z})$-equidecomposable with a disjoint union of integral open simplices (Conjecture 3.2 of Haase and McAllister, restricted to hive polytopes); the pieces need not reassemble into one convex lattice polytope, which is why this form is weaker than the statement.",
+   "Rank restriction: the statement for partitions with at most $n$ parts. For $n\\le 3$ the hive polytope has dimension at most one and is a lattice polytope (proved in the attempt of this record); for $n=4$ Buch states, without a printed proof, that every hive polytope has integral vertices, which would settle that case; from $n=5$ on hive polytopes with a vertex of denominator $2$ occur and the statement is open."
+  ],
+  "reading_digests": [
+   "2e5ae0b7cbae580c3a1baeb49c6479e1470705823e9fa4aa5b88c1505f3e0b17",
+   "35f875777a59e3aca9b4e8562d99302f42627843061c95726b0cbbfa122ee025",
+   "3b3ddf996d37bc51489d886b756ae54239573863c1008e7623fb256b4c8370a7",
+   "425b5b33a98ebc1fb55651cde86506de4e11a5f470564c076373d3870b739cfe",
+   "aae21c2354cdedad834a228e381555897b487a7ca68f25aa309e73f6a9454edc",
+   "ddf1f9dbd258b69a234c7b027f319a42b49999beaa9084b70b8cf9ca0b915aa5",
+   "f85945fdf911c0cd40691280fbd9045385a5377618261d3c6b1811abe014b675"
+  ],
+  "schema_version": 1,
+  "searches": [
+   {
+    "formulation": "Let $n\\ge 2$ and let $\\lambda,\\mu,\\nu$ be partitions with at most $n$ parts, $|\\lambda|+|\\mu|=|\\nu|$ and Littlewood-Richardson coefficient $c^{\\nu}_{\\lambda\\mu}>0$. Let $H=H(\\lambda,\\mu,\\nu)\\subset\\mathbb{R}^{D}$, $D=\\binom{n-1}{2}$, be the hive polytope of Knutson and Tao: the set of real labellings of the $D$ interior vertices of the triangular hive array of side $n$ whose border labels are $0$ at the apex and the partial sums of $\\lambda$, $\\mu$ and $\\nu$ along the three sides, and which satisfy every rhombus inequality (the sum of the labels at the two obtuse vertices of each unit rhombus is at least the sum at the two acute vertices). $H$ is a rational polytope whose lattice points are the integral hives, so that $\\#(tH\\cap\\mathbb{Z}^{D})=c^{t\\nu}_{t\\lambda,t\\mu}$ for every integer $t\\ge 1$.\n\nStatement. For every such triple, $H(\\lambda,\\mu,\\nu)$ is $\\mathrm{GL}_{D}(\\mathbb{Z})$-equidecomposable with a lattice polytope: there exist finitely many relatively open rational simplices $T_{1},\\dots,T_{r}$ with $H=\\bigsqcup_{i=1}^{r}T_{i}$ (disjoint union, every face of the decomposition counted once as the relative interior of a simplex of some dimension between $0$ and $\\dim H$) and affine unimodular maps $U_{i}(x)=A_{i}x+b_{i}$ with $A_{i}\\in\\mathrm{GL}_{D}(\\mathbb{Z})$ and $b_{i}\\in\\mathbb{Z}^{D}$, such that the images $U_{1}(T_{1}),\\dots,U_{r}(T_{r})$ are pairwise disjoint and $Q=\\bigsqcup_{i=1}^{r}U_{i}(T_{i})$ is a lattice polytope, that is, a convex polytope all of whose vertices lie in $\\mathbb{Z}^{D}$. In particular $\\#(tH\\cap\\mathbb{Z}^{D})=\\#(tQ\\cap\\mathbb{Z}^{D})$ for every $t\\ge 1$, so the stretched Littlewood-Richardson polynomial $c^{t\\nu}_{t\\lambda,t\\mu}$ is the Ehrhart polynomial of the lattice polytope $Q$.",
+    "search_digest": "6687629213c430267ac9ac0f37597829b3ffdca55356408baf696965c66ec884"
+   },
+   {
+    "formulation": "Ehrhart form (weaker): for every admissible triple there is a lattice polytope $Q$ with $\\#(tQ\\cap\\mathbb{Z}^{\\dim Q})=c^{t\\nu}_{t\\lambda,t\\mu}$ for all $t\\ge 1$.",
+    "search_digest": "cbe3bce13d6fc4ee1cc9d3478a9fa56213c7857d5fb7420b9a72c1fd57fc28f9"
+   },
+   {
+    "formulation": "Haase-McAllister form (weaker): $H(\\lambda,\\mu,\\nu)$ is $\\mathrm{GL}_{D}(\\mathbb{Z})$-equidecomposable with a disjoint union of integral open simplices (Conjecture 3.2 of Haase and McAllister, restricted to hive polytopes); the pieces need not reassemble into one convex lattice polytope, which is why this form is weaker than the statement.",
+    "search_digest": "41526bad391f5a94d8313911cc7283c8ce4a1108f86364b532ca74beb618b595"
+   },
+   {
+    "formulation": "Rank restriction: the statement for partitions with at most $n$ parts. For $n\\le 3$ the hive polytope has dimension at most one and is a lattice polytope (proved in the attempt of this record); for $n=4$ Buch states, without a printed proof, that every hive polytope has integral vertices, which would settle that case; from $n=5$ on hive polytopes with a vertex of denominator $2$ occur and the statement is open.",
+    "search_digest": "a7f297318fa4619c5a4a2caf99362bb45b44cf6bef83ab3a65565d2135fb7b52"
+   }
+  ],
+  "settling_work_id": null,
+  "statement": "Let $n\\ge 2$ and let $\\lambda,\\mu,\\nu$ be partitions with at most $n$ parts, $|\\lambda|+|\\mu|=|\\nu|$ and Littlewood-Richardson coefficient $c^{\\nu}_{\\lambda\\mu}>0$. Let $H=H(\\lambda,\\mu,\\nu)\\subset\\mathbb{R}^{D}$, $D=\\binom{n-1}{2}$, be the hive polytope of Knutson and Tao: the set of real labellings of the $D$ interior vertices of the triangular hive array of side $n$ whose border labels are $0$ at the apex and the partial sums of $\\lambda$, $\\mu$ and $\\nu$ along the three sides, and which satisfy every rhombus inequality (the sum of the labels at the two obtuse vertices of each unit rhombus is at least the sum at the two acute vertices). $H$ is a rational polytope whose lattice points are the integral hives, so that $\\#(tH\\cap\\mathbb{Z}^{D})=c^{t\\nu}_{t\\lambda,t\\mu}$ for every integer $t\\ge 1$.\n\nStatement. For every such triple, $H(\\lambda,\\mu,\\nu)$ is $\\mathrm{GL}_{D}(\\mathbb{Z})$-equidecomposable with a lattice polytope: there exist finitely many relatively open rational simplices $T_{1},\\dots,T_{r}$ with $H=\\bigsqcup_{i=1}^{r}T_{i}$ (disjoint union, every face of the decomposition counted once as the relative interior of a simplex of some dimension between $0$ and $\\dim H$) and affine unimodular maps $U_{i}(x)=A_{i}x+b_{i}$ with $A_{i}\\in\\mathrm{GL}_{D}(\\mathbb{Z})$ and $b_{i}\\in\\mathbb{Z}^{D}$, such that the images $U_{1}(T_{1}),\\dots,U_{r}(T_{r})$ are pairwise disjoint and $Q=\\bigsqcup_{i=1}^{r}U_{i}(T_{i})$ is a lattice polytope, that is, a convex polytope all of whose vertices lie in $\\mathbb{Z}^{D}$. In particular $\\#(tH\\cap\\mathbb{Z}^{D})=\\#(tQ\\cap\\mathbb{Z}^{D})$ for every $t\\ge 1$, so the stretched Littlewood-Richardson polynomial $c^{t\\nu}_{t\\lambda,t\\mu}$ is the Ehrhart polynomial of the lattice polytope $Q$."
+ },
+ "outcome": "supported_open",
+ "reason": "No bound relevant work proves or refutes the universal hive statement. The closest general conjecture has a weaker, potentially nonconvex target. The supplied general counterexamples are not identified as admissible hive polytopes, while the positive equidecomposability theorem assumes lattice inputs. Polynomiality and the reported positivity results imply neither lattice Ehrhart realizability nor the required finite equidecomposition. The documented searches therefore support openness, limited to their arXiv query coverage rather than an exhaustive claim about all literature. The known low-rank integrality assertion does not settle the universal statement.",
+ "recorded_revision": 456,
+ "review": {
+  "claim_digest": "45e449d488a8d063c63260436eb7e7f8d9582376f3a9ace5f981544cb76e6fc7",
+  "decision": "approve",
+  "findings": {
+   "assumptions": "The statement requires balanced integral partitions, positive Littlewood–Richardson multiplicity, the ordinary interior-coordinate lattice, finitely many relatively open rational simplices, and affine unimodular maps with integral translations. Neither rational translations nor a common dilation may replace these requirements.",
+   "dependencies": "The seven bound relevant works have delivered full texts and complete reading records. Haase–McAllister distinguish a convex lattice target from a union of integral open simplices and exhibit a general rational counterexample to lattice Ehrhart realizability. Turner–Wu distinguish Ehrhart equivalence from finite rational equidecomposability. Erbe–Haase–Santos concern lattice 3-polytopes, not arbitrary rational hives. Buch and Thawinrak supply the hive and polynomiality background. Ferudun and Ghodsi address monomial positivity, not the proposed geometric assertion. Their computational claims are not independently certified by this review.",
+   "openness": {
+    "coverage": [
+     {
+      "date": "2026-10-20",
+      "depth": "All returned results inspected and dispositioned; relevant works read in complete fulltext.",
+      "formulation": "Exact statement",
+      "queries": [
+       {
+        "coverage": "complete",
+        "inspected_count": 0,
+        "query": "all:\"hive polytope\" AND (all:\"scissors congruence\" OR all:equidecomposable OR all:\"period collapse\")",
+        "requested_k": 20
+       },
+       {
+        "coverage": "complete",
+        "inspected_count": 1,
+        "query": "all:\"Littlewood-Richardson\" AND (all:\"period collapse\" OR all:\"quasi-period\" OR all:\"scissors congruence\" OR all:equidecomposable)",
+        "requested_k": 20
+       },
+       {
+        "coverage": "complete",
+        "inspected_count": 17,
+        "query": "all:\"hive polytope\" OR all:\"hive polytopes\" OR all:\"hive model\"",
+        "requested_k": 20
+       }
+      ],
+      "source": "arXiv API"
+     },
+     {
+      "date": "2026-10-20",
+      "depth": "All returned results inspected and dispositioned; relevant works read in complete fulltext.",
+      "formulation": "Ehrhart form",
+      "queries": [
+       {
+        "coverage": "complete",
+        "inspected_count": 1,
+        "query": "all:\"rational polytope\" AND all:\"Ehrhart polynomial\" AND (all:\"lattice polytope\" OR all:\"integral polytope\") AND (all:\"quasi-period\" OR all:\"period\")",
+        "requested_k": 20
+       },
+       {
+        "coverage": "complete",
+        "inspected_count": 4,
+        "query": "all:\"Ehrhart\" AND all:\"Littlewood-Richardson\"",
+        "requested_k": 20
+       }
+      ],
+      "source": "arXiv API"
+     },
+     {
+      "date": "2026-10-21",
+      "depth": "All returned results inspected and dispositioned; relevant works read in complete fulltext.",
+      "formulation": "Haase-McAllister form",
+      "queries": [
+       {
+        "coverage": "complete",
+        "inspected_count": 2,
+        "query": "all:\"scissors congruence\" AND all:Ehrhart",
+        "requested_k": 20
+       },
+       {
+        "coverage": "complete",
+        "inspected_count": 13,
+        "query": "all:\"period collapse\" AND all:Ehrhart",
+        "requested_k": 20
+       },
+       {
+        "coverage": "complete",
+        "inspected_count": 10,
+        "query": "all:\"Ehrhart equivalent\" OR all:\"Ehrhart-equivalent\" OR all:\"Ehrhart equivalence\"",
+        "requested_k": 20
+       }
+      ],
+      "source": "arXiv API"
+     },
+     {
+      "date": "2026-10-21",
+      "depth": "All returned results inspected and dispositioned; relevant works read in complete fulltext.",
+      "formulation": "Rank restriction",
+      "queries": [
+       {
+        "coverage": "complete",
+        "inspected_count": 2,
+        "query": "all:hives AND all:saturation AND (all:integral OR all:vertices OR all:corners)",
+        "requested_k": 20
+       },
+       {
+        "coverage": "complete",
+        "inspected_count": 12,
+        "query": "all:\"Littlewood-Richardson\" AND (all:polynomiality OR all:\"polynomial in\") AND (all:stretched OR all:dilation OR all:hive)",
+        "requested_k": 20
+       }
+      ],
+      "source": "arXiv API"
+     }
+    ],
+    "evidence": [
+     "cf3f0db9725b4b419be188e7c55630beb04ece65e9c26bb26da78bc73afb85b4",
+     "6687629213c430267ac9ac0f37597829b3ffdca55356408baf696965c66ec884",
+     "cbe3bce13d6fc4ee1cc9d3478a9fa56213c7857d5fb7420b9a72c1fd57fc28f9",
+     "41526bad391f5a94d8313911cc7283c8ce4a1108f86364b532ca74beb618b595",
+     "a7f297318fa4619c5a4a2caf99362bb45b44cf6bef83ab3a65565d2135fb7b52",
+     "2e5ae0b7cbae580c3a1baeb49c6479e1470705823e9fa4aa5b88c1505f3e0b17",
+     "35f875777a59e3aca9b4e8562d99302f42627843061c95726b0cbbfa122ee025",
+     "3b3ddf996d37bc51489d886b756ae54239573863c1008e7623fb256b4c8370a7",
+     "425b5b33a98ebc1fb55651cde86506de4e11a5f470564c076373d3870b739cfe",
+     "aae21c2354cdedad834a228e381555897b487a7ca68f25aa309e73f6a9454edc",
+     "ddf1f9dbd258b69a234c7b027f319a42b49999beaa9084b70b8cf9ca0b915aa5",
+     "f85945fdf911c0cd40691280fbd9045385a5377618261d3c6b1811abe014b675",
+     "b31acbf626225079de0954b0c5785a36f8ae2aed6a9b8835003f5986b61de302",
+     "8d04f6e201a4e6d000e79b5a13f053a8838342e5e6234266c7eb876fa3cbb404",
+     "c9b7ac15a9e1802119c983124e5005f32e51d001034b7708919cf09f2b2f9d80",
+     "dada67a60cc5b369e41a3724ee4942c664bcb3db53e53257d01b60620a17f261",
+     "84c1d8bef86a67eaedf946caaae5b9346e7d1fbd6714d29a04de14deefa8a771",
+     "9a4b9a68a3cf123ac5de3ac6b03715468b34baaf4028b4444abc78d2831bc9c2",
+     "195385e840b0ab4fe9b6ba3cd0f318e38194653dac700c8b3160f34b8d4d54ab"
+    ],
+    "minimum": {
+     "duplicate_resolutions": [],
+     "neighbours": [
+      "Ehrhart form (weaker): for every admissible triple there is a lattice polytope $Q$ with $\\#(tQ\\cap\\mathbb{Z}^{\\dim Q})=c^{t\\nu}_{t\\lambda,t\\mu}$ for all $t\\ge 1$.",
+      "Haase-McAllister form (weaker): $H(\\lambda,\\mu,\\nu)$ is $\\mathrm{GL}_{D}(\\mathbb{Z})$-equidecomposable with a disjoint union of integral open simplices (Conjecture 3.2 of Haase and McAllister, restricted to hive polytopes); the pieces need not reassemble into one convex lattice polytope, which is why this form is weaker than the statement.",
+      "Rank restriction: the statement for partitions with at most $n$ parts. For $n\\le 3$ the hive polytope has dimension at most one and is a lattice polytope (proved in the attempt of this record); for $n=4$ Buch states, without a printed proof, that every hive polytope has integral vertices, which would settle that case; from $n=5$ on hive polytopes with a vertex of denominator $2$ occur and the statement is open."
+     ],
+     "reading_digests": [
+      "2e5ae0b7cbae580c3a1baeb49c6479e1470705823e9fa4aa5b88c1505f3e0b17",
+      "35f875777a59e3aca9b4e8562d99302f42627843061c95726b0cbbfa122ee025",
+      "3b3ddf996d37bc51489d886b756ae54239573863c1008e7623fb256b4c8370a7",
+      "425b5b33a98ebc1fb55651cde86506de4e11a5f470564c076373d3870b739cfe",
+      "aae21c2354cdedad834a228e381555897b487a7ca68f25aa309e73f6a9454edc",
+      "ddf1f9dbd258b69a234c7b027f319a42b49999beaa9084b70b8cf9ca0b915aa5",
+      "f85945fdf911c0cd40691280fbd9045385a5377618261d3c6b1811abe014b675"
+     ],
+     "schema_version": 1,
+     "searches": [
+      {
+       "formulation": "Let $n\\ge 2$ and let $\\lambda,\\mu,\\nu$ be partitions with at most $n$ parts, $|\\lambda|+|\\mu|=|\\nu|$ and Littlewood-Richardson coefficient $c^{\\nu}_{\\lambda\\mu}>0$. Let $H=H(\\lambda,\\mu,\\nu)\\subset\\mathbb{R}^{D}$, $D=\\binom{n-1}{2}$, be the hive polytope of Knutson and Tao: the set of real labellings of the $D$ interior vertices of the triangular hive array of side $n$ whose border labels are $0$ at the apex and the partial sums of $\\lambda$, $\\mu$ and $\\nu$ along the three sides, and which satisfy every rhombus inequality (the sum of the labels at the two obtuse vertices of each unit rhombus is at least the sum at the two acute vertices). $H$ is a rational polytope whose lattice points are the integral hives, so that $\\#(tH\\cap\\mathbb{Z}^{D})=c^{t\\nu}_{t\\lambda,t\\mu}$ for every integer $t\\ge 1$.\n\nStatement. For every such triple, $H(\\lambda,\\mu,\\nu)$ is $\\mathrm{GL}_{D}(\\mathbb{Z})$-equidecomposable with a lattice polytope: there exist finitely many relatively open rational simplices $T_{1},\\dots,T_{r}$ with $H=\\bigsqcup_{i=1}^{r}T_{i}$ (disjoint union, every face of the decomposition counted once as the relative interior of a simplex of some dimension between $0$ and $\\dim H$) and affine unimodular maps $U_{i}(x)=A_{i}x+b_{i}$ with $A_{i}\\in\\mathrm{GL}_{D}(\\mathbb{Z})$ and $b_{i}\\in\\mathbb{Z}^{D}$, such that the images $U_{1}(T_{1}),\\dots,U_{r}(T_{r})$ are pairwise disjoint and $Q=\\bigsqcup_{i=1}^{r}U_{i}(T_{i})$ is a lattice polytope, that is, a convex polytope all of whose vertices lie in $\\mathbb{Z}^{D}$. In particular $\\#(tH\\cap\\mathbb{Z}^{D})=\\#(tQ\\cap\\mathbb{Z}^{D})$ for every $t\\ge 1$, so the stretched Littlewood-Richardson polynomial $c^{t\\nu}_{t\\lambda,t\\mu}$ is the Ehrhart polynomial of the lattice polytope $Q$.",
+       "search_digest": "6687629213c430267ac9ac0f37597829b3ffdca55356408baf696965c66ec884"
+      },
+      {
+       "formulation": "Ehrhart form (weaker): for every admissible triple there is a lattice polytope $Q$ with $\\#(tQ\\cap\\mathbb{Z}^{\\dim Q})=c^{t\\nu}_{t\\lambda,t\\mu}$ for all $t\\ge 1$.",
+       "search_digest": "cbe3bce13d6fc4ee1cc9d3478a9fa56213c7857d5fb7420b9a72c1fd57fc28f9"
+      },
+      {
+       "formulation": "Haase-McAllister form (weaker): $H(\\lambda,\\mu,\\nu)$ is $\\mathrm{GL}_{D}(\\mathbb{Z})$-equidecomposable with a disjoint union of integral open simplices (Conjecture 3.2 of Haase and McAllister, restricted to hive polytopes); the pieces need not reassemble into one convex lattice polytope, which is why this form is weaker than the statement.",
+       "search_digest": "41526bad391f5a94d8313911cc7283c8ce4a1108f86364b532ca74beb618b595"
+      },
+      {
+       "formulation": "Rank restriction: the statement for partitions with at most $n$ parts. For $n\\le 3$ the hive polytope has dimension at most one and is a lattice polytope (proved in the attempt of this record); for $n=4$ Buch states, without a printed proof, that every hive polytope has integral vertices, which would settle that case; from $n=5$ on hive polytopes with a vertex of denominator $2$ occur and the statement is open.",
+       "search_digest": "a7f297318fa4619c5a4a2caf99362bb45b44cf6bef83ab3a65565d2135fb7b52"
+      }
+     ],
+     "settling_work_id": null,
+     "statement": "Let $n\\ge 2$ and let $\\lambda,\\mu,\\nu$ be partitions with at most $n$ parts, $|\\lambda|+|\\mu|=|\\nu|$ and Littlewood-Richardson coefficient $c^{\\nu}_{\\lambda\\mu}>0$. Let $H=H(\\lambda,\\mu,\\nu)\\subset\\mathbb{R}^{D}$, $D=\\binom{n-1}{2}$, be the hive polytope of Knutson and Tao: the set of real labellings of the $D$ interior vertices of the triangular hive array of side $n$ whose border labels are $0$ at the apex and the partial sums of $\\lambda$, $\\mu$ and $\\nu$ along the three sides, and which satisfy every rhombus inequality (the sum of the labels at the two obtuse vertices of each unit rhombus is at least the sum at the two acute vertices). $H$ is a rational polytope whose lattice points are the integral hives, so that $\\#(tH\\cap\\mathbb{Z}^{D})=c^{t\\nu}_{t\\lambda,t\\mu}$ for every integer $t\\ge 1$.\n\nStatement. For every such triple, $H(\\lambda,\\mu,\\nu)$ is $\\mathrm{GL}_{D}(\\mathbb{Z})$-equidecomposable with a lattice polytope: there exist finitely many relatively open rational simplices $T_{1},\\dots,T_{r}$ with $H=\\bigsqcup_{i=1}^{r}T_{i}$ (disjoint union, every face of the decomposition counted once as the relative interior of a simplex of some dimension between $0$ and $\\dim H$) and affine unimodular maps $U_{i}(x)=A_{i}x+b_{i}$ with $A_{i}\\in\\mathrm{GL}_{D}(\\mathbb{Z})$ and $b_{i}\\in\\mathbb{Z}^{D}$, such that the images $U_{1}(T_{1}),\\dots,U_{r}(T_{r})$ are pairwise disjoint and $Q=\\bigsqcup_{i=1}^{r}U_{i}(T_{i})$ is a lattice polytope, that is, a convex polytope all of whose vertices lie in $\\mathbb{Z}^{D}$. In particular $\\#(tH\\cap\\mathbb{Z}^{D})=\\#(tQ\\cap\\mathbb{Z}^{D})$ for every $t\\ge 1$, so the stretched Littlewood-Richardson polynomial $c^{t\\nu}_{t\\lambda,t\\mu}$ is the Ehrhart polynomial of the lattice polytope $Q$."
+    },
+    "outcome": "supported_open",
+    "reason": "No bound relevant work proves or refutes the universal hive statement. The closest general conjecture has a weaker, potentially nonconvex target. The supplied general counterexamples are not identified as admissible hive polytopes, while the positive equidecomposability theorem assumes lattice inputs. Polynomiality and the reported positivity results imply neither lattice Ehrhart realizability nor the required finite equidecomposition. The documented searches therefore support openness, limited to their arXiv query coverage rather than an exhaustive claim about all literature. The known low-rank integrality assertion does not settle the universal statement.",
+    "searched_at": "2026-10-21",
+    "statement_digest": "45e449d488a8d063c63260436eb7e7f8d9582376f3a9ace5f981544cb76e6fc7"
+   },
+   "policy": "Only supplied evidence was used. Each exact or neighbouring formulation has a bound dated search with explicit coverage, and every relevant result in those searches has a bound complete fulltext reading. Explicit out_of_scope dispositions are not credited as fulltext readings or settling results. No computation, formal verification, or root proof obligation is discharged by this openness assessment.",
+   "scope": "The statement includes every rank n >= 2, every admissible size and lower-dimensional hives. Polynomiality, monomial positivity, existence of an integral vertex, and equidecomposability between lattice 3-polytopes do not settle it. Buch explicitly records integrality for n <= 4 without supplying that remark's proof; this known low-rank assertion must not be advertised as a new open problem.",
+   "statement": "The evidence supports treating the exact universal hive-equidecomposability statement as open within the documented literature coverage. This approves the openness assessment, not the mathematical assertion or a proof of it."
+  },
+  "reviewer": {
+   "actor_id": "gpt-6-astra-codex-high",
+   "attestation_id": "review-assignment:assignment-openness-astra-5",
+   "source": "host"
+  },
+  "schema_version": 2,
+  "subject_digest": "cf3f0db9725b4b419be188e7c55630beb04ece65e9c26bb26da78bc73afb85b4"
+ },
+ "searched_at": "2026-10-21",
+ "statement_digest": "45e449d488a8d063c63260436eb7e7f8d9582376f3a9ace5f981544cb76e6fc7",
+ "statement_id": "statement-3"
+}

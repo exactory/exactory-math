@@ -1,0 +1,421 @@
+{
+ "limitations": [
+  "The proof bodies behind acceptance-000001 and acceptance-000002 were not delivered. I checked the reduction against the delivered CR, ILL and CKLL passages, and the barrier's sign-model algebra against Equation (3.2) of the manuscript.",
+  "Coregliano and Razborov Theorem 8.2, used for the symmetric degree-one deletion, is a proof sketch in the source.",
+  "The native attempt's internal openness binding refers to a statement digest (43d81023) that differs from the statement digest (844e273b). The contract's original claim text matches the statement verbatim, so I treated applicability as established.",
+  "The self-assessment's A2 note mentions a Semantic Scholar HTTP 429 gap, but the delivered search records list no gaps. The openness review also says the manuscript is not in evidence, although a full reading of it is delivered. Both inconsistencies are minor, because the targeted arXiv queries are complete.",
+  "Several captured search response bodies were withheld by the route limit. I relied on the delivered search records' coverage and dispositions for them.",
+  "Neither the Lean build log for the girth-six statement nor the textual audit of the counterexample formalization is an authenticated native completion, so neither certifies anything.",
+  "The significance grades of 2 reflect that the organizing-explanation claim is conditional and gives only a sufficient condition. A verified counterexample and a proved rank-layer analogue for girth-six patterns could support a higher B2 grade."
+ ],
+ "objections": [],
+ "stage": "result",
+ "support": null,
+ "value": {
+  "assurances": [
+   {
+    "evidence": [
+     {
+      "id": "statement-girth-six",
+      "kind": "record",
+      "record_kind": "problem_statement"
+     },
+     {
+      "media_type": "text/plain",
+      "path": "research/sources/objects/e671e6006c246e3b27905244363f261642b69887ff49e29b84e26228dcbe4aa7",
+      "sha256": "e671e6006c246e3b27905244363f261642b69887ff49e29b84e26228dcbe4aa7",
+      "size": 1504
+     },
+     {
+      "id": "reading-kll-2016",
+      "kind": "record",
+      "record_kind": "reading"
+     }
+    ],
+    "kind": "problem_statement",
+    "reason": "The universal statement over finite bipartite H with an edge and no 4-cycle, and over all graphons, is exact. The criteria say what a proof must show and what a disproof must exhibit: one pattern with a violating graphon or finite simple host, with a complete proof. The Lean Statement matches the finite-host form, and Kim, Lee and Lee give the finite-host form as equivalent to the graphon form. The build log 55939da0 is not an authenticated native completion. A1 does not rest on it, since formalization is optional.",
+    "status": "passed"
+   },
+   {
+    "evidence": [
+     {
+      "id": "assignment-openness-fable-2",
+      "kind": "record",
+      "record_kind": "problem_openness"
+     },
+     {
+      "id": "search-openness-statement",
+      "kind": "record",
+      "record_kind": "literature_search"
+     },
+     {
+      "id": "search-openness-one-subdivision",
+      "kind": "record",
+      "record_kind": "literature_search"
+     },
+     {
+      "id": "search-openness-heawood",
+      "kind": "record",
+      "record_kind": "literature_search"
+     },
+     {
+      "id": "search-openness-large-girth",
+      "kind": "record",
+      "record_kind": "literature_search"
+     },
+     {
+      "media_type": "application/atom+xml",
+      "path": "research/sources/objects/13a47a270f912f3cb30b64e541b836c8c431fab0cd8df542b5a79ba74cb7a392",
+      "sha256": "13a47a270f912f3cb30b64e541b836c8c431fab0cd8df542b5a79ba74cb7a392",
+      "size": 850
+     }
+    ],
+    "kind": "problem_openness",
+    "reason": "The finding is supported_open for statement digest 844e273b, dated 2026-10-21. Its coverage:\n- Nine bound searches, one for the statement and one for each of the eight declared neighbours.\n- Complete targeted arXiv queries, including the post-counterexample window and the large-girth and Heawood queries (0 hits each).\n- Seventeen full readings.\n\nEvery neighbour has a recorded status, and all are open in the captured sources:\n- CKLL Problem 1.5: stated open by CKLL and by Zhao 2025, and not settled in KPS v2 of 2026-09-21.\n- ILL Conjecture 4.1: left open.\n- Forcing: recorded as open by KPS.\n- Heawood graph: no work found.\n- S(H0) and the biregular class: no settling work.\n\nH0 is excluded from the class by the manuscript's two-face pair property. Fox and Wei 2017 is local only and cannot settle the statement.",
+    "status": "passed"
+   },
+   {
+    "evidence": [
+     {
+      "id": "value-girth-six-2",
+      "kind": "record",
+      "record_kind": "problem_value"
+     },
+     {
+      "id": "reading-hatami-2010",
+      "kind": "record",
+      "record_kind": "reading"
+     },
+     {
+      "id": "reading-conlon-lee-2021",
+      "kind": "record",
+      "record_kind": "reading"
+     },
+     {
+      "id": "reading-lovasz-2011",
+      "kind": "record",
+      "record_kind": "reading"
+     },
+     {
+      "id": "reading-kps-2026",
+      "kind": "record",
+      "record_kind": "reading"
+     }
+    ],
+    "kind": "problem_value",
+    "reason": "Each motivation and current-state paragraph matches its bound readings:\n- CKLL Theorems 1.3 and 3.1, Conlon and Lee 2017 Theorem 1.1, ILL Proposition 4.2, CLM Theorem 1.4 and Zhao 2026 Proposition 1.4.\n- Hatami Theorem 2.10(ii) and the Heawood case of Conlon and Lee 2021 Theorem 1.2 (7 against 35).\n- Lovász Theorem 3.1.\n- The two accepted results.\n\nThe dependence on the unrefereed manuscript, and on the analogue of its Lemma 3.1, is stated explicitly. The paragraphs meet the level-2 requirements of both bars:\n- a proved connection to a named open line, CKLL Problem 1.5;\n- what the counterexample does and does not settle (H0 has 4-cycles);\n- an answer to the parameter-increment and strengthening objections.",
+    "status": "passed"
+   },
+   {
+    "evidence": [
+     {
+      "id": "value-girth-six-2",
+      "kind": "record",
+      "record_kind": "problem_value"
+     },
+     {
+      "id": "reading-ckll-2018",
+      "kind": "record",
+      "record_kind": "reading"
+     },
+     {
+      "id": "reading-ill-2024",
+      "kind": "record",
+      "record_kind": "reading"
+     },
+     {
+      "id": "reading-conlon-lee-2017-2",
+      "kind": "record",
+      "record_kind": "reading"
+     },
+     {
+      "id": "reading-openai-sidorenko-2026-located",
+      "kind": "record",
+      "record_kind": "reading"
+     }
+    ],
+    "kind": "problem_citations",
+    "reason": "Each of the 18 citations has a full reading, and the attributed claims match the inspected passages. There are two minor locator issues, and neither changes a content claim:\n- The OpenAI manuscript is cited at commit 1581d4c but was read at blob/main.\n- 'Trees and even cycles, as recalled by Kim, Lee and Lee' is not in the targeted KLL passage. The fact is stated in the delivered passages of Conlon and Lee 2021 and of ILL.",
+    "status": "passed"
+   },
+   {
+    "evidence": [
+     {
+      "id": "assignment-openness-fable-2",
+      "kind": "record",
+      "record_kind": "problem_openness"
+     },
+     {
+      "id": "assessment-girth-six-2",
+      "kind": "record",
+      "record_kind": "problem_assessment"
+     }
+    ],
+    "kind": "stop",
+    "reason": "Nothing in the record requires a stop:\n- There is no settling work, and the search records show no integrity errors.\n- H0 does not refute the statement because it has 4-cycles.\n- The open material objections concern field premises, and the candidate either conditions on them explicitly or does not use them.",
+    "status": "passed"
+   }
+  ],
+  "bar_ids": [
+   "problem-bar-opus",
+   "problem-bar-sonnet-3"
+  ],
+  "consequence": "The statement meets every posting threshold on the delivered evidence. All six admission items pass. B1 and B2 are each 2, so the maximum is 2, which suffices because accessibility is E-F. Priority is 2, and the attempt and calibration pass. The statement is open whether or not the reported counterexample H0 is correct, because H0 has 4-cycles. Only the motivating mechanism and the leading-order barrier depend on the unrefereed manuscript and on an unproved analogue of its Lemma 3.1, and the value record says so wherever it uses them. Posting carries that dependence explicitly. Field-level objections remain open (verification of the counterexample, a Lean build, post-counterexample activity, small-graph computations, Szegedy's reductions), but none of them blocks this candidate.",
+  "evidence": [
+   {
+    "id": "statement-girth-six",
+    "kind": "record",
+    "record_kind": "problem_statement"
+   },
+   {
+    "id": "assignment-openness-fable-2",
+    "kind": "record",
+    "record_kind": "problem_openness"
+   },
+   {
+    "id": "attempt-girth-six-solver-1",
+    "kind": "record",
+    "record_kind": "problem_attempt"
+   },
+   {
+    "id": "834cdf10777b00395e65ac88388dd06a90739fac5732bef33a2d02445da35b06",
+    "kind": "record",
+    "record_kind": "native_attempt"
+   },
+   {
+    "id": "value-girth-six-2",
+    "kind": "record",
+    "record_kind": "problem_value"
+   },
+   {
+    "id": "assessment-girth-six-2",
+    "kind": "record",
+    "record_kind": "problem_assessment"
+   },
+   {
+    "id": "reading-ckll-2018",
+    "kind": "record",
+    "record_kind": "reading"
+   },
+   {
+    "id": "reading-cr-2021",
+    "kind": "record",
+    "record_kind": "reading"
+   },
+   {
+    "id": "reading-openai-sidorenko-2026-located",
+    "kind": "record",
+    "record_kind": "reading"
+   },
+   {
+    "media_type": "text/plain",
+    "path": "research/sources/objects/e671e6006c246e3b27905244363f261642b69887ff49e29b84e26228dcbe4aa7",
+    "sha256": "e671e6006c246e3b27905244363f261642b69887ff49e29b84e26228dcbe4aa7",
+    "size": 1504
+   }
+  ],
+  "method_adequacy": "not_assessed",
+  "objection_findings": [
+   {
+    "evidence": [
+     {
+      "id": "value-girth-six-2",
+      "kind": "record",
+      "record_kind": "problem_value"
+     },
+     {
+      "id": "reading-openai-sidorenko-2026-located",
+      "kind": "record",
+      "record_kind": "reading"
+     }
+    ],
+    "id": "obj-counterexample-unverified",
+    "reason": "The resolution condition allows 'a statement under review that explicitly conditions its premises on the manuscript'. The value record does this:\n- It calls the manuscript unrefereed and Lemma 3.1 unchecked.\n- It states that the question is open whether or not the report is correct.\n- It marks the mechanism and barrier paragraphs as conditional.\n\nOpenness does not depend on Theorem 1.1. Verification of the manuscript as such remains open and is carried by obj-counterexample-unverified@problem-bar-opus.",
+    "status": "resolved"
+   },
+   {
+    "evidence": [
+     {
+      "media_type": "application/json",
+      "path": "research/sources/objects/0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+      "sha256": "0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+      "size": 13670
+     },
+     {
+      "media_type": "text/markdown",
+      "path": "research/sources/objects/a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+      "sha256": "a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+      "size": 946
+     },
+     {
+      "id": "value-girth-six-2",
+      "kind": "record",
+      "record_kind": "problem_value"
+     }
+    ],
+    "id": "obj-counterexample-unverified@problem-bar-opus",
+    "reason": "No refereed confirmation and no checked formal proof run of Theorem 1.1 or Corollary 1.3 has been delivered:\n- The audit record says it did not build the project or run the comparator, and that 'a textual search is not a kernel check'.\n- The scope note places the forcing corollary outside the formalization.\n\nThe objection does not block this candidate, which credits nothing to the refutation as established.",
+    "status": "continuing"
+   },
+   {
+    "evidence": [
+     {
+      "media_type": "text/plain",
+      "path": "research/sources/objects/489688f5c4eb60c6dd8cfe0ef69663aaf11e795d6252e9626972764a50187de9",
+      "sha256": "489688f5c4eb60c6dd8cfe0ef69663aaf11e795d6252e9626972764a50187de9",
+      "size": 1764
+     },
+     {
+      "media_type": "text/markdown",
+      "path": "research/sources/objects/a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+      "sha256": "a1da28a997a9a27cad57f0862cd18e7502aa3129730d3bc7fd7a45fde14d3b1d",
+      "size": 946
+     }
+    ],
+    "id": "obj-lean-formalization-undelivered",
+    "reason": "The sonnet-3 version says no Lean artifact was delivered. This packet delivers the comparator challenge, and it answers each point of the resolution condition:\n- graph form: a SimpleGraph host on Fin size;\n- homomorphism counts: homCount counts all edge-preserving maps, including noninjective ones;\n- existential host: there exist a size and a host with an edge and homDensity < edgeDensity^66.\n\nThe pattern is the Table 1 incidence graph. The scope note confirms coverage of Theorem 1.1 only, not Corollary 1.3; Corollary 1.2 is not covered either. Whether the proof checks is a separate question, handled under obj-lean-claim-unsupported.",
+    "status": "resolved"
+   },
+   {
+    "evidence": [
+     {
+      "media_type": "application/json",
+      "path": "research/sources/objects/0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+      "sha256": "0288ac5d2014236a88cbeb501cd156c28aa491a6811e59e4eab8bcc1883ecfb6",
+      "size": 13670
+     },
+     {
+      "media_type": "application/json",
+      "path": "research/sources/objects/2d3ce04f40de12d67424f8597bf3ea9cbb6f262c9e6e58edbc5ab6f690de52ec",
+      "sha256": "2d3ce04f40de12d67424f8597bf3ea9cbb6f262c9e6e58edbc5ab6f690de52ec",
+      "size": 338
+     },
+     {
+      "media_type": "text/plain",
+      "path": "research/sources/objects/5a8a164259591208886cd018416e61552665265ec9e20cff636f9d51117c2278",
+      "sha256": "5a8a164259591208886cd018416e61552665265ec9e20cff636f9d51117c2278",
+      "size": 79482
+     }
+    ],
+    "id": "obj-lean-claim-unsupported",
+    "reason": "The formal statement is held and matches t(H,G) < p(G)^66. The resolution condition also asks for sorry and axiom status, and that part is not met:\n- Sorry status rests only on a comment-stripped textual search.\n- Axiom status rests only on the permitted-axioms list in the comparator configuration.\n- No build, comparator run or #print axioms output was delivered.\n- The formalization catalogue at that commit does not list the Sidorenko paper among its sources or main results.",
+    "status": "continuing"
+   },
+   {
+    "evidence": [
+     {
+      "id": "search-openness-statement",
+      "kind": "record",
+      "record_kind": "literature_search"
+     },
+     {
+      "media_type": "application/json",
+      "path": "research/sources/objects/16e01aefc02504a3dadf6eb7af9e3b663a9d58c9b082390ee396bbff3af1560a",
+      "sha256": "16e01aefc02504a3dadf6eb7af9e3b663a9d58c9b082390ee396bbff3af1560a",
+      "size": 1001
+     },
+     {
+      "id": "assessment-girth-six-2",
+      "kind": "record",
+      "record_kind": "problem_assessment"
+     }
+    ],
+    "id": "obj-post-counterexample-activity-unevidenced",
+    "reason": "No mathematical work after 2026-09-23 that engages the counterexample has been delivered:\n- The complete arXiv window up to 2026-10-21 found three unrelated papers.\n- The only engagement found is MathOverflow question 515955, closed the same day with score -2 and no answer.\n\nThe candidate complies with the objection's consequence: B1 rests on activity before September 2026, and the post is held but not relied on.",
+    "status": "continuing"
+   },
+   {
+    "evidence": [
+     {
+      "id": "value-girth-six-2",
+      "kind": "record",
+      "record_kind": "problem_value"
+     },
+     {
+      "id": "assessment-girth-six-2",
+      "kind": "record",
+      "record_kind": "problem_assessment"
+     }
+    ],
+    "id": "obj-small-graph-computations-absent",
+    "reason": "No small-graph computational source has been delivered. The objection does not bite on this candidate: it cites no computation, makes no claim about small graphs or the size of a minimal counterexample, and grounds nothing on enumeration.",
+    "status": "continuing"
+   },
+   {
+    "evidence": [
+     {
+      "id": "assessment-girth-six-2",
+      "kind": "record",
+      "record_kind": "problem_assessment"
+     },
+     {
+      "id": "search-openness-heawood",
+      "kind": "record",
+      "record_kind": "literature_search"
+     }
+    ],
+    "id": "obj-small-graph-computations-missing",
+    "reason": "The resolution condition is unmet: no enumeration of small bipartite graphs certified as Sidorenko or open has been delivered. This does not affect the candidate, whose accessibility note explicitly declines to claim that the Heawood graph is the smallest unresolved case.",
+    "status": "continuing"
+   },
+   {
+    "evidence": [
+     {
+      "id": "reading-cr-2021",
+      "kind": "record",
+      "record_kind": "reading"
+     },
+     {
+      "id": "reading-zhao-2026-conj",
+      "kind": "record",
+      "record_kind": "reading"
+     },
+     {
+      "id": "value-girth-six-2",
+      "kind": "record",
+      "record_kind": "problem_value"
+     }
+    ],
+    "id": "obj-szegedy-reduction-undelivered",
+    "reason": "Szegedy's full text has not been delivered. Only Zhao's quotation of the Cayley-form reduction (Proposition 1.2) is held. The candidate does not use Szegedy's reductions:\n- Its regular-host step uses Coregliano and Razborov Theorem 8.2, whose statement and proof sketch were delivered.\n- It mentions Cayley hosts only as restricted class results, whose limits the value record states.",
+    "status": "continuing"
+   }
+  ],
+  "objective_adequacy": "not_assessed",
+  "reason": "Statement. The question is whether every finite bipartite graph with an edge and no 4-cycle (girth at least six, forests included) satisfies t(H,W) >= t(K_2,W)^{e(H)} for every graphon W. The resolution criteria and the Lean finite-host Statement (artifact e671e600) are exact and agree with the prose. I checked the Lean statement line by line:\n- Colorable 2 encodes bipartiteness.\n- edgeSet.Nonempty requires an edge.\n- 'No IsCycle walk of length 4' means no 4-cycle.\n- homCount counts all maps, including noninjective ones.\n- edgeDensity is 2e/m^2.\n\nOpenness. assignment-openness-fable-2 is supported_open with searched_at 2026-10-21 and settling_work_id null. It binds nine search records, one for the statement and one for each declared neighbour, with per-query coverage. All targeted arXiv queries are complete, including the window 2026-09-23 to 2026-10-21 (3 unrelated hits) and the large-girth query (0 hits). Seventeen works were read in full. H0 lies outside the class: the manuscript states that each of its 33 point pairs lies in exactly two faces, which gives a 4-cycle.\n\nContribution. acceptance-000001 proves that, on C_2, the statement is equivalent to CKLL Problem 1.5. I rechecked it against the delivered passages:\n- Deleting a degree-one vertex preserves the Sidorenko property (CR Corollary 5.3, and Theorem 8.2 for regular graphons).\n- After these deletions every X-vertex has degree 2, so H is the 1-subdivision of a multigraph.\n- That multigraph is simple because H has no 4-cycle.\n\nacceptance-000002, the leading-order barrier, follows from the manuscript's Equation (3.2). Without 4-cycles each pair sign eta_e occurs at most once, so the expectation of each factor is 1. The barrier is scoped as conditional and excludes one strategy only.\n\nValue. The value record places the statement in the subdivision line, which was active from 2024 to 2026-09-21, through that reduction. It flags every dependence on the counterexample.\n\nCalibration. No computation is relied on, and the Lean claims are described only as far as the artifacts support them.",
+  "rubric": {
+   "accessibility": "E-F",
+   "admission": {
+    "A1": "pass",
+    "A2": "pass",
+    "A3": "pass",
+    "A4": "pass",
+    "A5": "pass",
+    "A6": "pass"
+   },
+   "attempt": "pass",
+   "calibration": "pass",
+   "priority": 2,
+   "significance": {
+    "B1": 2,
+    "B2": 2
+   }
+  },
+  "rubric_evidence": {
+   "A1": "Pass. Evidence: statement-girth-six and Lean artifact e671e600.\n\nThe statement is exact: universal over finite bipartite H with an edge and no 4-cycle, and over all graphons. The criteria fix both directions. A disproof must give one girth-six pattern with a violating graphon or finite simple host and a complete proof of the strict inequality.\n\nThe Lean form corresponds to the intended mathematics: 2-colourability, an edge, no 4-cycle, all homomorphisms counted, and edge density 2e/m^2. For bipartite graphs, having no 4-cycle is equivalent to girth at least six or acyclicity. The finite-host and graphon forms are equivalent (reading-kll-2016). Build log 55939da0 is not authenticated and is not relied on.",
+   "A2": "Pass. Evidence: assignment-openness-fable-2 (supported_open, 2026-10-21, settling_work_id null) and nine literature_search records, including search-openness-statement, -one-subdivision, -large-girth and -heawood.\n\nCoverage is dated. The targeted arXiv queries, including the post-counterexample window, are complete; the incomplete pages are generic OpenAlex queries. Every relevant hit was read in full (17 readings).\n\nThe status of each declared neighbour is recorded as open. H0 is excluded from the class by its two-face pairs. The decisive sources (CKLL, KPS 2026 and the manuscript) are fully read.",
+   "A3": "Pass. Evidence: attempt-girth-six-solver-1, native attempt 834cdf (acceptance-000001), reading-ckll-2018 and reading-cr-2021.\n\nThe original problem is named, and the relationship is established by proof: the statement contains CKLL Problem 1.5 and is equivalent to it on C_2. I rechecked the step via CR Corollary 5.3 and Theorem 8.2: degree-one deletion, then a 1-subdivision of a multigraph, which is simple because there is no 4-cycle.\n\nThe new contribution is the girth-six patterns outside C_2, such as the Heawood graph and linear triple systems. What remains unresolved is stated: Problem 1.5, the class outside C_2, and the lower-order terms of the reported construction.",
+   "A4": "Pass. Evidence: statement-girth-six.\n\nOnly standard notions are used: bipartite graph, 4-cycle, girth, graphon, and homomorphism density with its integral written out. The criteria add the equivalent finite-host form. An extremal or graph-limit combinatorialist needs no further definitions.",
+   "A5": "Pass. Evidence: the A5 item of assessment-girth-six-2, the attempt record, and the readings of CKLL, Conlon and Lee 2021, Hatami, Lee and Schülke, Lovász and the manuscript.\n\nThe routine routes are listed with why each falls short:\n- the class and subdivision theorems reach classes only;\n- norming needs biregularity (Hatami Theorem 2.10(ii));\n- the one-side-regular criterion misses the Heawood graph (7 against 35);\n- local Sidorenko holds only near the constant graphon;\n- the degree-one and bounded-degree reductions stop at Problem 1.5;\n- transferring the reported construction gives no leading-order deficit.\n\nThe triviality objection (a bare strengthening of Problem 1.5) is answered. Nothing is certified about what routine methods cannot do.",
+   "A6": "Pass. Evidence: assignment-openness-fable-2, reading-openai-sidorenko-2026-located, reading-ckll-2018 and reading-kps-2026.\n\nEvery decisive source is read in full, and the harness can state the claim's standing: open, containing Problem 1.5, and at the boundary of the reported mechanism, conditionally. The manuscript is read but unverified. Openness does not depend on it, and the value record conditions on it.\n\nSources dispositioned without a full reading are local or class results and cannot settle the statement: Fox and Wei, Bradač–Sudakov–Wigderson, and Coregliano 2024.",
+   "B1": "2. Evidence: reading-ill-2024, -clm-2024, -zhao-2025-even, -zhao-2026-conj, -zhao-2026-corr, -zhao-2026-lp and -kps-2026, together with acceptance-000001.\n\nWhy 2:\n- The line on subdivisions and Problem 1.5 is active from 2024 to 2026-09-21.\n- The statement's place in it is fixed by a proved equivalence on C_2, not by shared vocabulary.\n- Counterexample-dependent premises are flagged, and the class and host-restricted results are shown to leave the need unmet.\n- The grade rests on activity before the counterexample, as the opus bar objection requires.\n\nWhy not 3: the record does not compellingly argue that the stronger girth-six target, rather than Problem 1.5 itself or the KNRS and regular-KNRS routes, removes the obstacle the line is stuck on.",
+   "B2": "2. Evidence: value-girth-six-2, acceptance-000002 and reading-openai-sidorenko-2026-located.\n\nThe carrying criterion is met concretely:\n- Implications are stated under each answer. A proof settles Problem 1.5 and gives a forbidden-subgraph sufficient condition. A counterexample in C_2 refutes Problem 1.5. One outside C_2 is a failure without 4-cycles.\n- The mechanism of the reported failure is distinguished: the sign model of Equation (3.2) is identically 1 without 4-cycles, which I checked.\n\nWhy not 3: the organising-explanation claim is doubly conditional, on the unverified manuscript and on the unproved rank-layer analogue. It would also give a sufficient condition, not a dividing line, and it is not contrasted with the biregular or pinning boundary.",
+   "accessibility": "E-F. Evidence: the accessibility item of assessment-girth-six-2, the attempt record, reading-ckll-2018 and reading-conlon-lee-2021.\n\nConventional footholds are established: the C_2 reduction; the class theorems (subdivisions of Sidorenko, KNRS and regular-KNRS graphs, polytope 1-subdivisions, restricted Cayley hosts); and the conditional barrier. The Heawood graph is named as a natural first case outside C_2, without a claim that it is the smallest. No difficulty or completion time is stated.",
+   "attempt": "Pass. Evidence: attempt-girth-six-solver-1 and native attempt 834cdf.\n\nThe attempt was bounded and aimed at the exact statement: the contract's original claim is the statement verbatim, with requested outcome 'decision'. It used 2 of 24 moves and 1 worker.\n\nWhat it recorded:\n- One foothold, the C_2 reduction (accepted).\n- One scoped obstruction, the leading-order barrier. It covers the Equation (3.6) kernels as the field size tends to infinity, is conditional on the rank-layer analogue, and excludes one strategy only.\n- What stayed unresolved: Problem 1.5, the positive direction outside C_2, and the rank-layer analogue together with fixed-field-size errors.\n\nThe proof bodies were not delivered. I checked the reduction against CR and ILL, and the sign-model algebra against Equation (3.2).",
+   "calibration": "Pass. Evidence: value-girth-six-2, the calibration item of assessment-girth-six-2, and Lean artifacts 489688f5, 2d3ce04f, a1da28a9, 0288ac5d and 5a8a1642.\n\nThe record keeps four kinds of claim apart:\n- established results: the two accepted results and the cited theorems;\n- the unrefereed counterexample, with Lemma 3.1 unchecked;\n- conditional claims: the barrier under the rank-layer analogue;\n- judgments: significance and priority.\n\nThe Lean formalization is described only as far as the artifacts show: the comparator statement, the scope note, the permitted axioms, a textual audit only, absence from the catalogue, and not built. No computation is relied on, no community outcome is asserted, no conjectured answer is asserted, and the unresolved attempt is not called an obstruction to the problem.",
+   "priority": "2. Evidence: the priority item of assessment-girth-six-2, the neighbour list in statement-girth-six, and assignment-openness-fable-2.\n\nThe neighbours are compared by payoff:\n- Problem 1.5 is implied by the statement.\n- A large-girth threshold is a weaker target.\n- S(H0), the Heawood graph and linear incidence graphs are instances or subclasses.\n- Forcing is a different property.\n- The biregular class is narrower.\n- ILL Conjecture 4.1 is incomparable (the Heawood graph is a subdivision only of itself).\n\nThe strongest objection, bare strengthening, is answered by the documented mechanism boundary. Why not 3: that advantage rests on the conditional barrier, not on an unconditional documented distinction."
+  },
+  "status": "sufficient",
+  "work_items": []
+ }
+}

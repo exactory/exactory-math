@@ -1,0 +1,8 @@
+pairs: 1200  (region d,d' <= 0.0266)
+max drop/Var_w(h)            = 1.0490   (diagonal heuristic 1/(2(1-hbar)^2) = 0.6806)
+max drop                     = 0.00753
+max |tau*|_inf               = 0.2069;  95th pct = 0.1475
+t* - 1 in [-0.0251, 0.0275];   p* - (1 - hbar) in [-0.01590, -0.00000]
+min margin (I2, a'=0.36)     = 0.000005;   min margin (a'=0.5) = 0.000003
+   at the a'=0.36 minimiser: d=0.0000 d'=0.0000 term1=-0.00001 term3=0.00002 drop=0.00000 total=0.00001
+min (term1 + term3 - 0.36(d+d')) = 0.000007;  max drop/(that) = 0.3616

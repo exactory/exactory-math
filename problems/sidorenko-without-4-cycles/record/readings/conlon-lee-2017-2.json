@@ -1,0 +1,93 @@
+{
+ "id": "reading-conlon-lee-2017-2",
+ "version_id": "arxiv:1611.05784v2",
+ "bundle_id": "bundle-1611.05784v2",
+ "inspections": [
+  {
+   "anchor": "Theorem 1.1. (k, r)-incidence graphs of regular polytopes are weakly norming.",
+   "note": "Incidence graphs between k-faces and r-faces of regular polytopes are weakly norming."
+  },
+  {
+   "anchor": "Theorem 1.2. Reflection graphs are weakly norming.",
+   "note": "Coset graphs of finite reflection groups are weakly norming."
+  },
+  {
+   "anchor": "Theorem 3.3. Suppose that H is a graph which is edge-transitive under the cut involution group",
+   "end": "H is weakly norming.",
+   "note": "Percolation of edges under cut involutions implies weakly norming."
+  },
+  {
+   "anchor": "That is, when H is weakly norming, H satisfies Sidorenko",
+   "end": "for more details.",
+   "note": "Weakly norming implies Sidorenko; norming graphs as building blocks."
+  },
+  {
+   "anchor": "Theorem 5.12. If N is weakly norming, any N -decomposable graph H has Sidorenko",
+   "note": "Tree-like gluings of a weakly norming graph are Sidorenko."
+  },
+  {
+   "anchor": "Conjecture 6.1. A bipartite graph H is weakly norming if it is edge-transitive under its cut",
+   "end": "involution group.",
+   "note": "Conjecture: edge-transitivity under the cut involution group suffices for weakly norming."
+  },
+  {
+   "anchor": "Conjecture 6.2. A bipartite graph H is weakly norming only if it is edge-transitive under its cut",
+   "end": "involution group.",
+   "note": "Conjecture: this edge-transitivity is necessary."
+  }
+ ],
+ "notes": {
+  "problem": {
+   "text": "Which graphs define (weakly) norming functionals, with applications to Sidorenko's conjecture.",
+   "inspections": [
+    0,
+    1
+   ]
+  },
+  "claims": {
+   "text": "Theorem 1.2: reflection graphs (coset graphs of finite reflection groups) are weakly norming; Theorem 1.1: (k, r)-incidence graphs of regular polytopes are weakly norming; Theorem 5.12: N-decomposable graphs for weakly norming N are Sidorenko; Conjectures 6.1 to 6.3 characterize norming through edge-transitivity under cut or stable involution groups.",
+   "inspections": [
+    0,
+    1,
+    4,
+    5,
+    6
+   ]
+  },
+  "assumptions": {
+   "text": "Finite reflection groups with simple reflections; the Euclidean embedding of a reflection graph; edge-transitivity under cut involutions.",
+   "inspections": [
+    2
+   ]
+  },
+  "methods": {
+   "text": "Iterated Cauchy-Schwarz along cut involutions encoded in Cauchy-Schwarz trees and percolating folding sequences; Coxeter-group length arguments; entropy for N-decompositions.",
+   "inspections": [
+    2,
+    4
+   ]
+  },
+  "evidence": {
+   "text": "Complete proofs and worked examples (the 1-subdivision of K4, hypercubes, octahedron variants).",
+   "inspections": [
+    0,
+    1
+   ]
+  },
+  "limitations": {
+   "text": "The positive classes are highly symmetric and biregular; the characterization of weakly norming graphs is conjectural; only the building-block use reaches less symmetric graphs.",
+   "inspections": [
+    5,
+    6
+   ]
+  },
+  "relevance": {
+   "text": "Theorem 1.1 covers the vertex-face incidence graphs of the tetrahedron, octahedron and icosahedron, the only triangulated spheres whose incidence graphs are biregular; through the (0, 1)-incidence graphs it also shows that the 1-subdivisions of the graphs of regular polytopes (bipartite graphs of girth at least six) are weakly norming and hence Sidorenko, a foothold for the girth-six candidate.",
+   "inspections": [
+    0,
+    3,
+    4
+   ]
+  }
+ }
+}

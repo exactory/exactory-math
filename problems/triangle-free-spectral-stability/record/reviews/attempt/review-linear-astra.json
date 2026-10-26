@@ -1,0 +1,28 @@
+{
+  "claim_digest": "92e774ba3ff8b72e53d73362f5ca9bf89dec58612d3c973897537949be9873f0",
+  "decision": "approve",
+  "findings": {
+    "assumptions": "No additional conjectural assumptions are introduced. Triangle-freeness supplies trace(A^3)=0 and nonnegative deficit. The substantive external dependency is Lemma 4.3 of arXiv:2609.20225v2, whose statement and proof are supplied. Ordinary finite real spectral theory suffices for the remaining calculations.",
+    "equivalence": "Neither coefficient fifteen nor the asymptotic coefficient-three upper bound is equivalent to the exact root inequality. C5 excludes universal coefficients below three, but does not establish sharpness within sequences having vanishing relative deficit.",
+    "mathematical_substance": "The supplied candidate has a concrete, coherent proof chain: the least-eigenvector sign cut satisfies lambda(F)>=mu; bipartite editing gives D(G)<=3(m-mu^2)-2b; the trace-cube estimate gives m-mu^2<=5xi. Removing the two extreme eigenvalues then gives squared spectral remainder at most 6xi and the displayed asymptotic estimate. The analytical part-size enumeration establishes D(C5)=3. These support admission for independent proof acceptance, not root closure.",
+    "necessity": "This standalone branch is not a necessary reduction or exhaustive decomposition of the root. Its justification is the explicit quantitative consequence, not an asserted requirement that every root proof pass through it.",
+    "novelty": "The delivered comparison texts establish qualitative triangle-free editing and linear bipartite editing, rather than the proposed general bounds. Historical novelty and openness remain unverified: the packet reports six complete readings but supplies full texts for only three distinct comparators, and the underlying search records are not delivered.",
+    "renewal_basis": "No renewal is requested. The proposed two analytical moves consume the existing account, subject to the original aggregate 24-move, 24-run and one-worker limits; branch limits do not create a fresh allowance.",
+    "root_connection": "The proposal retains the root graph class, spectral deficit and edit functional. It investigates explicit weaker bounds and a lower-bound witness, without discharging or replacing obligation-000001.",
+    "scope": "The claim covers arbitrary finite order, disconnected graphs and isolates, with empty target parts permitted. Edgeless graphs are handled separately; division by lambda is restricted to lambda>0. The sequence conclusion follows from sqrt(xi)/lambda=sqrt((xi/m)/(1-xi/m)). No numerical computation is proposed or authorized.",
+    "significance": "If independently accepted, the theorem supplies a uniform linear modulus and a quantitative near-threshold refinement, separating existence of a finite coefficient from determination of the optimal universal coefficient. No stronger significance or priority claim is supported."
+  },
+  "reviewer": {
+    "actor_id": "reviewer-astra-native",
+    "attestation_id": "review-assignment:native-admission-linear-astra",
+    "source": "host"
+  },
+  "schema_version": 1,
+  "subject_digest": "4e1b5b30b44b5c6009dc5a04863a8083690151f81b8a7094a64d4b28933b45dd",
+  "unresolved_objections": [
+    {
+      "blocking": false,
+      "description": "Any later resolved openness or historical-priority finding requires delivered, bound search records and complete readings of relevant comparators. In particular, the claimed readings of arXiv:2512.19395v1, 2511.15431v3 and 2608.24388v2 are not supplied here. Their reported completion cannot receive independent reading credit. This gap does not block the present analytical proposal."
+    }
+  ]
+}

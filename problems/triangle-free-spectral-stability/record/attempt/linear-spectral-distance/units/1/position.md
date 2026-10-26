@@ -1,0 +1,3 @@
+# Position of this supporting theorem
+
+The unit is on the path to the original coefficient-three question but does not imply it. The fully read arXiv:2508.15271v2 establishes qualitative triangle-free complete-bipartite editing stability. Lemma 4.3 of arXiv:2609.20225v2 gives the bipartite linear coefficient three used here. The present short argument supplies a uniform linear consequence and a small-deficit estimate, subject to independent proof acceptance. No claim of historical priority or a separate major publication is made. The global gap after acceptance would be between the exact C5 lower bound three and the universal upper coefficient fifteen. The C5 example does not establish asymptotic optimality.

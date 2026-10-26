@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "exit_status": 0,
+  "output_head": [
+    "n=5: exact phi at rationalised optimiser = 1.960449218750 (recorded 1.960449218750, diff 1.1e-15); exact gap = 1.150781e-03 > 0",
+    "n=6: exact phi at rationalised optimiser = 1.984271360000 (recorded 1.984271360000, diff 2.9e-15); exact gap = 2.965412e-04 > 0",
+    "CHECK PASS"
+  ]
+}

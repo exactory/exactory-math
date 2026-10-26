@@ -1,0 +1,9 @@
+{
+  "plantri": "probes/bin/plantri",
+  "plantri_sha256": "f4288ea7df74ee79fd3f2d94489fe170c99b033526f6178ffde06c73eee1440a",
+  "plantri_source": "plantri 5.8, plantri58.tar.gz sha256 e78a944116fec9f2c9f5e484206276cc2b0043bae803e9815f4b2683614629b8 (the value SageMath records in build/pkgs/plantri/checksums.ini), compiled with cc -O3",
+  "table1": "probes/table1.json",
+  "n_min": 4,
+  "n_max": 13,
+  "list_up_to_n": 12
+}

@@ -1,0 +1,56 @@
+{
+ "correction_admissible": null,
+ "disposition": "not_binding",
+ "evidence": [
+  {
+   "digest": "fb0c54d62c9c76ebd8961110752ed2731c41f779f15f5ea2cbc52dc9365b9d6c",
+   "id": "statement-girth-six",
+   "kind": "record",
+   "record_kind": "problem_statement"
+  },
+  {
+   "digest": "b37f1c681a5817730963a0175395151224fba8f30c90933a9fb0e676eaca9cd2",
+   "id": "value-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_value"
+  },
+  {
+   "digest": "a16c3a7427ab47d8894b78b5c0a85e6410e6bd7ca62a0d51793df9743ca5edf3",
+   "id": "assessment-girth-six-2",
+   "kind": "record",
+   "record_kind": "problem_assessment"
+  },
+  {
+   "digest": "f9c03908ead9b00015f055935e44db2255ca087c3e257a99ad66feb35711e6bd",
+   "id": "search-openness-heawood",
+   "kind": "record",
+   "record_kind": "literature_search"
+  },
+  {
+   "digest": "8f546a52a7aaf0463011ebe9dcc7e044073a2046ebfb8112bcd5a745c916d96e",
+   "id": "search-openness-statement",
+   "kind": "record",
+   "record_kind": "literature_search"
+  },
+  {
+   "media_type": "text/plain; charset=utf-8",
+   "path": "research/sources/objects/767184c725c84646e5d7402960633a95ef889c0ed9b479dd127bb03d427f755d",
+   "sha256": "767184c725c84646e5d7402960633a95ef889c0ed9b479dd127bb03d427f755d",
+   "size": 948
+  },
+  {
+   "media_type": "text/plain; charset=utf-8",
+   "path": "research/sources/objects/81d5d473f15951851c06ffe6926503afc925f595b3af1ef20c4dc92d2bc861f7",
+   "sha256": "81d5d473f15951851c06ffe6926503afc925f595b3af1ef20c4dc92d2bc861f7",
+   "size": 1678
+  },
+  {
+   "media_type": "application/atom+xml",
+   "path": "research/sources/objects/f690444b553fcff698bedf16337b89f19dd4ea84e8faf4ef0ee955a132d7a2d2",
+   "sha256": "f690444b553fcff698bedf16337b89f19dd4ea84e8faf4ef0ee955a132d7a2d2",
+   "size": 808
+  }
+ ],
+ "objection_id": "obj-small-graph-computations-missing",
+ "reason": "I decide the version stated in problem-result-opus-2. Its cited evidence is assessment-girth-six-2 and search-openness-heawood, and its resolution condition asks for a source that reports small-graph computations: which bipartite graphs up to a stated size are certified Sidorenko or open, with the method and admitted code or data. No correction is requested. The material version and the problem evidence digest are unchanged from the earlier turn, which disposed of this objection as upheld. The protocol has changed since then, so I re-examined the evidence.\n\nThe claim holds on the delivered evidence:\n- The sum-of-squares abstract (767184c7) shows only that the smallest open case has no sum-of-squares certificate. It does not enumerate small graphs.\n- The abstract 81d5d473 compares counting bounds with exact homomorphism counts. It does not report Sidorenko status.\n- Hatami, Chen-Lin-Ma, Kim-Lee-Lee and Lee-Schuelke name K5,5 minus C10 as the smallest or simplest open case. They do so by citation or plain statement, with no method, size bound or data.\n- The Heawood arXiv query is complete with 0 hits (f690444b), and its 20 OpenAlex hits are all dispositioned out of scope.\n- The nearest candidate source is arXiv:2206.10058 (sum-of-squares certificates for patterns with at most 7 edges). It appears only as a disposition line in search-openness-statement and is not delivered. It remains a missing source.\n\nThe claim does not bind this problem.\n- The statement and its resolution criteria (statement-girth-six) are universal over all finite bipartite graphs with an edge and no 4-cycle. They rest on no small-graph premise and no claim about the size of a minimal counterexample.\n- No value paragraph (value-girth-six-2) invokes computational evidence. Its only uses of \"smallest\" are of two kinds:\n  - an attribution to the literature, that K5,5 minus C10 is the smallest named open case; that graph has 4-cycles and lies outside the class;\n  - a structural fact, that the Heawood graph is the smallest cubic bipartite graph of girth six; this is not a claim about its Sidorenko status.\n- The assessment's calibration item states that no computation is cited and no claim is made about small-graph computations or the size of a smallest counterexample.\n- The assessment's accessibility item explicitly declines to claim that the Heawood graph is the smallest unresolved case.\n\nThe objection therefore constrains field-level appeals to small-graph evidence, which this candidate does not make."
+}
